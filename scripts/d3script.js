@@ -9,7 +9,8 @@ function renderChart(params) {
     marginBottom: 5,
     marginRight: 5,
     marginLeft: 5,
-    circleRadius: 15,
+    circleRadiusOrganizaion: 16,
+    circleRadiusPeople: 8,
     container: 'body',
     defaultTextFill: '#2C3E50',
     defaultFont: 'Helvetica',
@@ -37,10 +38,10 @@ function renderChart(params) {
           .on("zoom", zoomed)
 
       var simulation = d3.forceSimulation()
-          .force("link", d3.forceLink().id(function(d) { return d.node; }).distance(120).strength(1))
+          .force("link", d3.forceLink().id(function(d) { return d.node; }).distance(200).strength(1))
           .force("charge", d3.forceManyBody())
           .force("center", d3.forceCenter(calc.chartWidth / 2, calc.chartHeight / 2))
-          .force('collision', d3.forceCollide().radius(14))
+          .force('collision', d3.forceCollide().radius(attrs.circleRadiusOrganizaion * 2))
           
       simulation
         .nodes(attrs.data.nodes)
@@ -79,14 +80,26 @@ function renderChart(params) {
                           .on("end", dragended));
 
       node.patternify({ tag: 'circle', selector: 'node-circle', data: d => [d] })
-          .attr("r", attrs.circleRadius)
+          .attr("r", d => d.type == "people" ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion)
           .attr("stroke-width", 1.5)
           .attr("stroke", 'black')
           .attr("fill", '#fff')
+          .on('click', function(d) {
+            let that = d3.select(this)
+            let r = (d.type == "people") ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion
+            simulation.alphaTarget(0.3).restart()
+            if (d.clicked) {
+              that.attr('r', r)
+              d.clicked = false
+            } else {
+              that.attr('r', r + 10)
+              d.clicked = true
+            }
+          })
           
       node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
           .attr('text-anchor', 'middle')
-          .attr('dy', attrs.circleRadius + 20)
+          .attr('dy', d => d.type == "people" ? attrs.circleRadiusPeople + 20 : attrs.circleRadiusOrganizaion + 20)
           .text(d => d.node)
           
       function ticked() {
