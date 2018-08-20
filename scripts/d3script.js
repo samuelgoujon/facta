@@ -90,7 +90,7 @@ function renderChart(params) {
           .attr("r", d => d.type == "people" ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion)
           .attr("stroke-width", 1.5)
           .attr("stroke", 'black')
-          .attr("fill", '#fff')
+          .attr('class', d => `node-circle ${d.type}`)
           .on('click', function(d) {
             let that = d3.select(this)
             let r = (d.type == "people") ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion
@@ -107,7 +107,7 @@ function renderChart(params) {
           
       node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
           .attr('text-anchor', 'middle')
-          .attr('dy', d => d.type == "people" ? attrs.circleRadiusPeople + 20 : attrs.circleRadiusOrganizaion + 20)
+          .attr('dy', d => d.type == "people" ? attrs.circleRadiusPeople + 30 : attrs.circleRadiusOrganizaion + 30)
           .text(d => d.node)
           
       function ticked() {
