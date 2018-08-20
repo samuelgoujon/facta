@@ -14,7 +14,9 @@ function renderChart(params) {
     container: 'body',
     defaultTextFill: '#2C3E50',
     defaultFont: 'Helvetica',
-    data: null
+    data: null,
+    openNav: d => d,
+    closeNav: d => d,
   };
 
 
@@ -87,13 +89,14 @@ function renderChart(params) {
           .on('click', function(d) {
             let that = d3.select(this)
             let r = (d.type == "people") ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion
-            simulation.alphaTarget(0.3).restart()
             if (d.clicked) {
               that.attr('r', r)
               d.clicked = false
+              attrs.closeNav(d)
             } else {
               that.attr('r', r + 10)
               d.clicked = true
+              attrs.openNav(d)
             }
           })
           

@@ -20,11 +20,75 @@
             stroke-width: 3px;
             cursor: pointer;
         }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav .item, .sidenav .closebtn {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav .subtitle {
+            color: #818181;
+            font-size: 25px;
+            padding-left: 5px;
+        }
+
+        .sidenav .title {
+            color: #818181;
+            padding-left: 5px;
+        }
+
+        .sidenav .item:hover, .sidenav .closebtn:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
     </style>
 </head>
 
 <body translate="no">
-
+    <div id="sidenav" class="sidenav">
+        <h1 id="node" class="title"></h1>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="subtitle org">Référenze Faits &amp; Document: <span href="#" id="referenceOrg" class="item"></span></div>
+        <div class="subtitle people">Position: <span id="position" class="item"></span></div>
+        <div class="subtitle people">Groupe: <span id="group" class="item"></span></div>
+        <div class="subtitle people">Scolarité: <span href="#" id="education" class="item"></span></div>
+        <div class="subtitle people">Religion: <span id="religion" class="item"></span></div>
+        <div class="subtitle people">Référenze Faits &amp; Document:<span id="reference" class="item"></span></div>
+    </div>
     <div class="container centered">
         <div id="myGraph"></div>
     </div>
@@ -32,7 +96,31 @@
     <script src="scripts/d3script.js"></script>
 
     <script>
+        function openNav(d) {
+            document.getElementById('node').innerHTML = d.node
+            document.getElementById('reference').innerHTML = d.reference
+            if (d.type == "people") {
+                document.getElementById('position').innerHTML = d.position
+                document.getElementById('group').innerHTML = d.group
+                document.getElementById('education').innerHTML = d.education
+                document.getElementById('religion').innerHTML = d.religion
+
+                d3.selectAll('.org').style('display', 'none')
+                d3.selectAll('.people').style('display', 'block')
+            }
+            else {
+                document.getElementById('referenceOrg').innerHTML = d.reference
+
+                d3.selectAll('.org').style('display', 'block')
+                d3.selectAll('.people').style('display', 'none')
+            }
+            document.getElementById("sidenav").style.width = "250px";
+        }
         
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("sidenav").style.width = "0";
+        }
 
         Promise.all([d3.csv("./data/nodes.csv"), d3.csv("./data/connections.csv")])
                .then(data => {
@@ -40,6 +128,8 @@
                         .svgHeight(window.innerHeight - 30)
                         .svgWidth(window.innerWidth - 30)
                         .container('#myGraph')
+                        .openNav(openNav)
+                        .closeNav(closeNav)
                         .data({
                             nodes: data[0],
                             links: data[1]
