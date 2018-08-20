@@ -40,7 +40,12 @@ function renderChart(params) {
           .on("zoom", zoomed)
 
       var simulation = d3.forceSimulation()
-          .force("link", d3.forceLink().id(function(d) { return d.node; }).distance(200).strength(1))
+          .force("link", d3.forceLink().id(function(d) { return d.node; }).distance(d => {
+            if (d.source.group != d.target.group) {
+              return 350
+            }
+            return 200
+          }).strength(1))
           .force("charge", d3.forceManyBody())
           .force("center", d3.forceCenter(calc.chartWidth / 2, calc.chartHeight / 2))
           .force('collision', d3.forceCollide().radius(attrs.circleRadiusOrganizaion * 2))
