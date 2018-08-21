@@ -90,7 +90,7 @@ function renderChart(params) {
           .attr("r", d => d.type == "people" ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion)
           .attr("stroke-width", 1.5)
           .attr("stroke", 'black')
-          .attr('class', d => `node-circle ${d.type}`)
+          .attr('class', d => `node-circle node-${d.type}`)
           .on('click', function(d) {
             let that = d3.select(this)
             let r = (d.type == "people") ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion
