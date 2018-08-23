@@ -9,7 +9,7 @@ function renderChart(params) {
     marginBottom: 5,
     marginRight: 5,
     marginLeft: 5,
-    circleRadiusOrganizaion: 24,
+    circleRadiusOrganizaion: 16,
     circleRadiusPeople: 8,
     container: 'body',
     defaultTextFill: '#2C3E50',
