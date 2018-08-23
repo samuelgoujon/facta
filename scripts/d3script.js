@@ -9,7 +9,7 @@ function renderChart(params) {
     marginBottom: 5,
     marginRight: 5,
     marginLeft: 5,
-    circleRadiusOrganizaion: 16,
+    circleRadiusOrganizaion: 24,
     circleRadiusPeople: 8,
     container: 'body',
     defaultTextFill: '#2C3E50',
@@ -49,11 +49,11 @@ function renderChart(params) {
           .force("charge", d3.forceManyBody())
           .force("center", d3.forceCenter(calc.chartWidth / 2, calc.chartHeight / 2))
           .force('collision', d3.forceCollide().radius(attrs.circleRadiusOrganizaion * 2))
-          
+
       simulation
         .nodes(attrs.data.nodes)
         .on("tick", ticked);
-  
+
       simulation.force("link")
         .links(attrs.data.links);
 
@@ -70,8 +70,8 @@ function renderChart(params) {
       //Add container g element
       var chart = svg.patternify({ tag: 'g', selector: 'chart' })
         .attr('transform', 'translate(' + (calc.chartLeftMargin) + ',' + calc.chartTopMargin + ')')
-        
-        
+
+
       var linksGroup = chart.patternify({ tag: 'g', selector: 'links' })
       var nodesGroup = chart.patternify({ tag: 'g', selector: 'nodes' })
 
@@ -79,7 +79,7 @@ function renderChart(params) {
           .attr("stroke-width", 1)
           .attr("stroke", 'black')
           .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
-      
+
       var node = nodesGroup.patternify({ tag: 'g', selector: 'node', data: attrs.data.nodes })
                     .call(d3.drag()
                           .on("start", dragstarted)
@@ -104,40 +104,40 @@ function renderChart(params) {
               attrs.openNav(d)
             }
           })
-          
+
       node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
           .attr('text-anchor', 'middle')
           .attr('dy', d => d.type == "people" ? attrs.circleRadiusPeople + 30 : attrs.circleRadiusOrganizaion + 30)
           .text(d => d.node)
-          
+
       function ticked() {
         link
             .attr("x1", function(d) { return d.source.x; })
             .attr("y1", function(d) { return d.source.y; })
             .attr("x2", function(d) { return d.target.x; })
             .attr("y2", function(d) { return d.target.y; });
-    
+
         node.attr('transform', d => `translate(${d.x}, ${d.y})`)
       }
-        
+
       function dragstarted(d) {
         if (!d3.event.active) simulation.alphaTarget(0.3).restart();
         d.fx = d.x;
         d.fy = d.y;
       }
-    
+
       function dragged(d) {
         d.fx = d3.event.x;
         d.fy = d3.event.y;
       }
-    
+
       function dragended(d) {
         if (!d3.event.active) simulation.alphaTarget(0);
         d.fx = null;
         d.fy = null;
       }
 
-      //Zoom functions 
+      //Zoom functions
       function zoomed() {
         chart.attr("transform", d3.event.transform)
       }
