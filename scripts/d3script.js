@@ -71,7 +71,7 @@ function renderChart(params) {
                              .y(calc.chartHeight / 2))
           .force("x", d3.forceX(calc.chartWidth / 2))
           .force("y", d3.forceY(calc.chartHeight / 2))
-          .force('collision', d3.forceCollide().radius(25))
+          .force('collision', d3.forceCollide().radius(25).strength(1).iterations(60))
 
       // constructs the network to visualize
       function network(data, prev, index, expand) {
