@@ -35,17 +35,18 @@ function renderChart(params) {
       calc.chartTopMargin = attrs.marginTop;
       calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
       calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin;
-      let expand = {};
-      let net;
+      
       let line = d3.line().x(d => d[0]).y(d => d[1]).curve(d3.curveCatmullRomClosed)
       let color = d3.scaleOrdinal(d3.schemeCategory10)
+
+      let expand = {};
 
       let zoom = d3.zoom()
           .scaleExtent([0.1, 10])
           .on("zoom", zoomed)
         
       var simulation = d3.forceSimulation()
-          .force("link", d3.forceLink().distance((l, i) => {
+          .force("link", d3.forceLink().id(d => d.node).distance((l, i) => {
             var n1 = l.source, n2 = l.target;
             // larger distance for bigger groups:
             // both between single nodes and _other_ groups (where size of own node group still counts),
@@ -56,14 +57,14 @@ function renderChart(params) {
             // nodes of another group or other group node or between two group nodes.
             //
             // The latter was done to keep the single-link groups ('blue', rose, ...) close.
-            return 50 +
-              Math.min(20 * Math.min((n1.size || (n1.group != n2.group ? n1.group_data.size : 0)),
-                                     (n2.size || (n1.group != n2.group ? n2.group_data.size : 0))),
-                   -30 +
-                   30 * Math.min((n1.link_count || (n1.group != n2.group ? n1.group_data.link_count : 0)),
-                                 (n2.link_count || (n1.group != n2.group ? n2.group_data.link_count : 0))),
-                   100);
-            //return 10;
+            // return 50 +
+            //   Math.min(20 * Math.min((n1.size || (n1.group != n2.group ? n1.group_data.size : 0)),
+            //                          (n2.size || (n1.group != n2.group ? n2.group_data.size : 0))),
+            //        -30 +
+            //        30 * Math.min((n1.link_count || (n1.group != n2.group ? n1.group_data.link_count : 0)),
+            //                      (n2.link_count || (n1.group != n2.group ? n2.group_data.link_count : 0))),
+            //        100);
+            return 10;
           }))
           .force("charge", d3.forceManyBody())
           .force("center", d3.forceCenter()
@@ -74,86 +75,101 @@ function renderChart(params) {
           .force('collision', d3.forceCollide().radius(25).strength(1).iterations(60))
 
       // constructs the network to visualize
-      function network(data, prev, index, expand) {
-        expand = expand || {};
-        var gm = {},    // group map
-            nm = {},    // node map
-            lm = {},    // link map
-            gn = {},    // previous group nodes
-            gc = {},    // previous group centroids
+      function network(previousNodes) {
+        var groupMap = {},    // group map
+            nodeMap = [],    // node map
             nodes = [], // output nodes
             links = []; // output links
 
-        // process previous nodes for reuse or centroid calculation
-        if (prev) {
-          prev.nodes.forEach(function(n) {
-            var i = index(n), o;
-            if (n.size > 0) {
-              gn[i] = n;
-              n.size = 0;
-            } else {
-              o = gc[i] || (gc[i] = {x:0,y:0,count:0});
-              o.x += n.x;
-              o.y += n.y;
-              o.count += 1;
+        attrs.data.nodes.forEach(d => {
+            // split the group string by comma
+            let g = d.group.split(',');
+            
+            let node = {
+              ...d,
+              isGroup: false,
+              groups: g.map(d => d.trim()) // groups that the node belongs to
             }
-          });
-        }
-
-        // determine nodes
-        for (var k=0; k < data.nodes.length; ++k) {
-          var n = data.nodes[k],
-              i = index(n),
-              l = gm[i] || (gm[i] = gn[i]) || (gm[i]={ group:i, size: 0, nodes:[]});
-
-          if (expand[i]) {
-            // the node should be directly visible
-            nm[n.node] = nodes.length;
-            nodes.push(n);
-            if (gn[i]) {
-              // place new nodes at cluster location (plus jitter)
-              n.x = gn[i].x + Math.random();
-              n.y = gn[i].y + Math.random();
-            }
-            n.isGroup = false;
-          } else {
-            // the node is part of a collapsed cluster
-            if (l.size == 0) {
-              // if new cluster, add to set and position at centroid of leaf nodes
-              nm[i] = nodes.length;
-              nodes.push(l);
-              if (gc[i]) {
-                l.x = gc[i].x / gc[i].count;
-                l.y = gc[i].y / gc[i].count;
+            // append the node to the node map
+            nodeMap.push(node)
+            // iterate over the groups array
+            g.forEach(k => {
+              // let group = previousNodes.filter(x => x.node == k)
+              // if (group.length) {
+              //   node.x = group[0].x
+              //   node.y = group[0].y
+              //   node.fx = group[0].fx
+              //   node.fy = group[0].fy
+              // }
+              // some groups may have preciding or trailing whitespace, so trim them
+              k = k.trim()
+              let groups = nodes.filter(d => d.group == k && d.isGroup);
+              // if we already have the group, we should append the node to the nodes array
+              if (groups.length) {
+                groups[0].nodes.push(node)
+              } else {
+                if (expand[k]) {
+                  nodes.push(node);
+                } else {
+                  // create a new group
+                  let group = {
+                    group: k,
+                    node: k,
+                    isGroup: true,
+                    nodes: [
+                      node
+                    ]
+                  }
+                  // append new group
+                  nodes.push(group)
+                  // append the group to the group map
+                  groupMap[k] = group
+                }
               }
+            })
+        })
+        
+        attrs.data.links.forEach((d, i) => {
+          let sourceNodeInitial = nodeMap.filter(x => x.node == d.source.node)[0]
+          let targetNodeInitial = nodeMap.filter(x => x.node == d.target.node)[0]
+
+          let sourceNodes = [], targetNodes = [], linkCount = 1;
+
+          sourceNodeInitial.groups.forEach(sg => {
+            if (expand[sg]) {
+              if (sourceNodes.indexOf(sourceNodeInitial) == -1) {
+                sourceNodes.push(sourceNodeInitial)
+              }
+            } else {
+              sourceNodes.push(groupMap[sg])
             }
-            l.isGroup = true;
-            l.nodes.push(n);
+          })
+          
+          targetNodeInitial.groups.forEach(tg => {
+            if (expand[tg]) {
+              if (targetNodes.indexOf(targetNodeInitial) == -1) {
+                targetNodes.push(targetNodeInitial)
+              }
+            } else {
+              targetNodes.push(groupMap[tg])
+            }
+          })
+
+          if (sourceNodes.length > 1 || targetNodes.length > 1) {
+            debugger
           }
 
-          // always count group size as we also use it to tweak the force graph strengths/distances
-          l.size += 1;
-          n.group_data = l;
-        }
-
-        for (i in gm) { gm[i].link_count = 0; }
-
-        // determine links
-        for (k=0; k < data.links.length; ++k) {
-          var e = data.links[k],
-              u = index(e.source),
-              v = index(e.target);
-          if (u != v) {
-            gm[u].link_count++;
-            gm[v].link_count++;
-          }
-          u = expand[u] ? nm[e.source.node] : nm[u];
-          v = expand[v] ? nm[e.target.node] : nm[v];
-          var i = (u < v ? u + "|" + v : v + "|" + u),
-              l = lm[i] || (lm[i] = {source:u, target:v, size:0});
-          l.size += 1;
-        }
-        for (i in lm) { links.push(lm[i]); }
+          sourceNodes.forEach(i => {
+            let link = {
+              source: i,
+              linkCount: linkCount
+            }
+            targetNodes.forEach(j => {
+              link.target = j
+              links.push(link)
+            })
+          })
+        })
 
         return { nodes: nodes, links: links };
       }
@@ -162,15 +178,16 @@ function renderChart(params) {
         var hulls = {};
 
         // create point sets
-        for (var k=0; k<nodes.length; ++k) {
+        for (var k = 0; k < nodes.length; ++k) {
           var n = nodes[k];
-          if (n.size) continue;
+          if (n.isGroup) continue;
           var i = index(n),
               l = hulls[i] || (hulls[i] = []);
-          l.push([n.x-offset, n.y-offset]);
-          l.push([n.x-offset, n.y+offset]);
-          l.push([n.x+offset, n.y-offset]);
-          l.push([n.x+offset, n.y+offset]);
+
+          l.push([n.x - offset, n.y - offset]);
+          l.push([n.x - offset, n.y + offset]);
+          l.push([n.x + offset, n.y - offset]);
+          l.push([n.x + offset, n.y + offset]);
         }
 
         // create convex hulls
@@ -208,8 +225,10 @@ function renderChart(params) {
       var linksGroup = chart.patternify({ tag: 'g', selector: 'links' })
       var nodesGroup = chart.patternify({ tag: 'g', selector: 'nodes' })
 
+      let net;
       function init() {
-        net = network(attrs.data, net, d => d.group, expand);
+        net = network(net && net.nodes ? net.nodes : []);
+
         simulation
           .nodes(net.nodes)
           .on("tick", ticked);
@@ -217,7 +236,7 @@ function renderChart(params) {
         simulation.force("link")
           .links(net.links);
 
-        simulation.restart();
+        
         
         var hull = hullsGroup.patternify({ tag: 'path', selector: 'hull', data: convexHulls(net.nodes, d => d.group, 15) })
             .attr("d", d => {
@@ -228,18 +247,19 @@ function renderChart(params) {
               expand[d.group] = false; 
               init();
             })
-            .call(d3.drag()
-              .on('start', group_dragstarted)
-              .on('drag', group_dragged)
-              .on('end', group_dragended)
-              );
+            // .call(d3.drag()
+            //   .on('start', group_dragstarted)
+            //   .on('drag', group_dragged)
+            //   .on('end', group_dragended)
+            //   );
 
         var link = linksGroup.patternify({ tag: 'line', selector: 'link', data: net.links })
-          .attr("stroke-width", d => d.size || 1)
+          .attr("stroke-width", d => Math.sqrt(d.linkCount))
           .attr("stroke", '#ccc')
           .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
         
         var node = nodesGroup.patternify({ tag: 'g', selector: 'node', data: net.nodes })
+        .attr('data-group', d => d.group)
             .call(d3.drag()
                   .on("start", dragstarted)
                   .on("drag", dragged)
@@ -281,6 +301,8 @@ function renderChart(params) {
           
         // node.selectAll('text.node-text')
         //     .call(wrap, attrs.circleRadiusOrganizaion * 2)
+        
+        simulation.restart();
 
         function ticked() {
           if (!hull.empty()) {
