@@ -74,7 +74,7 @@ function renderChart(params) {
           .force('collision', d3.forceCollide().radius(25).strength(1).iterations(60))
 
       // constructs the network to visualize
-      function network(data, prev, index, expand) {
+      function network(data, prev, expand) {
         expand = expand || {};
         var gm = {},    // group map
             nm = {},    // node map
@@ -87,53 +87,64 @@ function renderChart(params) {
         // process previous nodes for reuse or centroid calculation
         if (prev) {
           prev.nodes.forEach(function(n) {
-            var i = index(n), o;
-            if (n.size > 0) {
-              gn[i] = n;
-              n.size = 0;
-            } else {
-              o = gc[i] || (gc[i] = {x:0,y:0,count:0});
-              o.x += n.x;
-              o.y += n.y;
-              o.count += 1;
-            }
+            let groups = getGroups(n);
+
+            groups.forEach(i => {
+              var o;
+              if (n.size > 0) {
+                gn[i] = n;
+                n.size = 0;
+              } else {
+                o = gc[i] || (gc[i] = {x:0,y:0,count:0});
+                o.x += n.x;
+                o.y += n.y;
+                o.count += 1;
+              }
+            })
+            
           });
         }
 
         // determine nodes
         for (var k=0; k < data.nodes.length; ++k) {
           var n = data.nodes[k],
-              i = index(n),
-              l = gm[i] || (gm[i] = gn[i]) || (gm[i]={ group:i, size: 0, nodes:[]});
-
-          if (expand[i]) {
-            // the node should be directly visible
-            nm[n.node] = nodes.length;
-            nodes.push(n);
-            if (gn[i]) {
-              // place new nodes at cluster location (plus jitter)
-              n.x = gn[i].x + Math.random();
-              n.y = gn[i].y + Math.random();
-            }
-            n.isGroup = false;
-          } else {
-            // the node is part of a collapsed cluster
-            if (l.size == 0) {
-              // if new cluster, add to set and position at centroid of leaf nodes
-              nm[i] = nodes.length;
-              nodes.push(l);
-              if (gc[i]) {
-                l.x = gc[i].x / gc[i].count;
-                l.y = gc[i].y / gc[i].count;
+              groups = getGroups(n)
+          // if (groups.length > 1) debugger
+          groups.forEach(i => {
+            l = gm[i] || (gm[i] = gn[i]) || (gm[i]={ group:i, size: 0, nodes:[]});
+            if (expand[i]) {
+              // the node should be directly visible
+              nm[n.node] = nodes.length;
+              if (nodes.indexOf(n) == -1) {
+                nodes.push(n);
               }
+              if (gn[i]) {
+                // place new nodes at cluster location (plus jitter)
+                n.x = gn[i].x + Math.random();
+                n.y = gn[i].y + Math.random();
+              }
+              n.isGroup = false;
+            } else {
+              // the node is part of a collapsed cluster
+              if (l.size == 0) {
+                // if new cluster, add to set and position at centroid of leaf nodes
+                nm[i] = nodes.length;
+                l.isGroup = true;
+                nodes.push(l);
+                if (gc[i]) {
+                  l.x = gc[i].x / gc[i].count;
+                  l.y = gc[i].y / gc[i].count;
+                }
+              }
+              l.nodes.push(n);
+              //if (nodes.filter(x => x.group == "Présidence, Premier Ministre").length) debugger
             }
-            l.isGroup = true;
-            l.nodes.push(n);
-          }
 
-          // always count group size as we also use it to tweak the force graph strengths/distances
-          l.size += 1;
-          n.group_data = l;
+            // always count group size as we also use it to tweak the force graph strengths/distances
+            l.size += 1;
+            n.group_data = l;
+          })
+              
         }
 
         for (i in gm) { gm[i].link_count = 0; }
@@ -141,36 +152,50 @@ function renderChart(params) {
         // determine links
         for (k=0; k < data.links.length; ++k) {
           var e = data.links[k],
-              u = index(e.source),
-              v = index(e.target);
-          if (u != v) {
-            gm[u].link_count++;
-            gm[v].link_count++;
-          }
-          u = expand[u] ? nm[e.source.node] : nm[u];
-          v = expand[v] ? nm[e.target.node] : nm[v];
-          var i = (u < v ? u + "|" + v : v + "|" + u),
-              l = lm[i] || (lm[i] = {source:u, target:v, size:0});
-          l.size += 1;
+              uG = getGroups(e.source),
+              vG = getGroups(e.target);
+          
+          //if (uG.length > 1 || vG.length > 1) debugger
+
+          uG.forEach(u => {
+            vG.forEach(v => {
+              if (u != v) {
+                gm[u].link_count++;
+                gm[v].link_count++;
+              }
+              u = expand[u] ? nm[e.source.node] : nm[u];
+              v = expand[v] ? nm[e.target.node] : nm[v];
+              var i = (u < v ? u + "|" + v : v + "|" + u),
+                  l = lm[i] || (lm[i] = {source:u, target:v, size:0});
+              l.size += 1;
+            })
+          })
         }
         for (i in lm) { links.push(lm[i]); }
 
         return { nodes: nodes, links: links };
       }
 
-      function convexHulls(nodes, index, offset) {
+      function getGroups(d) {
+        return d.group.split(',').map(d => d.trim())
+      }
+
+      function convexHulls(nodes, offset) {
         var hulls = {};
 
         // create point sets
-        for (var k=0; k<nodes.length; ++k) {
+        for (var k=0; k < nodes.length; ++k) {
           var n = nodes[k];
           if (n.size) continue;
-          var i = index(n),
-              l = hulls[i] || (hulls[i] = []);
-          l.push([n.x-offset, n.y-offset]);
-          l.push([n.x-offset, n.y+offset]);
-          l.push([n.x+offset, n.y-offset]);
-          l.push([n.x+offset, n.y+offset]);
+          if (n.group.split(',').length == 1) {
+            let i = n.group;
+            let l = hulls[i] || (hulls[i] = []);
+
+            l.push([n.x-offset, n.y-offset]);
+            l.push([n.x-offset, n.y+offset]);
+            l.push([n.x+offset, n.y-offset]);
+            l.push([n.x+offset, n.y+offset]);
+          }
         }
 
         // create convex hulls
@@ -209,7 +234,7 @@ function renderChart(params) {
       var nodesGroup = chart.patternify({ tag: 'g', selector: 'nodes' })
 
       function init() {
-        net = network(attrs.data, net, d => d.group, expand);
+        net = network(attrs.data, net, expand);
         simulation
           .nodes(net.nodes)
           .on("tick", ticked);
@@ -219,10 +244,11 @@ function renderChart(params) {
 
         simulation.restart();
         
-        var hull = hullsGroup.patternify({ tag: 'path', selector: 'hull', data: convexHulls(net.nodes, d => d.group, 15) })
+        var hull = hullsGroup.patternify({ tag: 'path', selector: 'hull', data: convexHulls(net.nodes, 15) })
             .attr("d", d => {
               return line(d.path)
             })
+            .attr('data-group', d => d.group)
             .attr("fill", d => color(d.group))
             .on("click", function(d) {
               expand[d.group] = false; 
@@ -240,6 +266,7 @@ function renderChart(params) {
           .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
         
         var node = nodesGroup.patternify({ tag: 'g', selector: 'node', data: net.nodes })
+            .attr('data-group', d => d.group)
             .call(d3.drag()
                   .on("start", dragstarted)
                   .on("drag", dragged)
@@ -249,6 +276,7 @@ function renderChart(params) {
           .attr("r", d => {
             return d.type == "people" ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion
           })
+          .attr('data-name', d => d.node)
           .attr("stroke-width", 1.5)
           .attr("stroke", 'black')
           .attr('class', d => `node-circle node-${d.type}`)
@@ -284,7 +312,7 @@ function renderChart(params) {
 
         function ticked() {
           if (!hull.empty()) {
-            hull.data(convexHulls(net.nodes, d => d.group, 15))
+            hull.data(convexHulls(net.nodes, 15))
                 .attr("d", d => line(d.path));
           }
 
