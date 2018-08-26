@@ -254,22 +254,21 @@ function renderChart(params) {
         }
 
         function cluster(alpha) {
-          // https://bl.ocks.org/mbostock/7881887
           return function (d) {
-            if (!d.clusters.length || !d.clusters.length > 1) return;
-            const cluster = clusters[d.clusters[0]];
-            if (cluster === d) return;
-            let x = d.x - cluster.x,
-                y = d.y - cluster.y,
-                l = Math.sqrt(x * x + y * y),
-                r = d.radius + cluster.radius + 3;
-            if (l != r) {
-              l = (l - r) / l * alpha;
-              d.x -= x *= l;
-              d.y -= y *= l;
-              cluster.x += x;
-              cluster.y += y;
-            }
+            if (!d.clusters.length) return;
+              let cluster = clusters[d.clusters[0]];
+              if (cluster === d) return;
+              let x = d.x - cluster.x,
+                  y = d.y - cluster.y,
+                  l = Math.sqrt(x * x + y * y),
+                  r = d.radius + cluster.radius + 3;
+              if (l != r) {
+                l = (l - r) / l * alpha;
+                d.x -= x *= l;
+                d.y -= y *= l;
+                cluster.x += x;
+                cluster.y += y;
+              }
           };
         }
 
