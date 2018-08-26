@@ -127,7 +127,13 @@ function renderChart(params) {
             }
           }
         })
-        .attr('fill', d => color(d.group))
+        .attr('fill', d => {
+          if (d.clusters.length == 0) return '#ccc'
+          if (d.clusters.length == 1) {
+            return color(d.clusters[0])
+          }
+          return d3.interpolateRgb(color(d.clusters[0]), color(d.clusters[1]))(0.5)
+        })
         
       var hull = hullsGroup.patternify({ tag: 'path', selector: 'hull', data: Object.keys(clusters).map(c => {
           return {
