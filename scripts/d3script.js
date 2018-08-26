@@ -36,7 +36,7 @@ function renderChart(params) {
       calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
       calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin;
 
-      let padding = 15, clusterPadding = 100;
+      let padding = 55, clusterPadding = 100;
       let line = d3.line().curve(d3.curveCatmullRomClosed)
       let color = d3.scaleOrdinal(d3.schemeCategory10)
 
@@ -148,11 +148,11 @@ function renderChart(params) {
       .attr("fill", d => color(d.cluster))
       .attr('opacity', 0.4);
         
-        // node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
-        //   .attr('text-anchor', 'middle')
-        //   .attr('dy', d => d.type == "people" ? attrs.circleRadiusPeople + 30 : attrs.circleRadiusOrganizaion + 30)
-        //   .attr('y', 0)
-        //   .text(d => d.node || d.group)
+        node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
+          .attr('text-anchor', 'middle')
+          .attr('dy', d => d.type == "people" ? attrs.circleRadiusPeople + 30 : attrs.circleRadiusOrganizaion + 30)
+          .attr('y', 0)
+          .text(d => d.node || d.group)
           
         // node.selectAll('text.node-text')
         //     .call(wrap, attrs.circleRadiusOrganizaion * 2)
