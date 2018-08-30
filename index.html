@@ -94,10 +94,17 @@
         path.hull {
             fill-opacity: 0.3;
         }
+
+        #logo {
+          position: absolute;
+          top: 32px;
+          left: 32px;
+        }
     </style>
 </head>
 
 <body translate="no">
+    <div id="logo"><img src="img/logo.png" alt="Faits &amp; Documents"></div>
     <div id="sidenav" class="sidenav">
         <h1 id="node" class="title"></h1>
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -107,7 +114,7 @@
         <div class="subtitle people">▶ Scolarité<span href="#" id="education" class="item"></span></div>
         <div class="subtitle people">▶ Parti politique d’origine<span href="#" id="political party" class="item"></span></div>
         <div class="subtitle people">▶ Religion<span id="religion" class="item"></span></div>
-        <div class="subtitle people">▶ <i>Faits &amp; Documents</i><span id="reference" class="item"></span></div>
+        <div class="subtitle people">▶ <i>Faits &amp; Documents</i><span href="https://www.faitsetdocuments.com/anciens-numeros.html" target="_blank" id="reference" class="item"></span></div>
     </div>
     <div class="container centered">
         <div id="myGraph"></div>
