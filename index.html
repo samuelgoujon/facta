@@ -9,10 +9,12 @@
     <style>
         body {
             background-color: #fff;
+            margin: 0px;
         }
 
         svg {
             background-color: #fff;
+            display: block;
         }
 
         .sidenav h1 {
@@ -117,7 +119,7 @@
         <div class="subtitle people">▶ Position<span id="position" class="item"></span></div>
         <div class="subtitle people">▶ Groupe<span id="group" class="item"></span></div>
         <div class="subtitle people">▶ Scolarité<span href="#" id="education" class="item"></span></div>
-        <div class="subtitle people">▶ Parti politique<span href="#" id="political party" class="item"></span></div>
+        <div class="subtitle people">▶ Parti politique<span href="#" id="political_party" class="item"></span></div>
         <div class="subtitle people">▶ Religion<span id="religion" class="item"></span></div>
         <div class="subtitle people">▶ <a href="https://www.faitsetdocuments.com/anciens-numeros.html" target="_blank"><i>Faits &amp; Documents</i></a><span id="reference" class="item"></span></div>
     </div>
@@ -130,26 +132,38 @@
     <script>
         function openNav(d) {
             document.getElementById('node').innerHTML = d.node
-            document.getElementById('reference').innerHTML = d.reference
             if (d.type == "people") {
-                document.getElementById('position').innerHTML = d.position
-                document.getElementById('group').innerHTML = d.group
-                document.getElementById('education').innerHTML = d.education
-                document.getElementById('religion').innerHTML = d.religion
+                ['position',
+                 'group',
+                 'education',
+                 'religion',
+                 'reference',
+                 'political_party'].forEach(x => {
+                    let el = document.getElementById(x)
+                    if (d[x.replace('_', ' ')].length == 0) {
+                        el.parentElement.style.display = 'none'
+                    } else {
+                        el.innerHTML = d[x.replace('_', ' ')]
+                        el.parentElement.style.display = 'block'
+                    }
+                 })
 
-                d3.selectAll('.org').style('display', 'none')
-                d3.selectAll('.people').style('display', 'block')
+                 d3.selectAll('.org').style('display', 'none')
             }
             else {
-                document.getElementById('referenceOrg').innerHTML = d.reference
+                let el = document.getElementById('referenceOrg')
+                if (d.reference.length == 0) {
+                    el.parentElement.style.display = 'none'
+                } else {
+                    el.parentElement.style.display = 'block'
+                    el.innerHTML = d.reference
+                }
 
-                d3.selectAll('.org').style('display', 'block')
                 d3.selectAll('.people').style('display', 'none')
             }
             document.getElementById("sidenav").style.width = "450px";
         }
 
-        /* Set the width of the side navigation to 0 */
         function closeNav() {
             document.getElementById("sidenav").style.width = "0";
         }
@@ -157,8 +171,8 @@
         Promise.all([d3.csv("./data/nodes.csv"), d3.csv("./data/connections.csv")])
                .then(data => {
                     renderChart()
-                        .svgHeight(window.innerHeight - 30)
-                        .svgWidth(window.innerWidth - 30)
+                        .svgHeight(window.innerHeight)
+                        .svgWidth(window.innerWidth)
                         .container('#myGraph')
                         .openNav(openNav)
                         .closeNav(closeNav)

@@ -5,10 +5,10 @@ function renderChart(params) {
     id: "ID" + Math.floor(Math.random() * 1000000),  // Id for event handlings
     svgWidth: 400,
     svgHeight: 400,
-    marginTop: 5,
-    marginBottom: 5,
-    marginRight: 5,
-    marginLeft: 5,
+    marginTop: 0,
+    marginBottom: 0,
+    marginRight: 0,
+    marginLeft: 0,
     circleRadiusOrganizaion: 16,
     circleRadiusPeople: 8,
     circleRadiusGroup: 20,
@@ -113,18 +113,12 @@ function renderChart(params) {
         .attr("stroke", 'black')
         .attr('class', d => `node-circle node-${d.type}`)
         .on('click', function(d) {
-          let that = d3.select(this)
-          if (!d.isGroup) {
-            let r = d.radius;
-            if (d.clicked) {
-              // that.attr('r', r)
-              d.clicked = false
-              attrs.closeNav(d)
-            } else {
-              // that.attr('r', r + 10)
-              d.clicked = true
-              attrs.openNav(d)
-            }
+          if (d.clicked) {
+            d.clicked = false
+            attrs.closeNav(d)
+          } else {
+            d.clicked = true
+            attrs.openNav(d)
           }
         })
         .attr('fill', d => {
@@ -148,14 +142,14 @@ function renderChart(params) {
       .attr("fill", d => color(d.cluster))
       .attr('opacity', 0.4);
         
-        node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
-          .attr('text-anchor', 'middle')
-          .attr('dy', d => d.type == "people" ? attrs.circleRadiusPeople + 30 : attrs.circleRadiusOrganizaion + 30)
-          .attr('y', 0)
-          .text(d => d.node || d.group)
-          
-        // node.selectAll('text.node-text')
-        //     .call(wrap, attrs.circleRadiusOrganizaion * 2)
+      node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
+        .attr('text-anchor', 'middle')
+        .attr('dy', d => d.type == "people" ? attrs.circleRadiusPeople + 30 : attrs.circleRadiusOrganizaion + 30)
+        .attr('y', 0)
+        .text(d => d.node || d.group)
+        
+      // node.selectAll('text.node-text')
+      //     .call(wrap, attrs.circleRadiusOrganizaion * 2)
 
         function ticked() {
           hull
@@ -163,7 +157,7 @@ function renderChart(params) {
 
           node
             .each(cluster(0.1))
-            .each(collide(0.2))
+            .each(collide(0.1))
             .attr('transform', d => `translate(${d.x}, ${d.y})`)
 
           link
