@@ -24,6 +24,21 @@ function renderChart(params) {
   //InnerFunctions which will update visuals
   var updateData;
 
+  var religions = [
+    {
+      name: 'Islam',
+      filename: 'islam.svg'
+    },
+    {
+      name: 'Judaïsme',
+      filename: 'judaism.svg'
+    },
+    {
+      name: 'Grand Orient de France',
+      filename: 'freemasonry.svg'
+    }
+  ]
+
   //Main chart object
   var main = function (selection) {
     selection.each(function scope() {
@@ -46,12 +61,15 @@ function renderChart(params) {
       
       let clusters = {};
       attrs.data.nodes.forEach(d => {
+          let religion = religions.filter(x => x.name == d.religion);
           const i = Math.floor(Math.random() * clusters.length)
           d.radius = d.type == 'people' ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion
           d.x = Math.cos(i / clusters.length * 2 * Math.PI) * 600 + calc.chartWidth / 2 + Math.random(),
           d.y = Math.sin(i / clusters.length * 2 * Math.PI) * 600 + calc.chartHeight / 2 + Math.random()
           d.clusters = getGroups(d)
-
+          d.tag = religion.length ? 'image' : 'circle';
+          d.isImage = religion.length ? true : false;
+          d.imagePath = religion.length ? 'img/' + religion[0].filename : null
           d.clusters.forEach(cluster => {
             if (!clusters[cluster] || (d.radius > clusters[cluster].radius)) clusters[cluster] = d;
           })
@@ -101,17 +119,34 @@ function renderChart(params) {
       
       var node = nodesGroup.patternify({ tag: 'g', selector: 'node', data: attrs.data.nodes })
           .attr('data-group', d => d.group)
-          .call(d3.drag()
-                .on("start", dragstarted)
-                .on("drag", dragged)
-                .on("end", dragended));
+      
+      node.each(function(d) {
+        let that = d3.select(this);
 
-      node.patternify({ tag: 'circle', selector: 'node-circle', data: d => [d] })
-        .attr("r", d => d.radius)
-        .attr('data-name', d => d.node)
-        .attr("stroke-width", 1.5)
-        .attr("stroke", 'black')
-        .attr('class', d => `node-circle node-${d.type}`)
+        if (d.isImage) {
+          that.append('image')
+          .attr('href', d => d.imagePath)
+          .attr('width', attrs.circleRadiusPeople * 3)
+          .attr('height', attrs.circleRadiusPeople * 3)
+          .classed('node-icon', true)
+        } else {
+          that.append('circle')
+          .attr("r", d => d.radius)
+          .attr('data-name', d => d.node)
+          .attr("stroke-width", 1.5)
+          .attr("stroke", 'black')
+          .attr('class', d => `node-circle node-${d.type}`)
+          .classed('node-icon', true)
+          .attr('fill', d => {
+            if (d.clusters.length == 0) return '#ccc'
+            if (d.clusters.length == 1) {
+              return color(d.clusters[0])
+            }
+            return d3.interpolateRgb(color(d.clusters[0]), color(d.clusters[1]))(0.5)
+          })
+        }
+
+        that.select('.node-icon')
         .on('click', function(d) {
           if (d.clicked) {
             d.clicked = false
@@ -121,14 +156,12 @@ function renderChart(params) {
             attrs.openNav(d)
           }
         })
-        .attr('fill', d => {
-          if (d.clusters.length == 0) return '#ccc'
-          if (d.clusters.length == 1) {
-            return color(d.clusters[0])
-          }
-          return d3.interpolateRgb(color(d.clusters[0]), color(d.clusters[1]))(0.5)
-        })
-        
+        // .call(d3.drag()
+        //         .on("start", dragstarted)
+        //         .on("drag", dragged)
+        //         .on("end", dragended));
+      })
+
       var hull = hullsGroup.patternify({ tag: 'path', selector: 'hull', data: Object.keys(clusters).map(c => {
           return {
             cluster: c,
