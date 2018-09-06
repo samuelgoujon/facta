@@ -114,8 +114,8 @@ function renderChart(params) {
         .textColor('#fff')
         .content([
           {
-            left: "{g}"
-            /*center: "{g}"*/
+            left: "",
+            right: "{g}"
           }
         ]);
 
