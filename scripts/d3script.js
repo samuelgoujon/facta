@@ -108,6 +108,17 @@ function renderChart(params) {
       var chart = svg.patternify({ tag: 'g', selector: 'chart' })
         .attr('transform', 'translate(' + (calc.chartLeftMargin) + ',' + calc.chartTopMargin + ')')
       
+      var tooltip = d3
+        .componentsTooltip()
+        .container(svg)
+        .textColor('#fff')
+        .content([
+          {
+            left: "Group:",
+            right: "{g}"
+          }
+        ]);
+
       var hullsGroup = chart.patternify({ tag: 'g', selector: 'hulls' })
       var linksGroup = chart.patternify({ tag: 'g', selector: 'links' })
       var nodesGroup = chart.patternify({ tag: 'g', selector: 'nodes' })
@@ -173,7 +184,20 @@ function renderChart(params) {
       })
       .attr('data-group', d => d.group)
       .attr("fill", d => color(d.cluster))
-      .attr('opacity', 0.4);
+      .attr('opacity', 0.4)
+      .on('mouseover', function(d) {
+        var mouse = d3.mouse(svg.node());
+
+        tooltip
+          .x(mouse[0])
+          .y(mouse[1])
+          .tooltipFill(color(d.cluster))
+          .show({ g: d.cluster });
+      })
+      .on('mouseout', function() {
+        tooltip
+          .hide();
+      });
         
       node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
         .attr('text-anchor', 'middle')

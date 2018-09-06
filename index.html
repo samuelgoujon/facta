@@ -17,6 +17,11 @@
             display: block;
         }
 
+        svg.tooltip-shadow-wrapper-svg {
+            position: absolute;
+            left: -400px;
+        }
+
         .sidenav h1 {
             margin-top: 0px;
         }
@@ -126,6 +131,7 @@
         <div id="myGraph"></div>
     </div>
     <script src="libs/d3.v5.min.js"></script>
+    <script src="libs/tooltip.js"></script>
     <script src="scripts/d3script.js"></script>
 
     <script>
@@ -170,7 +176,7 @@
                .then(data => {
                     renderChart()
                         .svgHeight(window.innerHeight)
-                        .svgWidth(window.innerWidth)
+                        .svgWidth(document.getElementById('myGraph').getBoundingClientRect().width)
                         .container('#myGraph')
                         .openNav(openNav)
                         .closeNav(closeNav)
