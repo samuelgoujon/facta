@@ -58,7 +58,7 @@ function renderChart(params) {
       let zoom = d3.zoom()
           .scaleExtent([0.1, 10])
           .on("zoom", zoomed)
-      
+
       let clusters = {};
       attrs.data.nodes.forEach(d => {
           let religion = religions.filter(x => x.name == d.religion);
@@ -74,7 +74,7 @@ function renderChart(params) {
             if (!clusters[cluster] || (d.radius > clusters[cluster].radius)) clusters[cluster] = d;
           })
         })
-      
+
       function getGroups(d) {
         if (!d.group.length) {
           return []
@@ -88,9 +88,9 @@ function renderChart(params) {
           .force('collide', d3.forceCollide(d => d.radius + padding))
           .nodes(attrs.data.nodes)
           .on("tick", ticked)
-      
+
       simulation.force("link", d3.forceLink().id(d => d.node).links(attrs.data.links))
-      
+
       simulation.restart();
 
       //Drawing containers
@@ -107,15 +107,15 @@ function renderChart(params) {
       //Add container g element
       var chart = svg.patternify({ tag: 'g', selector: 'chart' })
         .attr('transform', 'translate(' + (calc.chartLeftMargin) + ',' + calc.chartTopMargin + ')')
-      
+
       var tooltip = d3
         .componentsTooltip()
         .container(svg)
         .textColor('#fff')
         .content([
           {
-            left: "Group:",
-            right: "{g}"
+            /*left: "Group:",*/
+            center: "{g}"
           }
         ]);
 
@@ -127,10 +127,10 @@ function renderChart(params) {
         .attr("stroke-width", d => 1)
         .attr("stroke", '#ccc')
         .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
-      
+
       var node = nodesGroup.patternify({ tag: 'g', selector: 'node', data: attrs.data.nodes })
           .attr('data-group', d => d.group)
-      
+
       node.each(function(d) {
         let that = d3.select(this);
 
@@ -198,13 +198,13 @@ function renderChart(params) {
         tooltip
           .hide();
       });
-        
+
       node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
         .attr('text-anchor', 'middle')
         .attr('dy', d => d.type == "people" ? attrs.circleRadiusPeople + 30 : attrs.circleRadiusOrganizaion + 30)
         .attr('y', 0)
         .text(d => d.node || d.group)
-        
+
       // node.selectAll('text.node-text')
       //     .call(wrap, attrs.circleRadiusOrganizaion * 2)
 
@@ -223,7 +223,7 @@ function renderChart(params) {
             .attr("x2", function(d) { return d.target.x; })
             .attr("y2", function(d) { return d.target.y; });
         }
-        
+
         function hullPoints(data) {
           let pointArr = [];
           const padding = 5;
@@ -244,12 +244,12 @@ function renderChart(params) {
           d.fx = d.x;
           d.fy = d.y;
         }
-  
+
         function dragged(d) {
           d.fx = d3.event.x;
           d.fy = d3.event.y;
         }
-  
+
         function dragended(d) {
           if (!d3.event.active) simulation.alphaTarget(0);
           d.fx = null;
