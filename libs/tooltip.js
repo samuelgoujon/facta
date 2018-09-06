@@ -173,7 +173,7 @@ d3.componentsTooltip = function d3ComponentsTooltip(params) {
           .attr("x", attrs.leftMargin)
           .text(d => replaceWithProps(d.left, attrs.data))
           .attr("text-anchor", "start");
-
+        
         //row right texts
         rows
           .append("text")
@@ -181,7 +181,7 @@ d3.componentsTooltip = function d3ComponentsTooltip(params) {
           .attr("y", attrs.tooltipRowHeight / 3)
           .attr("x", attrs.rightMargin)
           .text(d => replaceWithProps(d.right, attrs.data))
-          .attr("text-anchor", "end");
+          .attr("text-anchor", "middle");
 
         // adjusting positions
         var maxWidth = 0;
@@ -203,7 +203,7 @@ d3.componentsTooltip = function d3ComponentsTooltip(params) {
         });
 
         // taking right texts to maximum left width position
-        rows.select(".right").attr("x", maxWidth);
+        rows.select(".right").attr("x", maxWidth / 2 + attrs.leftMargin);
 
         //applying margins
         maxWidth += attrs.leftMargin + attrs.rightMargin;

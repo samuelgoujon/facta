@@ -114,7 +114,7 @@ function renderChart(params) {
         .textColor('#fff')
         .content([
           {
-            left: "Group:",
+            left: "",
             right: "{g}"
           }
         ]);
