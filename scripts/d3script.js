@@ -15,14 +15,12 @@ function renderChart(params) {
     container: 'body',
     defaultTextFill: '#2C3E50',
     defaultFont: 'Helvetica',
+    nodesFontSize: 10,
+    mode: 'first',
     data: null,
     openNav: d => d,
     closeNav: d => d,
   };
-
-
-  //InnerFunctions which will update visuals
-  var updateData;
 
   var religions = [
     {
@@ -43,6 +41,7 @@ function renderChart(params) {
   var main = function (selection) {
     selection.each(function scope() {
 
+      let currentScale = d3.zoomIdentity.k;
       //Calculated properties
       var calc = {}
       calc.id = "ID" + Math.floor(Math.random() * 1000000);  // id for event handlings
@@ -58,6 +57,14 @@ function renderChart(params) {
       let zoom = d3.zoom()
           .scaleExtent([0.1, 10])
           .on("zoom", zoomed)
+
+      if (attrs.mode == 'first') {
+        attrs.data.nodes = attrs.data.nodes.filter(d => d.type !== 'organization');
+        attrs.data.links = [];
+      } else {
+
+      }
+
 
       let clusters = {};
       attrs.data.nodes.forEach(d => {
@@ -144,7 +151,7 @@ function renderChart(params) {
           that.append('circle')
           .attr("r", d => d.radius)
           .attr('data-name', d => d.node)
-          .attr("stroke-width", 1.5)
+          .attr("stroke-width", 1)
           .attr("stroke", 'black')
           .attr('class', d => `node-circle node-${d.type}`)
           .classed('node-icon', true)
@@ -158,19 +165,19 @@ function renderChart(params) {
         }
 
         that.select('.node-icon')
-        .on('click', function(d) {
-          if (d.clicked) {
-            d.clicked = false
-            attrs.closeNav(d)
-          } else {
-            d.clicked = true
-            attrs.openNav(d)
-          }
-        })
-        // .call(d3.drag()
-        //         .on("start", dragstarted)
-        //         .on("drag", dragged)
-        //         .on("end", dragended));
+          .on('click', function(d) {
+            if (d.clicked) {
+              d.clicked = false
+              attrs.closeNav(d)
+            } else {
+              d.clicked = true
+              attrs.openNav(d)
+            }
+          })
+          // .call(d3.drag()
+          //         .on("start", dragstarted)
+          //         .on("drag", dragged)
+          //         .on("end", dragended));
       })
 
       var hull = hullsGroup.patternify({ tag: 'path', selector: 'hull', data: Object.keys(clusters).map(c => {
@@ -199,169 +206,167 @@ function renderChart(params) {
           .hide();
       });
 
-      node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
+      var texts = node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
         .attr('text-anchor', 'middle')
-        .attr('dy', d => d.type == "people" ? attrs.circleRadiusPeople + 30 : attrs.circleRadiusOrganizaion + 30)
+        .attr('font-size', attrs.nodesFontSize)
+        .attr('dy', d => d.isImage ? attrs.circleRadiusPeople + 15 : d.radius + 15)
         .attr('y', 0)
         .text(d => d.node || d.group)
 
-      // node.selectAll('text.node-text')
-      //     .call(wrap, attrs.circleRadiusOrganizaion * 2)
+      function ticked() {
+        hull
+          .attr('d', d => line(d3.polygonHull(hullPoints(d.nodes))));
 
-        function ticked() {
-          hull
-            .attr('d', d => line(d3.polygonHull(hullPoints(d.nodes))));
+        node
+          .each(cluster(0.1))
+          .each(collide(0.1))
+          .attr('transform', d => `translate(${d.x}, ${d.y})`)
 
-          node
-            .each(cluster(0.1))
-            .each(collide(0.1))
-            .attr('transform', d => `translate(${d.x}, ${d.y})`)
+        link
+          .attr("x1", function(d) { return d.source.x; })
+          .attr("y1", function(d) { return d.source.y; })
+          .attr("x2", function(d) { return d.target.x; })
+          .attr("y2", function(d) { return d.target.y; });
+      }
 
-          link
-            .attr("x1", function(d) { return d.source.x; })
-            .attr("y1", function(d) { return d.source.y; })
-            .attr("x2", function(d) { return d.target.x; })
-            .attr("y2", function(d) { return d.target.y; });
-        }
+      function hullPoints(data) {
+        let pointArr = [];
+        const padding = 5;
+        data.each(d => {
+          const pad = d.radius + padding;
+          pointArr = pointArr.concat([
+            [d.x - pad, d.y - pad],
+            [d.x - pad, d.y + pad],
+            [d.x + pad, d.y - pad],
+            [d.x + pad, d.y + pad]
+          ]);
+        });
+        return pointArr;
+      }
 
-        function hullPoints(data) {
-          let pointArr = [];
-          const padding = 5;
-          data.each(d => {
-            const pad = d.radius + padding;
-            pointArr = pointArr.concat([
-              [d.x - pad, d.y - pad],
-              [d.x - pad, d.y + pad],
-              [d.x + pad, d.y - pad],
-              [d.x + pad, d.y + pad]
-            ]);
-          });
-          return pointArr;
-        }
+      function dragstarted(d) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      }
 
-        function dragstarted(d) {
-          if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-          d.fx = d.x;
-          d.fy = d.y;
-        }
+      function dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+      }
 
-        function dragged(d) {
-          d.fx = d3.event.x;
-          d.fy = d3.event.y;
-        }
+      function dragended(d) {
+        if (!d3.event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+      }
 
-        function dragended(d) {
-          if (!d3.event.active) simulation.alphaTarget(0);
-          d.fx = null;
-          d.fy = null;
-        }
+      // drag groups
+      function group_dragstarted(groupId) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        d3.select(this).select('path').style('stroke-width', 3);
+      }
 
-        // drag groups
-        function group_dragstarted(groupId) {
-          if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-          d3.select(this).select('path').style('stroke-width', 3);
-        }
+      function group_dragged(groupId) {
+        node
+          .filter(function(d) { return d.group == groupId; })
+          .each(function(d) {
+            d.x += d3.event.dx;
+            d.y += d3.event.dy;
+          })
+      }
 
-        function group_dragged(groupId) {
-          node
-            .filter(function(d) { return d.group == groupId; })
-            .each(function(d) {
-              d.x += d3.event.dx;
-              d.y += d3.event.dy;
-            })
-        }
+      function group_dragended(groupId) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        d3.select(this).select('path').style('stroke-width', 1);
+      }
 
-        function group_dragended(groupId) {
-          if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-          d3.select(this).select('path').style('stroke-width', 1);
-        }
+      function collide(alpha) {
 
-        function collide(alpha) {
+        const quadtree = d3.quadtree()
+          .x(function (d) { return d.x; })
+          .y(function (d) { return d.y; })
+          .extent([[0, 0], [calc.chartWidth, calc.chartHeight]])
+          .addAll(attrs.data.nodes);
 
-          const quadtree = d3.quadtree()
-            .x(function (d) { return d.x; })
-            .y(function (d) { return d.y; })
-            .extent([[0, 0], [calc.chartWidth, calc.chartHeight]])
-            .addAll(attrs.data.nodes);
-
-          return function (d) {
-            let r = d.radius + (attrs.circleRadiusOrganizaion * 8) + Math.max(padding, clusterPadding),
-                nx1 = d.x - r,
-                nx2 = d.x + r,
-                ny1 = d.y - r,
-                ny2 = d.y + r;
-            quadtree.visit(function (quad, x1, y1, x2, y2) {
-              let data = quad.data;
-              if (data && data !== d) {
-                let x = d.x - data.x,
-                    y = d.y - data.y,
-                    l = Math.sqrt(x * x + y * y),
-                    r = d.radius + data.radius + (d.cluster == data.cluster ? padding : clusterPadding);
-                if (l < r) {
-                  l = (l - r) / l * alpha;
-                  d.x -= x *= l;
-                  d.y -= y *= l;
-                  data.x += x;
-                  data.y += y;
-                }
-              }
-              return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
-            });
-          };
-        }
-
-        function cluster(alpha) {
-          return function (d) {
-            if (!d.clusters.length) return;
-              let cluster = clusters[d.clusters[0]];
-              if (cluster === d) return;
-              let x = d.x - cluster.x,
-                  y = d.y - cluster.y,
+        return function (d) {
+          let r = d.radius + (attrs.circleRadiusOrganizaion * 8) + Math.max(padding, clusterPadding),
+              nx1 = d.x - r,
+              nx2 = d.x + r,
+              ny1 = d.y - r,
+              ny2 = d.y + r;
+          quadtree.visit(function (quad, x1, y1, x2, y2) {
+            let data = quad.data;
+            if (data && data !== d) {
+              let x = d.x - data.x,
+                  y = d.y - data.y,
                   l = Math.sqrt(x * x + y * y),
-                  r = d.radius + cluster.radius + 3;
-              if (l != r) {
+                  r = d.radius + data.radius + (d.cluster == data.cluster ? padding : clusterPadding);
+              if (l < r) {
                 l = (l - r) / l * alpha;
                 d.x -= x *= l;
                 d.y -= y *= l;
-                cluster.x += x;
-                cluster.y += y;
-              }
-          };
-        }
-
-        function wrap(text, width) {
-          text.each(function() {
-            var text = d3.select(this),
-                words = text.text().split(/\s+/).reverse(),
-                word,
-                line = [],
-                lineNumber = 0,
-                lineHeight = 1.1, // ems
-                y = text.attr("y"),
-                dy = parseFloat(text.attr("dy")),
-                tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
-            while (word = words.pop()) {
-              line.push(word);
-              tspan.text(line.join(" "));
-              if (tspan.node().getComputedTextLength() > width) {
-                line.pop();
-                tspan.text(line.join(" "));
-                line = [word];
-                tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+                data.x += x;
+                data.y += y;
               }
             }
+            return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
           });
-        }
+        };
+      }
+
+      function cluster(alpha) {
+        return function (d) {
+          if (!d.clusters.length) return;
+            let cluster = clusters[d.clusters[0]];
+            if (cluster === d) return;
+            let x = d.x - cluster.x,
+                y = d.y - cluster.y,
+                l = Math.sqrt(x * x + y * y),
+                r = d.radius + cluster.radius + 3;
+            if (l != r) {
+              l = (l - r) / l * alpha;
+              d.x -= x *= l;
+              d.y -= y *= l;
+              cluster.x += x;
+              cluster.y += y;
+            }
+        };
+      }
 
       //Zoom functions
       function zoomed() {
-        chart.attr("transform", d3.event.transform)
+        chart.attr("transform", d3.event.transform);
+        currentScale = d3.event.transform.k;
+        updateStylesOnZoom(d3.event.transform.k)
       }
 
-      // Smoothly handle data updating
-      updateData = function () {
+      function updateStylesOnZoom (scale) {
+        if (scale < 1) {
+            texts.attr('display', 'none')
+        }
+        else {
+            texts.attr('display', null)
+        }
 
-      }
+        let fontSize = attrs.nodesFontSize / scale;
+
+        texts
+            .attr('y', d => (d.isImage ? attrs.circleRadiusPeople : d.radius) / scale)
+            .attr('font-size', fontSize + 'px')
+
+        node.each(function (d) {
+          let self = d3.select(this);
+          if (d.isImage) {
+
+          } else {
+            let circle = self.select('circle')
+            circle.attr('stroke-width', 1 / scale);
+            circle.attr('r', d => d.radius / scale);
+          }
+        }) 
+    }
+
 
       handleWindowResize();
 
@@ -386,29 +391,6 @@ function renderChart(params) {
         if (containerRect.height > 0)
           attrs.svgHeight = containerRect.height;
       }
-
-
-      function debug() {
-        if (attrs.isDebug) {
-          //Stringify func
-          var stringified = scope + "";
-
-          // Parse variable names
-          var groupVariables = stringified
-            //Match var x-xx= {};
-            .match(/var\s+([\w])+\s*=\s*{\s*}/gi)
-            //Match xxx
-            .map(d => d.match(/\s+\w*/gi).filter(s => s.trim()))
-            //Get xxx
-            .map(v => v[0].trim())
-
-          //Assign local variables to the scope
-          groupVariables.forEach(v => {
-            main['P_' + v] = eval(v)
-          })
-        }
-      }
-      debug();
     });
   };
 
@@ -454,23 +436,10 @@ function renderChart(params) {
   //Set attrs as property
   main.attrs = attrs;
 
-  //Debugging visuals
-  main.debug = function (isDebug) {
-    attrs.isDebug = isDebug;
-    if (isDebug) {
-      if (!window.charts) window.charts = [];
-      window.charts.push(main);
-    }
-    return main;
-  }
-
   //Exposed update functions
   main.data = function (value) {
     if (!arguments.length) return attrs.data;
     attrs.data = value;
-    if (typeof updateData === 'function') {
-      updateData();
-    }
     return main;
   }
 

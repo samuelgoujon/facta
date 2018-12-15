@@ -38,7 +38,6 @@ d3.componentsTooltip = function d3ComponentsTooltip(params) {
   });
 
   //innerFunctions which will update visuals
-  var updateData;
   var displayTooltip;
   var hideTooltip;
 
@@ -124,7 +123,6 @@ d3.componentsTooltip = function d3ComponentsTooltip(params) {
         // remove tooltipcontent if exists
         attrs.container.selectAll(".total-wrapper").remove();
 
-        console.log(attrs.transform);
         // tooltip content wrapper
         var totalWrapper = attrs.container
           .append("g")
@@ -311,34 +309,6 @@ d3.componentsTooltip = function d3ComponentsTooltip(params) {
         });
         return text;
       }
-
-      // smoothly handle data updating
-      updateData = function() {};
-
-      //#########################################  UTIL FUNCS ##################################
-
-      // catch scope variables and assign it to global variable for runtime variable inspection
-      function debug() {
-        if (attrs.isDebug) {
-          //stringify func
-          var stringified = scope + "";
-
-          // parse variable names
-          var groupVariables = stringified
-            //match var x-xx= {};
-            .match(/var\s+([\w])+\s*=\s*{\s*}/gi)
-            //match xxx
-            .map(d => d.match(/\s+\w*/gi).filter(s => s.trim()))
-            //get xxx
-            .map(v => v[0].trim());
-
-          //assign local variables to the scope
-          groupVariables.forEach(v => {
-            main["P_" + v] = eval(v);
-          });
-        }
-      }
-      debug();
     });
   };
 
@@ -376,23 +346,10 @@ d3.componentsTooltip = function d3ComponentsTooltip(params) {
   //set attrs as property
   main.attrs = attrs;
 
-  //debugging visuals
-  main.debug = function(isDebug) {
-    attrs.isDebug = isDebug;
-    if (isDebug) {
-      if (!window.charts) window.charts = [];
-      window.charts.push(main);
-    }
-    return main;
-  };
-
   //exposed update functions
   main.data = function(value) {
     if (!arguments.length) return attrs.data;
     attrs.data = value;
-    if (typeof updateData === "function") {
-      updateData();
-    }
     return main;
   };
 
