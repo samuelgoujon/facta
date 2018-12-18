@@ -37,16 +37,27 @@ function closeNav() {
 
 Promise.all([d3.csv("./data/nodes.csv"), d3.csv("./data/connections.csv")])
        .then(data => {
-            renderChart()
+            var chart = renderChart()
                 .svgHeight(window.innerHeight)
                 .svgWidth(document.getElementById('myGraph').getBoundingClientRect().width)
                 .container('#myGraph')
                 .openNav(openNav)
                 .closeNav(closeNav)
+                .mode('first')
                 .data({
                     nodes: data[0],
                     links: data[1]
                 })
-                .run()
+                .run();
+            d3.select('#viewToggler')
+                .on('click', function () {
+                    let self = d3.select(this);
+                    if (self.attr('data-mode') === 'first') {
+                        self.attr('data-mode', 'second')
+                    } else {
+                        self.attr('data-mode', 'first')
+                    }
+                    chart.toggle(self.attr('data-mode'))
+                })
        })
      

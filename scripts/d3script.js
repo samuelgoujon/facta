@@ -37,6 +37,8 @@ function renderChart(params) {
     }
   ]
 
+  let showHulls = true;
+
   //Main chart object
   var main = function (selection) {
     selection.each(function scope() {
@@ -50,6 +52,7 @@ function renderChart(params) {
       calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
       calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin;
 
+      
       let padding = 55, clusterPadding = 100;
       let line = d3.line().curve(d3.curveCatmullRomClosed)
       let color = d3.scaleOrdinal(d3.schemeCategory10)
@@ -61,10 +64,10 @@ function renderChart(params) {
       if (attrs.mode == 'first') {
         attrs.data.nodes = attrs.data.nodes.filter(d => d.type !== 'organization');
         attrs.data.links = [];
+        showHulls = true;
       } else {
-
+        showHulls = false;
       }
-
 
       let clusters = {};
       attrs.data.nodes.forEach(d => {
@@ -139,7 +142,7 @@ function renderChart(params) {
           .attr('data-group', d => d.group)
 
       node.each(function(d) {
-        let that = d3.select(this);
+        let that = d3.select(this).html('');
 
         if (d.isImage) {
           that.append('image')
@@ -174,6 +177,16 @@ function renderChart(params) {
               attrs.openNav(d)
             }
           })
+          .on('mouseover', function (d) {
+            if (!d.isImage) {
+              d3.select(this).attr('stroke-width', 2 / currentScale)
+            }
+          })
+          .on('mouseout', function () {
+            if (!d.isImage) {
+              d3.select(this).attr('stroke-width', 0)
+            }
+          })
           // .call(d3.drag()
           //         .on("start", dragstarted)
           //         .on("drag", dragged)
@@ -191,7 +204,6 @@ function renderChart(params) {
       })
       .attr('data-group', d => d.group)
       .attr("fill", d => color(d.cluster))
-      .attr('opacity', 0.4)
       .on('mouseover', function(d) {
         var mouse = d3.mouse(svg.node());
 
@@ -204,13 +216,17 @@ function renderChart(params) {
       .on('mouseout', function() {
         tooltip
           .hide();
-      });
+      })
+      
+      hull
+      .transition()
+      .duration(1000)
+      .attr('opacity', showHulls ? 0.4 : 0);
 
       var texts = node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
         .attr('text-anchor', 'middle')
         .attr('font-size', attrs.nodesFontSize)
         .attr('dy', d => d.isImage ? attrs.circleRadiusPeople + 15 : d.radius + 15)
-        .attr('y', 0)
         .text(d => d.node || d.group)
 
       function ticked() {
@@ -338,7 +354,7 @@ function renderChart(params) {
       function zoomed() {
         chart.attr("transform", d3.event.transform);
         currentScale = d3.event.transform.k;
-        updateStylesOnZoom(d3.event.transform.k)
+        updateStylesOnZoom(currentScale);
       }
 
       function updateStylesOnZoom (scale) {
@@ -352,7 +368,7 @@ function renderChart(params) {
         let fontSize = attrs.nodesFontSize / scale;
 
         texts
-            .attr('y', d => (d.isImage ? attrs.circleRadiusPeople : d.radius) / scale)
+            .attr('dy', d => d.isImage ? (attrs.circleRadiusPeople + 15) / scale : (d.radius + 15) / scale)
             .attr('font-size', fontSize + 'px')
 
         node.each(function (d) {
@@ -368,7 +384,7 @@ function renderChart(params) {
     }
 
 
-      handleWindowResize();
+      // handleWindowResize();
 
 
       //#########################################  UTIL FUNCS ##################################
@@ -435,6 +451,17 @@ function renderChart(params) {
 
   //Set attrs as property
   main.attrs = attrs;
+
+  main.toggle = function (mode) {
+    attrs.mode = mode;
+    if (mode == 'first') {
+      showHulls = true;
+    } else {
+      showHulls = false;
+    }
+    d3.selectAll(attrs.container).call(main);
+    return main;
+  }
 
   //Exposed update functions
   main.data = function (value) {

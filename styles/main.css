@@ -19,7 +19,6 @@ svg.tooltip-shadow-wrapper-svg {
 }
 
 .node-circle:hover {
-    stroke-width: 3px;
     cursor: pointer;
 }
 
