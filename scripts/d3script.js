@@ -37,7 +37,7 @@ function renderChart(params) {
     }
   ]
 
-  let showHulls = true;
+  var toggle = null;
 
   //Main chart object
   var main = function (selection) {
@@ -61,29 +61,29 @@ function renderChart(params) {
           .scaleExtent([0.1, 10])
           .on("zoom", zoomed)
 
-      if (attrs.mode == 'first') {
-        attrs.data.nodes = attrs.data.nodes.filter(d => d.type !== 'organization');
-        attrs.data.links = [];
-        showHulls = true;
-      } else {
-        showHulls = false;
-      }
-
       let clusters = {};
       attrs.data.nodes.forEach(d => {
-          let religion = religions.filter(x => x.name == d.religion);
-          const i = Math.floor(Math.random() * clusters.length)
-          d.radius = d.type == 'people' ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion
-          d.x = Math.cos(i / clusters.length * 2 * Math.PI) * 600 + calc.chartWidth / 2 + Math.random(),
-          d.y = Math.sin(i / clusters.length * 2 * Math.PI) * 600 + calc.chartHeight / 2 + Math.random()
-          d.clusters = getGroups(d)
-          d.tag = religion.length ? 'image' : 'circle';
-          d.isImage = religion.length ? true : false;
-          d.imagePath = religion.length ? 'img/' + religion[0].filename : null
-          d.clusters.forEach(cluster => {
-            if (!clusters[cluster] || (d.radius > clusters[cluster].radius)) clusters[cluster] = d;
-          })
+        let religion = religions.filter(x => x.name == d.religion);
+        const i = Math.floor(Math.random() * clusters.length)
+        d.radius = d.type == 'people' ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion
+        d.x = Math.cos(i / clusters.length * 2 * Math.PI) * 600 + calc.chartWidth / 2 + Math.random(),
+        d.y = Math.sin(i / clusters.length * 2 * Math.PI) * 600 + calc.chartHeight / 2 + Math.random()
+        d.clusters = getGroups(d)
+        d.tag = religion.length ? 'image' : 'circle';
+        d.isImage = religion.length ? true : false;
+        d.imagePath = religion.length ? 'img/' + religion[0].filename : null
+        d.clusters.forEach(cluster => {
+          if (!clusters[cluster] || (d.radius > clusters[cluster].radius)) clusters[cluster] = d;
         })
+      });
+
+      var nodes = attrs.data.nodes;
+      var links = attrs.data.links;
+
+      if (attrs.mode == 'first') {
+        nodes = nodes.filter(d => d.type !== 'organization');
+        links = [];
+      }
 
       function getGroups(d) {
         if (!d.group.length) {
@@ -96,10 +96,10 @@ function renderChart(params) {
           .alpha(0.3)
           .force("center", d3.forceCenter().x(calc.chartWidth / 2).y(calc.chartHeight / 2))
           .force('collide', d3.forceCollide(d => d.radius + padding))
-          .nodes(attrs.data.nodes)
-          .on("tick", ticked)
-
-      simulation.force("link", d3.forceLink().id(d => d.node).links(attrs.data.links))
+          .nodes(nodes)
+          .on("tick", ticked);
+ 
+      simulation.force("link", d3.forceLink().id(d => d.node).links(links));
 
       simulation.restart();
 
@@ -133,76 +133,95 @@ function renderChart(params) {
       var linksGroup = chart.patternify({ tag: 'g', selector: 'links' })
       var nodesGroup = chart.patternify({ tag: 'g', selector: 'nodes' })
 
-      var link = linksGroup.patternify({ tag: 'line', selector: 'link', data: attrs.data.links })
-        .attr("stroke-width", d => 1)
-        .attr("stroke", '#ccc')
-        .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
+      var node = addNode();
+      var link = addLink();
+      var texts = addTexts();
 
-      var node = nodesGroup.patternify({ tag: 'g', selector: 'node', data: attrs.data.nodes })
+      function addTexts() {
+        return node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
+        .attr('text-anchor', 'middle')
+        .attr('font-size', attrs.nodesFontSize)
+        .attr('dy', d => d.isImage ? attrs.circleRadiusPeople + 15 : d.radius + 15)
+        .text(d => d.node || d.group)
+      }
+
+      function addLink () {
+        return linksGroup.patternify({ tag: 'line', selector: 'link', data: links })
+        .attr("stroke-width", d => 1)
+        .attr("stroke", '#666')
+        .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
+      }
+
+      function addNode () {
+        var node = nodesGroup.patternify({ tag: 'g', selector: 'node', data: nodes })
           .attr('data-group', d => d.group)
 
-      node.each(function(d) {
-        let that = d3.select(this).html('');
+        node.each(function(d) {
+          let that = d3.select(this).html('');
 
-        if (d.isImage) {
-          that.append('image')
-          .attr('href', d => d.imagePath)
-          .attr('width', attrs.circleRadiusPeople * 3)
-          .attr('height', attrs.circleRadiusPeople * 3)
-          .classed('node-icon', true)
-        } else {
-          that.append('circle')
-          .attr("r", d => d.radius)
-          .attr('data-name', d => d.node)
-          .attr("stroke-width", 1)
-          .attr("stroke", 'black')
-          .attr('class', d => `node-circle node-${d.type}`)
-          .classed('node-icon', true)
-          .attr('fill', d => {
-            if (d.clusters.length == 0) return '#ccc'
-            if (d.clusters.length == 1) {
-              return color(d.clusters[0])
-            }
-            return d3.interpolateRgb(color(d.clusters[0]), color(d.clusters[1]))(0.5)
-          })
-        }
+          if (d.isImage) {
+            that.append('image')
+            .attr('href', d => d.imagePath)
+            .attr('width', attrs.circleRadiusPeople * 3)
+            .attr('height', attrs.circleRadiusPeople * 3)
+            .classed('node-icon', true)
+          } else {
+            that.append('circle')
+            .attr("r", d => d.radius)
+            .attr('data-name', d => d.node)
+            .attr("stroke-width", 1)
+            .attr("stroke", 'black')
+            .attr('class', d => `node-circle node-${d.type}`)
+            .classed('node-icon', true)
+            .attr('fill', d => {
+              if (d.clusters.length == 0) return '#ccc'
+              if (d.clusters.length == 1) {
+                return color(d.clusters[0])
+              }
+              return d3.interpolateRgb(color(d.clusters[0]), color(d.clusters[1]))(0.5)
+            })
+          }
 
-        that.select('.node-icon')
-          .on('click', function(d) {
-            if (d.clicked) {
-              d.clicked = false
-              attrs.closeNav(d)
-            } else {
-              d.clicked = true
-              attrs.openNav(d)
-            }
+          that.select('.node-icon')
+            .on('click', function(d) {
+              if (d.clicked) {
+                d.clicked = false
+                attrs.closeNav(d)
+              } else {
+                d.clicked = true
+                attrs.openNav(d)
+              }
+            })
+            .on('mouseover', function (d) {
+              if (!d.isImage) {
+                d3.select(this).attr('stroke-width', 2 / currentScale)
+              }
+            })
+            .on('mouseout', function () {
+              if (!d.isImage) {
+                d3.select(this).attr('stroke-width', 0)
+              }
+            })
+            .call(d3.drag()
+              .on("start", dragstarted)
+              .on("drag", dragged)
+              .on("end", dragended));
           })
-          .on('mouseover', function (d) {
-            if (!d.isImage) {
-              d3.select(this).attr('stroke-width', 2 / currentScale)
-            }
-          })
-          .on('mouseout', function () {
-            if (!d.isImage) {
-              d3.select(this).attr('stroke-width', 0)
-            }
-          })
-          // .call(d3.drag()
-          //         .on("start", dragstarted)
-          //         .on("drag", dragged)
-          //         .on("end", dragended));
-      })
+        return node;
+      }
 
       var hull = hullsGroup.patternify({ tag: 'path', selector: 'hull', data: Object.keys(clusters).map(c => {
           return {
             cluster: c,
             nodes: node.filter(d => d.clusters.indexOf(c) > -1)
           };
-        }) })
+        }) 
+      })
       .attr("d", d => {
         return line(d3.polygonHull(hullPoints(d.nodes)))
       })
       .attr('data-group', d => d.group)
+      .attr('opacity', 0.4)
       .attr("fill", d => color(d.cluster))
       .on('mouseover', function(d) {
         var mouse = d3.mouse(svg.node());
@@ -217,25 +236,15 @@ function renderChart(params) {
         tooltip
           .hide();
       })
-      
-      hull
-      .transition()
-      .duration(1000)
-      .attr('opacity', showHulls ? 0.4 : 0);
-
-      var texts = node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
-        .attr('text-anchor', 'middle')
-        .attr('font-size', attrs.nodesFontSize)
-        .attr('dy', d => d.isImage ? attrs.circleRadiusPeople + 15 : d.radius + 15)
-        .text(d => d.node || d.group)
 
       function ticked() {
         hull
           .attr('d', d => line(d3.polygonHull(hullPoints(d.nodes))));
 
+
         node
           .each(cluster(0.1))
-          .each(collide(0.1))
+          .each(collide(0.5))
           .attr('transform', d => `translate(${d.x}, ${d.y})`)
 
         link
@@ -243,6 +252,45 @@ function renderChart(params) {
           .attr("y1", function(d) { return d.source.y; })
           .attr("x2", function(d) { return d.target.x; })
           .attr("y2", function(d) { return d.target.y; });
+      }
+
+      toggle = function (mode) {
+        attrs.mode = mode;
+
+        if (mode === 'first') {
+          nodes = attrs.data.nodes.filter(d => d.type !== 'organization');
+          links = [];
+
+          hull.transition()
+            .duration(1000)
+            .attr('opacity', 0.4)
+          
+          link
+            .transition()
+            .duration(1000)
+            .attr('opacity', 0.4)
+        } else {
+          nodes = attrs.data.nodes;
+          links = attrs.data.links;
+
+          hull.transition()
+            .duration(1000)
+            .attr('opacity', 0)
+          
+          link
+            .transition()
+            .duration(1000)
+            .attr('opacity', 0)
+        }
+        
+        simulation.nodes(nodes)
+          .force("link", d3.forceLink().id(d => d.node).links(links))
+          .alpha(0.1)
+          .restart();
+
+        node = addNode();
+        link = addLink();
+        texts = addTexts();
       }
 
       function hullPoints(data) {
@@ -453,13 +501,9 @@ function renderChart(params) {
   main.attrs = attrs;
 
   main.toggle = function (mode) {
-    attrs.mode = mode;
-    if (mode == 'first') {
-      showHulls = true;
-    } else {
-      showHulls = false;
+    if (typeof toggle === 'function') {
+      toggle(mode);
     }
-    d3.selectAll(attrs.container).call(main);
     return main;
   }
 
