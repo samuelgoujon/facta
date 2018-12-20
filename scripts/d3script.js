@@ -222,7 +222,8 @@ function renderChart(params) {
         return line(d3.polygonHull(hullPoints(d.nodes)))
       })
       .attr('data-group', d => d.group)
-      .attr('opacity', 0.4)
+      .attr('fill-opacity', 0.3)
+      .attr('opacity', 0.3)
       .attr("fill", d => color(d.cluster))
       .on('mouseover', function(d) {
         if (attrs.mode !== 'first') return;
@@ -268,7 +269,8 @@ function renderChart(params) {
 
           hull.transition()
             .duration(1000)
-            .attr('opacity', 0.4)
+            .attr('fill-opacity', 0.3)
+            .attr('opacity', 0.3)
           
           link
             .transition()
@@ -288,13 +290,11 @@ function renderChart(params) {
           });
           links = attrs.data.links;
 
-          hull.transition()
-            .duration(750)
+          hull
+            .attr('fill-opacity', 0)
             .attr('opacity', 0)
           
           link
-            .transition()
-            .duration(750)
             .attr('opacity', 0)
         }
         

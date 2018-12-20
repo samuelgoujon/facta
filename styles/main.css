@@ -94,10 +94,6 @@ circle.node-people {
     .sidenav a {font-size: 18px;}
 }
 
-path.hull {
-    fill-opacity: 0.3;
-}
-
 #logo {
   position: absolute;
   top: 32px;
