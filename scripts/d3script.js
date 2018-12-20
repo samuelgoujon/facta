@@ -147,7 +147,7 @@ function renderChart(params) {
 
       function addLink () {
         return linksGroup.patternify({ tag: 'line', selector: 'link', data: links })
-        .attr("stroke-width", d => 1)
+        .attr("stroke-width", 1)
         .attr("stroke", '#666')
         .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
       }
@@ -431,6 +431,8 @@ function renderChart(params) {
         texts
             .attr('dy', d => d.isImage ? (attrs.circleRadiusPeople + 15) / scale : (d.radius + 15) / scale)
             .attr('font-size', fontSize + 'px')
+
+        link.attr('stroke-width', 1 / scale)
 
         node.each(function (d) {
           let self = d3.select(this);
