@@ -164,6 +164,7 @@ function renderChart(params) {
             .attr('href', d => d.imagePath)
             .attr('width', attrs.circleRadiusPeople * 3)
             .attr('height', attrs.circleRadiusPeople * 3)
+            .attr('transform', `translate(${-attrs.circleRadiusPeople * 3 / 2}, ${-attrs.circleRadiusPeople * 3 / 2})`)
             .classed('node-icon', true)
           } else {
             that.append('circle')
@@ -199,7 +200,7 @@ function renderChart(params) {
             })
             .on('mouseout', function () {
               if (!d.isImage) {
-                d3.select(this).attr('stroke-width', 0)
+                d3.select(this).attr('stroke-width', 1 / currentScale)
               }
             })
             .call(d3.drag()
@@ -275,7 +276,8 @@ function renderChart(params) {
             .attr('opacity', 0.4)
         } else {
           nodes = attrs.data.nodes.filter(x => {
-            return (attrs.data.links.some(d => (typeof d.source === 'string' ? d.source : d.source.node) === x.node) || x.type === 'organization');
+            return (attrs.data.links.some(d => (typeof d.source === 'string' ? d.source : d.source.node) === x.node) 
+                || x.type === 'organization');
           }).map(x => {
             return Object.assign(x, { 
               x: null,
@@ -433,7 +435,11 @@ function renderChart(params) {
         node.each(function (d) {
           let self = d3.select(this);
           if (d.isImage) {
-
+            self
+            .select('image')
+            .attr('width', attrs.circleRadiusPeople * 3 / scale)
+            .attr('height', attrs.circleRadiusPeople * 3 / scale)
+            .attr('transform', `translate(${-(attrs.circleRadiusPeople * 3 / scale) / 2}, ${-(attrs.circleRadiusPeople * 3 / scale) / 2})`)
           } else {
             let circle = self.select('circle')
             circle.attr('stroke-width', 1 / scale);
