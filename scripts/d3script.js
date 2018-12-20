@@ -281,7 +281,9 @@ function renderChart(params) {
           }).map(x => {
             return Object.assign(x, { 
               x: null,
-              y: null
+              y: null,
+              vx: null,
+              vy: null
              })
           });
           links = attrs.data.links;
