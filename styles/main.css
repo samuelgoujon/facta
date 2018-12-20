@@ -120,8 +120,7 @@ path.hull {
 }
 
 .toggle-button:hover {
-    background-color: #fff;
-    color: #111;
+    background-color: #666666;
     transition: all 0.3ms;
 }
 

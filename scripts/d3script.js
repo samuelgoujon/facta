@@ -147,7 +147,7 @@ function renderChart(params) {
 
       function addLink () {
         return linksGroup.patternify({ tag: 'line', selector: 'link', data: links })
-        .attr("stroke-width", d => 1)
+        .attr("stroke-width", 1)
         .attr("stroke", '#666')
         .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
       }
@@ -164,6 +164,7 @@ function renderChart(params) {
             .attr('href', d => d.imagePath)
             .attr('width', attrs.circleRadiusPeople * 3)
             .attr('height', attrs.circleRadiusPeople * 3)
+            .attr('transform', `translate(${-attrs.circleRadiusPeople * 3 / 2}, ${-attrs.circleRadiusPeople * 3 / 2})`)
             .classed('node-icon', true)
           } else {
             that.append('circle')
@@ -199,7 +200,7 @@ function renderChart(params) {
             })
             .on('mouseout', function () {
               if (!d.isImage) {
-                d3.select(this).attr('stroke-width', 0)
+                d3.select(this).attr('stroke-width', 1 / currentScale)
               }
             })
             .call(d3.drag()
@@ -224,6 +225,8 @@ function renderChart(params) {
       .attr('opacity', 0.4)
       .attr("fill", d => color(d.cluster))
       .on('mouseover', function(d) {
+        if (attrs.mode !== 'first') return;
+
         var mouse = d3.mouse(svg.node());
 
         tooltip
@@ -233,6 +236,8 @@ function renderChart(params) {
           .show({ g: d.cluster });
       })
       .on('mouseout', function() {
+        if (attrs.mode !== 'first') return;
+
         tooltip
           .hide();
       })
@@ -270,22 +275,30 @@ function renderChart(params) {
             .duration(1000)
             .attr('opacity', 0.4)
         } else {
-          nodes = attrs.data.nodes;
+          nodes = attrs.data.nodes.filter(x => {
+            return (attrs.data.links.some(d => (typeof d.source === 'string' ? d.source : d.source.node) === x.node) 
+                || x.type === 'organization');
+          }).map(x => {
+            return Object.assign(x, { 
+              x: null,
+              y: null
+             })
+          });
           links = attrs.data.links;
 
           hull.transition()
-            .duration(1000)
+            .duration(750)
             .attr('opacity', 0)
           
           link
             .transition()
-            .duration(1000)
+            .duration(750)
             .attr('opacity', 0)
         }
         
         simulation.nodes(nodes)
           .force("link", d3.forceLink().id(d => d.node).links(links))
-          .alpha(0.1)
+          .alpha(0.3)
           .restart();
 
         node = addNode();
@@ -419,10 +432,16 @@ function renderChart(params) {
             .attr('dy', d => d.isImage ? (attrs.circleRadiusPeople + 15) / scale : (d.radius + 15) / scale)
             .attr('font-size', fontSize + 'px')
 
+        link.attr('stroke-width', 1 / scale)
+
         node.each(function (d) {
           let self = d3.select(this);
           if (d.isImage) {
-
+            self
+            .select('image')
+            .attr('width', attrs.circleRadiusPeople * 3 / scale)
+            .attr('height', attrs.circleRadiusPeople * 3 / scale)
+            .attr('transform', `translate(${-(attrs.circleRadiusPeople * 3 / scale) / 2}, ${-(attrs.circleRadiusPeople * 3 / scale) / 2})`)
           } else {
             let circle = self.select('circle')
             circle.attr('stroke-width', 1 / scale);
