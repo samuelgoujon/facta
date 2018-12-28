@@ -9,9 +9,10 @@ function renderChart(params) {
     marginBottom: 0,
     marginRight: 0,
     marginLeft: 0,
-    circleRadiusOrganizaion: 16,
+    circleRadiusOrganizaion: 13,
     circleRadiusPeople: 8,
-    circleRadiusGroup: 20,
+    circleRadiusGroup: 8,
+    iconSize: 20,
     container: 'body',
     defaultTextFill: '#2C3E50',
     defaultFont: 'Helvetica',
@@ -52,8 +53,7 @@ function renderChart(params) {
       calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
       calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin;
 
-      
-      let padding = 55, clusterPadding = 100;
+      let padding = 5, clusterPadding = 30, maxRadius = attrs.circleRadiusOrganizaion;
       let line = d3.line().curve(d3.curveCatmullRomClosed)
       let color = d3.scaleOrdinal(d3.schemeCategory10)
 
@@ -61,20 +61,31 @@ function renderChart(params) {
           .scaleExtent([0.1, 10])
           .on("zoom", zoomed)
 
+      let numOfClusters = attrs.data.nodes
+        .filter(x => x.group.length)
+        .map(x => x.group.trim())
+        .filter((d, i, arr) => arr.indexOf(d) === i)
+        .length;
+
       let clusters = {};
+
       attrs.data.nodes.forEach(d => {
-        let religion = religions.filter(x => x.name == d.religion);
-        const i = Math.floor(Math.random() * clusters.length)
-        d.radius = d.type == 'people' ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion
-        d.x = Math.cos(i / clusters.length * 2 * Math.PI) * 600 + calc.chartWidth / 2 + Math.random(),
-        d.y = Math.sin(i / clusters.length * 2 * Math.PI) * 600 + calc.chartHeight / 2 + Math.random()
-        d.clusters = getGroups(d)
+        const religion = religions.filter(x => x.name == d.religion);
+        const i = Math.floor(Math.random() * numOfClusters);
+
+        d.x = Math.cos(i / numOfClusters * 2 * Math.PI) * 300 + calc.chartWidth / 2 + Math.random();
+        d.y = Math.sin(i / numOfClusters * 2 * Math.PI) * 300 + calc.chartHeight / 2 + Math.random();
+
+        d.radius = d.type == 'people' ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion;
+        d.cluster = d.group;
         d.tag = religion.length ? 'image' : 'circle';
         d.isImage = religion.length ? true : false;
-        d.imagePath = religion.length ? 'img/' + religion[0].filename : null
-        d.clusters.forEach(cluster => {
-          if (!clusters[cluster] || (d.radius > clusters[cluster].radius)) clusters[cluster] = d;
-        })
+        d.imagePath = religion.length ? 'img/' + religion[0].filename : null;
+
+        // save the largest node in the clusters object
+        if (d.cluster != "" && (!clusters[d.cluster] || (d.radius > clusters[d.cluster].radius))) {
+          clusters[d.cluster] = d;
+        }
       });
 
       var nodes = attrs.data.nodes;
@@ -85,18 +96,9 @@ function renderChart(params) {
         links = [];
       }
 
-      function getGroups(d) {
-        if (!d.group.length) {
-          return []
-        }
-        return d.group.split(',').map(x => x.trim())
-      }
-
-      var simulation = d3.forceSimulation()
-          .alpha(0.3)
+      var simulation = d3.forceSimulation(nodes)
           .force("center", d3.forceCenter().x(calc.chartWidth / 2).y(calc.chartHeight / 2))
           .force('collide', d3.forceCollide(d => d.radius + padding))
-          .nodes(nodes)
           .on("tick", ticked);
  
       simulation.force("link", d3.forceLink().id(d => d.node).links(links));
@@ -141,7 +143,8 @@ function renderChart(params) {
         return node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
         .attr('text-anchor', 'middle')
         .attr('font-size', attrs.nodesFontSize)
-        .attr('dy', d => d.isImage ? attrs.circleRadiusPeople + 15 : d.radius + 15)
+        .attr('display', 'none')
+        .attr('dy', d => d.isImage ? attrs.iconSize + 15 : d.radius + 15)
         .text(d => d.node || d.group)
       }
 
@@ -162,9 +165,9 @@ function renderChart(params) {
           if (d.isImage) {
             that.append('image')
             .attr('href', d => d.imagePath)
-            .attr('width', attrs.circleRadiusPeople * 3)
-            .attr('height', attrs.circleRadiusPeople * 3)
-            .attr('transform', `translate(${-attrs.circleRadiusPeople * 3 / 2}, ${-attrs.circleRadiusPeople * 3 / 2})`)
+            .attr('width', attrs.iconSize)
+            .attr('height', attrs.iconSize)
+            .attr('transform', `translate(${-attrs.iconSize / 2}, ${-attrs.iconSize / 2})`)
             .classed('node-icon', true)
           } else {
             that.append('circle')
@@ -175,11 +178,11 @@ function renderChart(params) {
             .attr('class', d => `node-circle node-${d.type}`)
             .classed('node-icon', true)
             .attr('fill', d => {
-              if (d.clusters.length == 0) return '#ccc'
-              if (d.clusters.length == 1) {
-                return color(d.clusters[0])
+              if (d.cluster.length == 0) {
+                return '#ccc'
+              } else {
+                return color(d.cluster)
               }
-              return d3.interpolateRgb(color(d.clusters[0]), color(d.clusters[1]))(0.5)
             })
           }
 
@@ -210,11 +213,11 @@ function renderChart(params) {
           })
         return node;
       }
-
+      
       var hull = hullsGroup.patternify({ tag: 'path', selector: 'hull', data: Object.keys(clusters).map(c => {
           return {
             cluster: c,
-            nodes: node.filter(d => d.clusters.indexOf(c) > -1)
+            nodes: node.filter(d => d.cluster === c)
           };
         }) 
       })
@@ -244,13 +247,16 @@ function renderChart(params) {
       })
 
       function ticked() {
-        hull
+        if (attrs.mode == 'first') { 
+          hull
           .attr('d', d => line(d3.polygonHull(hullPoints(d.nodes))));
 
+          node
+            .each(cluster(0.2))
+            .each(collide(0.5))
+        }
 
         node
-          .each(cluster(0.1))
-          .each(collide(0.5))
           .attr('transform', d => `translate(${d.x}, ${d.y})`)
 
         link
@@ -276,6 +282,8 @@ function renderChart(params) {
             .transition()
             .duration(1000)
             .attr('opacity', 0.4)
+          
+          simulation.force("collide", d3.forceCollide().radius(d => d.radius + padding))
         } else {
           nodes = attrs.data.nodes.filter(x => {
             return (attrs.data.links.some(d => (typeof d.source === 'string' ? d.source : d.source.node) === x.node) 
@@ -296,11 +304,14 @@ function renderChart(params) {
           
           link
             .attr('opacity', 0)
+
+          simulation.force("collide", d3.forceCollide().radius(d => d.radius * 3 + padding))
         }
         
         simulation.nodes(nodes)
-          .force("link", d3.forceLink().id(d => d.node).links(links))
           .alpha(0.3)
+          .force("link", d3.forceLink().id(d => d.node).links(links))
+          
           .restart();
 
         node = addNode();
@@ -310,7 +321,7 @@ function renderChart(params) {
 
       function hullPoints(data) {
         let pointArr = [];
-        const padding = 5;
+        const padding = .5;
         data.each(d => {
           const pad = d.radius + padding;
           pointArr = pointArr.concat([
@@ -340,76 +351,56 @@ function renderChart(params) {
         d.fy = null;
       }
 
-      // drag groups
-      function group_dragstarted(groupId) {
-        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-        d3.select(this).select('path').style('stroke-width', 3);
-      }
-
-      function group_dragged(groupId) {
-        node
-          .filter(function(d) { return d.group == groupId; })
-          .each(function(d) {
-            d.x += d3.event.dx;
-            d.y += d3.event.dy;
-          })
-      }
-
-      function group_dragended(groupId) {
-        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-        d3.select(this).select('path').style('stroke-width', 1);
-      }
-
       function collide(alpha) {
-
         const quadtree = d3.quadtree()
           .x(function (d) { return d.x; })
           .y(function (d) { return d.y; })
           .extent([[0, 0], [calc.chartWidth, calc.chartHeight]])
-          .addAll(attrs.data.nodes);
+          .addAll(nodes);
 
         return function (d) {
-          let r = d.radius + (attrs.circleRadiusOrganizaion * 8) + Math.max(padding, clusterPadding),
+          let r = d.radius + (maxRadius * 8) + Math.max(padding, clusterPadding),
               nx1 = d.x - r,
               nx2 = d.x + r,
               ny1 = d.y - r,
               ny2 = d.y + r;
+
           quadtree.visit(function (quad, x1, y1, x2, y2) {
             let data = quad.data;
             if (data && data !== d) {
-              let x = d.x - data.x,
-                  y = d.y - data.y,
-                  l = Math.sqrt(x * x + y * y),
-                  r = d.radius + data.radius + (d.cluster == data.cluster ? padding : clusterPadding);
-              if (l < r) {
-                l = (l - r) / l * alpha;
-                d.x -= x *= l;
-                d.y -= y *= l;
-                data.x += x;
-                data.y += y;
-              }
+                let x = d.x - data.x,
+                    y = d.y - data.y,
+                    l = Math.sqrt(x * x + y * y),
+                    r = d.radius + data.radius + (d.cluster == data.cluster ? padding : clusterPadding);
+                if (l < r) {
+                  l = (l - r) / l * alpha;
+                  d.x -= x *= l;
+                  d.y -= y *= l;
+                  data.x += x;
+                  data.y += y;
+                }
             }
             return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
           });
         };
       }
 
+      // Move d to be adjacent to the cluster node.
       function cluster(alpha) {
-        return function (d) {
-          if (!d.clusters.length) return;
-            let cluster = clusters[d.clusters[0]];
-            if (cluster === d) return;
-            let x = d.x - cluster.x,
-                y = d.y - cluster.y,
-                l = Math.sqrt(x * x + y * y),
-                r = d.radius + cluster.radius + 3;
-            if (l != r) {
-              l = (l - r) / l * alpha;
-              d.x -= x *= l;
-              d.y -= y *= l;
-              cluster.x += x;
-              cluster.y += y;
-            }
+        return function(d) {
+          var cluster = clusters[d.cluster];
+          if (cluster === d) return;
+          var x = d.x - cluster.x,
+              y = d.y - cluster.y,
+              l = Math.sqrt(x * x + y * y),
+              r = d.radius + cluster.radius;
+          if (l != r) {
+            l = (l - r) / l * alpha;
+            d.x -= x *= l;
+            d.y -= y *= l;
+            cluster.x += x;
+            cluster.y += y;
+          }
         };
       }
 
@@ -421,7 +412,7 @@ function renderChart(params) {
       }
 
       function updateStylesOnZoom (scale) {
-        if (scale < 1) {
+        if (scale < 3) {
             texts.attr('display', 'none')
         }
         else {
@@ -431,7 +422,7 @@ function renderChart(params) {
         let fontSize = attrs.nodesFontSize / scale;
 
         texts
-            .attr('dy', d => d.isImage ? (attrs.circleRadiusPeople + 15) / scale : (d.radius + 15) / scale)
+            .attr('dy', d => d.isImage ? (attrs.iconSize + 15) / scale : (d.radius + 15) / scale)
             .attr('font-size', fontSize + 'px')
 
         link.attr('stroke-width', 1 / scale)
@@ -441,9 +432,9 @@ function renderChart(params) {
           if (d.isImage) {
             self
             .select('image')
-            .attr('width', attrs.circleRadiusPeople * 3 / scale)
-            .attr('height', attrs.circleRadiusPeople * 3 / scale)
-            .attr('transform', `translate(${-(attrs.circleRadiusPeople * 3 / scale) / 2}, ${-(attrs.circleRadiusPeople * 3 / scale) / 2})`)
+            .attr('width', attrs.iconSize / scale)
+            .attr('height', attrs.iconSize / scale)
+            .attr('transform', `translate(${-(attrs.iconSize / scale) / 2}, ${-(attrs.iconSize / scale) / 2})`)
           } else {
             let circle = self.select('circle')
             circle.attr('stroke-width', 1 / scale);
