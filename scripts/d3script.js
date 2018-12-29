@@ -73,8 +73,8 @@ function renderChart(params) {
         const religion = religions.filter(x => x.name == d.religion);
         const i = Math.floor(Math.random() * numOfClusters);
 
-        d.x = Math.cos(i / numOfClusters * 2 * Math.PI) * 300 + calc.chartWidth / 2 + Math.random();
-        d.y = Math.sin(i / numOfClusters * 2 * Math.PI) * 300 + calc.chartHeight / 2 + Math.random();
+        d.x = Math.cos(i / numOfClusters * 2 * Math.PI) * 500 + calc.chartWidth / 2 + Math.random() * 10;
+        d.y = Math.sin(i / numOfClusters * 2 * Math.PI) * 500 + calc.chartHeight / 2 + Math.random() * 10;
 
         d.radius = d.type == 'people' ? attrs.circleRadiusPeople : attrs.circleRadiusOrganizaion;
         d.cluster = d.group;
@@ -97,13 +97,13 @@ function renderChart(params) {
       }
 
       var simulation = d3.forceSimulation(nodes)
+          .alpha(0.3)
+          .alphaDecay(0.024)
           .force("center", d3.forceCenter().x(calc.chartWidth / 2).y(calc.chartHeight / 2))
-          .force('collide', d3.forceCollide(d => d.radius + padding))
+          .force('collide', d3.forceCollide(d => d.radius + padding).iterations(30))
           .on("tick", ticked);
  
       simulation.force("link", d3.forceLink().id(d => d.node).links(links));
-
-      simulation.restart();
 
       //Drawing containers
       var container = d3.select(this);
@@ -113,8 +113,8 @@ function renderChart(params) {
         .attr('width', attrs.svgWidth)
         .attr('height', attrs.svgHeight)
         .attr('font-family', attrs.defaultFont)
-        .call(zoom)
         .on("dblclick.zoom", null)
+        .call(zoom)
 
       //Add container g element
       var chart = svg.patternify({ tag: 'g', selector: 'chart' })
@@ -253,7 +253,7 @@ function renderChart(params) {
 
           node
             .each(cluster(0.2))
-            .each(collide(0.5))
+            .each(collide(0.2))
         }
 
         node
@@ -283,7 +283,7 @@ function renderChart(params) {
             .duration(1000)
             .attr('opacity', 0.4)
           
-          simulation.force("collide", d3.forceCollide().radius(d => d.radius + padding))
+          simulation.force("collide", d3.forceCollide().radius(d => d.radius + padding).iterations(20))
         } else {
           nodes = attrs.data.nodes.filter(x => {
             return (attrs.data.links.some(d => (typeof d.source === 'string' ? d.source : d.source.node) === x.node) 
@@ -299,6 +299,8 @@ function renderChart(params) {
           links = attrs.data.links;
 
           hull
+            .transition()
+            .duration(1000)
             .attr('fill-opacity', 0)
             .attr('opacity', 0)
           
@@ -311,7 +313,6 @@ function renderChart(params) {
         simulation.nodes(nodes)
           .alpha(0.3)
           .force("link", d3.forceLink().id(d => d.node).links(links))
-          
           .restart();
 
         node = addNode();
@@ -335,7 +336,7 @@ function renderChart(params) {
       }
 
       function dragstarted(d) {
-        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        if (!d3.event.active) simulation.alphaTarget(0.1).restart();
         d.fx = d.x;
         d.fy = d.y;
       }
