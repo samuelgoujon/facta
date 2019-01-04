@@ -37,7 +37,7 @@ circle.node-people {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: rgba(0,0,0,0.9);
     overflow-x: hidden;
     transition: 0.3s;
     padding-top: 60px;
