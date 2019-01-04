@@ -60,4 +60,3 @@ Promise.all([d3.csv("./data/nodes.csv"), d3.csv("./data/connections.csv")])
                     chart.toggle(self.attr('data-mode'))
                 })
        })
-     
