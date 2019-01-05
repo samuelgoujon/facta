@@ -102,7 +102,7 @@ function renderChart(params) {
           .force("center", d3.forceCenter().x(calc.chartWidth / 2).y(calc.chartHeight / 2))
           .force('collide', d3.forceCollide(d => d.radius + padding).iterations(30))
           .on("tick", ticked);
- 
+
       simulation.force("link", d3.forceLink().id(d => d.node).links(links));
 
       //Drawing containers
@@ -179,7 +179,7 @@ function renderChart(params) {
             .classed('node-icon', true)
             .attr('fill', d => {
               if (d.cluster.length == 0) {
-                return '#ccc'
+                return '#303030'
               } else {
                 return color(d.cluster)
               }
@@ -213,13 +213,13 @@ function renderChart(params) {
           })
         return node;
       }
-      
+
       var hull = hullsGroup.patternify({ tag: 'path', selector: 'hull', data: Object.keys(clusters).map(c => {
           return {
             cluster: c,
             nodes: node.filter(d => d.cluster === c)
           };
-        }) 
+        })
       })
       .attr("d", d => {
         return line(d3.polygonHull(hullPoints(d.nodes)))
@@ -247,7 +247,7 @@ function renderChart(params) {
       })
 
       function ticked() {
-        if (attrs.mode == 'first') { 
+        if (attrs.mode == 'first') {
           hull
           .attr('d', d => line(d3.polygonHull(hullPoints(d.nodes))));
 
@@ -277,19 +277,19 @@ function renderChart(params) {
             .duration(1000)
             .attr('fill-opacity', 0.3)
             .attr('opacity', 0.3)
-          
+
           link
             .transition()
             .duration(1000)
             .attr('opacity', 0.4)
-          
+
           simulation.force("collide", d3.forceCollide().radius(d => d.radius + padding).iterations(20))
         } else {
           nodes = attrs.data.nodes.filter(x => {
-            return (attrs.data.links.some(d => (typeof d.source === 'string' ? d.source : d.source.node) === x.node) 
+            return (attrs.data.links.some(d => (typeof d.source === 'string' ? d.source : d.source.node) === x.node)
                 || x.type === 'organization');
           }).map(x => {
-            return Object.assign(x, { 
+            return Object.assign(x, {
               x: null,
               y: null,
               vx: null,
@@ -303,13 +303,13 @@ function renderChart(params) {
             .duration(1000)
             .attr('fill-opacity', 0)
             .attr('opacity', 0)
-          
+
           link
             .attr('opacity', 0)
 
           simulation.force("collide", d3.forceCollide().radius(d => d.radius * 3 + padding))
         }
-        
+
         simulation.nodes(nodes)
           .alpha(0.3)
           .force("link", d3.forceLink().id(d => d.node).links(links))
@@ -441,7 +441,7 @@ function renderChart(params) {
             circle.attr('stroke-width', 1 / scale);
             circle.attr('r', d => d.radius / scale);
           }
-        }) 
+        })
     }
 
 

@@ -110,8 +110,8 @@ circle.node-people {
     padding: 20px 30px;
     border-radius: 15px;
     border-style: 1px;
-    background-color: #111;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     cursor: pointer;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;

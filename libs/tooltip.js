@@ -171,7 +171,7 @@ d3.componentsTooltip = function d3ComponentsTooltip(params) {
           .attr("x", attrs.leftMargin)
           .text(d => replaceWithProps(d.left, attrs.data))
           .attr("text-anchor", "start");
-        
+
         //row right texts
         rows
           .append("text")
@@ -246,13 +246,13 @@ d3.componentsTooltip = function d3ComponentsTooltip(params) {
                 halfArrowLength}  0   `;
 
         var strPath = `
-            M 0 0 
+            M 0 0
             ${leftArrowPos}
             L 0  ${height}
             ${bottomArrowPos}
-            L ${fullWidth} ${height} 
-            ${rightArrowPos} 
-            L ${fullWidth} 0 
+            L ${fullWidth} ${height}
+            ${rightArrowPos}
+            L ${fullWidth} 0
             ${topArrowPos}
             L 0 0 `;
 
@@ -371,4 +371,3 @@ d3.componentsTooltip = function d3ComponentsTooltip(params) {
 
   return main.run();
 };
-
