@@ -1,0 +1,137 @@
+body {
+    background-color: #fff;
+    margin: 0px;
+}
+
+svg {
+    background-color: #fff;
+    display: block;
+}
+
+svg.tooltip-shadow-wrapper-svg {
+    position: absolute;
+    text-align: center;
+    left: -300px;
+}
+
+.sidenav h1 {
+    margin-top: 0px;
+}
+
+.node-circle:hover {
+    cursor: pointer;
+}
+
+circle.node-organization {
+    stroke: #000;
+}
+
+circle.node-people {
+    stroke: black;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.9);
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.sidenav .item, .sidenav .closebtn {
+    padding: 15px 15px 15px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .subtitle {
+    color: #fff;
+    font-size: 18px;
+    padding-left: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sidenav .title {
+    color: #fff;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sidenav .item:hover, .sidenav .closebtn:hover {
+    color: #fff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 36px;
+}
+
+.sidenav a {
+    color: #fff;
+
+}
+
+#main {
+    transition: margin-right .3s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.toggle-button-container {
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+}
+
+.toggle-button {
+    padding: 20px 30px;
+    border-radius: 15px;
+    border-style: 1px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.toggle-button:hover {
+    color: #000;
+    background-color: #fff;
+    transition: all 0.3ms;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+nav.navbar-default {
+    background-color: white;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.navbar {
+    padding: 0 1rem;
+}
