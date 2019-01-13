@@ -123,14 +123,7 @@ circle.node-people {
 
 nav {
     background-color: white;
-    margin-bottom: 0px;
-    border-radius: 0px;
-    border: 0px;
     border-bottom: 1px solid rgba(0,0,0,0.25);
-}
-
-.navbar-nav>ul {
-  display: block;
 }
 
 .navbar-nav>li>a {
