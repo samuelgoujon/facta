@@ -13,10 +13,13 @@ function renderChart() {
     defaultFont: 'Helvetica',
     colors:  ["#B0E2A7","#19494D","#D0BAE8","#53B8C6","#B83D54","#7A4B29","#286C77","#0E112A","#866ECF","#80CB62","#3B8BB0","#DBDB94","#D6BA85","#B3CC66","#E4B6E7","#79D2AD","#BD6ACD","#DEB99C","#B4E6B3","#2D5986","#79ACD2","#B147C2","#B8853D","#799130","#2D3986"],
     data: null,
+    mode: 'first',
     openNav: d => d,
     closeNav: d => d
   };
-  
+
+  var toggle = null;
+
 	//Main chart object
 	var main = function() {
 		//Drawing containers
@@ -35,38 +38,53 @@ function renderChart() {
       .map(x => x.group.trim())
       .filter((d, i, arr) => arr.indexOf(d) === i);
 
-    var  padding = 1.5, // separation between same-color nodes
-      clusterPadding = 20, // separation between different-color nodes
-      maxRadius = 12;
-
-    var m = clusterNames.length;
-    var color = d3.scale.ordinal().range(attrs.colors).domain(d3.range(m));
-    // The largest node for each cluster.
-    var clusters = new Array(m);
+    var padding = 1.5, // separation between same-color nodes
+        clusterPadding = 20, // separation between different-color nodes
+        maxRadius = 12,
+        m = clusterNames.length,
+        color = d3.scale.ordinal().range(attrs.colors).domain(d3.range(m)),
+        clusters = new Array(m), // The largest node for each cluster.
+        nodes_first, links_first = [],
+        nodes_second, links_second;
 
     let zoom = d3.behavior.zoom()
-          .scaleExtent([0.1, 10])
-          .on("zoom", zoomed)
+      .scaleExtent([0.1, 10])
+      .on("zoom", zoomed)
 
-    var nodes = attrs.data.nodes.map(function(x) {
-      if (!x.group.trim().length) return;
-      var i = clusterNames.indexOf(x.group);
-      var r = Math.sqrt((i + 1) / m * -Math.log(Math.random())) * maxRadius,
-          d = Object.assign(x, {cluster: i, radius: r});
-      if (!clusters[i] || (r > clusters[i].radius)) clusters[i] = d;
-      return d;
-    }).filter(x => x);
+    nodes_first = attrs.data.nodes.filter(d => d.type !== 'organization')
+      .map(function(x) {
+        if (!x.group.trim().length) return;
+        var i = clusterNames.indexOf(x.group);
+        var r = Math.sqrt((i + 1) / m * -Math.log(Math.random())) * maxRadius,
+            d = Object.assign(x, {cluster: i, radius: r});
+        if (!clusters[i] || (r > clusters[i].radius)) clusters[i] = d;
+        return d;
+      }).filter(x => x);
 
+    nodes_second = attrs.data.nodes.filter(x => {
+      return (attrs.data.links.some(d => (typeof d.source === 'string' ? d.source : d.source.node) === x.node)
+          || x.type === 'organization');
+    });
+
+    links_second = attrs.data.links.map(x => {
+      return {
+        source: attrs.data.nodes.filter(d => d.node === x.source)[0],
+        target: attrs.data.nodes.filter(d => d.node === x.target)[0],
+        type: x.type
+      }
+    })
+    
     // Use the pack layout to initialize node positions.
     d3.layout.pack()
       .sort(null)
       .size([calc.chartWidth, calc.chartHeight])
       .children(function(d) { return d.values; })
       .value(function(d) { return d.radius * d.radius; })
-      .nodes({values: d3.nest().key(function(d) { return d.cluster; }).entries(nodes)});
+      .nodes({values: d3.nest().key(function(d) { return d.cluster; }).entries(nodes_first)});
 
     var force = d3.layout.force()
-      .nodes(nodes)
+      .nodes(getNodes())
+      .links(getLinks())
       .size([calc.chartWidth, calc.chartHeight])
       .gravity(.02)
       .charge(0)
@@ -86,34 +104,43 @@ function renderChart() {
 		var chart = svg
 			.patternify({ tag: 'g', selector: 'chart' })
       .attr('transform', 'translate(' + calc.chartLeftMargin + ',' + calc.chartTopMargin + ')');
-      
-    var node = chart.patternify({ tag: 'circle', selector: 'node-circle', data: nodes })
-      .style("fill", function(d) { return color(d.cluster); })
-      .on('click', function(d) {
-        if (d.clicked) {
-          d.clicked = false
-          attrs.closeNav(d)
-        } else {
-          d.clicked = true
-          attrs.openNav(d)
-        }
-      })
-      .call(force.drag);
+    
+    var linksGroup = chart.patternify({ tag: 'g', selector: 'links' });
+    var nodesGroup = chart.patternify({ tag: 'g', selector: 'nodes' });
+    
+    var node = addNodes();
+    var link = addLinks();
 
-    node.transition()
-      .duration(750)
-      .delay(function(d, i) { return i * 5; })
-      .attrTween("r", function(d) {
-        var i = d3.interpolate(0, d.radius);
-        return function(t) { return d.radius = i(t); };
-      });
+    toggle = function (mode) {
+      attrs.mode = mode;
+
+      node = addNodes();
+      link = addLinks();
+
+      force.stop();
+
+      force.nodes(getNodes())
+        .links(getLinks())
+        .linkDistance(250)
+        .linkStrength(0.3)
+        .start();
+    }
 
     function tick(e) {
+      if (attrs.mode === 'first') {
         node
-            .each(cluster(10 * e.alpha * e.alpha))
-            .each(collide(.5))
-            .attr("cx", function(d) { return d.x; })
-            .attr("cy", function(d) { return d.y; });
+          .each(cluster(10 * e.alpha * e.alpha))
+          .each(collide(.5))
+      }
+
+      node.attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+
+      link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
     }
 
     //Zoom functions
@@ -121,6 +148,49 @@ function renderChart() {
       chart.attr("transform", "translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
       // currentScale = d3.event.transform.k;
       // updateStylesOnZoom(currentScale);
+    }
+
+    function getNodes () {
+      return attrs.mode === 'first' ? nodes_first : nodes_second;
+    }
+
+    function getLinks () {
+      return attrs.mode === 'first' ? links_first : links_second;
+    }
+
+    function addLinks () {
+      return linksGroup.html("").patternify({ tag: 'line', selector: 'link', data: getLinks() })
+        .attr("stroke-width", 1)
+        .attr("stroke", '#666')
+        .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
+    }
+
+    function addNodes () {
+      var nd = nodesGroup.html("").patternify({ tag: 'circle', selector: 'node-circle', data: getNodes() })
+        .style("fill", function(d) { return color(d.cluster); })
+        .on('click', function(d) {
+          if (d.clicked) {
+            d.clicked = false
+            attrs.closeNav(d)
+          } else {
+            d.clicked = true
+            attrs.openNav(d)
+          }
+        })
+      
+      if (attrs.mode === 'first') {
+        nd.transition()
+          .duration(750)
+          .delay(function(d, i) { return i * 5; })
+          .attrTween("r", function(d) {
+            var i = d3.interpolate(0, d.radius);
+            return function(t) { return d.radius = i(t); };
+          });
+        } else {
+          nd.attr("r", d => d.radius)  
+        }
+
+      return nd;
     }
 
     // Move d to be adjacent to the cluster node.
@@ -144,7 +214,7 @@ function renderChart() {
 
     // Resolves collisions between d and all other circles.
     function collide(alpha) {
-      var quadtree = d3.geom.quadtree(nodes);
+      var quadtree = d3.geom.quadtree(getNodes());
       return function(d) {
         var r = d.radius + maxRadius + Math.max(padding, clusterPadding),
             nx1 = d.x - r,
@@ -214,7 +284,14 @@ function renderChart() {
 	});
 
 	//Set attrs as property
-	main.attrs = attrs;
+  main.attrs = attrs;
+  
+  main.toggle = function (mode) {
+    if (typeof toggle === 'function') {
+      toggle(mode);
+    }
+    return main;
+  }
 
 	//Exposed update functions
 	main.data = function(value) {

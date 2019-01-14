@@ -45,7 +45,6 @@ d3.queue()
         .container('#myGraph')
         .openNav(openNav)
         .closeNav(closeNav)
-        // .mode('first')
         .data({
             nodes: nodes,
             links: links
