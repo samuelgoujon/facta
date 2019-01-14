@@ -44,6 +44,10 @@ function renderChart() {
     // The largest node for each cluster.
     var clusters = new Array(m);
 
+    let zoom = d3.behavior.zoom()
+          .scaleExtent([0.1, 10])
+          .on("zoom", zoomed)
+
     var nodes = attrs.data.nodes.map(function(x) {
       if (!x.group.trim().length) return;
       var i = clusterNames.indexOf(x.group);
@@ -74,7 +78,9 @@ function renderChart() {
 			.patternify({ tag: 'svg', selector: 'svg-chart-container' })
 			.attr('width', attrs.svgWidth)
 			.attr('height', attrs.svgHeight)
-			.attr('font-family', attrs.defaultFont);
+      .attr('font-family', attrs.defaultFont)
+        .on("dblclick.zoom", null)
+        .call(zoom);
 
 		//Add container g element
 		var chart = svg
@@ -103,11 +109,18 @@ function renderChart() {
       });
 
     function tick(e) {
-      node
-          .each(cluster(10 * e.alpha * e.alpha))
-          .each(collide(.5))
-          .attr("cx", function(d) { return d.x; })
-          .attr("cy", function(d) { return d.y; });
+        node
+            .each(cluster(10 * e.alpha * e.alpha))
+            .each(collide(.5))
+            .attr("cx", function(d) { return d.x; })
+            .attr("cy", function(d) { return d.y; });
+    }
+
+    //Zoom functions
+    function zoomed () {
+      chart.attr("transform", "translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
+      // currentScale = d3.event.transform.k;
+      // updateStylesOnZoom(currentScale);
     }
 
     // Move d to be adjacent to the cluster node.
@@ -162,7 +175,7 @@ function renderChart() {
   d3.select(window).on('resize.' + attrs.id, function() {
     var containerRect = d3.select(attrs.container).node().getBoundingClientRect();
     if (containerRect.width > 0) attrs.svgWidth = containerRect.width;
-    main();
+    d3.select(attrs.container).select('.svg-chart-container').attr('width', attrs.svgWidth);
   });
 
 	//----------- PROTOTYPE FUNCTIONS  ----------------------
