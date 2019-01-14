@@ -12,7 +12,9 @@ function renderChart() {
 		defaultTextFill: '#2C3E50',
     defaultFont: 'Helvetica',
     colors:  ["#B0E2A7","#19494D","#D0BAE8","#53B8C6","#B83D54","#7A4B29","#286C77","#0E112A","#866ECF","#80CB62","#3B8BB0","#DBDB94","#D6BA85","#B3CC66","#E4B6E7","#79D2AD","#BD6ACD","#DEB99C","#B4E6B3","#2D5986","#79ACD2","#B147C2","#B8853D","#799130","#2D3986"],
-		data: null
+    data: null,
+    openNav: d => d,
+    closeNav: d => d
   };
   
 	//Main chart object
@@ -46,7 +48,7 @@ function renderChart() {
       if (!x.group.trim().length) return;
       var i = clusterNames.indexOf(x.group);
       var r = Math.sqrt((i + 1) / m * -Math.log(Math.random())) * maxRadius,
-          d = {cluster: i, radius: r};
+          d = Object.assign(x, {cluster: i, radius: r});
       if (!clusters[i] || (r > clusters[i].radius)) clusters[i] = d;
       return d;
     }).filter(x => x);
@@ -81,6 +83,15 @@ function renderChart() {
       
     var node = chart.patternify({ tag: 'circle', selector: 'node-circle', data: nodes })
       .style("fill", function(d) { return color(d.cluster); })
+      .on('click', function(d) {
+        if (d.clicked) {
+          d.clicked = false
+          attrs.closeNav(d)
+        } else {
+          d.clicked = true
+          attrs.openNav(d)
+        }
+      })
       .call(force.drag);
 
     node.transition()

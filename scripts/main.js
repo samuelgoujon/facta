@@ -43,8 +43,8 @@ d3.queue()
         .svgHeight(window.innerHeight - 60)
         .svgWidth(document.getElementById('myGraph').getBoundingClientRect().width)
         .container('#myGraph')
-        // .openNav(openNav)
-        // .closeNav(closeNav)
+        .openNav(openNav)
+        .closeNav(closeNav)
         // .mode('first')
         .data({
             nodes: nodes,
