@@ -8,7 +8,9 @@ function renderChart() {
 		marginBottom: 5,
 		marginRight: 5,
 		marginLeft: 5,
-		container: 'body',
+    container: 'body',
+    radius_org: 13,
+    radius_people: 8,
 		defaultTextFill: '#2C3E50',
     defaultFont: 'Helvetica',
     colors:  ["#B0E2A7","#19494D","#D0BAE8","#53B8C6","#B83D54","#7A4B29","#286C77","#0E112A","#866ECF","#80CB62","#3B8BB0","#DBDB94","#D6BA85","#B3CC66","#E4B6E7","#79D2AD","#BD6ACD","#DEB99C","#B4E6B3","#2D5986","#79ACD2","#B147C2","#B8853D","#799130","#2D3986"],
@@ -40,7 +42,7 @@ function renderChart() {
 
     var padding = 1.5, // separation between same-color nodes
         clusterPadding = 20, // separation between different-color nodes
-        maxRadius = 12,
+        maxRadius = attrs.radius_org,
         m = clusterNames.length,
         color = d3.scale.ordinal().range(attrs.colors).domain(d3.range(m)),
         clusters = new Array(m), // The largest node for each cluster.
@@ -56,14 +58,16 @@ function renderChart() {
         if (!x.group.trim().length) return;
         var i = clusterNames.indexOf(x.group);
         var r = Math.sqrt((i + 1) / m * -Math.log(Math.random())) * maxRadius,
-            d = Object.assign(x, {cluster: i, radius: r});
+            d = Object.assign(x, {cluster: i, radius: attrs.radius_people});
         if (!clusters[i] || (r > clusters[i].radius)) clusters[i] = d;
         return d;
       }).filter(x => x);
 
     nodes_second = attrs.data.nodes.filter(x => {
-      return (attrs.data.links.some(d => (typeof d.source === 'string' ? d.source : d.source.node) === x.node)
-          || x.type === 'organization');
+      return (attrs.data.links.some(d => d.source === x.node || d.target === x.node));
+    }).map(d => {
+      d.radius = d.type === 'organization' ? attrs.radius_org : attrs.radius_people
+      return d;
     });
 
     links_second = attrs.data.links.map(x => {
@@ -121,8 +125,6 @@ function renderChart() {
 
       force.nodes(getNodes())
         .links(getLinks())
-        .linkDistance(250)
-        .linkStrength(0.3)
         .start();
     }
 
