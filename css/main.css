@@ -122,16 +122,24 @@ circle.node-people {
 }
 
 nav {
-    background-color: white;
     border-bottom: 1px solid rgba(0,0,0,0.25);
+    background-color: #fff;
+
+}
+/*
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}*/
+
+.navbar-brand {
+    font-size: 0;
 }
 
-.navbar-nav>li>a {
-    color: black;
+.nav-link {
     font-family: 'Oswald', sans-serif;
 }
 
-.navbar-nav>li>a:hover {
+.nav-link:hover {
     background-color: rgba(0, 0, 0, 0.1);
-    text-decoration: none;
 }
