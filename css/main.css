@@ -145,3 +145,8 @@ ul.navbar-nav li a {
 .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+.navbar-toggler {
+    font-size: 1rem;
+    padding: .1rem .4rem;
+}
