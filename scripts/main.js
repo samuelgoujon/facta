@@ -36,7 +36,7 @@ function closeNav() {
 }
 
 d3.queue()
-.defer(d3.csv, "./data/nodes.csv")
+.defer(d3.csv, "./data/nodes_2.csv")
 .defer(d3.csv, "./data/connections.csv")
 .await(function (error, nodes, links) {
     var chart = renderChart()

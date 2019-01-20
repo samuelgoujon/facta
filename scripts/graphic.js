@@ -72,7 +72,14 @@ function renderChart() {
 
     let zoom = d3.behavior.zoom()
       .scaleExtent([0.5, 10])
-      .on("zoom", zoomed)
+      .on("zoom", zoomed);
+
+    var pack = d3.layout.pack()
+      .size([calc.chartWidth, calc.chartHeight])
+      .padding(d => {
+        return d.subcluster ? 5 : 10;
+      })
+      .value(d => d.radius);
 
     attrs.data.nodes.forEach(d => {
       var religion = religions.filter(x => x.name == d.religion);
@@ -112,16 +119,27 @@ function renderChart() {
       }
     }).filter(x => x.source != null && x.target != null)
 
+    var areas = d3.nest().key(function(d) { return d.area; }).entries(nodes_first).map(x => {
+      return {
+        name: x.key,
+        children: d3.nest().key(function(d) { return d.cluster; }).entries(x.values).map(d => {
+          return {
+            area: x.key,
+            subcluster: true,
+            name: d.key,
+            children: d.values
+          }
+        })
+      }
+    });
+    var areaNames = areas.map(x => x.name);
+    
     if (attrs.mode == 'first') {
-      // Use the pack layout to initialize node positions.
-      d3.layout.pack()
-        .sort(null)
-        .size([calc.chartWidth, calc.chartHeight])
-        .children(function(d) { return d.values; })
-        .value(function(d) { return d.radius * d.radius; })
-        .nodes({values: d3.nest().key(function(d) { return d.cluster; }).entries(nodes_first)});
+      pack.nodes({
+        children: areas
+      });
     }
-
+    
     var force = d3.layout.force()
       .nodes(getNodes())
       .links(getLinks())
@@ -134,7 +152,7 @@ function renderChart() {
         .charge(0)
     }
 
-    force.start();
+    // force.start();
 
 		//Add svg
 		var svg = container
@@ -155,6 +173,10 @@ function renderChart() {
     var node = addNodes();
     var link = addLinks();
     var texts = addTexts();
+    
+    node.attr("transform", function(d) { 
+      return "translate(" + d.x + "," + d.y + ")"; 
+    })
 
     toggle = function (mode) {
       attrs.mode = mode;
@@ -182,19 +204,22 @@ function renderChart() {
 
     function tick(e) {
       if (attrs.mode === 'first') {
-        node
-          .each(cluster(10 * e.alpha * e.alpha))
-          .each(collide(.5))
+        areaNames.forEach(area => {
+          d3
+            .selectAll('[data-area="' + area + '"]')
+            .each(cluster(10 * e.alpha * e.alpha))
+            .each(collide(.5))
+        });
       } else {
         node
-        .each(collide(.5))
-        .each(function(d, i) {
-          var angle = i * (Math.PI * 2) / organizations.length;
-          if (d.type === 'organization') {
-            d.x = Math.cos(angle) * calc.chartHeight / 3 + calc.chartWidth / 2;
-            d.y = Math.sin(angle) * calc.chartHeight / 3 + calc.chartHeight / 2;
-          }
-        }) 
+          .each(collide(.5))
+          .each(function(d, i) {
+            var angle = i * (Math.PI * 2) / organizations.length;
+            if (d.type === 'organization') {
+              d.x = Math.cos(angle) * calc.chartHeight / 3 + calc.chartWidth / 2;
+              d.y = Math.sin(angle) * calc.chartHeight / 3 + calc.chartHeight / 2;
+            }
+          }) 
       }
 
       node.attr("transform", function(d) { 
@@ -242,6 +267,7 @@ function renderChart() {
     function addNodes () {
       var node = nodesGroup.html("").patternify({ tag: 'g', selector: 'node', data: getNodes() })
           .attr('data-group', d => d.group)
+          .attr('data-area', d => d.area)
           // .call(force.drag)
           //   .on("mousedown", function() { d3.event.stopPropagation(); });
 
