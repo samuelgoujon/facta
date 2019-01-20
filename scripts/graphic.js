@@ -55,12 +55,13 @@ function renderChart() {
 		calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
 		calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin;
     
+    var strokeWidth = 0.5;
     var clusterNames = attrs.data.nodes
       .filter(x => x.group.length)
       .map(x => x.group.trim())
       .filter((d, i, arr) => arr.indexOf(d) === i);
 
-    var padding = 1.5, // separation between same-color nodes
+    var padding = 1.5 + strokeWidth, // separation between same-color nodes
         clusterPadding = 20, // separation between different-color nodes
         maxRadius = attrs.radius_org,
         m = clusterNames.length,
@@ -70,7 +71,7 @@ function renderChart() {
         nodes_second, links_second;
 
     let zoom = d3.behavior.zoom()
-      .scaleExtent([0.1, 10])
+      .scaleExtent([0.5, 10])
       .on("zoom", zoomed)
 
     attrs.data.nodes.forEach(d => {
@@ -241,8 +242,8 @@ function renderChart() {
     function addNodes () {
       var node = nodesGroup.html("").patternify({ tag: 'g', selector: 'node', data: getNodes() })
           .attr('data-group', d => d.group)
-          .call(force.drag)
-            .on("mousedown", function() { d3.event.stopPropagation(); });
+          // .call(force.drag)
+          //   .on("mousedown", function() { d3.event.stopPropagation(); });
 
       var nd = node.patternify({ tag: 'circle', selector: 'node-circle', data: d => [d] })
         .style("fill", function(d) { 
@@ -251,6 +252,8 @@ function renderChart() {
           }
           return color(d.cluster); 
         })
+        .attr("stroke-width", strokeWidth)
+        .attr("stroke", '#666')
         .on('click', function(d) {
           if (d.clicked) {
             d.clicked = false
@@ -259,6 +262,12 @@ function renderChart() {
             d.clicked = true
             attrs.openNav(d)
           }
+        })
+        .on('mouseover', function (d) {
+          d3.select(this).attr('stroke-width', (strokeWidth + 1) / currentScale);
+        })
+        .on('mouseout', function () {
+          d3.select(this).attr('stroke-width', strokeWidth / currentScale);
         })
 
       node.filter(x => x.isImage)
@@ -271,7 +280,7 @@ function renderChart() {
             .attr('height', d => d.radius * 1.8)
             .attr('transform', d => `translate(${-(d.radius * 1.8) / 2}, ${-(d.radius * 1.8) / 2})`)
             .classed('node-icon', true)
-
+            .attr('pointer-events', 'none')
         })
       
       if (attrs.mode === 'first') {
@@ -314,7 +323,7 @@ function renderChart() {
           .attr('height', d => d.radius * 1.8 / scale)
           .attr('transform', d => `translate(${-(d.radius * 1.8 / scale) / 2}, ${-(d.radius * 1.8 / scale) / 2})`)
           
-        circle.attr('stroke-width', 1 / scale);
+        circle.attr('stroke-width', strokeWidth / scale);
         circle.attr('r', d => d.radius / scale);
       })
     }

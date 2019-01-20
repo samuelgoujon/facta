@@ -74,7 +74,7 @@ circle.node-people {
 
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
+    top: 35px;
     right: 5px;
     font-size: 36px;
 }
