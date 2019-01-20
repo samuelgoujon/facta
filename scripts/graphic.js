@@ -12,6 +12,7 @@ function renderChart() {
     radius_org: 13,
     radius_people: 8,
     iconSize: 20,
+    nodesFontSize: 9,
 		defaultTextFill: '#2C3E50',
     defaultFont: 'Helvetica',
     color_org: '#ccc',
@@ -41,6 +42,8 @@ function renderChart() {
 
 	//Main chart object
 	var main = function() {
+    let currentScale = 1;
+
 		//Drawing containers
 		var container = d3.select(attrs.container);
 
@@ -52,12 +55,13 @@ function renderChart() {
 		calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
 		calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin;
     
+    var strokeWidth = 0.5;
     var clusterNames = attrs.data.nodes
       .filter(x => x.group.length)
       .map(x => x.group.trim())
       .filter((d, i, arr) => arr.indexOf(d) === i);
 
-    var padding = 1.5, // separation between same-color nodes
+    var padding = 1.5 + strokeWidth, // separation between same-color nodes
         clusterPadding = 20, // separation between different-color nodes
         maxRadius = attrs.radius_org,
         m = clusterNames.length,
@@ -67,7 +71,7 @@ function renderChart() {
         nodes_second, links_second;
 
     let zoom = d3.behavior.zoom()
-      .scaleExtent([0.1, 10])
+      .scaleExtent([0.5, 10])
       .on("zoom", zoomed)
 
     attrs.data.nodes.forEach(d => {
@@ -75,19 +79,19 @@ function renderChart() {
       d.tag = religion.length ? 'image' : 'circle';
       d.isImage = religion.length ? true : false;
       d.imagePath = religion.length ? 'img/' + religion[0].filename : null;
+      d.radius = d.type === 'organization' ? attrs.radius_org : attrs.radius_people;
     });
 
     nodes_first = attrs.data.nodes.filter(d => d.type !== 'organization')
       .map(function(x) {
         if (!x.group.trim().length) return;
         var i = clusterNames.indexOf(x.group);
-        var r = Math.sqrt((i + 1) / m * -Math.log(Math.random())) * maxRadius,
-            d = Object.assign(x, {
+        var d = Object.assign(x, {
               cluster: i, 
               radius: attrs.radius_people,
             });
 
-        if (!clusters[i] || (r > clusters[i].radius)) clusters[i] = d;
+        if (!clusters[i] || (d.radius > clusters[i].radius)) clusters[i] = d;
           return d;
         }).filter(x => x);
     
@@ -95,14 +99,6 @@ function renderChart() {
 
     nodes_second = attrs.data.nodes.filter(x => {
       return (attrs.data.links.some(d => d.source === x.node || d.target === x.node));
-    }).map((d, i) => {
-      var angle = i * (Math.PI * 2) / organizations.length;
-      d.radius = d.type === 'organization' ? attrs.radius_org : attrs.radius_people;
-      if (d.type === 'organization') {
-        d.x = Math.cos(angle) * calc.chartWidth / 3 + calc.chartWidth / 2;
-        d.y = Math.sin(angle) * calc.chartWidth / 3 + calc.chartHeight / 2;
-      }
-      return d;
     });
 
     links_second = attrs.data.links.map(x => {
@@ -158,6 +154,7 @@ function renderChart() {
     
     var node = addNodes();
     var link = addLinks();
+    var texts = addTexts();
 
     toggle = function (mode) {
       attrs.mode = mode;
@@ -173,9 +170,6 @@ function renderChart() {
           .charge(0)
       } else {
         force
-          .linkDistance(function () {
-            return Math.random() * 50 + 30
-          })
           .gravity(0.1)
           .charge(-30)
       }
@@ -183,6 +177,7 @@ function renderChart() {
 
       node = addNodes();
       link = addLinks();
+      texts = addTexts();
     }
 
     function tick(e) {
@@ -191,7 +186,15 @@ function renderChart() {
           .each(cluster(10 * e.alpha * e.alpha))
           .each(collide(.5))
       } else {
-        node.each(collide(.5)) 
+        node
+        .each(collide(.5))
+        .each(function(d, i) {
+          var angle = i * (Math.PI * 2) / organizations.length;
+          if (d.type === 'organization') {
+            d.x = Math.cos(angle) * calc.chartHeight / 3 + calc.chartWidth / 2;
+            d.y = Math.sin(angle) * calc.chartHeight / 3 + calc.chartHeight / 2;
+          }
+        }) 
       }
 
       node.attr("transform", function(d) { 
@@ -208,8 +211,8 @@ function renderChart() {
     //Zoom functions
     function zoomed () {
       chart.attr("transform", "translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
-      // currentScale = d3.event.transform.k;
-      // updateStylesOnZoom(currentScale);
+      currentScale = d3.event.scale;
+      updateStylesOnZoom(currentScale);
     }
 
     function getNodes () {
@@ -218,6 +221,15 @@ function renderChart() {
 
     function getLinks () {
       return attrs.mode === 'first' ? links_first : links_second;
+    }
+
+    function addTexts() {
+      return node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
+        .attr('text-anchor', 'middle')
+        .attr('display', 'none')
+        .attr('font-size', attrs.nodesFontSize + 'px')
+        .attr('dy', d => d.isImage ? attrs.iconSize + 15 : d.radius + 15)
+        .text(d => d.node || d.group)
     }
 
     function addLinks () {
@@ -229,7 +241,9 @@ function renderChart() {
 
     function addNodes () {
       var node = nodesGroup.html("").patternify({ tag: 'g', selector: 'node', data: getNodes() })
-          .attr('data-group', d => d.group);
+          .attr('data-group', d => d.group)
+          // .call(force.drag)
+          //   .on("mousedown", function() { d3.event.stopPropagation(); });
 
       var nd = node.patternify({ tag: 'circle', selector: 'node-circle', data: d => [d] })
         .style("fill", function(d) { 
@@ -238,6 +252,8 @@ function renderChart() {
           }
           return color(d.cluster); 
         })
+        .attr("stroke-width", strokeWidth)
+        .attr("stroke", '#666')
         .on('click', function(d) {
           if (d.clicked) {
             d.clicked = false
@@ -246,6 +262,12 @@ function renderChart() {
             d.clicked = true
             attrs.openNav(d)
           }
+        })
+        .on('mouseover', function (d) {
+          d3.select(this).attr('stroke-width', (strokeWidth + 1) / currentScale);
+        })
+        .on('mouseout', function () {
+          d3.select(this).attr('stroke-width', strokeWidth / currentScale);
         })
 
       node.filter(x => x.isImage)
@@ -258,7 +280,7 @@ function renderChart() {
             .attr('height', d => d.radius * 1.8)
             .attr('transform', d => `translate(${-(d.radius * 1.8) / 2}, ${-(d.radius * 1.8) / 2})`)
             .classed('node-icon', true)
-
+            .attr('pointer-events', 'none')
         })
       
       if (attrs.mode === 'first') {
@@ -273,6 +295,37 @@ function renderChart() {
       }
 
       return node;
+    }
+
+    function updateStylesOnZoom (scale) {
+      if (scale < 3) {
+          texts.attr('display', 'none')
+      }
+      else {
+          texts.attr('display', null)
+      }
+
+      let fontSize = attrs.nodesFontSize / scale;
+
+      texts
+          .attr('dy', d => d.isImage ? (d.radius * 1.8 + 15) / scale : (d.radius + 15) / scale)
+          .attr('font-size', fontSize + 'px')
+
+      link.attr('stroke-width', 1 / scale)
+
+      node.each(function (d) {
+        let self = d3.select(this);
+        let circle = self.select('circle')
+
+        self
+          .select('image')
+          .attr('width', d => d.radius * 1.8 / scale)
+          .attr('height', d => d.radius * 1.8 / scale)
+          .attr('transform', d => `translate(${-(d.radius * 1.8 / scale) / 2}, ${-(d.radius * 1.8 / scale) / 2})`)
+          
+        circle.attr('stroke-width', strokeWidth / scale);
+        circle.attr('r', d => d.radius / scale);
+      })
     }
 
     // Move d to be adjacent to the cluster node.
