@@ -44,6 +44,7 @@ function renderChart() {
 	//Main chart object
 	var main = function() {
     let currentScale = 1;
+    let currentZoom = [0, 0];
 
 		//Drawing containers
 		var container = d3.select(attrs.container);
@@ -125,8 +126,6 @@ function renderChart() {
       };
     });
 
-
-    console.log(areaNames)
     if (attrs.mode == 'first') {
       // Use the pack layout to initialize node positions.
       d3.layout.pack()
@@ -179,11 +178,13 @@ function renderChart() {
       force.nodes(getNodes())
         .links(getLinks())
 
-      if (attrs.mode == 'first') {
+      if (attrs.mode === 'first') {
+        translateTo(currentZoom[0], currentZoom[1]);
         force
           .gravity(.02)
           .charge(0)
       } else {
+        translateTo(attrs.marginLeft, attrs.marginTop);
         force
           .gravity(0.1)
           .charge(-30)
@@ -195,16 +196,21 @@ function renderChart() {
       texts = addTexts();
     }
 
-    function panTo(x, y) {
-      if (attrs.mode === 'first') {
-        var translateX = calc.chartWidth / 2 - x;
-        var translateY = calc.chartHeight / 2 - y;
+    function translateTo(x, y) {
+      chart
+        .transition()
+        .duration(1000)
+        .attr("transform", "translate(" + x + "," + y + ") scale(" + currentScale + ")");
 
-        chart
-          .transition()
-          .duration(1000)
-          .attr("transform", "translate(" + translateX + "," + translateY + ") scale(" + currentScale + ")");
-      }
+      zoom.translate([x, y]);
+    }
+
+    function panTo(x, y) {
+      var translateX = calc.chartWidth / 2 - x;
+      var translateY = calc.chartHeight / 2 - y;
+
+      currentZoom = [translateX, translateY];
+      translateTo(translateX, translateY);
     }
 
     zoomToArea = function (area) {
@@ -295,6 +301,7 @@ function renderChart() {
           }
           return color(d.cluster); 
         })
+        .attr("r", d => d.radius)
         .attr("stroke-width", strokeWidth)
         .attr("stroke", '#666')
         .on('click', function(d) {
@@ -326,16 +333,16 @@ function renderChart() {
             .attr('pointer-events', 'none')
         })
       
-      if (attrs.mode === 'first') {
-        chart.selectAll('circle.node-circle').transition()
-          .duration(750)
-          .attrTween("r", function(d) {
-            var i = d3.interpolate(0, d.radius);
-            return function(t) { return d.radius = i(t); };
-          });
-      } else {
-        nd.attr("r", d => d.radius)  
-      }
+      // if (attrs.mode === 'first') {
+      //   chart.selectAll('circle.node-circle').transition()
+      //     .duration(750)
+      //     .attrTween("r", function(d) {
+      //       var i = d3.interpolate(0, d.radius);
+      //       return function(t) { return d.radius = i(t); };
+      //     });
+      // } else {
+      //   nd.attr("r", d => d.radius)  
+      // }
 
       return node;
     }

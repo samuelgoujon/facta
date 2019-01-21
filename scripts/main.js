@@ -71,4 +71,11 @@ d3.queue()
             d3.select(this.parentElement).classed('active', true);
             chart.zoomToArea(area);
         })
+
+    var area = d3.select('.top-buttons')
+        .select('li.active')
+        .select('.area-link')
+        .attr('data-area');
+        
+    chart.zoomToArea(area);
 })
