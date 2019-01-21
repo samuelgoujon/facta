@@ -148,5 +148,6 @@ ul.navbar-nav li a {
 
 .navbar-toggler {
     font-size: 1rem;
-    padding: .1rem .4rem;
+    padding: .65rem .4rem;
+    border: none;
 }
