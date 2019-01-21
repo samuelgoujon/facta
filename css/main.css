@@ -89,6 +89,10 @@ circle.node-people {
     padding: 16px;
 }
 
+#myGraph {
+    padding-top: 47.5px;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
