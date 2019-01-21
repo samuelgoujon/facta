@@ -36,11 +36,11 @@ function closeNav() {
 }
 
 d3.queue()
-.defer(d3.csv, "./data/nodes.csv")
+.defer(d3.csv, "./data/nodes_2.csv")
 .defer(d3.csv, "./data/connections.csv")
 .await(function (error, nodes, links) {
     var chart = renderChart()
-        .svgHeight(window.innerHeight - 60)
+        .svgHeight(window.innerHeight - 47.5)
         .svgWidth(document.getElementById('myGraph').getBoundingClientRect().width)
         .container('#myGraph')
         .openNav(openNav)
@@ -59,5 +59,16 @@ d3.queue()
                 self.attr('data-mode', 'first')
             }
             chart.toggle(self.attr('data-mode'))
+        })
+
+    d3.selectAll('.area-link')
+        .on('click', function () {
+            var that = d3.select(this);
+            var area = that.attr('data-area');
+            var navItems = d3.selectAll('.area-select');
+            
+            navItems.classed('active', false);
+            d3.select(this.parentElement).classed('active', true);
+            chart.zoomToArea(area);
         })
 })

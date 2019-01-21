@@ -39,7 +39,8 @@ function renderChart() {
   ]
 
   var toggle = null;
-
+  var zoomToArea;
+  
 	//Main chart object
 	var main = function() {
     let currentScale = 1;
@@ -62,7 +63,7 @@ function renderChart() {
       .filter((d, i, arr) => arr.indexOf(d) === i);
 
     var padding = 1.5 + strokeWidth, // separation between same-color nodes
-        clusterPadding = 20, // separation between different-color nodes
+        clusterPadding = 15, // separation between different-color nodes
         maxRadius = attrs.radius_org,
         m = clusterNames.length,
         color = d3.scale.ordinal().range(attrs.colors).domain(d3.range(m)),
@@ -112,6 +113,20 @@ function renderChart() {
       }
     }).filter(x => x.source != null && x.target != null)
 
+    var areas = d3.nest().key(x => x.area).entries(nodes_first);
+    var areaNames = areas.map(x => x.key);
+    var radius = calc.chartHeight / 1.6;
+    var area_centers = areaNames.map((x, i) => {
+      var angle = Math.PI * 2 * i / areaNames.length;
+      return {
+        x: Math.cos(angle) * radius + calc.chartWidth / 2,
+        y: Math.sin(angle) * radius + calc.chartHeight / 2,
+        area: x
+      };
+    });
+
+
+    console.log(areaNames)
     if (attrs.mode == 'first') {
       // Use the pack layout to initialize node positions.
       d3.layout.pack()
@@ -135,7 +150,7 @@ function renderChart() {
     }
 
     force.start();
-
+    
 		//Add svg
 		var svg = container
 			.patternify({ tag: 'svg', selector: 'svg-chart-container' })
@@ -180,11 +195,39 @@ function renderChart() {
       texts = addTexts();
     }
 
+    function panTo(x, y) {
+      if (attrs.mode === 'first') {
+        var translateX = calc.chartWidth / 2 - x;
+        var translateY = calc.chartHeight / 2 - y;
+
+        chart
+          .transition()
+          .duration(1000)
+          .attr("transform", "translate(" + translateX + "," + translateY + ") scale(" + currentScale + ")");
+      }
+    }
+
+    zoomToArea = function (area) {
+      var f = area_centers.filter(x => x.area == area)[0];
+      if (f) {
+        panTo(f.x, f.y);
+      }
+    }
+
     function tick(e) {
       if (attrs.mode === 'first') {
+
+        for (var i = 0; i < nodes_first.length; i++) {
+          var o = nodes_first[i];
+          var f = area_centers.filter(x => x.area == o.area)[0];
+          o.y += (f.y - o.y) * e.alpha;
+          o.x += (f.x - o.x) * e.alpha;
+        }
+        
         node
           .each(cluster(10 * e.alpha * e.alpha))
-          .each(collide(.5))
+          .each(collide(.3))
+
       } else {
         node
         .each(collide(.5))
@@ -421,6 +464,12 @@ function renderChart() {
 	//Set attrs as property
   main.attrs = attrs;
   
+  main.zoomToArea = function (area) {
+    if (typeof zoomToArea === 'function') {
+      zoomToArea(area);
+    }
+  }
+
   main.toggle = function (mode) {
     if (typeof toggle === 'function') {
       toggle(mode);
