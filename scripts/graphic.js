@@ -44,6 +44,7 @@ function renderChart() {
 	//Main chart object
 	var main = function() {
     let currentScale = 1;
+    let lvlOneZoom = [0, 0];
     let currentZoom = [0, 0];
 
 		//Drawing containers
@@ -179,7 +180,7 @@ function renderChart() {
         .links(getLinks())
 
       if (attrs.mode === 'first') {
-        translateTo(currentZoom[0], currentZoom[1]);
+        translateTo(lvlOneZoom[0], lvlOneZoom[1]);
         force
           .gravity(.02)
           .charge(0)
@@ -197,19 +198,22 @@ function renderChart() {
     }
 
     function translateTo(x, y) {
+      currentScale = 1;
+      zoom.scale(currentScale);
+      zoom.translate([x, y]);
+      updateStylesOnZoom(currentScale);
+
       chart
         .transition()
         .duration(1000)
         .attr("transform", "translate(" + x + "," + y + ") scale(" + currentScale + ")");
-
-      zoom.translate([x, y]);
     }
 
     function panTo(x, y) {
-      var translateX = calc.chartWidth / 2 - x;
-      var translateY = calc.chartHeight / 2 - y;
+      var translateX = (calc.chartWidth / 2 - x);
+      var translateY = (calc.chartHeight / 2 - y);
 
-      currentZoom = [translateX, translateY];
+      lvlOneZoom = [translateX, translateY];
       translateTo(translateX, translateY);
     }
 
@@ -259,8 +263,9 @@ function renderChart() {
 
     //Zoom functions
     function zoomed () {
-      chart.attr("transform", "translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
       currentScale = d3.event.scale;
+      currentZoom = d3.event.translate;
+      chart.attr("transform", "translate(" + currentZoom + ") scale(" + currentScale + ")");
       updateStylesOnZoom(currentScale);
     }
 
