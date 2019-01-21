@@ -116,7 +116,7 @@ function renderChart() {
 
     var areas = d3.nest().key(x => x.area).entries(nodes_first);
     var areaNames = areas.map(x => x.key);
-    var radius = calc.chartHeight / 1.6;
+    var radius = calc.chartHeight;
     var area_centers = areaNames.map((x, i) => {
       var angle = Math.PI * 2 * i / areaNames.length;
       return {
