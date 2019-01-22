@@ -19,6 +19,9 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" sizes="32x32">
     <link href="font-awesome/css/all.css" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body translate="no">
@@ -31,10 +34,16 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav top-buttons">
-          <li class="nav-item active area-select"><a class="nav-link area-link" href="#" data-area="Gouvernement">Gouvernement</a></li>
-          <li class="nav-item area-select"><a class="nav-link area-link" href="#" data-area="Assemblée nationale">Assemblée nationale</a></li>
-          <li class="nav-item area-select"><a class="nav-link area-link" href="#" data-area="Sénat">Sénat</a></li>
+        <ul class="nav nav-tabs navbar-nav top-buttons" role="tablist">
+          <li class="nav-item active area-select">
+            <a class="nav-link area-link" id="first-tab" data-area="Gouvernement" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">Gouvernement</a>
+          </li>
+          <li class="nav-item area-select">
+            <a class="nav-link area-link" id="second-tab" href="#second" data-area="Assemblée nationale" data-toggle="tab" role="tab" aria-controls="second" aria-selected="false">Assemblée nationale</a>
+          </li>
+          <li class="nav-item area-select">
+            <a class="nav-link area-link" id="third-tab" href="#third" data-area="Sénat" data-toggle="tab" role="tab" aria-controls="third" aria-selected="false">Sénat</a>
+          </li>
         </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="http://www.faitsetdocuments.com/#abonnez" target="_blank">Abonnez-vous</a></li>
@@ -57,8 +66,13 @@
     </div>
 
     <!-- Page Content -->
-    <div class="centered">
-        <div id="myGraph"></div>
+    <div class="tab-content" id="pageContent">
+      <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab" data-area="Gouvernement">
+      </div>
+      <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab" data-area="Assemblée nationale">
+      </div>
+      <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab" data-area="Sénat">
+      </div>
     </div>
 
     <!-- Button -->
@@ -73,8 +87,6 @@
     <script src="libs/d3-queue.v3.min.js"></script>
     <script src="scripts/graphic.js"></script>
     <script src="scripts/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 </body>
 
 </html>

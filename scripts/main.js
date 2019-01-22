@@ -39,43 +39,51 @@ d3.queue()
 .defer(d3.csv, "./data/nodes_2.csv")
 .defer(d3.csv, "./data/connections.csv")
 .await(function (error, nodes, links) {
-    var chart = renderChart()
-        .svgHeight(window.innerHeight - 47.5)
-        .svgWidth(document.getElementById('myGraph').getBoundingClientRect().width)
-        .container('#myGraph')
-        .openNav(openNav)
-        .closeNav(closeNav)
-        .data({
-            nodes: nodes,
-            links: links
-        })
-        .render();
-    d3.select('#viewToggler')
-        .on('click', function () {
-            let self = d3.select(this);
-            if (self.attr('data-mode') === 'first') {
-                self.attr('data-mode', 'second')
-            } else {
-                self.attr('data-mode', 'first')
-            }
-            chart.toggle(self.attr('data-mode'))
-        })
+    var people = nodes.filter(d => d.type !== 'organization');
+    var areas = d3.nest().key(d => d.area).entries(people);
 
-    d3.selectAll('.area-link')
-        .on('click', function () {
-            var that = d3.select(this);
-            var area = that.attr('data-area');
-            var navItems = d3.selectAll('.area-select');
+    areas.forEach(area => {
+        var container = d3.select('div[data-area="' + area.key + '"]').node();
+
+        renderChart()
+            .svgHeight(window.innerHeight)
+            .svgWidth(window.innerWidth)
+            .container(container)
+            .openNav(openNav)
+            .closeNav(closeNav)
+            .data({
+                nodes: area.values,
+                links: links
+            })
+            .render();
+    })
+
+    // d3.select('#viewToggler')
+    //     .on('click', function () {
+    //         let self = d3.select(this);
+    //         if (self.attr('data-mode') === 'first') {
+    //             self.attr('data-mode', 'second')
+    //         } else {
+    //             self.attr('data-mode', 'first')
+    //         }
+    //         chart.toggle(self.attr('data-mode'))
+    //     })
+
+    // d3.selectAll('.area-link')
+    //     .on('click', function () {
+    //         var that = d3.select(this);
+    //         var area = that.attr('data-area');
+    //         var navItems = d3.selectAll('.area-select');
             
-            navItems.classed('active', false);
-            d3.select(this.parentElement).classed('active', true);
-            chart.zoomToArea(area);
-        })
+    //         navItems.classed('active', false);
+    //         d3.select(this.parentElement).classed('active', true);
+    //         chart.zoomToArea(area);
+    //     })
 
-    var area = d3.select('.top-buttons')
-        .select('li.active')
-        .select('.area-link')
-        .attr('data-area');
+    // var area = d3.select('.top-buttons')
+    //     .select('li.active')
+    //     .select('.area-link')
+    //     .attr('data-area');
         
-    chart.zoomToArea(area);
+    // chart.zoomToArea(area);
 })
