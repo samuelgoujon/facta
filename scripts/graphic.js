@@ -381,6 +381,7 @@ function renderChart() {
     var containerRect = d3.select(attrs.container).node().getBoundingClientRect();
     if (containerRect.width > 0) attrs.svgWidth = containerRect.width;
     d3.select(attrs.container).select('.svg-chart-container').attr('width', attrs.svgWidth);
+    // main();
   });
 
 	//----------- PROTOTYPE FUNCTIONS  ----------------------

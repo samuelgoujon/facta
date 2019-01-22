@@ -69,16 +69,13 @@ d3.queue()
     //         chart.toggle(self.attr('data-mode'))
     //     })
 
-    // d3.selectAll('.area-link')
-    //     .on('click', function () {
-    //         var that = d3.select(this);
-    //         var area = that.attr('data-area');
-    //         var navItems = d3.selectAll('.area-select');
+    d3.selectAll('.area-link')
+        .on('click', function () {
+            var navItems = d3.selectAll('.area-link');
             
-    //         navItems.classed('active', false);
-    //         d3.select(this.parentElement).classed('active', true);
-    //         chart.zoomToArea(area);
-    //     })
+            navItems.classed('active', false).classed('show', false);
+            d3.select(this).classed('show', true);
+        })
 
     // var area = d3.select('.top-buttons')
     //     .select('li.active')
