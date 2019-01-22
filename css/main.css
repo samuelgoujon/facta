@@ -8,6 +8,18 @@ svg {
     display: block;
 }
 
+.nav-tabs .nav-link {
+    border: none;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: 0px;
+}
+
 svg.tooltip-shadow-wrapper-svg {
     position: absolute;
     text-align: center;
@@ -81,16 +93,11 @@ circle.node-people {
 
 .sidenav a {
     color: #fff;
-
 }
 
 #main {
     transition: margin-right .3s;
     padding: 16px;
-}
-
-#myGraph {
-    padding-top: 47.5px;
 }
 
 @media screen and (max-height: 450px) {
