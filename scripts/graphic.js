@@ -156,6 +156,8 @@ function renderChart() {
 			.attr('width', attrs.svgWidth)
 			.attr('height', attrs.svgHeight)
       .attr('font-family', attrs.defaultFont)
+      .attr('xmlns', 'http://www.w3.org/2000/svg')
+      .attr('xmlns:xlink', 'http://www.w3.org/1999/xlink')
         .call(zoom);
 
 		//Add container g element
@@ -326,7 +328,7 @@ function renderChart() {
           let that = d3.select(this);
 
           that.append('image')
-            .attr('href', d => d.imagePath)
+            .attr('xlink:href', d => d.imagePath)
             .attr('width', d => d.radius * 2)
             .attr('height', d => d.radius * 2)
             .attr('transform', d => `translate(${-d.radius}, ${-d.radius})`)
