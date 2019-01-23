@@ -192,6 +192,10 @@ function renderChart() {
       node = addNodes();
       link = addLinks();
       texts = addTexts();
+
+      setTimeout(function () {
+        updateStylesOnZoom(currentScale);
+      }, 0);
     }
 
     function tick(e) {
@@ -277,6 +281,7 @@ function renderChart() {
         })
         .attr("stroke-width", strokeWidth)
         .attr("stroke", d => d.isImage ? null : '#666')
+        .attr("r", d => d.radius)
         .on('click', function(d) {
           if (d.clicked) {
             d.clicked = false
@@ -328,17 +333,6 @@ function renderChart() {
             .classed('node-icon', true)
             .attr('pointer-events', 'none')
         })
-      
-      if (attrs.mode === 'first') {
-        chart.selectAll('circle.node-circle').transition()
-          .duration(750)
-          .attrTween("r", function(d) {
-            var i = d3.interpolate(0, d.radius);
-            return function(t) { return d.radius = i(t); };
-          });
-      } else {
-        nd.attr("r", d => d.radius)  
-      }
 
       return node;
     }
@@ -354,20 +348,20 @@ function renderChart() {
       let fontSize = attrs.nodesFontSize / scale;
 
       texts
-          .attr('dy', d => d.isImage ? (d.radius * 1.8 + 15) / scale : (d.radius + 15) / scale)
+          .attr('dy', d => d.isImage ? (d.radius * 2 + 15) / scale : (d.radius + 15) / scale)
           .attr('font-size', fontSize + 'px')
 
       link.attr('stroke-width', 1 / scale)
 
-      node.each(function (d) {
+      node.each(function () {
         let self = d3.select(this);
         let circle = self.select('circle')
 
         self
           .select('image')
-          .attr('width', d => d.radius * 1.8 / scale)
-          .attr('height', d => d.radius * 1.8 / scale)
-          .attr('transform', d => `translate(${-(d.radius * 1.8 / scale) / 2}, ${-(d.radius * 1.8 / scale) / 2})`)
+          .attr('width', d => d.radius * 2 / scale)
+          .attr('height', d => d.radius * 2 / scale)
+          .attr('transform', d => `translate(${-d.radius / scale}, ${-d.radius / scale})`)
           
         circle.attr('stroke-width', strokeWidth / scale);
         circle.attr('r', d => d.radius / scale);
