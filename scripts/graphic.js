@@ -180,24 +180,29 @@ function renderChart() {
       force.nodes(getNodes())
         .links(getLinks())
 
-      if (attrs.mode == 'first') {
-        force
-          .gravity(.02)
-          .charge(0)
-      } else {
-        force
-          .gravity(0.1)
-          .charge(-30)
-      }
-      force.start();
-
       node = addNodes();
       link = addLinks();
       texts = addTexts();
 
-      setTimeout(function () {
-        updateStylesOnZoom(currentScale);
-      }, 0);
+      if (attrs.mode == 'first') {
+        force
+          .gravity(.02)
+          .charge(0)
+
+        node.on('mousedown.drag', null)
+          .on("mousedown", null);
+      } else {
+        force
+          .gravity(0.1)
+          .charge(-30)
+
+        node.call(force.drag)
+          .on("mousedown", function() { d3.event.stopPropagation(); });
+      }
+      
+      force.start();
+
+      updateStylesOnZoom(currentScale);
     }
 
     function tick(e) {
@@ -268,8 +273,6 @@ function renderChart() {
     function addNodes () {
       var node = nodesGroup.html("").patternify({ tag: 'g', selector: 'node', data: getNodes() })
           .attr('data-group', d => d.group)
-          // .call(force.drag)
-          //   .on("mousedown", function() { d3.event.stopPropagation(); });
 
       var nd = node.patternify({ tag: 'circle', selector: 'node-circle', data: d => [d] })
         .style("fill", function(d) { 
