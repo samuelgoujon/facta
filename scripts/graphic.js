@@ -281,7 +281,7 @@ function renderChart() {
         })
         .attr("stroke-width", strokeWidth)
         .attr("stroke", d => d.isImage ? null : '#666')
-        .attr("r", d => d.radius)
+        .attr("r", d => d.radius / currentScale)
         .on('click', function(d) {
           if (d.clicked) {
             d.clicked = false
