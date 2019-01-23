@@ -30,18 +30,6 @@ svg.tooltip-shadow-wrapper-svg {
     margin-top: 0px;
 }
 
-.node-circle:hover {
-    cursor: pointer;
-}
-
-circle.node-organization {
-    stroke: #000;
-}
-
-circle.node-people {
-    stroke: black;
-}
-
 .sidenav {
     height: 100%;
     width: 0;

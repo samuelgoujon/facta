@@ -294,7 +294,9 @@ function renderChart() {
           }
         })
         .on('mouseover', function (d) {
-          d3.select(this).attr('stroke-width', (strokeWidth + 1) / currentScale);
+          d3.select(this)
+            .style('cursor', 'pointer')
+            .attr('stroke-width', (strokeWidth + 1) / currentScale);
           
           var parent = d3.select(this.parentElement).each(function() {
             this.parentNode.appendChild(this);
@@ -309,7 +311,9 @@ function renderChart() {
           }
         })
         .on('mouseout', function (d) {
-          d3.select(this).attr('stroke-width', strokeWidth / currentScale);
+          d3.select(this)
+            .style('cursor', null)
+            .attr('stroke-width', strokeWidth / currentScale);
 
           var parent = d3.select(this.parentElement);
           var text = parent.select('.node-text');
