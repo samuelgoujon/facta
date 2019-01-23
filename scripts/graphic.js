@@ -12,11 +12,25 @@ function renderChart() {
     radius_org: 13,
     radius_people: 8,
     iconSize: 20,
-    nodesFontSize: 9,
+    nodesFontSize: 12,
 		defaultTextFill: '#2C3E50',
     defaultFont: 'Helvetica',
     color_org: '#ccc',
-    colors:  ["#B0E2A7","#19494D","#D0BAE8","#53B8C6","#B83D54","#7A4B29","#286C77","#0E112A","#866ECF","#80CB62","#3B8BB0","#DBDB94","#D6BA85","#B3CC66","#E4B6E7","#79D2AD","#BD6ACD","#DEB99C","#B4E6B3","#2D5986","#79ACD2","#B147C2","#B8853D","#799130","#2D3986"],
+    colors:  [
+      "#B0E2A7","#19494D",
+      "#D0BAE8","#53B8C6",
+      "#B83D54","#7A4B29",
+      "#286C77","#0E112A",
+      "#866ECF","#80CB62",
+      "#3B8BB0","#DBDB94",
+      "#D6BA85","#B3CC66",
+      "#E4B6E7","#79D2AD",
+      "#BD6ACD","#DEB99C",
+      "#B4E6B3","#2D5986",
+      "#79ACD2","#B147C2",
+      "#B8853D","#799130",
+      "#2D3986"
+    ],
     data: null,
     mode: 'first',
     openNav: d => d,
@@ -189,10 +203,15 @@ function renderChart() {
         node
         .each(collide(.5))
         .each(function(d, i) {
-          var angle = i * (Math.PI * 2) / organizations.length;
           if (d.type === 'organization') {
-            d.x = Math.cos(angle) * calc.chartHeight / 3 + calc.chartWidth / 2;
-            d.y = Math.sin(angle) * calc.chartHeight / 3 + calc.chartHeight / 2;
+            if (organizations.length == 1) {
+              d.x = calc.chartWidth / 2;
+              d.y = calc.chartHeight / 2;
+            } else {
+              var angle = i * (Math.PI * 2) / organizations.length;
+              d.x = Math.cos(angle) * calc.chartHeight / 3 + calc.chartWidth / 2;
+              d.y = Math.sin(angle) * calc.chartHeight / 3 + calc.chartHeight / 2;
+            }
           }
         }) 
       }
@@ -227,6 +246,7 @@ function renderChart() {
       return node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
         .attr('text-anchor', 'middle')
         .attr('display', 'none')
+        .attr('font-weight', d => d.type === 'organization' ? 'bold' : null)
         .attr('font-size', attrs.nodesFontSize + 'px')
         .attr('dy', d => d.isImage ? attrs.iconSize + 15 : d.radius + 15)
         .text(d => d.node || d.group)
@@ -247,13 +267,16 @@ function renderChart() {
 
       var nd = node.patternify({ tag: 'circle', selector: 'node-circle', data: d => [d] })
         .style("fill", function(d) { 
+          if (d.isImage) {
+            return '#fff';
+          }
           if (d.type === 'organization') {
             return attrs.color_org;
           }
           return color(d.cluster); 
         })
         .attr("stroke-width", strokeWidth)
-        .attr("stroke", '#666')
+        .attr("stroke", d => d.isImage ? null : '#666')
         .on('click', function(d) {
           if (d.clicked) {
             d.clicked = false
@@ -265,9 +288,32 @@ function renderChart() {
         })
         .on('mouseover', function (d) {
           d3.select(this).attr('stroke-width', (strokeWidth + 1) / currentScale);
+          
+          var parent = d3.select(this.parentElement).each(function() {
+            this.parentNode.appendChild(this);
+          });
+
+          var text = parent.select('.node-text')
+
+          text.attr('display', null)
+
+          if (d.type === 'people') {
+            text.attr('font-weight', 'bold')
+          }
         })
-        .on('mouseout', function () {
+        .on('mouseout', function (d) {
           d3.select(this).attr('stroke-width', strokeWidth / currentScale);
+
+          var parent = d3.select(this.parentElement);
+          var text = parent.select('.node-text');
+
+          if (currentScale < 3) {
+            text.attr('display', 'none');
+          }
+
+          if (d.type === 'people') {
+            text.attr('font-weight', null)
+          }
         })
 
       node.filter(x => x.isImage)
@@ -276,9 +322,9 @@ function renderChart() {
 
           that.append('image')
             .attr('href', d => d.imagePath)
-            .attr('width', d => d.radius * 1.8)
-            .attr('height', d => d.radius * 1.8)
-            .attr('transform', d => `translate(${-(d.radius * 1.8) / 2}, ${-(d.radius * 1.8) / 2})`)
+            .attr('width', d => d.radius * 2)
+            .attr('height', d => d.radius * 2)
+            .attr('transform', d => `translate(${-d.radius}, ${-d.radius})`)
             .classed('node-icon', true)
             .attr('pointer-events', 'none')
         })
