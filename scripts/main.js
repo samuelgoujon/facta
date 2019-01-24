@@ -49,6 +49,14 @@ d3.queue()
     areas.forEach(area => {
         var container = d3.select('div[data-area="' + area.key + '"]').node();
 
+        var _links = links.filter(x => {
+            return area.values.some(d => d.area === area.key && d.node === x.source)
+        });
+
+        var _nodes = area.values.concat(organizations.filter(d => {
+            return _links.some(x => x.target === d.node)
+        }));
+
         var chart = renderChart()
             .svgHeight(window.innerHeight)
             .svgWidth(window.innerWidth)
@@ -56,10 +64,8 @@ d3.queue()
             .openNav(openNav)
             .closeNav(closeNav)
             .data({
-                nodes: area.values.concat(organizations),
-                links: links.filter(x => {
-                    return area.values.some(d => d.area === area.key && d.node === x.source)
-                })
+                nodes: _nodes,
+                links: _links
             })
             .render();
         
@@ -78,12 +84,15 @@ d3.queue()
         .on('click', function () {
             let self = d3.select(this);
             if (self.attr('data-mode') === 'first') {
-                self.attr('data-mode', 'second')
+                self.attr('data-mode', 'second');
+                self.html("Cartographie");
             } else {
                 self.attr('data-mode', 'first')
+                self.html("Réseaux");
             }
+
             if (activeChart) {
-                activeChart.toggle(self.attr('data-mode'))
+                activeChart.toggle(self.attr('data-mode'));
             }
         })
 
@@ -96,8 +105,16 @@ d3.queue()
             that.classed('show', true);
             var area = that.attr('data-area');
 
-            d3.select('#viewToggler').attr('data-mode', 'first')
             selectChart(area);
+            if (activeChart) {
+                d3.select('#viewToggler').attr('data-mode', activeChart.mode());
+
+                if (activeChart.mode() === 'first') {
+                    d3.select('#viewToggler').html("Réseaux");
+                } else {
+                    d3.select('#viewToggler').html("Cartographie");
+                }
+            }
         })
 
     selectChart("Gouvernement")
