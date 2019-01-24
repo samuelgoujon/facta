@@ -193,8 +193,9 @@ function renderChart() {
           .on("mousedown", null);
       } else {
         force
-          .gravity(0.1)
-          .charge(-30)
+          .gravity(0.05)
+          .distance(80)
+          .charge(-100)
 
         node.call(force.drag)
           .on("mousedown", function() { d3.event.stopPropagation(); });

@@ -57,8 +57,6 @@ d3.queue()
             return _links.some(x => x.target === d.node)
         }));
 
-        console.log(_nodes.filter(d => d.type === 'organization'));
-
         var chart = renderChart()
             .svgHeight(window.innerHeight)
             .svgWidth(window.innerWidth)
