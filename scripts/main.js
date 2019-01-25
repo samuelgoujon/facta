@@ -36,7 +36,7 @@ function closeNav() {
 }
 
 d3.queue()
-.defer(d3.csv, "./data/nodes_2.csv")
+.defer(d3.csv, "./data/nodes.csv")
 .defer(d3.csv, "./data/connections.csv")
 .await(function (error, nodes, links) {
     var people = nodes.filter(d => d.type !== 'organization');
@@ -68,7 +68,7 @@ d3.queue()
                 links: _links
             })
             .render();
-        
+
         charts.push({
             area: area.key,
             chart: chart
@@ -100,7 +100,7 @@ d3.queue()
         .on('click', function () {
             var that = d3.select(this);
             var navItems = d3.selectAll('.area-link');
-            
+
             navItems.classed('active', false).classed('show', false);
             that.classed('show', true);
             var area = that.attr('data-area');
