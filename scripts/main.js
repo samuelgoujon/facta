@@ -1,4 +1,16 @@
+function imageExists(image_url){
+
+    var http = new XMLHttpRequest();
+
+    http.open('HEAD', image_url, false);
+    http.send();
+
+    return http.status != 404;
+
+}
+
 function openNav(d) {
+    var portrait = document.getElementById('portrait');
     document.getElementById('node').innerHTML = d.node
     if (d.type == "people") {
         ['position',
@@ -15,9 +27,18 @@ function openNav(d) {
             }
          })
 
-         d3.selectAll('.org').style('display', 'none')
+         d3.selectAll('.org').style('display', 'none');
+         
+         var image_url = 'img/portraits/' + d.node + '.jpg';
+         if (imageExists(image_url)) {
+            portrait.src = image_url;
+            portrait.classList.remove('d-none');
+         } else {
+            portrait.classList.add('d-none');
+         }
     }
     else {
+        portrait.classList.add('d-none');
         let el = document.getElementById('referenceOrg')
         if (d.reference.length == 0) {
             el.parentElement.style.display = 'none'

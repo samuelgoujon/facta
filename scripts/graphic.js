@@ -260,7 +260,7 @@ function renderChart() {
         .attr('display', 'none')
         .attr('font-weight', d => d.type === 'organization' ? 'bold' : null)
         .attr('font-size', attrs.nodesFontSize + 'px')
-        .attr('dy', d => d.isImage ? attrs.iconSize + 15 : d.radius + 15)
+        .attr('dy', d => d.radius + 15)
         .text(d => d.node || d.group)
     }
 
