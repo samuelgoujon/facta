@@ -63,7 +63,6 @@ svg.tooltip-shadow-wrapper-svg {
 .sidenav .title {
     color: #fff;
     padding-left: 15px;
-    padding-bottom: 50px;
     font-size: 24px;
     font-family: 'Oswald', sans-serif;
 }
@@ -149,4 +148,9 @@ ul.navbar-nav li a {
     font-size: 1rem;
     padding: .65rem .4rem;
     border: none;
+}
+
+.portrait {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
