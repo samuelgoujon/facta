@@ -378,7 +378,6 @@ Martine Wonner,people,Assemblée nationale,Affaires sociales,La République en M
 Mathilde Panot,people,Assemblée nationale,Développement durable,La France insoumise,,,,,,,Val-de-Marne,Ile-de-France
 Matthieu Orphelin,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Maine-et-Loire,Pays de la Loire
 Maud Petit,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Val-de-Marne,Ile-de-France
-Maurice Leroy,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,Loir-et-Cher,Centre-Val de Loire
 Max Mathiasin,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Guadeloupe,Guadeloupe
 Maxime Minot,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Oise,Hauts-de-France
 Meyer Habib,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,Judaïsme,,,Français établis hors de France,Français établis hors de France
@@ -435,6 +434,7 @@ Olivier Serva,people,Assemblée nationale,Finances,La République en Marche,,,,,
 Olivier Véran,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
 Pacôme Rupin,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Paris,Ile-de-France
 Pascal Bois,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Oise,Hauts-de-France
+Pascal Brindeau,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,Loir-et-Cher,Centre-Val de Loire
 Pascal Lavergne,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
 Pascale Boyer,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Hautes-Alpes,Provence-Alpes-Côte d'Azur
 Pascale Fontenel-Personne,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Sarthe,Pays de la Loire
@@ -482,7 +482,7 @@ Raphaël Schellenberger,people,Assemblée nationale,Lois,Les Républicains,,,,,,
 Régis Juanico,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Loire,Auvergne-Rhône-Alpes
 Rémi Delatte,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
 Rémy Rebeyrotte,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
-Richard Ferrand,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Finistère,Bretagne
+Richard Ferrand,people,Assemblée nationale,Défense,La République en Marche,,,,Grand Orient de France,,Réputé franc-maçon mais pas sûr pour le Grand Orient,Finistère,Bretagne
 Richard Lioger,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Moselle,Grand Est
 Richard Ramos,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Loiret,Centre-Val de Loire
 Robin Reda,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Essonne,Ile-de-France
@@ -511,7 +511,7 @@ Séverine Gipson,people,Assemblée nationale,Défense,La République en Marche,,
 Sira Sylla,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Seine-Maritime,Normandie
 Sonia Krimi,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Manche,Normandie
 Sophie Auconie,people,Assemblée nationale,Développement durable,"UDI, Agir et Indépendants",,,,,,,Indre-et-Loire,Centre-Val de Loire
-Sophie Beaudouin-Hubiere,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
+Sophie Beaudouin-Hubière,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
 Sophie Errante,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Loire-Atlantique,Pays de la Loire
 Sophie Mette,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Gironde,Nouvelle-Aquitaine
 Sophie Panonacle,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
@@ -697,7 +697,6 @@ Edouard Montchamp,people,Gouvernement,Conseiller chargé de la presse et de la c
 Édouard Philippe,people,Gouvernement,Premier Ministre,Premier Ministre,"Sciences Po Paris, ENA (promotion Marc Bloch)",Orano,Les Républicains,,,,,
 Édouard Solier,people,Gouvernement,"Conseiller technique, discours",Premier Ministre,"HEC, Sciences Po Paris",,Les Républicains,,,,,
 Éléonore Leprettre,people,Gouvernement,Chef adjointe de cabinet,Relations avec le Parlement,,France Télévisions,Mouvement démocrate,,,,,
-Eléonore Peyrat,people,Gouvernement,Conseillère affaires européennes et internationales,Économie,"Sciences Po Paris, Université Harvard, ENA (promotion Jean Zay)","Inspection des finances, Attali & Associés, Banque mondiale, Airbus, Commission européenne",,,,,,
 Elisabeth Borne,people,Gouvernement,"Ministre auprès du ministre d'État, ministre de la Transition écologique et solidaire, chargée des Transports",Transports,Polytechnique,"SNCF, EIFFAGE, Mairie de Paris, RATP",Parti socialiste,,428,,,
 Elise Adevah-Poeuf,people,Gouvernement,Directeur adjointe de cabinet,Relations avec le Parlement,Sciences Po Paris,,,,,,,
 Elizabeth Dobelle,people,Gouvernement,Protocole,Présidence,,,,,,,,
@@ -808,6 +807,7 @@ Julien Dehornoy,people,Gouvernement,Directeur adjoint du cabinet,Transports,Poly
 Julien Denormandie,people,Gouvernement,"Ministre auprès de la ministre de la Cohésion des territoires et des Relations avec les collectivités territoriales, chargé de la Ville et du Logement",Cohésion des Territoires,,,Parti socialiste,,437,,,
 Julien Tassy,people,Gouvernement,Communication numérique,Présidence,,Warner Bros,,,,,,
 Julien Turenne,people,Gouvernement,Conseiller technique agriculture,Premier Ministre,,,,,,,,
+Juliette Oury,people,Gouvernement,Conseillère affaires européennes et internationales,Économie,"Sciences Po Paris, ENA","Direction générale du Trésor, Commission européenne",,,,Juive ?,,
 Juliette Part,people,Gouvernement,Conseillère aménagement du territoire,Cohésion des Territoires,"Sciences Po Paris, ENA",,,,,,,
 Justine Coutard,people,Gouvernement,Directrice adjointe du cabinet,Action comptes publics,"Sciences Po Paris, ENA","Groupe ADP, Inspection des finances",,,,,,
 Karen Saranga,people,Gouvernement,Conseillère chargée de la communication et de la presse,Justice,,"France Télévisions, L'Express",,,,,,
@@ -1063,7 +1063,7 @@ Christine Lanfranchi Dorgal,people,Sénat,,Groupe Les Républicains,,,,,,,Var,Pr
 Christine Lavarde,people,Sénat,,Groupe Les Républicains,,,,,,,Hauts-de-Seine,Ile-de-France
 Christine Prunaud,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Côtes-d'Armor,Bretagne
 Christophe Priou,people,Sénat,,Groupe Les Républicains,,,,,,,Loire-Atlantique,Pays de la Loire
-Christophe-André Frassa,people,Sénat,,Groupe Les Républicains,,,,Grand Orient de France,,,Français établis hors de France,Français établis hors de France
+Christophe-André Frassa,people,Sénat,,Groupe Les Républicains,Sciences Po Paris,,,Grand Orient de France,,,Français établis hors de France,Français établis hors de France
 Claude Bérit-Débat,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Dordogne,Nouvelle-Aquitaine
 Claude Haut,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
 Claude Kern,people,Sénat,,Groupe Union Centriste,,,,,,,Bas-Rhin,Grand Est
@@ -1113,7 +1113,7 @@ Franck Montaugé,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Gers,Occ
 François Bonhomme,people,Sénat,,Groupe Les Républicains,,,,,,,Tarn-et-Garonne,Occitanie
 François Calvet,people,Sénat,,Groupe Les Républicains,,,,,,,Pyrénées-Orientales,Occitanie
 François Grosdidier,people,Sénat,,Groupe Les Républicains,,,,,,,Moselle,Grand Est
-François Patriat,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
+François Patriat,people,Sénat,,Groupe Socialiste et républicain,,,,Grand Orient de France,,,Côte-d'Or,Bourgogne-Franche-Comté
 François Pillet,people,Sénat,,Groupe Les Républicains,,,,,,,Cher,Centre-Val de Loire
 François-Noël Buffet,people,Sénat,,Groupe Les Républicains,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Françoise Cartron,people,Sénat,,Groupe La République en Marche,,,Groupe Socialiste et républicain,,,,Gironde,Nouvelle-Aquitaine
