@@ -49,6 +49,10 @@ function renderChart() {
     {
       name: 'Grand Orient de France',
       filename: 'freemasonry.svg'
+    },
+    {
+      name: 'Grande Loge nationale française',
+      filename: 'freemasonry.svg'
     }
   ]
 
@@ -68,7 +72,7 @@ function renderChart() {
 		calc.chartTopMargin = attrs.marginTop;
 		calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
 		calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin;
-    
+
     var strokeWidth = 0.5;
     var clusterNames = attrs.data.nodes
       .filter(x => x.group.length)
@@ -101,14 +105,14 @@ function renderChart() {
         if (!x.group.trim().length) return;
         var i = clusterNames.indexOf(x.group);
         var d = Object.assign(x, {
-              cluster: i, 
+              cluster: i,
               radius: attrs.radius_people,
             });
 
         if (!clusters[i] || (d.radius > clusters[i].radius)) clusters[i] = d;
           return d;
         }).filter(x => x);
-    
+
     var organizations = attrs.data.nodes.filter(d => d.type == 'organization')
 
     nodes_second = attrs.data.nodes.filter(x => {
@@ -164,10 +168,10 @@ function renderChart() {
 		var chart = svg
 			.patternify({ tag: 'g', selector: 'chart' })
       .attr('transform', 'translate(' + calc.chartLeftMargin + ',' + calc.chartTopMargin + ')');
-    
+
     var linksGroup = chart.patternify({ tag: 'g', selector: 'links' });
     var nodesGroup = chart.patternify({ tag: 'g', selector: 'nodes' });
-    
+
     var node = addNodes();
     var link = addLinks();
     var texts = addTexts();
@@ -200,7 +204,7 @@ function renderChart() {
         node.call(force.drag)
           .on("mousedown", function() { d3.event.stopPropagation(); });
       }
-      
+
       force.start();
 
       updateStylesOnZoom(currentScale);
@@ -225,11 +229,11 @@ function renderChart() {
               d.y = Math.sin(angle) * calc.chartHeight / 3 + calc.chartHeight / 2;
             }
           }
-        }) 
+        })
       }
 
-      node.attr("transform", function(d) { 
-        return "translate(" + d.x + "," + d.y + ")"; 
+      node.attr("transform", function(d) {
+        return "translate(" + d.x + "," + d.y + ")";
       })
 
       link
@@ -276,14 +280,14 @@ function renderChart() {
           .attr('data-group', d => d.group)
 
       var nd = node.patternify({ tag: 'circle', selector: 'node-circle', data: d => [d] })
-        .style("fill", function(d) { 
+        .style("fill", function(d) {
           if (d.isImage) {
             return '#fff';
           }
           if (d.type === 'organization') {
             return attrs.color_org;
           }
-          return color(d.cluster); 
+          return color(d.cluster);
         })
         .attr("stroke-width", strokeWidth)
         .attr("stroke", d => d.isImage ? null : '#666')
@@ -301,7 +305,7 @@ function renderChart() {
           d3.select(this)
             .style('cursor', 'pointer')
             .attr('stroke-width', (strokeWidth + 1) / currentScale);
-          
+
           var parent = d3.select(this.parentElement).each(function() {
             this.parentNode.appendChild(this);
           });
@@ -372,7 +376,7 @@ function renderChart() {
           .attr('width', d => d.radius * 2 / scale)
           .attr('height', d => d.radius * 2 / scale)
           .attr('transform', d => `translate(${-d.radius / scale}, ${-d.radius / scale})`)
-          
+
         circle.attr('stroke-width', strokeWidth / scale);
         circle.attr('r', d => d.radius / scale);
       })
@@ -471,7 +475,7 @@ function renderChart() {
 
 	//Set attrs as property
   main.attrs = attrs;
-  
+
   main.toggle = function (mode) {
     if (typeof toggle === 'function') {
       toggle(mode);

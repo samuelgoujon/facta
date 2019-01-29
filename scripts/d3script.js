@@ -35,6 +35,10 @@ function renderChart(params) {
     {
       name: 'Grand Orient de France',
       filename: 'freemasonry.svg'
+    },
+    {
+      name: 'Grande Loge nationale française',
+      filename: 'freemasonry.svg'
     }
   ]
 
