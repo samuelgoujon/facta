@@ -154,3 +154,8 @@ ul.navbar-nav li a {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+.img-thumbnail {
+    max-width: 160px;
+    max-height: 225px;
+}
