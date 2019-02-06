@@ -1,80 +1,56 @@
 node,type,area,position,group,education,employer,political party,religion,reference,comments,,
-Brigitte Bourguignon,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,Grand Orient de France,,Pas sûr pour le GODF,Pas-de-Calais,Hauts-de-France
+Alain Bruneel,people,Assemblée nationale,Affaires économiques,Gauche démocrate et républicaine,,,,,,,Nord,Hauts-de-France
+André Chassaigne,people,Assemblée nationale,Défense,Gauche démocrate et républicaine,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
+Elsa Faucillon,people,Assemblée nationale,Affaires culturelles et éducation,Gauche démocrate et républicaine,,,,,,,Hauts-de-Seine,Ile-de-France
+Fabien Roussel,people,Assemblée nationale,Finances,Gauche démocrate et républicaine,,,,,31,,Nord,Hauts-de-France
+Gabriel Serville,people,Assemblée nationale,Développement durable,Gauche démocrate et républicaine,,,,,,,Guyane,Guyane
+Hubert Wulfranc,people,Assemblée nationale,Développement durable,Gauche démocrate et républicaine,,,,,,,Seine-Maritime,Normandie
+Huguette Bello,people,Assemblée nationale,Lois,Gauche démocrate et républicaine,,,,,192,,Réunion,Réunion
+Jean-Paul Dufrègne,people,Assemblée nationale,Lois,Gauche démocrate et républicaine,,,,,,,Allier,Auvergne-Rhône-Alpes
+Jean-Paul Lecoq,people,Assemblée nationale,Affaires étrangères,Gauche démocrate et républicaine,,,,,,,Seine-Maritime,Normandie
+Jean-Philippe Nilor,people,Assemblée nationale,Affaires sociales,Gauche démocrate et républicaine,,,,,,,Martinique,Martinique
+Manuéla Kéclard-Mondésir,people,Assemblée nationale,Défense,Gauche démocrate et républicaine,,,,,,,Martinique,Martinique
+Marie-George Buffet,people,Assemblée nationale,Affaires culturelles et éducation,Gauche démocrate et républicaine,,,,,"29, 32, 33, 35, 44, 51, 56, 60, 63, 65, 70, 71, 72, 73, 74, 76, 81, 86, 93, 94, 97, 101, 103, 107, 119, 133, 139",Terminer de rajouter les numéros,Seine-Saint-Denis,Ile-de-France
+Moetai Brotherson,people,Assemblée nationale,Affaires étrangères,Gauche démocrate et républicaine,,,,,,,Polynésie Française,Polynésie française
+Pierre Dharréville,people,Assemblée nationale,Affaires sociales,Gauche démocrate et républicaine,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Sébastien Jumel,people,Assemblée nationale,Affaires économiques,Gauche démocrate et républicaine,,,,,,,Seine-Maritime,Normandie
+Stéphane Peu,people,Assemblée nationale,Finances,Gauche démocrate et républicaine,,,,,24,,Seine-Saint-Denis,Ile-de-France
 Jean-Luc Mélenchon,people,Assemblée nationale,Affaires étrangères,La France insoumise,,,,Grand Orient de France,295,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
-Richard Ferrand,people,Assemblée nationale,Défense,La République en Marche,,,,Grand Orient de France,,Réputé franc-maçon mais pas sûr pour le Grand Orient,Finistère,Bretagne
-Olivier Dussopt,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Action et des Comptes publics,Action comptes publics,,,Parti socialiste,Grand Orient de France,,Pas sûr pour le GODF,,
-Jean-Yves Le Drian,people,Gouvernement,Ministre de l'Europe et des affaires étrangères,Affaires étrangères,,,Parti socialiste,Grand Orient de France,347,,,
-Christophe Castaner,people,Gouvernement,Ministre de l’Intérieur,Intérieur,,BNP Paribas,Parti socialiste,Grand Orient de France,,,,
-Christophe-André Frassa,people,Sénat,,Groupe Les Républicains,Sciences Po Paris,,,Grand Orient de France,,,Français établis hors de France,Français établis hors de France
-François Patriat,people,Sénat,,Groupe Socialiste et républicain,,,,Grand Orient de France,,,Côte-d'Or,Bourgogne-Franche-Comté
-Jacques Mézard,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Parti radical de gauche,Grand Orient de France,435,,Cantal,Auvergne-Rhône-Alpes
-Jean-Pierre Sueur,people,Sénat,,Groupe Socialiste et républicain,,,,Grand Orient de France,,,Loiret,Centre-Val de Loire
-Robert Navarro,people,Sénat,,Non-inscrits,,,,Grand Orient de France,,,Hérault,Occitanie
-Victorin Lurel,people,Sénat,,Groupe Socialiste et républicain,,,,Grand Orient de France,,Acacia des Tropiques,Guadeloupe,Guadeloupe
-Vincent Éblé,people,Sénat,,Groupe Socialiste et républicain,,,,Grand Orient de France,441,,Seine-et-Marne,Ile-de-France
-Gilbert Collard,people,Assemblée nationale,Défense,Non-inscrits,,,,Grande Loge nationale française,,,Gard,Occitanie
-Thierry Solère,people,Assemblée nationale,Défense,La République en Marche,,"Deloitte, Aliapur",Les Républicains,Grande Loge nationale française,441,,Hauts-de-Seine,Ile-de-France
-David Habib,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,Judaïsme,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
-Élise Fajgeles,people,Assemblée nationale,Lois,La République en Marche,,,,Judaïsme,,,Paris,Ile-de-France
-Florence Lasserre-David,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,Judaïsme,,Pas juive mais mariée à un juif,Pyrénées-Atlantiques,Nouvelle-Aquitaine
-Geneviève Levy,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,Judaïsme,,,Var,Provence-Alpes-Côte d'Azur
-Louis Aliot,people,Assemblée nationale,Défense,Non-inscrits,,,,Judaïsme,,,Pyrénées-Orientales,Occitanie
-Meyer Habib,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,Judaïsme,,,Français établis hors de France,Français établis hors de France
-Sylvain Waserman,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,Judaïsme,,,Bas-Rhin,Grand Est
-Yaël Braun-Pivet,people,Assemblée nationale,Lois,La République en Marche,,,,Judaïsme,,,Yvelines,Ile-de-France
-Gérald Darmanin,people,Gouvernement,Ministre de l'action et des comptes publics,Action comptes publics,,,Les Républicains,Judaïsme,420,,,
-Gaëtan Bruel,people,Gouvernement,"Conseiller diplomatie culturelle, influence et francophonie",Affaires étrangères,"ENS, EHESS","Centre des monuments nationaux, Grasset",Parti socialiste,Judaïsme,,,,
-Déborah Münzer,people,Gouvernement,"Conseillère en charge de l’action territoriale, de l’éducation artistique et culturelle, de l’enseignement supérieur et de la recherche",Culture,ESSEC,"Mairie de Paris, BAC Films, Assouline Publishing",Les Républicains,Judaïsme,429,,,
-Delphine Aboulker,people,Gouvernement,Conseillère en charge du patrimoine et de l'architecture,Culture,,,,Judaïsme,442,,,
-Sarah Finkelstein,people,Gouvernement,Conseillère attractivité et consommation,Économie,"Sciences Po Paris, ENA (promotion Jean de la Fontaine), ESSEC",Direction générale du Trésor,Les Républicains,Judaïsme,,,,
-Gabriel Attal,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Éducation nationale et de la Jeunesse,Éducation nationale,Sciences Po Paris,Académie de France à Rome - Villa Médicis,Parti socialiste,Judaïsme,458,Homosexuel,,
-Anne Rubinstein,people,Gouvernement,Directrice de cabinet,Égalité Femmes Hommes,,La Poste,Parti socialiste,Judaïsme,,,,
-Marlène Schiappa,people,Gouvernement,"Secrétaire d'État auprès du Premier ministre, chargée de l'Égalité entre les femmes et les hommes et de la Lutte contre les discriminations",Égalité Femmes Hommes,,"Yahoo!, Havas, Bondy Blog, Lagardère",Parti socialiste,Judaïsme,435,,,
-Yedidia Levy-Zauberman,people,Gouvernement,"Chef de cabinet, conseiller diplomatique, chargé des start-up",Enseignement supérieur,Sciences Po Paris,"Mairie de Paris, Natixis, Deloitte, Dahlia Partners",Parti socialiste,Judaïsme,445,Eclaireuses et Eclaireurs israélites de France,,
-Anna Klarsfeld,people,Gouvernement,Conseillère,Porte-parole du gouvernement,"Sciences Po Paris, HEC",The Boston Consulting Group,,Judaïsme,,,,
-Lionel Choukroun,people,Gouvernement,"Chef de cabinet, conseiller politique et affaires réservées",Porte-parole du gouvernement,,"Alstom, France Télévisions",,Judaïsme,,Homosexuel,,
-Constance Bensussan,people,Gouvernement,"Conseillère technique inclusion, égalité femmes hommes et citoyenneté",Premier Ministre,"Sciences Po Paris, ENA, Lomonosov","LCL, DILCRA",,Judaïsme,,À la fois au cabinet de la Présidence et du Premier-Ministre,,
-Eve Zuckerman,people,Gouvernement,Conseillère technique communication digitale,Premier Ministre,,"Food & Water Watch, Organizing for Action, 270 Strategies, Democrats Abroad, Le Figaro",Les Républicains,Judaïsme,,,,
-David Amiel,people,Gouvernement,Conseiller,Présidence,ENS,,Parti socialiste,Judaïsme,,,,
-Alexis Zajdenweber,people,Gouvernement,"Conseiller économie, finances, industrie",Présidence,"Sciences Po Paris, ENA","Direction générale du Trésor, Agence des participations de l’État",Parti socialiste,Judaïsme,,,,
-Alexis Kohler,people,Gouvernement,Secrétaire général de la Présidence,Présidence,"Sciences Po Paris, ENA (promotion Averroès), ESSEC",,Parti socialiste,Judaïsme,442,,,
-Agnès Buzyn,people,Gouvernement,Ministre des solidarités et de la santé,Santé,,"Haute Autorité de santé, Institut de radioprotection et de sûreté nucléaire",,Judaïsme,,Grand Orient de France,,
-Mickaël Benzaqui,people,Gouvernement,Conseiller,Santé,,Fédération Nationale des Etablissements d'Hospitalisation à Domicile,,Judaïsme,,,,
-Emmanuelle Wargon,people,Gouvernement,"Secrétaire d’État auprès du ministre d’État, ministre de la Transition écologique et solidaire",Transition écologique et solidaire,"ENA (promotion Marc Bloch), HEC, Sciences Po Paris","Cour des comptes, Danone, Agence Nationale de Sécurité du Médicament et des Produits de Santé",Parti socialiste,Judaïsme,458,Eclaireuses et Eclaireurs israélites de France,,
-Jack Azoulay,people,Gouvernement,Directeur du cabinet,Transition écologique et solidaire,"ENA, Sciences Po Paris","Chantiers de l'Atlantique, Naval Group, KNDS, Agence des Participations de l'Etat, Peugeot, La Poste, Docapost, MediaPost, Commission européenne",,Judaïsme,,,,
-Deborah De Lieme Abisror,people,Gouvernement,"Chef de cabinet, chargée des relations avec le Parlement",Transition écologique et solidaire,,ADDL Consulting,,Judaïsme,,,,
-Léo Cohen,people,Gouvernement,"Conseiller spécial, chargé des affaires politiques, du Parlement et de la société civile",Transition écologique et solidaire,,,"Parti socialiste, Europe Écologie Les Verts ",Judaïsme,,,,
-Léo Finkel,people,Gouvernement,Conseiller presse et communication,Transition écologique et solidaire,,Havas,Parti socialiste,Judaïsme,,Pas sûr pour socialiste,,
-Cécile Cukierman,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,Judaïsme,,,Loire,Auvergne-Rhône-Alpes
-David Assouline,people,Sénat,Vice-président du Sénat,Groupe Socialiste et républicain,,,Mouvement Jeunes communistes de France,Judaïsme,36,,Paris,Ile-de-France
-Esther Benbassa,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,CNRS,,Judaïsme,"123, 222, 240, 275, 292, 307",,Paris,Ile-de-France
-Laurence Cohen,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,Judaïsme,,,Val-de-Marne,Ile-de-France
-Michel Amiel,people,Sénat,,Groupe La République en Marche,,,"Groupe Rassemblement Démocratique et Social européen, Non-inscrits, Parti socialiste",Judaïsme,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
-Nathalie Goulet,people,Sénat,,Groupe Union Centriste,,,,Judaïsme,,,Orne,Normandie
-Patrick Kanner,people,Sénat,,Groupe Socialiste et républicain,,,,Judaïsme,,,Nord,Hauts-de-France
-Roger Karoutchi,people,Sénat,,Groupe Les Républicains,,,,Judaïsme,237,,Hauts-de-Seine,Ile-de-France
-Adrien Morenas,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
 Adrien Quatennens,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,Nord,Hauts-de-France
+Alexis Corbière,people,Assemblée nationale,Défense,La France insoumise,,,,,429,,Seine-Saint-Denis,Ile-de-France
+Bastien Lachaud,people,Assemblée nationale,Défense,La France insoumise,,,,,,,Seine-Saint-Denis,Ile-de-France
+Bénédicte Taurine,people,Assemblée nationale,Affaires économiques,La France insoumise,,,,,,,Ariège,Occitanie
+Caroline Fiat,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,Meurthe-et-Moselle,Grand Est
+Clémentine Autain,people,Assemblée nationale,Affaires étrangères,La France insoumise,,,,,,,Seine-Saint-Denis,Ile-de-France
+Danièle Obono,people,Assemblée nationale,Lois,La France insoumise,,,,,,,Paris,Ile-de-France
+Éric Coquerel,people,Assemblée nationale,Finances,La France insoumise,,,,,,,Seine-Saint-Denis,Ile-de-France
+François Ruffin,people,Assemblée nationale,Affaires économiques,La France insoumise,,,,,,,Somme,Hauts-de-France
+Jean-Hugues Ratenon,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,Réunion,Réunion
+Loïc Prud'homme,people,Assemblée nationale,Développement durable,La France insoumise,,,,,,,Gironde,Nouvelle-Aquitaine
+Mathilde Panot,people,Assemblée nationale,Développement durable,La France insoumise,,,,,,,Val-de-Marne,Ile-de-France
+Michel Larive,people,Assemblée nationale,Affaires culturelles et éducation,La France insoumise,,,,,,,Ariège,Occitanie
+Muriel Ressiguier,people,Assemblée nationale,Affaires culturelles et éducation,La France insoumise,,,,,,,Hérault,Occitanie
+Sabine Rubin,people,Assemblée nationale,Finances,La France insoumise,,,,,,,Seine-Saint-Denis,Ile-de-France
+Ugo Bernalicis,people,Assemblée nationale,Lois,La France insoumise,,,,,,,Nord,Hauts-de-France
+Brigitte Bourguignon,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,Grand Orient de France,,Pas sûr pour le GODF,Pas-de-Calais,Hauts-de-France
+Richard Ferrand,people,Assemblée nationale,Défense,La République en Marche,,,,Grand Orient de France,,Réputé franc-maçon mais pas sûr pour le Grand Orient,Finistère,Bretagne
+Thierry Solère,people,Assemblée nationale,Défense,La République en Marche,,"Deloitte, Aliapur",Les Républicains,Grande Loge nationale française,441,,Hauts-de-Seine,Ile-de-France
+Élise Fajgeles,people,Assemblée nationale,Lois,La République en Marche,,,,Judaïsme,,,Paris,Ile-de-France
+Yaël Braun-Pivet,people,Assemblée nationale,Lois,La République en Marche,,,,Judaïsme,,,Yvelines,Ile-de-France
+Adrien Morenas,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
 Adrien Taquet,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Hauts-de-Seine,Ile-de-France
-Agnès Firmin Le Bodo,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,Seine-Maritime,Normandie
 Agnès Thill,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Oise,Hauts-de-France
 Aina Kuric,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Marne,Grand Est
-Alain Bruneel,people,Assemblée nationale,Affaires économiques,Gauche démocrate et républicaine,,,,,,,Nord,Hauts-de-France
-Alain David,people,Assemblée nationale,Affaires étrangères,Socialistes et apparentés,,,,,,,Gironde,Nouvelle-Aquitaine
 Alain Perea,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Aude,Occitanie
-Alain Ramadier,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Seine-Saint-Denis,Ile-de-France
 Alain Tourret,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Calvados,Normandie
 Albane Gaillot,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Val-de-Marne,Ile-de-France
 Alexandra Louis,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Alexandra Valetta Ardisson,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Alexandre Freschi,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Lot-et-Garonne,Nouvelle-Aquitaine
 Alexandre Holroyd,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Français établis hors de France,Français établis hors de France
-Alexis Corbière,people,Assemblée nationale,Défense,La France insoumise,,,,,429,,Seine-Saint-Denis,Ile-de-France
 Alice Thourot,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Drôme,Auvergne-Rhône-Alpes
 Amélia Lakrafi,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Français établis hors de France,Français établis hors de France
 Amélie de Montchalin,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Essonne,Ile-de-France
-André Chassaigne,people,Assemblée nationale,Défense,Gauche démocrate et républicaine,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
-André Villiers,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,Yonne,Bourgogne-Franche-Comté
 Anissa Khedher,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Annaïg Le Meur,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Finistère,Bretagne
 Anne Blanc,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Aveyron,Occitanie
@@ -85,58 +61,34 @@ Anne-France Brunet,people,Assemblée nationale,Affaires économiques,La Républi
 Anne-Laure Cattelot,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Nord,Hauts-de-France
 Anne-Laurence Petel,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Annie Chapelier,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Gard,Occitanie
-Annie Genevard,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Doubs,Bourgogne-Franche-Comté
 Annie Vidal,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Seine-Maritime,Normandie
 Anthony Cellier,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Gard,Occitanie
-Antoine Herth,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,Bas-Rhin,Grand Est
-Antoine Savignat,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Val-d'Oise,Ile-de-France
-Arnaud Viala,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Aveyron,Occitanie
 Aude Amadou,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Loire-Atlantique,Pays de la Loire
 Aude Bono-Vandorme,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Aisne,Hauts-de-France
-Aude Luquet,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,Seine-et-Marne,Ile-de-France
 Audrey Dufeu Schubert,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Loire-Atlantique,Pays de la Loire
-Aurélien Pradié,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Lot,Occitanie
 Aurélien Taché,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Val-d'Oise,Ile-de-France
 Aurore Bergé,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Yvelines,Ile-de-France
 Barbara Bessot Ballot,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Haute-Saône,Bourgogne-Franche-Comté
 Barbara Pompili,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Somme,Hauts-de-France
-Bastien Lachaud,people,Assemblée nationale,Défense,La France insoumise,,,,,,,Seine-Saint-Denis,Ile-de-France
-Béatrice Descamps,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,,,,,,Nord,Hauts-de-France
 Béatrice Piron,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Yvelines,Ile-de-France
 Belkhir Belhaddad,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Moselle,Grand Est
 Bénédicte Peyrol,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Allier,Auvergne-Rhône-Alpes
-Bénédicte Taurine,people,Assemblée nationale,Affaires économiques,La France insoumise,,,,,,,Ariège,Occitanie
 Benjamin Dirx,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
 Benoit Potterie,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Pas-de-Calais,Hauts-de-France
 Benoit Simian,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
 Bérangère Abba,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Haute-Marne,Grand Est
 Bérangère Couillard,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
-Bérengère Poletti,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Ardennes,Grand Est
-Bernard Brochand,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
-Bernard Deflesselles,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
-Bernard Perrut,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Bernard Reynès,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Bertrand Bouyx,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Calvados,Normandie
-Bertrand Pancher,people,Assemblée nationale,Développement durable,Libertés et Territoires,,,,,,,Meuse,Grand Est
 Bertrand Sorre,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Manche,Normandie
 Blandine Brocard,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Boris Vallaud,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,ENA (promotion Léopold Sédar Senghor),,,,,,Landes,Nouvelle-Aquitaine
-Brahim Hammouche,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Moselle,Grand Est
-Brigitte Kuster,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Paris,Ile-de-France
 Brigitte Liso,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Nord,Hauts-de-France
-Bruno Bilde,people,Assemblée nationale,Affaires culturelles et éducation,Non-inscrits,,,,,,,Pas-de-Calais,Hauts-de-France
 Bruno Bonnell,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Bruno Duvergé,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,Pas-de-Calais,Hauts-de-France
-Bruno Fuchs,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,Haut-Rhin,Grand Est
-Bruno Joncour,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,Côtes-d'Armor,Bretagne
-Bruno Millienne,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,Yvelines,Ile-de-France
 Bruno Questel,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Eure,Normandie
-Bruno Studer,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Bas-Rhin,Grand Est
+Bruno Studer,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,Judaïsme,,,Bas-Rhin,Grand Est
 Buon Tan,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Paris,Ile-de-France
 Carole Bureau-Bonnard,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Oise,Hauts-de-France
 Carole Grandjean,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Meurthe-et-Moselle,Grand Est
 Caroline Abadie,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
-Caroline Fiat,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,Meurthe-et-Moselle,Grand Est
 Caroline Janvier,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Loiret,Centre-Val de Loire
 Catherine Fabre,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
 Catherine Kamowski,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
@@ -144,50 +96,31 @@ Catherine Osson,people,Assemblée nationale,Finances,La République en Marche,,,
 Cathy Racon-Bouzon,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Cécile Muschotti,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Var,Provence-Alpes-Côte d'Azur
 Cécile Rilhac,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Val-d'Oise,Ile-de-France
-Cécile Untermaier,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
 Cédric Roussel,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Cédric Villani,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Essonne,Ile-de-France
 Célia de Lavergne,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Drôme,Auvergne-Rhône-Alpes
 Céline Calvez,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Hauts-de-Seine,Ile-de-France
 Cendra Motin,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
-Charles de Courson,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Marne,Grand Est
-Charles de la Verpillière,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Ain,Auvergne-Rhône-Alpes
 Charlotte Lecocq,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Nord,Hauts-de-France
-Christian Hutin,people,Assemblée nationale,Affaires étrangères,Socialistes et apparentés,,,,,,,Nord,Hauts-de-France
-Christian Jacob,people,Assemblée nationale,Développement durable,Les Républicains,,,,,136,,Seine-et-Marne,Ile-de-France
 Christine Cloarec,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Ille-et-Vilaine,Bretagne
 Christine Hennion,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Hauts-de-Seine,Ile-de-France
-Christine Pires Beaune,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
 Christophe Arend,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Moselle,Grand Est
 Christophe Blanchet,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Calvados,Normandie
-Christophe Bouillon,people,Assemblée nationale,Développement durable,Socialistes et apparentés,,,,,,,Seine-Maritime,Normandie
 Christophe Di Pompeo,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Nord,Hauts-de-France
 Christophe Euzet,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Hérault,Occitanie
 Christophe Jerretie,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Corrèze,Nouvelle-Aquitaine
 Christophe Lejeune,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Haute-Saône,Bourgogne-Franche-Comté
-Christophe Naegelen,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,Vosges,Grand Est
-Claire Guion-Firmin,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Saint-Barthélemy et Saint-Martin,Saint-Barthélemy et Saint-Martin
 Claire O'Petit,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Eure,Normandie
 Claire Pitollat,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
-Claude de Ganay,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Loiret,Centre-Val de Loire
-Claude Goasguen,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Paris,Ile-de-France
-Clémentine Autain,people,Assemblée nationale,Affaires étrangères,La France insoumise,,,,,,,Seine-Saint-Denis,Ile-de-France
-Constance Le Grip,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Hauts-de-Seine,Ile-de-France
 Coralie Dubost,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Hérault,Occitanie
 Corinne Vignon,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Haute-Garonne,Occitanie
-Cyrille Isaac-Sibille,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Damien Abad,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Ain,Auvergne-Rhône-Alpes
 Damien Adam,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Seine-Maritime,Normandie
 Damien Pichereau,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Sarthe,Pays de la Loire
-Daniel Fasquelle,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Pas-de-Calais,Hauts-de-France
 Daniel Labaronne,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Indre-et-Loire,Centre-Val de Loire
 Danièle Cazarian,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Danièle Hérin,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Aude,Occitanie
-Danièle Obono,people,Assemblée nationale,Lois,La France insoumise,,,,,,,Paris,Ile-de-France
 Danielle Brulebois,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Jura,Bourgogne-Franche-Comté
-David Lorion,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Réunion,Réunion
 Delphine Bagarry,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Alpes-de-Haute-Provence,Provence-Alpes-Côte d'Azur
-Delphine Batho,people,Assemblée nationale,Affaires économiques,Non-inscrits,,,,,339,,Deux-Sèvres,Nouvelle-Aquitaine
 Delphine O,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Paris,Ile-de-France
 Denis Masséglia,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Maine-et-Loire,Pays de la Loire
 Denis Sommer,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Doubs,Bourgogne-Franche-Comté
@@ -195,42 +128,21 @@ Didier Baichère,people,Assemblée nationale,Défense,La République en Marche,,
 Didier Le Gac,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Finistère,Bretagne
 Didier Martin,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
 Didier Paris,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
-Didier Quentin,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
 Dimitri Houbron,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Nord,Hauts-de-France
-Dino Cinieri,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Loire,Auvergne-Rhône-Alpes
 Dominique Da Silva,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Val-d'Oise,Ile-de-France
 Dominique David,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
-Dominique Potier,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,,,Meurthe-et-Moselle,Grand Est
 Élisabeth Toutut-Picard,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Haute-Garonne,Occitanie
-Élodie Jacquier-Laforge,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Isère,Auvergne-Rhône-Alpes
-Elsa Faucillon,people,Assemblée nationale,Affaires culturelles et éducation,Gauche démocrate et républicaine,,,,,,,Hauts-de-Seine,Ile-de-France
-Émilie Bonnivard,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Savoie,Auvergne-Rhône-Alpes
 Émilie Cariou,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Meuse,Grand Est
 Émilie Chalas,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
 Émilie Guerel,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Var,Provence-Alpes-Côte d'Azur
-Emmanuel Maquet,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Somme,Hauts-de-France
-Emmanuelle Anthoine,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Drôme,Auvergne-Rhône-Alpes
 Emmanuelle Fontaine-Domeizel,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Alpes-de-Haute-Provence,Provence-Alpes-Côte d'Azur
-Emmanuelle Ménard,people,Assemblée nationale,Lois,Non-inscrits,,,,,,,Hérault,Occitanie
 Éric Alauzet,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Doubs,Bourgogne-Franche-Comté
 Éric Bothorel,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Côtes-d'Armor,Bretagne
-Éric Ciotti,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
-Éric Coquerel,people,Assemblée nationale,Finances,La France insoumise,,,,,,,Seine-Saint-Denis,Ile-de-France
-Éric Diard,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Éric Girardin,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Marne,Grand Est
-Éric Pauget,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Éric Poulliat,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
-Éric Straumann,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Haut-Rhin,Grand Est
-Éric Woerth,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Oise,Hauts-de-France
-Ericka Bareigts,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,,,,,,,Réunion,Réunion
-Erwan Balanant,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Finistère,Bretagne
-Fabien Di Filippo,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Moselle,Grand Est
 Fabien Gouttefarde,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Eure,Normandie
-Fabien Lainé,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Landes,Nouvelle-Aquitaine
 Fabien Matras,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Var,Provence-Alpes-Côte d'Azur
-Fabien Roussel,people,Assemblée nationale,Finances,Gauche démocrate et républicaine,,,,,31,,Nord,Hauts-de-France
 Fabienne Colboc,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Indre-et-Loire,Centre-Val de Loire
-Fabrice Brun,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Ardèche,Auvergne-Rhône-Alpes
 Fabrice Le Vigoureux,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Calvados,Normandie
 Fadila Khattabi,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
 Fannette Charvier,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Doubs,Bourgogne-Franche-Comté
@@ -240,300 +152,142 @@ Florence Provendier,people,Assemblée nationale,Affaires culturelles et éducati
 Florent Boudié,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
 Florian Bachelier,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Ille-et-Vilaine,Bretagne
 Francis Chouat,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Essonne,Ile-de-France
-Francis Vercamer,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,Nord,Hauts-de-France
-Franck Marlin,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Essonne,Ile-de-France
 François André,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Ille-et-Vilaine,Bretagne
 François Cormier-Bouligeon,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Cher,Centre-Val de Loire
-François Cornut-Gentille,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Haute-Marne,Grand Est
 François Jolivet,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Indre,Centre-Val de Loire
-François Pupponi,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Val-d'Oise,Ile-de-France
-François Ruffin,people,Assemblée nationale,Affaires économiques,La France insoumise,,,,,,,Somme,Hauts-de-France
-François-Michel Lambert,people,Assemblée nationale,Développement durable,Libertés et Territoires,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Françoise Dumas,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Gard,Occitanie
 Frédéric Barbier,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Doubs,Bourgogne-Franche-Comté
 Frédéric Descrozaille,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Val-de-Marne,Ile-de-France
-Frédéric Petit,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,Français établis hors de France,Français établis hors de France
-Frédéric Reiss,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Bas-Rhin,Grand Est
-Frédérique Dumas,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,,,,,,Hauts-de-Seine,Ile-de-France
 Frédérique Lardet,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
-Frédérique Meunier,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Corrèze,Nouvelle-Aquitaine
 Frédérique Tuffnell,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
-Gabriel Serville,people,Assemblée nationale,Développement durable,Gauche démocrate et républicaine,,,,,,,Guyane,Guyane
 Gaël Le Bohec,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Ille-et-Vilaine,Bretagne
-George Pau-Langevin,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Paris,Ile-de-France
-Géraldine Bannier,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Mayenne,Pays de la Loire
-Gérard Cherpion,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Vosges,Grand Est
-Gérard Menuel,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Aube,Grand Est
-Gilles Carrez,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Val-de-Marne,Ile-de-France
 Gilles Le Gendre,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Paris,Ile-de-France
-Gilles Lurton,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Ille-et-Vilaine,Bretagne
-Gisèle Biémouret,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,,,,,,,Gers,Occitanie
 Graziella Melchior,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Finistère,Bretagne
 Grégory Besson-Moreau,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Aube,Grand Est
 Guillaume Chiche,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Deux-Sèvres,Nouvelle-Aquitaine
-Guillaume Garot,people,Assemblée nationale,Développement durable,Socialistes et apparentés,,,,,340,,Mayenne,Pays de la Loire
 Guillaume Gouffier-Cha,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Val-de-Marne,Ile-de-France
 Guillaume Kasbarian,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Eure-et-Loir,Centre-Val de Loire
-Guillaume Larrivé,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Yonne,Bourgogne-Franche-Comté
-Guillaume Peltier,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Loir-et-Cher,Centre-Val de Loire
 Guillaume Vuilletet,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Val-d'Oise,Ile-de-France
-Guy Bricout,people,Assemblée nationale,Développement durable,"UDI, Agir et Indépendants",,,,,,,Nord,Hauts-de-France
-Guy Teissier,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Gwendal Rouillard,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Morbihan,Bretagne
-Hélène Vainqueur-Christophe,people,Assemblée nationale,Développement durable,Socialistes et apparentés,,,,,,,Guadeloupe,Guadeloupe
 Hélène Zannier,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Moselle,Grand Est
 Hervé Berville,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Côtes-d'Armor,Bretagne
 Hervé Pellois,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Morbihan,Bretagne
-Hervé Saulignac,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,,Ardèche,Auvergne-Rhône-Alpes
 Hubert Julien-Laferrière,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Hubert Wulfranc,people,Assemblée nationale,Développement durable,Gauche démocrate et républicaine,,,,,,,Seine-Maritime,Normandie
 Hugues Renson,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Paris,Ile-de-France
-Huguette Bello,people,Assemblée nationale,Lois,Gauche démocrate et républicaine,,,,,192,,Réunion,Réunion
 Huguette Tiegna,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Lot,Occitanie
-Ian Boucard,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Territoire de Belfort,Bourgogne-Franche-Comté
-Isabelle Florennes,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Hauts-de-Seine,Ile-de-France
 Isabelle Rauch,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Moselle,Grand Est
-Isabelle Valentin,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Haute-Loire,Auvergne-Rhône-Alpes
 Jacqueline Dubois,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Dordogne,Nouvelle-Aquitaine
 Jacqueline Maquet,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Pas-de-Calais,Hauts-de-France
-Jacques Cattin,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Haut-Rhin,Grand Est
 Jacques Krabal,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Aisne,Hauts-de-France
 Jacques Maire,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Hauts-de-Seine,Ile-de-France
 Jacques Marilossian,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Hauts-de-Seine,Ile-de-France
 Jacques Savatier,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Vienne,Nouvelle-Aquitaine
 Jean François Mbaye,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Val-de-Marne,Ile-de-France
-Jean Lassalle,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
 Jean Terlier,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Tarn,Occitanie
 Jean-Baptiste Djebbari,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
 Jean-Baptiste Moreau,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Creuse,Nouvelle-Aquitaine
 Jean-Bernard Sempastous,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Hautes-Pyrénées,Occitanie
-Jean-Carles Grelier,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Sarthe,Pays de la Loire
 Jean-Charles Colas-Roy,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
 Jean-Charles Larsonneur,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Finistère,Bretagne
-Jean-Charles Taugourdeau,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Maine-et-Loire,Pays de la Loire
-Jean-Christophe Lagarde,people,Assemblée nationale,Défense,"UDI, Agir et Indépendants",,,,,,,Seine-Saint-Denis,Ile-de-France
-Jean-Claude Bouchet,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
 Jean-Claude Leclabart,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Somme,Hauts-de-France
-Jean-Félix Acquaviva,people,Assemblée nationale,Lois,Libertés et Territoires,,,,,,,Haute-Corse,Corse
 Jean-François Cesarini,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
 Jean-François Eliaou,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Hérault,Occitanie
-Jean-François Parigi,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Seine-et-Marne,Ile-de-France
 Jean-François Portarrieu,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Haute-Garonne,Occitanie
-Jean-Hugues Ratenon,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,Réunion,Réunion
 Jean-Jacques Bridey,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Val-de-Marne,Ile-de-France
-Jean-Jacques Ferrara,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Corse-du-Sud,Corse
-Jean-Jacques Gaultier,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Vosges,Grand Est
-Jean-Louis Bourlanges,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Hauts-de-Seine,Ile-de-France
-Jean-Louis Bricout,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,,,Aisne,Hauts-de-France
-Jean-Louis Masson,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Var,Provence-Alpes-Côte d'Azur
-Jean-Louis Thiériot,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Seine-et-Marne,Ile-de-France
 Jean-Louis Touraine,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Jean-Luc Fugit,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Jean-Luc Lagleize,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Haute-Garonne,Occitanie
-Jean-Luc Poudroux,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Réunion,Réunion
-Jean-Luc Reitzer,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Haut-Rhin,Grand Est
-Jean-Luc Warsmann,people,Assemblée nationale,Lois,"UDI, Agir et Indépendants",,,,,,,Ardennes,Grand Est
 Jean-Marc Zulesi,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Jean-Marie Fiévet,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Deux-Sèvres,Nouvelle-Aquitaine
-Jean-Marie Sermier,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Jura,Bourgogne-Franche-Comté
-Jean-Michel Clément,people,Assemblée nationale,Affaires étrangères,Libertés et Territoires,,,,,,,Vienne,Nouvelle-Aquitaine
 Jean-Michel Fauvergue,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Seine-et-Marne,Ile-de-France
 Jean-Michel Jacques,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Morbihan,Bretagne
 Jean-Michel Mis,people,Assemblée nationale,Lois,La République en Marche,,,Parti socialiste,,,,Loire,Auvergne-Rhône-Alpes
-Jean-Noël Barrot,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Yvelines,Ile-de-France
-Jean-Paul Dufrègne,people,Assemblée nationale,Lois,Gauche démocrate et républicaine,,,,,,,Allier,Auvergne-Rhône-Alpes
-Jean-Paul Lecoq,people,Assemblée nationale,Affaires étrangères,Gauche démocrate et républicaine,,,,,,,Seine-Maritime,Normandie
-Jean-Paul Mattei,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
 Jean-Philippe Ardouin,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
-Jean-Philippe Nilor,people,Assemblée nationale,Affaires sociales,Gauche démocrate et républicaine,,,,,,,Martinique,Martinique
-Jean-Pierre Cubertafon,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Dordogne,Nouvelle-Aquitaine
-Jean-Pierre Door,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Loiret,Centre-Val de Loire
 Jean-Pierre Pont,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Pas-de-Calais,Hauts-de-France
-Jean-Pierre Vigier,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Haute-Loire,Auvergne-Rhône-Alpes
 Jean-René Cazeneuve,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Gers,Occitanie
-Jean-Yves Bony,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Cantal,Auvergne-Rhône-Alpes
-Jeanine Dubié,people,Assemblée nationale,Affaires sociales,Libertés et Territoires,,,,,,,Hautes-Pyrénées,Occitanie
 Jennifer de Temmerman,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Nord,Hauts-de-France
-Jérôme Lambert,people,Assemblée nationale,Affaires étrangères,Socialistes et apparentés,,,,,,,Charente,Nouvelle-Aquitaine
-Jérôme Nury,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Orne,Normandie
-Jimmy Pahun,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,Morbihan,Bretagne
-Joachim Son-Forget,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,Français établis hors de France,Français établis hors de France
-Joaquim Pueyo,people,Assemblée nationale,Défense,Socialistes et apparentés,,,,,,,Orne,Normandie
-Joël Aviragnet,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,,,,,,,Haute-Garonne,Occitanie
 Joël Giraud,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Hautes-Alpes,Provence-Alpes-Côte d'Azur
-José Evrard,people,Assemblée nationale,Affaires économiques,Non-inscrits,,,,,,,Pas-de-Calais,Hauts-de-France
-Josette Manin,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Martinique,Martinique
-Josiane Corneloup,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
-Josy Poueyto,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
-Julien Aubert,people,Assemblée nationale,Finances,Les Républicains,ENA (promotion Léopold Sédar Senghor),,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
 Julien Borowczyk,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Loire,Auvergne-Rhône-Alpes
-Julien Dive,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Aisne,Hauts-de-France
-Justine Benin,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Guadeloupe,Guadeloupe
 Laetitia Avia,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Paris,Ile-de-France
 Laëtitia Romeiro Dias,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Essonne,Ile-de-France
 Laetitia Saint-Paul,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Maine-et-Loire,Pays de la Loire
-Laure de La Raudière,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,Eure-et-Loir,Centre-Val de Loire
-Laurence Dumont,people,Assemblée nationale,Affaires étrangères,Socialistes et apparentés,,,,,,,Calvados,Normandie
 Laurence Gayte,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Pyrénées-Orientales,Occitanie
 Laurence Maillart-Méhaignerie,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Ille-et-Vilaine,Bretagne
-Laurence Trastour-Isnart,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Laurence Vanceunebrock-Mialon,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Allier,Auvergne-Rhône-Alpes
-Laurence Vichnievsky,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
-Laurent Furst,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Bas-Rhin,Grand Est
-Laurent Garcia,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Meurthe-et-Moselle,Grand Est
 Laurent Pietraszewski,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Nord,Hauts-de-France
 Laurent Saint-Martin,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Val-de-Marne,Ile-de-France
 Laurianne Rossi,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Hauts-de-Seine,Ile-de-France
 Lénaïck Adam,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Guyane,Guyane
 Liliana Tanguy,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Finistère,Bretagne
 Lionel Causse,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Landes,Nouvelle-Aquitaine
-Lise Magnier,people,Assemblée nationale,Finances,"UDI, Agir et Indépendants",,,,,,,Marne,Grand Est
 Loïc Dombreval,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Loïc Kervran,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Cher,Centre-Val de Loire
-Loïc Prud'homme,people,Assemblée nationale,Développement durable,La France insoumise,,,,,,,Gironde,Nouvelle-Aquitaine
-Luc Carvounas,people,Assemblée nationale,Défense,Socialistes et apparentés,,,,,,,Val-de-Marne,Ile-de-France
 Ludovic Mendes,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Moselle,Grand Est
-Ludovic Pajot,people,Assemblée nationale,Affaires économiques,Non-inscrits,,,,,,,Pas-de-Calais,Hauts-de-France
-M'jid El Guerrab,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Français établis hors de France,Français établis hors de France
-Maina Sage,people,Assemblée nationale,Lois,"UDI, Agir et Indépendants",,,,,,,Polynésie Française,Polynésie française
-Mansour Kamardine,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Mayotte,Mayotte
-Manuéla Kéclard-Mondésir,people,Assemblée nationale,Défense,Gauche démocrate et républicaine,,,,,,,Martinique,Martinique
 Marc Delatte,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Aisne,Hauts-de-France
-Marc Le Fur,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Côtes-d'Armor,Bretagne
-Marguerite Deprez-Audebert,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Pas-de-Calais,Hauts-de-France
-Marianne Dubois,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Loiret,Centre-Val de Loire
 Marie Guévenoux,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Essonne,Ile-de-France
 Marie Lebec,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Yvelines,Ile-de-France
 Marie Tamarelle-Verhaeghe,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Eure,Normandie
 Marie-Ange Magne,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
-Marie-Christine Dalloz,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Jura,Bourgogne-Franche-Comté
 Marie-Christine Verdier-Jouclas,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Tarn,Occitanie
-Marie-France Lorho,people,Assemblée nationale,Lois,Non-inscrits,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
-Marie-George Buffet,people,Assemblée nationale,Affaires culturelles et éducation,Gauche démocrate et républicaine,,,,,"29, 32, 33, 35, 44, 51, 56, 60, 63, 65, 70, 71, 72, 73, 74, 76, 81, 86, 93, 94, 97, 101, 103, 107, 119, 133, 139",Terminer de rajouter les numéros,Seine-Saint-Denis,Ile-de-France
-Marie-Noëlle Battistel,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,,,Isère,Auvergne-Rhône-Alpes
 Marie-Pierre Rixain,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Essonne,Ile-de-France
-Marielle de Sarnez,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,Paris,Ile-de-France
-Marietta Karamanli,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,,Sarthe,Pays de la Loire
-Marine Brenier,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
-Marine Le Pen,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,,,,,Pas-de-Calais,Hauts-de-France
 Marion Lenne,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
 Marjolaine Meynier-Millefert,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
-Martial Saddier,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
 Martine Leguille-Balloy,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Vendée,Pays de la Loire
 Martine Wonner,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Bas-Rhin,Grand Est
-Mathilde Panot,people,Assemblée nationale,Développement durable,La France insoumise,,,,,,,Val-de-Marne,Ile-de-France
 Matthieu Orphelin,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Maine-et-Loire,Pays de la Loire
-Maud Petit,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Val-de-Marne,Ile-de-France
-Max Mathiasin,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Guadeloupe,Guadeloupe
-Maxime Minot,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Oise,Hauts-de-France
-Michel Castellani,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Haute-Corse,Corse
 Michel Delpon,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Dordogne,Nouvelle-Aquitaine
-Michel Fanget,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
-Michel Herbillon,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Val-de-Marne,Ile-de-France
-Michel Larive,people,Assemblée nationale,Affaires culturelles et éducation,La France insoumise,,,,,,,Ariège,Occitanie
 Michel Lauzzana,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Lot-et-Garonne,Nouvelle-Aquitaine
-Michel Vialay,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Yvelines,Ile-de-France
-Michel Zumkeller,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,,,,,,Territoire de Belfort,Bourgogne-Franche-Comté
 Michèle Crouzet,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Yonne,Bourgogne-Franche-Comté
-Michèle de Vaucouleurs,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Yvelines,Ile-de-France
 Michèle Peyron,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Seine-et-Marne,Ile-de-France
-Michèle Tabarot,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
-Michèle Victory,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Ardèche,Auvergne-Rhône-Alpes
 Mickaël Nogal,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Haute-Garonne,Occitanie
 Mireille Clapot,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Drôme,Auvergne-Rhône-Alpes
 Mireille Robert,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Aude,Occitanie
-Moetai Brotherson,people,Assemblée nationale,Affaires étrangères,Gauche démocrate et républicaine,,,,,,,Polynésie Française,Polynésie française
-Mohamed Laqhila,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Monica Michel,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Monique Iborra,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Haute-Garonne,Occitanie
 Monique Limon,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
 Mounir Belhamiti,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Loire-Atlantique,Pays de la Loire
-Muriel Ressiguier,people,Assemblée nationale,Affaires culturelles et éducation,La France insoumise,,,,,,,Hérault,Occitanie
 Mustapha Laabid,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Ille-et-Vilaine,Bretagne
-Nadia Essayan,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Cher,Centre-Val de Loire
 Nadia Hai,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Yvelines,Ile-de-France
-Nadia Ramassamy,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Réunion,Réunion
 Naïma Moutchou,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Val-d'Oise,Ile-de-France
 Natalia Pouzyreff,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Yvelines,Ile-de-France
-Nathalie Bassire,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Réunion,Réunion
-Nathalie Elimas,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Val-d'Oise,Ile-de-France
 Nathalie Sarles,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Loire,Auvergne-Rhône-Alpes
 Nicolas Démoulin,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Hérault,Occitanie
-Nicolas Dupont-Aignan,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,,,,,Essonne,Ile-de-France
-Nicolas Forissier,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Indre,Centre-Val de Loire
-Nicolas Turquois,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Vienne,Nouvelle-Aquitaine
 Nicole Dubré-Chirat,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Maine-et-Loire,Pays de la Loire
 Nicole Le Peih,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Morbihan,Bretagne
-Nicole Sanquer,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,Polynésie Française,Polynésie française
 Nicole Trisse,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Moselle,Grand Est
 Olga Givernet,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Ain,Auvergne-Rhône-Alpes
 Olivia Gregoire,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Paris,Ile-de-France
-Olivier Becht,people,Assemblée nationale,Défense,"UDI, Agir et Indépendants",ENA (promotion Léopold Sédar Senghor),,,,,,Haut-Rhin,Grand Est
 Olivier Damaisin,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Lot-et-Garonne,Nouvelle-Aquitaine
-Olivier Dassault,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Oise,Hauts-de-France
-Olivier Falorni,people,Assemblée nationale,Développement durable,Libertés et Territoires,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
-Olivier Faure,people,Assemblée nationale,Défense,Socialistes et apparentés,,,,,,,Seine-et-Marne,Ile-de-France
 Olivier Gaillard,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Gard,Occitanie
-Olivier Marleix,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Eure-et-Loir,Centre-Val de Loire
 Olivier Serva,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Guadeloupe,Guadeloupe
 Olivier Véran,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
 Pacôme Rupin,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Paris,Ile-de-France
 Pascal Bois,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Oise,Hauts-de-France
-Pascal Brindeau,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,Loir-et-Cher,Centre-Val de Loire
 Pascal Lavergne,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
 Pascale Boyer,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Hautes-Alpes,Provence-Alpes-Côte d'Azur
 Pascale Fontenel-Personne,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Sarthe,Pays de la Loire
 Patrice Anato,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Seine-Saint-Denis,Ile-de-France
 Patrice Perrot,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Nièvre,Bourgogne-Franche-Comté
-Patrice Verchère,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Patricia Gallerneau,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,Vendée,Pays de la Loire
-Patricia Lemoine,people,Assemblée nationale,Finances,"UDI, Agir et Indépendants",,,,,,,Seine-et-Marne,Ile-de-France
 Patricia Mirallès,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Hérault,Occitanie
-Patrick Hetzel,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Bas-Rhin,Grand Est
-Patrick Mignola,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Savoie,Auvergne-Rhône-Alpes
 Patrick Vignal,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Hérault,Occitanie
-Paul Christophe,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,Nord,Hauts-de-France
-Paul Molac,people,Assemblée nationale,Lois,Libertés et Territoires,,,,,,,Morbihan,Bretagne
-Paul-André Colombani,people,Assemblée nationale,Développement durable,Libertés et Territoires,,,,,,,Corse-du-Sud,Corse
 Paula Forteza,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Français établis hors de France,Français établis hors de France
 Perrine Goulet,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Nièvre,Bourgogne-Franche-Comté
-Philippe Berta,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Gard,Occitanie
-Philippe Bolo,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Maine-et-Loire,Pays de la Loire
 Philippe Chalumeau,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Indre-et-Loire,Centre-Val de Loire
 Philippe Chassaing,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Dordogne,Nouvelle-Aquitaine
-Philippe Dunoyer,people,Assemblée nationale,Lois,"UDI, Agir et Indépendants",,,,,,,Nouvelle-Calédonie,Nouvelle-Calédonie
 Philippe Folliot,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Tarn,Occitanie
-Philippe Gomès,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,Nouvelle-Calédonie,Nouvelle-Calédonie
-Philippe Gosselin,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Manche,Normandie
 Philippe Huppé,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Hérault,Occitanie
-Philippe Latombe,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Vendée,Pays de la Loire
-Philippe Michel-Kleisbauer,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Var,Provence-Alpes-Côte d'Azur
-Philippe Vigier,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Eure-et-Loir,Centre-Val de Loire
 Pierre Cabaré,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Haute-Garonne,Occitanie
-Pierre Cordier,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Ardennes,Grand Est
-Pierre Dharréville,people,Assemblée nationale,Affaires sociales,Gauche démocrate et républicaine,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Pierre Henriet,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Vendée,Pays de la Loire
-Pierre Morel-À-L'Huissier,people,Assemblée nationale,Lois,"UDI, Agir et Indépendants",,,,,,,Lozère,Occitanie
 Pierre Person,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Paris,Ile-de-France
-Pierre Vatin,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Oise,Hauts-de-France
 Pierre-Alain Raphan,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Essonne,Ile-de-France
-Pierre-Henri Dumont,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Pas-de-Calais,Hauts-de-France
-Pierre-Yves Bournazel,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,,,,,,Paris,Ile-de-France
 Pieyre-Alexandre Anglade,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Français établis hors de France,Français établis hors de France
 Ramlati Ali,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Mayotte,Mayotte
 Raphaël Gauvain,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
 Raphaël Gérard,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
-Raphaël Schellenberger,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Haut-Rhin,Grand Est
-Régis Juanico,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Loire,Auvergne-Rhône-Alpes
-Rémi Delatte,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
 Rémy Rebeyrotte,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
 Richard Lioger,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Moselle,Grand Est
-Richard Ramos,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Loiret,Centre-Val de Loire
-Robin Reda,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Essonne,Ile-de-France
 Rodrigue Kokouendo,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Seine-et-Marne,Ile-de-France
 Roland Lescure,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Français établis hors de France,Français établis hors de France
 Romain Grau,people,Assemblée nationale,Finances,La République en Marche,ENA (promotion Léopold Sédar Senghor),,,,,,Pyrénées-Orientales,Occitanie
-Sabine Rubin,people,Assemblée nationale,Finances,La France insoumise,,,,,,,Seine-Saint-Denis,Ile-de-France
 Sabine Thillaye,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Indre-et-Loire,Centre-Val de Loire
 Sacha Houlié,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Vienne,Nouvelle-Aquitaine
 Saïd Ahamada,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
@@ -542,81 +296,288 @@ Sandra Marsaud,people,Assemblée nationale,Développement durable,La République
 Sandrine Josso,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Loire-Atlantique,Pays de la Loire
 Sandrine Le Feur,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Finistère,Bretagne
 Sandrine Mörch,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Haute-Garonne,Occitanie
-Sarah El Haïry,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Loire-Atlantique,Pays de la Loire
 Sébastien Cazenove,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Pyrénées-Orientales,Occitanie
-Sébastien Chenu,people,Assemblée nationale,Affaires sociales,Non-inscrits,,,,,,,Nord,Hauts-de-France
-Sébastien Huyghe,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Nord,Hauts-de-France
-Sébastien Jumel,people,Assemblée nationale,Affaires économiques,Gauche démocrate et républicaine,,,,,,,Seine-Maritime,Normandie
-Sébastien Leclerc,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Calvados,Normandie
 Sébastien Nadot,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Haute-Garonne,Occitanie
 Sereine Mauborgne,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Var,Provence-Alpes-Côte d'Azur
-Serge Letchimy,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,249,,Martinique,Martinique
 Séverine Gipson,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Eure,Normandie
 Sira Sylla,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Seine-Maritime,Normandie
 Sonia Krimi,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Manche,Normandie
-Sophie Auconie,people,Assemblée nationale,Développement durable,"UDI, Agir et Indépendants",,,,,,,Indre-et-Loire,Centre-Val de Loire
 Sophie Beaudouin-Hubière,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
 Sophie Errante,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Loire-Atlantique,Pays de la Loire
-Sophie Mette,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Gironde,Nouvelle-Aquitaine
 Sophie Panonacle,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
 Stanislas Guerini,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Paris,Ile-de-France
 Stella Dupont,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Maine-et-Loire,Pays de la Loire
-Stéphane Baudu,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Loir-et-Cher,Centre-Val de Loire
 Stéphane Buchou,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Vendée,Pays de la Loire
 Stéphane Claireaux,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Saint-Pierre-et-Miquelon,Saint-Pierre-et-Miquelon
-Stéphane Demilly,people,Assemblée nationale,Développement durable,"UDI, Agir et Indépendants",,,,,,,Somme,Hauts-de-France
 Stéphane Mazars,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Aveyron,Occitanie
-Stéphane Peu,people,Assemblée nationale,Finances,Gauche démocrate et républicaine,,,,,24,,Seine-Saint-Denis,Ile-de-France
 Stéphane Testé,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Seine-Saint-Denis,Ile-de-France
 Stéphane Travert,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Manche,Normandie
 Stéphane Trompille,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Ain,Auvergne-Rhône-Alpes
-Stéphane Viry,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Vosges,Grand Est
 Stéphanie Do,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Seine-et-Marne,Ile-de-France
 Stéphanie Kerbarh,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Seine-Maritime,Normandie
 Stéphanie Rist,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Loiret,Centre-Val de Loire
-Sylvain Brial,people,Assemblée nationale,Défense,Libertés et Territoires,,,,,,,Wallis-et-Futuna,Wallis-et-Futuna
 Sylvain Maillard,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Paris,Ile-de-France
-Sylvia Pinel,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Tarn-et-Garonne,Occitanie
 Sylvie Charrière,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Seine-Saint-Denis,Ile-de-France
-Sylvie Tolmont,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,,,Sarthe,Pays de la Loire
-Thibault Bazin,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Meurthe-et-Moselle,Grand Est
-Thierry Benoit,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,Ille-et-Vilaine,Bretagne
 Thierry Michels,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Bas-Rhin,Grand Est
 Thomas Gassilloud,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Thomas Mesnier,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Charente,Nouvelle-Aquitaine
 Thomas Rudigoz,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Typhanie Degois,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Savoie,Auvergne-Rhône-Alpes
-Ugo Bernalicis,people,Assemblée nationale,Lois,La France insoumise,,,,,,,Nord,Hauts-de-France
 Valéria Faure-Muntian,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Loire,Auvergne-Rhône-Alpes
-Valérie Bazin-Malgras,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Aube,Grand Est
-Valérie Beauvais,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Marne,Grand Est
-Valérie Boyer,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Valérie Gomez-Bassac,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Var,Provence-Alpes-Côte d'Azur
-Valérie Lacroute,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Seine-et-Marne,Ile-de-France
 Valérie Oppelt,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Loire-Atlantique,Pays de la Loire
 Valérie Petit,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Nord,Hauts-de-France
-Valérie Rabault,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,321,,Tarn-et-Garonne,Occitanie
 Valérie Thomas,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
 Véronique Hammerer,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Gironde,Nouvelle-Aquitaine
-Véronique Louwagie,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Orne,Normandie
 Véronique Riotton,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
-Vincent Bru,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
-Vincent Descoeur,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Cantal,Auvergne-Rhône-Alpes
-Vincent Ledoux,people,Assemblée nationale,Finances,"UDI, Agir et Indépendants",,,,,,,Nord,Hauts-de-France
-Vincent Rolland,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Savoie,Auvergne-Rhône-Alpes
 Vincent Thiébaut,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Bas-Rhin,Grand Est
-Virginie Duby-Muller,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
 Xavier Batut,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Seine-Maritime,Normandie
-Xavier Breton,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Ain,Auvergne-Rhône-Alpes
 Xavier Paluszkiewicz,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Meurthe-et-Moselle,Grand Est
 Xavier Roseren,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
-Yannick Favennec Becot,people,Assemblée nationale,Défense,Libertés et Territoires,,,,,,,Mayenne,Pays de la Loire
 Yannick Haury,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Loire-Atlantique,Pays de la Loire
 Yannick Kerlogot,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Côtes-d'Armor,Bretagne
 Yolaine de Courson,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
 Yves Blein,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Yves Daniel,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Loire-Atlantique,Pays de la Loire
 Zivka Park,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Val-d'Oise,Ile-de-France
+Geneviève Levy,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,Judaïsme,,,Var,Provence-Alpes-Côte d'Azur
+Olivier Dassault,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,Judaïsme,,,Oise,Hauts-de-France
+Alain Ramadier,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Seine-Saint-Denis,Ile-de-France
+Annie Genevard,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Doubs,Bourgogne-Franche-Comté
+Antoine Savignat,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Val-d'Oise,Ile-de-France
+Arnaud Viala,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Aveyron,Occitanie
+Aurélien Pradié,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Lot,Occitanie
+Bérengère Poletti,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Ardennes,Grand Est
+Bernard Brochand,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
+Bernard Deflesselles,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Bernard Perrut,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Rhône,Auvergne-Rhône-Alpes
+Bernard Reynès,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Brigitte Kuster,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Paris,Ile-de-France
+Charles de la Verpillière,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Ain,Auvergne-Rhône-Alpes
+Christian Jacob,people,Assemblée nationale,Développement durable,Les Républicains,,,,,136,,Seine-et-Marne,Ile-de-France
+Claire Guion-Firmin,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Saint-Barthélemy et Saint-Martin,Saint-Barthélemy et Saint-Martin
+Claude de Ganay,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Loiret,Centre-Val de Loire
+Claude Goasguen,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Paris,Ile-de-France
+Constance Le Grip,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Hauts-de-Seine,Ile-de-France
+Damien Abad,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Ain,Auvergne-Rhône-Alpes
+Daniel Fasquelle,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Pas-de-Calais,Hauts-de-France
+David Lorion,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Réunion,Réunion
+Didier Quentin,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
+Dino Cinieri,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Loire,Auvergne-Rhône-Alpes
+Émilie Bonnivard,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Savoie,Auvergne-Rhône-Alpes
+Emmanuel Maquet,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Somme,Hauts-de-France
+Emmanuelle Anthoine,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Drôme,Auvergne-Rhône-Alpes
+Éric Ciotti,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
+Éric Diard,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Éric Pauget,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
+Éric Straumann,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Haut-Rhin,Grand Est
+Éric Woerth,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Oise,Hauts-de-France
+Fabien Di Filippo,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Moselle,Grand Est
+Fabrice Brun,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Ardèche,Auvergne-Rhône-Alpes
+Franck Marlin,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Essonne,Ile-de-France
+François Cornut-Gentille,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Haute-Marne,Grand Est
+Frédéric Reiss,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Bas-Rhin,Grand Est
+Frédérique Meunier,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Corrèze,Nouvelle-Aquitaine
+Gérard Cherpion,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Vosges,Grand Est
+Gérard Menuel,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Aube,Grand Est
+Gilles Carrez,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Val-de-Marne,Ile-de-France
+Gilles Lurton,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Ille-et-Vilaine,Bretagne
+Guillaume Larrivé,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Yonne,Bourgogne-Franche-Comté
+Guillaume Peltier,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Loir-et-Cher,Centre-Val de Loire
+Guy Teissier,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Ian Boucard,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Territoire de Belfort,Bourgogne-Franche-Comté
+Isabelle Valentin,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Haute-Loire,Auvergne-Rhône-Alpes
+Jacques Cattin,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Haut-Rhin,Grand Est
+Jean-Carles Grelier,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Sarthe,Pays de la Loire
+Jean-Charles Taugourdeau,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Maine-et-Loire,Pays de la Loire
+Jean-Claude Bouchet,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
+Jean-François Parigi,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Seine-et-Marne,Ile-de-France
+Jean-Jacques Ferrara,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Corse-du-Sud,Corse
+Jean-Jacques Gaultier,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Vosges,Grand Est
+Jean-Louis Masson,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Var,Provence-Alpes-Côte d'Azur
+Jean-Louis Thiériot,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Seine-et-Marne,Ile-de-France
+Jean-Luc Poudroux,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Réunion,Réunion
+Jean-Luc Reitzer,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Haut-Rhin,Grand Est
+Jean-Marie Sermier,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Jura,Bourgogne-Franche-Comté
+Jean-Pierre Door,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Loiret,Centre-Val de Loire
+Jean-Pierre Vigier,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Haute-Loire,Auvergne-Rhône-Alpes
+Jean-Yves Bony,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Cantal,Auvergne-Rhône-Alpes
+Jérôme Nury,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Orne,Normandie
+Josiane Corneloup,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
+Julien Aubert,people,Assemblée nationale,Finances,Les Républicains,ENA (promotion Léopold Sédar Senghor),,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
+Julien Dive,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Aisne,Hauts-de-France
+Laurence Trastour-Isnart,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
+Laurent Furst,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Bas-Rhin,Grand Est
+Mansour Kamardine,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Mayotte,Mayotte
+Marc Le Fur,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Côtes-d'Armor,Bretagne
+Marianne Dubois,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Loiret,Centre-Val de Loire
+Marie-Christine Dalloz,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Jura,Bourgogne-Franche-Comté
+Marine Brenier,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
+Martial Saddier,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
+Maxime Minot,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Oise,Hauts-de-France
+Michel Herbillon,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Val-de-Marne,Ile-de-France
+Michel Vialay,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Yvelines,Ile-de-France
+Michèle Tabarot,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
+Nadia Ramassamy,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Réunion,Réunion
+Nathalie Bassire,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Réunion,Réunion
+Nicolas Forissier,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Indre,Centre-Val de Loire
+Olivier Marleix,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Eure-et-Loir,Centre-Val de Loire
+Patrice Verchère,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Rhône,Auvergne-Rhône-Alpes
+Patrick Hetzel,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Bas-Rhin,Grand Est
+Philippe Gosselin,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Manche,Normandie
+Pierre Cordier,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Ardennes,Grand Est
+Pierre Vatin,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Oise,Hauts-de-France
+Pierre-Henri Dumont,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Pas-de-Calais,Hauts-de-France
+Raphaël Schellenberger,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Haut-Rhin,Grand Est
+Rémi Delatte,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
+Robin Reda,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Essonne,Ile-de-France
+Sébastien Huyghe,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Nord,Hauts-de-France
+Sébastien Leclerc,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Calvados,Normandie
+Stéphane Viry,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Vosges,Grand Est
+Thibault Bazin,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Meurthe-et-Moselle,Grand Est
+Valérie Bazin-Malgras,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Aube,Grand Est
+Valérie Beauvais,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Marne,Grand Est
+Valérie Boyer,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Valérie Lacroute,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Seine-et-Marne,Ile-de-France
+Véronique Louwagie,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Orne,Normandie
+Vincent Descoeur,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Cantal,Auvergne-Rhône-Alpes
+Vincent Rolland,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Savoie,Auvergne-Rhône-Alpes
+Virginie Duby-Muller,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
+Xavier Breton,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Ain,Auvergne-Rhône-Alpes
+Bertrand Pancher,people,Assemblée nationale,Développement durable,Libertés et Territoires,,,,,,,Meuse,Grand Est
+Charles de Courson,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Marne,Grand Est
+François Pupponi,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Val-d'Oise,Ile-de-France
+François-Michel Lambert,people,Assemblée nationale,Développement durable,Libertés et Territoires,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Jean-Félix Acquaviva,people,Assemblée nationale,Lois,Libertés et Territoires,,,,,,,Haute-Corse,Corse
+Jean-Michel Clément,people,Assemblée nationale,Affaires étrangères,Libertés et Territoires,,,,,,,Vienne,Nouvelle-Aquitaine
+Jeanine Dubié,people,Assemblée nationale,Affaires sociales,Libertés et Territoires,,,,,,,Hautes-Pyrénées,Occitanie
+M'jid El Guerrab,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Français établis hors de France,Français établis hors de France
+Michel Castellani,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Haute-Corse,Corse
+Olivier Falorni,people,Assemblée nationale,Développement durable,Libertés et Territoires,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
+Paul Molac,people,Assemblée nationale,Lois,Libertés et Territoires,,,,,,,Morbihan,Bretagne
+Paul-André Colombani,people,Assemblée nationale,Développement durable,Libertés et Territoires,,,,,,,Corse-du-Sud,Corse
+Philippe Vigier,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Eure-et-Loir,Centre-Val de Loire
+Sylvain Brial,people,Assemblée nationale,Défense,Libertés et Territoires,,,,,,,Wallis-et-Futuna,Wallis-et-Futuna
+Sylvia Pinel,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,Tarn-et-Garonne,Occitanie
+Yannick Favennec Becot,people,Assemblée nationale,Défense,Libertés et Territoires,,,,,,,Mayenne,Pays de la Loire
+Florence Lasserre-David,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,Judaïsme,,Pas juive mais mariée à un juif,Pyrénées-Atlantiques,Nouvelle-Aquitaine
+Sylvain Waserman,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,Judaïsme,,,Bas-Rhin,Grand Est
+Aude Luquet,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,Seine-et-Marne,Ile-de-France
+Brahim Hammouche,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Moselle,Grand Est
+Bruno Duvergé,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,Pas-de-Calais,Hauts-de-France
+Bruno Fuchs,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,Haut-Rhin,Grand Est
+Bruno Joncour,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,Côtes-d'Armor,Bretagne
+Bruno Millienne,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,Yvelines,Ile-de-France
+Cyrille Isaac-Sibille,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Rhône,Auvergne-Rhône-Alpes
+Élodie Jacquier-Laforge,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Isère,Auvergne-Rhône-Alpes
+Erwan Balanant,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Finistère,Bretagne
+Fabien Lainé,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Landes,Nouvelle-Aquitaine
+Frédéric Petit,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,Français établis hors de France,Français établis hors de France
+Géraldine Bannier,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Mayenne,Pays de la Loire
+Isabelle Florennes,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Hauts-de-Seine,Ile-de-France
+Jean-Louis Bourlanges,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Hauts-de-Seine,Ile-de-France
+Jean-Luc Lagleize,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Haute-Garonne,Occitanie
+Jean-Noël Barrot,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Yvelines,Ile-de-France
+Jean-Paul Mattei,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
+Jean-Pierre Cubertafon,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Dordogne,Nouvelle-Aquitaine
+Jimmy Pahun,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,Morbihan,Bretagne
+Josy Poueyto,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
+Justine Benin,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Guadeloupe,Guadeloupe
+Laurence Vichnievsky,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
+Laurent Garcia,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Meurthe-et-Moselle,Grand Est
+Marguerite Deprez-Audebert,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Pas-de-Calais,Hauts-de-France
+Marielle de Sarnez,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,Paris,Ile-de-France
+Maud Petit,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Val-de-Marne,Ile-de-France
+Max Mathiasin,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Guadeloupe,Guadeloupe
+Michel Fanget,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
+Michèle de Vaucouleurs,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Yvelines,Ile-de-France
+Mohamed Laqhila,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Nadia Essayan,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Cher,Centre-Val de Loire
+Nathalie Elimas,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Val-d'Oise,Ile-de-France
+Nicolas Turquois,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Vienne,Nouvelle-Aquitaine
+Patricia Gallerneau,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,Vendée,Pays de la Loire
+Patrick Mignola,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Savoie,Auvergne-Rhône-Alpes
+Philippe Berta,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Gard,Occitanie
+Philippe Bolo,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Maine-et-Loire,Pays de la Loire
+Philippe Latombe,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Vendée,Pays de la Loire
+Philippe Michel-Kleisbauer,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Var,Provence-Alpes-Côte d'Azur
+Richard Ramos,people,Assemblée nationale,Affaires économiques,Mouvement démocrate,,,,,,,Loiret,Centre-Val de Loire
+Sarah El Haïry,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Loire-Atlantique,Pays de la Loire
+Sophie Mette,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,Gironde,Nouvelle-Aquitaine
+Stéphane Baudu,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Loir-et-Cher,Centre-Val de Loire
+Vincent Bru,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
+Gilbert Collard,people,Assemblée nationale,Défense,Non-inscrits,,,,Grande Loge nationale française,,,Gard,Occitanie
+Louis Aliot,people,Assemblée nationale,Défense,Non-inscrits,,,,Judaïsme,,,Pyrénées-Orientales,Occitanie
+Bruno Bilde,people,Assemblée nationale,Affaires culturelles et éducation,Non-inscrits,,,,,,,Pas-de-Calais,Hauts-de-France
+Delphine Batho,people,Assemblée nationale,Affaires économiques,Non-inscrits,,,,,339,,Deux-Sèvres,Nouvelle-Aquitaine
+Emmanuelle Ménard,people,Assemblée nationale,Lois,Non-inscrits,,,,,,,Hérault,Occitanie
+Jean Lassalle,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
+José Evrard,people,Assemblée nationale,Affaires économiques,Non-inscrits,,,,,,,Pas-de-Calais,Hauts-de-France
+Ludovic Pajot,people,Assemblée nationale,Affaires économiques,Non-inscrits,,,,,,,Pas-de-Calais,Hauts-de-France
+Marie-France Lorho,people,Assemblée nationale,Lois,Non-inscrits,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
+Marine Le Pen,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,,,,,Pas-de-Calais,Hauts-de-France
+Nicolas Dupont-Aignan,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,,,,,Essonne,Ile-de-France
+Sébastien Chenu,people,Assemblée nationale,Affaires sociales,Non-inscrits,,,,,,,Nord,Hauts-de-France
+David Habib,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,Judaïsme,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
+Alain David,people,Assemblée nationale,Affaires étrangères,Socialistes et apparentés,,,,,,,Gironde,Nouvelle-Aquitaine
+Boris Vallaud,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,ENA (promotion Léopold Sédar Senghor),,,,,,Landes,Nouvelle-Aquitaine
+Cécile Untermaier,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
+Christian Hutin,people,Assemblée nationale,Affaires étrangères,Socialistes et apparentés,,,,,,,Nord,Hauts-de-France
+Christine Pires Beaune,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
+Christophe Bouillon,people,Assemblée nationale,Développement durable,Socialistes et apparentés,,,,,,,Seine-Maritime,Normandie
+Dominique Potier,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,,,Meurthe-et-Moselle,Grand Est
+Ericka Bareigts,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,,,,,,,Réunion,Réunion
+George Pau-Langevin,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Paris,Ile-de-France
+Gisèle Biémouret,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,,,,,,,Gers,Occitanie
+Guillaume Garot,people,Assemblée nationale,Développement durable,Socialistes et apparentés,,,,,340,,Mayenne,Pays de la Loire
+Hélène Vainqueur-Christophe,people,Assemblée nationale,Développement durable,Socialistes et apparentés,,,,,,,Guadeloupe,Guadeloupe
+Hervé Saulignac,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,,Ardèche,Auvergne-Rhône-Alpes
+Jean-Louis Bricout,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,,,Aisne,Hauts-de-France
+Jérôme Lambert,people,Assemblée nationale,Affaires étrangères,Socialistes et apparentés,,,,,,,Charente,Nouvelle-Aquitaine
+Joaquim Pueyo,people,Assemblée nationale,Défense,Socialistes et apparentés,,,,,,,Orne,Normandie
+Joël Aviragnet,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,,,,,,,Haute-Garonne,Occitanie
+Josette Manin,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Martinique,Martinique
+Laurence Dumont,people,Assemblée nationale,Affaires étrangères,Socialistes et apparentés,,,,,,,Calvados,Normandie
+Luc Carvounas,people,Assemblée nationale,Défense,Socialistes et apparentés,,,,,,,Val-de-Marne,Ile-de-France
+Marie-Noëlle Battistel,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,,,Isère,Auvergne-Rhône-Alpes
+Marietta Karamanli,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,,Sarthe,Pays de la Loire
+Michèle Victory,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Ardèche,Auvergne-Rhône-Alpes
+Olivier Faure,people,Assemblée nationale,Défense,Socialistes et apparentés,,,,,,,Seine-et-Marne,Ile-de-France
+Régis Juanico,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Loire,Auvergne-Rhône-Alpes
+Serge Letchimy,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,249,,Martinique,Martinique
+Sylvie Tolmont,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,,,Sarthe,Pays de la Loire
+Valérie Rabault,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,321,,Tarn-et-Garonne,Occitanie
+Meyer Habib,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,Judaïsme,,,Français établis hors de France,Français établis hors de France
+Agnès Firmin Le Bodo,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,Seine-Maritime,Normandie
+André Villiers,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,Yonne,Bourgogne-Franche-Comté
+Antoine Herth,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,Bas-Rhin,Grand Est
+Béatrice Descamps,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,,,,,,Nord,Hauts-de-France
+Christophe Naegelen,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,Vosges,Grand Est
+Francis Vercamer,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,Nord,Hauts-de-France
+Frédérique Dumas,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,,,,,,Hauts-de-Seine,Ile-de-France
+Guy Bricout,people,Assemblée nationale,Développement durable,"UDI, Agir et Indépendants",,,,,,,Nord,Hauts-de-France
+Jean-Christophe Lagarde,people,Assemblée nationale,Défense,"UDI, Agir et Indépendants",,,,,,,Seine-Saint-Denis,Ile-de-France
+Jean-Luc Warsmann,people,Assemblée nationale,Lois,"UDI, Agir et Indépendants",,,,,,,Ardennes,Grand Est
+Joachim Son-Forget,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,Français établis hors de France,Français établis hors de France
+Laure de La Raudière,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,Eure-et-Loir,Centre-Val de Loire
+Lise Magnier,people,Assemblée nationale,Finances,"UDI, Agir et Indépendants",,,,,,,Marne,Grand Est
+Maina Sage,people,Assemblée nationale,Lois,"UDI, Agir et Indépendants",,,,,,,Polynésie Française,Polynésie française
+Michel Zumkeller,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,,,,,,Territoire de Belfort,Bourgogne-Franche-Comté
+Nicole Sanquer,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,Polynésie Française,Polynésie française
+Olivier Becht,people,Assemblée nationale,Défense,"UDI, Agir et Indépendants",ENA (promotion Léopold Sédar Senghor),,,,,,Haut-Rhin,Grand Est
+Pascal Brindeau,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,Loir-et-Cher,Centre-Val de Loire
+Patricia Lemoine,people,Assemblée nationale,Finances,"UDI, Agir et Indépendants",,,,,,,Seine-et-Marne,Ile-de-France
+Paul Christophe,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,Nord,Hauts-de-France
+Philippe Dunoyer,people,Assemblée nationale,Lois,"UDI, Agir et Indépendants",,,,,,,Nouvelle-Calédonie,Nouvelle-Calédonie
+Philippe Gomès,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,Nouvelle-Calédonie,Nouvelle-Calédonie
+Pierre Morel-À-L'Huissier,people,Assemblée nationale,Lois,"UDI, Agir et Indépendants",,,,,,,Lozère,Occitanie
+Pierre-Yves Bournazel,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,,,,,,Paris,Ile-de-France
+Sophie Auconie,people,Assemblée nationale,Développement durable,"UDI, Agir et Indépendants",,,,,,,Indre-et-Loire,Centre-Val de Loire
+Stéphane Demilly,people,Assemblée nationale,Développement durable,"UDI, Agir et Indépendants",,,,,,,Somme,Hauts-de-France
+Thierry Benoit,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,Ille-et-Vilaine,Bretagne
+Vincent Ledoux,people,Assemblée nationale,Finances,"UDI, Agir et Indépendants",,,,,,,Nord,Hauts-de-France
+Olivier Dussopt,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Action et des Comptes publics,Action comptes publics,,,Parti socialiste,Grand Orient de France,,Pas sûr pour le GODF,,
+Gérald Darmanin,people,Gouvernement,Ministre de l'action et des comptes publics,Action comptes publics,,,Les Républicains,Judaïsme,420,,,
 Alain Triolle,people,Gouvernement,"Directeur du cabinet, directeur adjoint du cabinet",Action comptes publics,ENA,,,,,,,
 Caroline Krykwinski,people,Gouvernement,Directrice adjointe du cabinet,Action comptes publics,ENA,Cour des comptes,,,,,,
 Guillaume Rauffet,people,Gouvernement,Conseiller,Action comptes publics,ENA,,,,,,,
@@ -632,10 +593,12 @@ Laurence Tartour,people,Gouvernement,Conseillère fonction publique territoriale
 Mathieu Lefevre,people,Gouvernement,Conseiller en charge des relations avec le Parlement,Action comptes publics,,,Les Républicains,,,,,
 Pauline Hodille,people,Gouvernement,Conseillère en charge des comptes sociaux,Action comptes publics,,,,,,,,
 Pierre-Jean Le Mauff,people,Gouvernement,"Conseiller en charge de la communication, presse et opinion",Action comptes publics,,"Taddeo, Tilder, IFOP, RFF",,,,,,
+Jean-Yves Le Drian,people,Gouvernement,Ministre de l'Europe et des affaires étrangères,Affaires étrangères,,,Parti socialiste,Grand Orient de France,347,,,
+Gaëtan Bruel,people,Gouvernement,"Conseiller diplomatie culturelle, influence et francophonie",Affaires étrangères,"ENS, EHESS","Centre des monuments nationaux, Grasset",Parti socialiste,Judaïsme,,,,
 Jean-Claude Mallet,people,Gouvernement,Conseiller spécial du ministre,Affaires étrangères,ENA (promotion Léonard de Vinci),,Parti socialiste,,,,,
 Luis Vassy,people,Gouvernement,Directeur adjoint de cabinet,Affaires étrangères,"ENA, Sciences Po Paris",,Parti socialiste,,415,,,
 Anne Boillon,people,Gouvernement,Directrice de cabinet,Affaires étrangères,ENS,,Parti socialiste,,,,,
-Margaux Bergeon-Dars,people,Gouvernement,"Conseillère Europe continentale, Nations unies et organisations internationales, affaires juridiques et consulaires",Affaires étrangères,"ENS, Sciences Po Paris",,,,,,,
+Margaux Bergeon-Dars,people,Gouvernement,"Conseillère Europe continentale, Nations unies et organisations internationales, affaires juridiques et consulaires",Affaires étrangères,"ENS, Sciences Po Paris",,,,,Parle l'hébreux...,,
 Olivier Decottignies,people,Gouvernement,"Conseiller Afrique du Nord, Moyen-Orient",Affaires étrangères,"ENS, Sciences Po Paris, EHESS",,,,,,,
 Jean-Baptiste Lemoyne,people,Gouvernement,Secrétaire d'État auprès du ministre de l'Europe et des Affaires étrangères,Affaires étrangères,ESSEC,IBM Global Services,Les Républicains,,458,,,
 Myriam Pavageau,people,Gouvernement,"Conseillère affaires stratégiques, Asie",Affaires étrangères,Sciences Po Paris,,,,,,,
@@ -654,7 +617,7 @@ Matthieu Ellerbach,people,Gouvernement,"Conseiller presse, communication et rela
 Sophie Lagoutte,people,Gouvernement,Directrice-adjointe de cabinet,Affaires européennes,Sciences Po Paris,,,,,,,
 Victoire Ract-Madoux,people,Gouvernement,"Conseillère questions diplomatiques, institutionnelles et relatives à la justice et aux affaires intérieures",Affaires européennes,Sciences Po Paris,,,,,,,
 Nathalie Loiseau,people,Gouvernement,"Ministre auprès du ministre de l'Europe et des Affaires étrangères, chargée des Affaires européennes",Affaires européennes,"Sciences Po Paris, ENA",,Les Républicains,,,,,
-Thomas Hartog,people,Gouvernement,Conseiller parlementaire,Affaires européennes,,Vae Solis Corporate,Parti socialiste,,,,,
+Thomas Hartog,people,Gouvernement,Conseiller parlementaire,Affaires européennes,,Vae Solis Corporate,Parti socialiste,Judaïsme,,,,
 Yann Battefort,people,Gouvernement,Chef de cabinet,Affaires européennes,,,,,,,,
 Mathias Ginet,people,Gouvernement,"Conseiller politique agricole commune 2014-2020, filières végétales, climat et biodiversité",Agriculture,"Sciences Po Paris, ENS, ENA (promotion Jean Zay)","Air Liquide, OMC, Alternatives Economiques",,,,,,
 Anne Bronner,people,Gouvernement,"Conseillère en charge de la qualité, de la sécurité et de la performance sanitaires de l'alimentation, du bien-être animal et de la lutte contre la maltraitance animale",Agriculture,,,,,,,,
@@ -692,8 +655,10 @@ Koumaran Pajaniradja,people,Gouvernement,"Conseiller aménagement, construction,
 Léa Roussarie,people,Gouvernement,Conseillère parlementaire et relations avec les élus,Cohésion des Territoires,,"Comfluence, Boury Tallon & Associés, BNP Paribas",Union des démocrates et indépendants,,,,,
 Pauline Malet,people,Gouvernement,Conseillère collectivités et institutions locales,Cohésion des Territoires,,,Parti socialiste,,,,,
 Rachel Chane-See-Chu,people,Gouvernement,Conseillère logement et politiques sociales du logement,Cohésion des Territoires,,SNCF,,,,,,
-Soraya Hamrioui,people,Gouvernement,"Conseillère budgétaire, finances",Cohésion des Territoires,,,Parti socialiste,,,,,
+Soraya Hamrioui,people,Gouvernement,"Conseillère budgétaire, finances",Cohésion des Territoires,,,Parti socialiste,,,Pas sûr pour la photo...,,
 Victor Schmidt,people,Gouvernement,Chef de cabinet,Cohésion des Territoires,,,Parti socialiste,,445,,,
+Déborah Münzer,people,Gouvernement,"Conseillère en charge de l’action territoriale, de l’éducation artistique et culturelle, de l’enseignement supérieur et de la recherche",Culture,ESSEC,"Mairie de Paris, BAC Films, Assouline Publishing",Les Républicains,Judaïsme,429,,,
+Delphine Aboulker,people,Gouvernement,Conseillère en charge du patrimoine et de l'architecture,Culture,,,,Judaïsme,442,,,
 Leïla Derouich,people,Gouvernement,Conseillère en charge des médias et des industries culturelles,Culture,ENA (promotion Jean-Jacques Rousseau),CSA,,,,,,
 Matthias Grolier,people,Gouvernement,"Conseiller en charge des affaires internationales, de la langue française et de la francophonie, du livre et de la lecture",Culture,HEC,"Gide Loyrette Nouel, Jones Day, Morgan, Lewis & Bockius",,,,,,
 Franck Riester,people,Gouvernement,Ministre de la culture,Culture,,"EY, Peugeot",Union des démocrates et indépendants,,458,Homosexuel,,
@@ -701,7 +666,7 @@ Lucie Muniesa,people,Gouvernement,Directrice du cabinet,Culture,,"Radio France, 
 Ludovic Guillot,people,Gouvernement,"Conseiller en charge de la communication, des relations avec la presse et des relations institutionnelles",Culture,,,Les Républicains,,,,,
 Thomas Velter,people,Gouvernement,"Chef de cabinet, conseiller auprès du ministre",Culture,,Havas,Les Républicains,,,,,
 Quentin Bataillon,people,Gouvernement,Conseiller parlementaire,Culture,,,Les Républicains,,,,,
-Christophe Pourreau,people,Gouvernement,"Conseiller fiscalité, concurrence et consommation",Économie,"HEC, Sciences Po Paris, ENA",Conseil d'Etat,Les Républicains,,,,,
+Sarah Finkelstein,people,Gouvernement,Conseillère attractivité et consommation,Économie,"Sciences Po Paris, ENA (promotion Jean de la Fontaine), ESSEC",Direction générale du Trésor,Les Républicains,Judaïsme,,,,
 Aloïs Kirchner,people,Gouvernement,Directeur du cabinet,Économie,"Polytechnique, Corps des mines","Inspection des finances, ESL & Network",,,,,,
 Malo Carton,people,Gouvernement,Conseiller entreprises et participations de l'État,Économie,"Polytechnique, Corps des Mines","Agence des Participations de l'Etat, Alstom",,,,,,
 Sébastien Guérémy,people,Gouvernement,Conseiller industrie et innovation,Économie,"Polytechnique, Corps des Mines","Agence des Participations de l'Etat, SNCF, Air France",,,,,,
@@ -718,6 +683,7 @@ Dimitri Lucas,people,Gouvernement,Conseiller presse et communication,Économie,,
 Jennifer Pizzicara,people,Gouvernement,"Chef de cabinet, en charge des relations avec le Parlement",Économie,,,,,,,,
 Magali Valente,people,Gouvernement,Conseillère fiscalité et chargée des relations avec le Parlement,Économie,,CSA,Les Républicains,,,,,
 Yves-Marie Cann,people,Gouvernement,Conseiller presse et communication,Économie,,"ELABE, CSA, IFOP",,,,,,
+Gabriel Attal,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Éducation nationale et de la Jeunesse,Éducation nationale,Sciences Po Paris,Académie de France à Rome - Villa Médicis,Parti socialiste,Judaïsme,458,Homosexuel,,
 Fanny Anor,people,Gouvernement,Directrice du cabinet et conseillère spéciale,Éducation nationale,ENS,,,,,,,
 Vincent Stanek,people,Gouvernement,Conseiller affaires pédagogiques,Éducation nationale,ENS,,,,,,,
 Jean-Michel Blanquer,people,Gouvernement,Ministre de l'Éducation nationale et de la Jeunesse,Éducation nationale,Sciences Po Paris,ESSEC,Les Républicains,,365,Grande Loge de France https://blogs.lexpress.fr/lumiere-franc-macon/2017/11/26/blanquer-son-show-chez-les-freres-gldf,,
@@ -733,11 +699,13 @@ Louis Jublin,people,Gouvernement,"Conseiller communication, en charge des relati
 Matthieu Lahaye,people,Gouvernement,"Conseiller discours, mémoire, culture, langues régionales",Éducation nationale,,,,,,,,
 Perrine Dufoix,people,Gouvernement,Conseillère presse et communication,Éducation nationale,,,Les Républicains,,,,,
 Thierry Ledroit,people,Gouvernement,Conseiller territoires et politiques interministérielles,Éducation nationale,,,,,,,,
+Anne Rubinstein,people,Gouvernement,Directrice de cabinet,Égalité Femmes Hommes,,La Poste,Parti socialiste,Judaïsme,,,,
+Marlène Schiappa,people,Gouvernement,"Secrétaire d'État auprès du Premier ministre, chargée de l'Égalité entre les femmes et les hommes et de la Lutte contre les discriminations",Égalité Femmes Hommes,,"Yahoo!, Havas, Bondy Blog, Lagardère",Parti socialiste,Judaïsme,435,,,
 Amandine Pasquier,people,Gouvernement,Conseillère en charge des droits des femmes,Égalité Femmes Hommes,,"État-Major des Armées, Suez",Les Républicains,,,Pas sûr pour Les Républicains,,
-Catherine Petit,people,Gouvernement,Directrice de cabinet,Égalité Femmes Hommes,,,,,,,,
 Mathieu Pontécaille,people,Gouvernement,"Conseiller spécial, chargé de la stratégie communication et de la presse",Égalité Femmes Hommes,,,Parti socialiste,,,,,
 Stéphanie Lozano,people,Gouvernement,Chef de cabinet,Égalité Femmes Hommes,,,Parti socialiste,,,,,
 Thomas Brisson,people,Gouvernement,Directeur adjoint du cabinet,Égalité Femmes Hommes,,IFRI,Parti socialiste,,,,,
+Yedidia Levy-Zauberman,people,Gouvernement,"Chef de cabinet, conseiller diplomatique, chargé des start-up",Enseignement supérieur,Sciences Po Paris,"Mairie de Paris, Natixis, Deloitte, Dahlia Partners",Parti socialiste,Judaïsme,445,Eclaireuses et Eclaireurs israélites de France,,
 Jean-Philippe Bourgoin,people,Gouvernement,Conseiller recherche,Enseignement supérieur,ENS,CEA,,,,,,
 David Cavaillolès,people,Gouvernement,"Conseiller budgétaire, industrie et spatial",Enseignement supérieur,"Polytechnique, Corps des Mines","Inspection générale des finances, Autorité de contrôle prudentiel et de résolution, AXA",,,,,,
 Marie Francolin,people,Gouvernement,Conseillère communication et presse,Enseignement supérieur,Sciences Po Paris,"Commission européenne, OCDE, Mairie de Paris",Parti socialiste,,,,,
@@ -754,6 +722,7 @@ Aurore Collet,people,Gouvernement,"Chef de cabinet, conseillère accompagnement 
 Florence Gelot,people,Gouvernement,"Conseillère emploi, ressources",Handicapés,,Decathlon,,,,,,
 Patrice Fondin,people,Gouvernement,"Conseiller éducation, formation et enseignement supérieur",Handicapés,,,,,,,,
 Sophie Cluzel,people,Gouvernement,"Secrétaire d'État auprès du Premier ministre, chargée des Personnes handicapées",Handicapés,,,,,,,,
+Christophe Castaner,people,Gouvernement,Ministre de l’Intérieur,Intérieur,,BNP Paribas,Parti socialiste,Grand Orient de France,,,,
 Pauline Pannier,people,Gouvernement,"Conseillère libertés publiques, culte, asile, immigration et intégration",Intérieur,ENA,Conseil d’État,,,,,,
 Laurent Nuñez,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Intérieur,Intérieur,ENA (promotion Cyrano de Bergerac),"Direction générale de la Sécurité intérieure, Direction générale des collectivités locales",,,458,,,
 Magali Charbonneau,people,Gouvernement,Directrice adjointe du cabinet,Intérieur,"ENA, ESSEC",,Parti socialiste,,,,,
@@ -811,10 +780,14 @@ Fabrice Thibier,people,Gouvernement,"Conseiller chargé de l'économie, des entr
 Gaëlle Nerbard,people,Gouvernement,"Conseillère chargée des affaires sociales, de la santé, de l'emploi, de la jeunesse et des sports",Outre-Mer,,,,,,,,
 Raphaëlle Séguin,people,Gouvernement,"Conseillère chargée du budget, de l'investissement public, du logement, du développement territorial et des infrastructures maritimes",Outre-Mer,,,,,,Aucune information,,
 Sandra Reviriego,people,Gouvernement,"Conseillère parlementaire, chargée des associations",Outre-Mer,,Conseil Régional Ile de France,Parti socialiste,,,,,
-Benjamin Griveaux,people,Gouvernement,"Secrétaire d'État auprès du Premier ministre, porte-parole du Gouvernement",Porte-parole du gouvernement,"Sciences Po Paris, HEC",,Parti socialiste,,,,,
+Anna Klarsfeld,people,Gouvernement,Conseillère,Porte-parole du gouvernement,"Sciences Po Paris, HEC",The Boston Consulting Group,,Judaïsme,,,,
+Lionel Choukroun,people,Gouvernement,"Chef de cabinet, conseiller politique et affaires réservées",Porte-parole du gouvernement,,"Alstom, France Télévisions",,Judaïsme,,Homosexuel,,
+Benjamin Griveaux,people,Gouvernement,"Secrétaire d'État auprès du Premier ministre, porte-parole du Gouvernement",Porte-parole du gouvernement,"Sciences Po Paris, HEC",,Parti socialiste,Judaïsme,,,,
 Clara Koenig,people,Gouvernement,Conseillère,Porte-parole du gouvernement,"Sciences Po Paris, HEC",,,,,,,
 Constantin De Salvatore,people,Gouvernement,Conseiller,Porte-parole du gouvernement,,,Parti socialiste,,,,,
 Nicolas Escoulan,people,Gouvernement,Directeur de cabinet ,Porte-parole du gouvernement,,"TF1, Canal+, Europe 1",,,,,,
+Constance Bensussan,people,Gouvernement,"Conseillère technique inclusion, égalité femmes hommes et citoyenneté",Premier Ministre,"Sciences Po Paris, ENA, Lomonosov","LCL, DILCRA",,Judaïsme,,À la fois au cabinet de la Présidence et du Premier-Ministre,,
+Eve Zuckerman,people,Gouvernement,Conseillère technique communication digitale,Premier Ministre,,"Food & Water Watch, Organizing for Action, 270 Strategies, Democrats Abroad, Le Figaro",Les Républicains,Judaïsme,,,,
 Mélanie Villiers,people,Gouvernement,Conseillère technique collectivités territoriales et aménagement du territoire,Premier Ministre,ENA,Commission européenne,,,,,,
 Olivier Courson,people,Gouvernement,"Conseiller culture, communication, régulation numérique (chef de pôle)",Premier Ministre,ENA,Canal+,Parti socialiste,,,,,
 Pierre Regnault de La Mothe,people,Gouvernement,Conseiller technique affaires intérieures,Premier Ministre,ENA,,Les Républicains,,,,,
@@ -875,6 +848,9 @@ Sylvie Corréard,people,Gouvernement,Conseillère technique culture et communica
 Tristan Barrès,people,Gouvernement,Conseiller technique logement,Premier Ministre,,,Parti socialiste,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,
 Xavier Chinaud,people,Gouvernement,Conseiller relations politiques et relations avec les élus (chef de pôle),Premier Ministre,,ESL & Network,"Démocratie Libérale, Les Républicains",,,,,
 Zélia Césarion,people,Gouvernement,Conseillère presse,Premier Ministre,,,Les Républicains,,,,,
+David Amiel,people,Gouvernement,Conseiller,Présidence,ENS,,Parti socialiste,Judaïsme,,,,
+Alexis Zajdenweber,people,Gouvernement,"Conseiller économie, finances, industrie",Présidence,"Sciences Po Paris, ENA","Direction générale du Trésor, Agence des participations de l’État",Parti socialiste,Judaïsme,,,,
+Alexis Kohler,people,Gouvernement,Secrétaire général de la Présidence,Présidence,"Sciences Po Paris, ENA (promotion Averroès), ESSEC",,Parti socialiste,Judaïsme,442,,,
 Anne de Bayser,people,Gouvernement,Secrétaire générale adjointe,Présidence,ENA,,Parti socialiste,,,,,
 Claudia Ferrazzi,people,Gouvernement,Conseillère culture et communication,Présidence,ENA,"Académie de France à Rome - Villa Médicis, Musée du Louvre, The Boston Consulting Group, Capgemini",,,,,,
 Rodrigue Furcy,people,Gouvernement,Chef de cabinet adjoint,Présidence,ENA,Mairie de Paris,,,,,,
@@ -951,6 +927,8 @@ François Charmont,people,Gouvernement,Directeur de cabinet,Relations avec le Pa
 Guillaume Snollaerts,people,Gouvernement,"Chef de cabinet, conseiller auprès du ministre en charge de la société civile",Relations avec le Parlement,,,Mouvement démocrate,,,,,
 Marc Fesneau,people,Gouvernement,"Ministre auprès du Premier ministre, chargé des Relations avec le Parlement",Relations avec le Parlement,,,Mouvement démocrate,,,,,
 Marie Dousset,people,Gouvernement,Conseillère parlementaire,Relations avec le Parlement,,France Télévisions,Union des démocrates et indépendants,,,,,
+Agnès Buzyn,people,Gouvernement,Ministre des solidarités et de la santé,Santé,,"Haute Autorité de santé, Institut de radioprotection et de sûreté nucléaire",,Judaïsme,,Grand Orient de France,,
+Mickaël Benzaqui,people,Gouvernement,Conseiller,Santé,,Fédération Nationale des Etablissements d'Hospitalisation à Domicile,,Judaïsme,,,,
 Marie Argouarc'h,people,Gouvernement,Chef de cabinet ,Santé,ENA,Commission européenne,,,,,,
 Laetitia Buffet,people,Gouvernement,Conseillère,Santé,"ENA, ESSEC, Sciences Po Paris",Cour des comptes,,,,,,
 Marie Daudé,people,Gouvernement,Directrice du cabinet et directrice adjointe du cabinet,Santé,"ENA, Sciences Po Paris","Inspection Generale des Affaires Sociales, Cour des comptes",,,,,,
@@ -977,6 +955,11 @@ Rodolphe Legendre,people,Gouvernement,Conseiller développement et innovation,Sp
 Roxana Maracineanu,people,Gouvernement,Ministre des sports,Sports,,,Parti socialiste,,,,,
 Sébastien Moreau,people,Gouvernement,Chef de cabinet,Sports,,,Parti socialiste,,,,,
 Skander Karaa,people,Gouvernement,Conseiller spécial,Sports,,Comité National Olympique et Sportif Français,Parti socialiste,,,,,
+Emmanuelle Wargon,people,Gouvernement,"Secrétaire d’État auprès du ministre d’État, ministre de la Transition écologique et solidaire",Transition écologique et solidaire,"ENA (promotion Marc Bloch), HEC, Sciences Po Paris","Cour des comptes, Danone, Agence Nationale de Sécurité du Médicament et des Produits de Santé",Parti socialiste,Judaïsme,458,Eclaireuses et Eclaireurs israélites de France,,
+Jack Azoulay,people,Gouvernement,Directeur du cabinet,Transition écologique et solidaire,"ENA, Sciences Po Paris","Chantiers de l'Atlantique, Naval Group, KNDS, Agence des Participations de l'Etat, Peugeot, La Poste, Docapost, MediaPost, Commission européenne",,Judaïsme,,,,
+Deborah De Lieme Abisror,people,Gouvernement,"Chef de cabinet, chargée des relations avec le Parlement",Transition écologique et solidaire,,ADDL Consulting,,Judaïsme,,,,
+Léo Cohen,people,Gouvernement,"Conseiller spécial, chargé des affaires politiques, du Parlement et de la société civile",Transition écologique et solidaire,,,"Parti socialiste, Europe Écologie Les Verts ",Judaïsme,,,,
+Léo Finkel,people,Gouvernement,Conseiller presse et communication,Transition écologique et solidaire,,Havas,Parti socialiste,Judaïsme,,Pas sûr pour socialiste,,
 Dominique Gombert,people,Gouvernement,Directeur du cabinet,Transition écologique et solidaire,Corps des Mines,ANSES,,,,,,
 Nicole Klein,people,Gouvernement,Directrice du cabinet,Transition écologique et solidaire,ENA (promotion Fernand Braudel),Banque Mondiale,Parti socialiste,,,,,
 Brune Poirson,people,Gouvernement,"Secrétaire d'État auprès du ministre d'État, ministre de la Transition écologique et solidaire",Transition écologique et solidaire,"Harvard, LSE","People for Global Transformation, Veolia, Agence Française de Développement, Nesta",,,,,,
@@ -1014,282 +997,171 @@ Muriel Pénicaud,people,Gouvernement,Ministre du travail,Travail,,"Business Fran
 Patrice Ivon,people,Gouvernement,Conseiller en charge des mutations économiques et de la santé au travail,Travail,,BPI group,Parti socialiste,,,,,
 Stéphanie Rismont-Wargnier,people,Gouvernement,Conseillère presse et communication,Travail,,"Kronenbourg, Danone",Parti socialiste,,,,,
 Xavier Geoffroy,people,Gouvernement,Chef de Cabinet,Travail,,"Française des jeux, Conseil Régional Ile de France",Parti socialiste,,,,,
+Cécile Cukierman,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,Judaïsme,,,Loire,Auvergne-Rhône-Alpes
+Esther Benbassa,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,CNRS,,Judaïsme,"123, 222, 240, 275, 292, 307",,Paris,Ile-de-France
+Laurence Cohen,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,Judaïsme,,,Val-de-Marne,Ile-de-France
+Cathy Apourceau-Poly,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Pas-de-Calais,Hauts-de-France
+Céline Brulin,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Seine-Maritime,Normandie
+Christine Prunaud,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Côtes-d'Armor,Bretagne
+Éliane Assassi,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,341,,Seine-Saint-Denis,Ile-de-France
+Éric Bocquet,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Nord,Hauts-de-France
+Fabien Gay,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Seine-Saint-Denis,Ile-de-France
+Guillaume Gontard,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Isère,Auvergne-Rhône-Alpes
+Michelle Gréaume,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Nord,Hauts-de-France
+Pascal Savoldelli,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Val-de-Marne,Ile-de-France
+Pierre Laurent,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,"267, 270, 292, 300",,Paris,Ile-de-France
+Pierre Ouzoulias,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Hauts-de-Seine,Ile-de-France
+Pierre-Yves Collombat,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Var,Provence-Alpes-Côte d'Azur
+Michel Amiel,people,Sénat,,Groupe La République en Marche,,,"Groupe Rassemblement Démocratique et Social européen, Non-inscrits, Parti socialiste",Judaïsme,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Abdallah Hassani,people,Sénat,,Groupe La République en Marche,,,,,,,Mayotte,Mayotte
+Arnaud de Belenet,people,Sénat,,Groupe La République en Marche,,,Les Républicains,,,,Seine-et-Marne,Ile-de-France
+Bernard Buis,people,Sénat,,Groupe La République en Marche,,,,,,,Drôme,Auvergne-Rhône-Alpes
+Bernard Cazeau,people,Sénat,,Groupe La République en Marche,,,Groupe Socialiste et républicain,,,,Dordogne,Nouvelle-Aquitaine
+Didier Rambaud,people,Sénat,,Groupe La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
+Dominique Théophile,people,Sénat,,Groupe La République en Marche,,,,,,,Guadeloupe,Guadeloupe
+Françoise Cartron,people,Sénat,,Groupe La République en Marche,,,Groupe Socialiste et républicain,,,,Gironde,Nouvelle-Aquitaine
+Frédéric Marchand,people,Sénat,,Groupe La République en Marche,,,,,,,Nord,Hauts-de-France
+Julien Bargeton,people,Sénat,,Groupe La République en Marche,"ESSEC, ENA (promotion Averroès), Sciences Po Paris",,Parti socialiste,,,,Paris,Ile-de-France
+Martin Lévrier,people,Sénat,,Groupe La République en Marche,,,,,,,Yvelines,Ile-de-France
+Michel Dennemont,people,Sénat,,Groupe La République en Marche,,,,,,,La Réunion,La Réunion
+Noëlle Rauscent,people,Sénat,,Groupe La République en Marche,,,,,,,Yonne,Bourgogne-Franche-Comté
+Patricia Schillinger,people,Sénat,,Groupe La République en Marche,,,Groupe Socialiste et républicain,,,,Haut-Rhin,Grand Est
+Claude Malhuret,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,Groupe Les Républicains,,"427, 441",,Allier,Auvergne-Rhône-Alpes
+Daniel Chasseing,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,Corrèze,Nouvelle-Aquitaine
+Dany Wattebled,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,Nord,Hauts-de-France
+Emmanuel Capus,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,Maine-et-Loire,Pays de la Loire
+Jean-Louis Lagourgue,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,La Réunion,La Réunion
+Jean-Pierre Decool,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,Nord,Hauts-de-France
+Jérôme Bignon,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,Les Républicains,,,,Somme,Hauts-de-France
+Christophe-André Frassa,people,Sénat,,Groupe Les Républicains,Sciences Po Paris,,,Grand Orient de France,,,Français établis hors de France,Français établis hors de France
+Roger Karoutchi,people,Sénat,,Groupe Les Républicains,,,,Judaïsme,237,,Hauts-de-Seine,Ile-de-France
 Agnès Canayer,people,Sénat,,Groupe Les Républicains,,,,,,,Seine-Maritime,Normandie
-Alain Bertrand,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Parti socialiste,,,,Lozère,Occitanie
-Alain Cazabonne,people,Sénat,,Groupe Union Centriste,,,,,,,Gironde,Nouvelle-Aquitaine
 Alain Chatillon,people,Sénat,,Groupe Les Républicains,,,,,,,Haute-Garonne,Occitanie
 Alain Dufaut,people,Sénat,,Groupe Les Républicains,,,,,444,,Vaucluse,Provence-Alpes-Côte d'Azur
-Alain Duran,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Ariège,Occitanie
 Alain Fouché,people,Sénat,,Groupe Les Républicains,,,,,,,Vienne,Nouvelle-Aquitaine
 Alain Houpert,people,Sénat,,Groupe Les Républicains,,,,,444,,Côte-d'Or,Bourgogne-Franche-Comté
 Alain Joyandet,people,Sénat,,Groupe Les Républicains,,,,,,,Haute-Saône,Bourgogne-Franche-Comté
 Alain Marc,people,Sénat,,Groupe Les Républicains,,,,,,,Aveyron,Occitanie
 Alain Milon,people,Sénat,,Groupe Les Républicains,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
-Alain Richard,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Val-d'Oise,Ile-de-France
 Alain Schmitz,people,Sénat,,Groupe Les Républicains,,,,,,,Yvelines,Ile-de-France
 Albéric de Montgolfier,people,Sénat,,Groupe Les Républicains,,,,,,,Eure-et-Loir,Centre-Val de Loire
-André Gattolin,people,Sénat,,Non-inscrits,,,Europe Écologie Les Verts,,,,Hauts-de-Seine,Ile-de-France
 André Reichardt,people,Sénat,,Groupe Les Républicains,,,,,,,Bas-Rhin,Grand Est
-André Vallini,people,Sénat,,Groupe Socialiste et républicain,,,,,"64, 72, 73, 107, 164, 192, 230, 245, 278, 322, 422",,Isère,Auvergne-Rhône-Alpes
-Angèle Préville,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Lot,Occitanie
 Anne Chain-Larché,people,Sénat,,Groupe Les Républicains,,,,,,,Seine-et-Marne,Ile-de-France
-Anne-Catherine Loisier,people,Sénat,,Groupe Union Centriste,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
 Anne-Marie Bertrand,people,Sénat,,Groupe Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
-Annick Billon,people,Sénat,,Groupe Union Centriste,,,,,,,Vendée,Pays de la Loire
 Annie Delmont-Koropoulis,people,Sénat,,Groupe Les Républicains,,,,,,,Seine-Saint-Denis,Ile-de-France
-Annie Guillemot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Antoine Karam,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Guyane,Guyane
 Antoine Lefèvre,people,Sénat,,Groupe Les Républicains,,,,,,,Aisne,Hauts-de-France
 Arnaud Bazin,people,Sénat,,Groupe Les Républicains,,,,,,,Val d'Oise,Ile-de-France
-Arnaud de Belenet,people,Sénat,,Groupe La République en Marche,,,Les Républicains,,,,Seine-et-Marne,Ile-de-France
 Benoît Huré,people,Sénat,,Groupe Les Républicains,,,,,,,Ardennes,Grand Est
 Bernard Bonne,people,Sénat,,Groupe Les Républicains,,,,,,,Loire,Auvergne-Rhône-Alpes
-Bernard Buis,people,Sénat,,Groupe La République en Marche,,,,,,,Drôme,Auvergne-Rhône-Alpes
-Bernard Cazeau,people,Sénat,,Groupe La République en Marche,,,Groupe Socialiste et républicain,,,,Dordogne,Nouvelle-Aquitaine
-Bernard Delcros,people,Sénat,,Groupe Union Centriste,,,,,,,Cantal,Auvergne-Rhône-Alpes
 Bernard Fournier,people,Sénat,,Groupe Les Républicains,,,,,,,Loire,Auvergne-Rhône-Alpes
-Bernard Jomier,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Paris,Ile-de-France
-Bernard Lalande,people,Sénat,Questeur du Sénat,Groupe Socialiste et républicain,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
 Brigitte Lherbier,people,Sénat,,Groupe Les Républicains,,,,,,,Nord,Hauts-de-France
 Brigitte Micouleau,people,Sénat,,Groupe Les Républicains,,,,,,,Haute-Garonne,Occitanie
 Bruno Gilles,people,Sénat,,Groupe Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Bruno Retailleau,people,Sénat,,Groupe Les Républicains,,,,,"430, 431, 440",,Vendée,Pays de la Loire
 Bruno Sido,people,Sénat,,Groupe Les Républicains,,,,,,,Haute-Marne,Grand Est
-Catherine Conconne,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Martinique,Martinique
 Catherine Deroche,people,Sénat,,Groupe Les Républicains,,,,,,,Maine-et-Loire,Pays de la Loire
 Catherine Di Folco,people,Sénat,,Groupe Les Républicains,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Catherine Dumas,people,Sénat,,Groupe Les Républicains,,,,,,,Paris,Ile-de-France
-Catherine Fournier,people,Sénat,,Groupe Union Centriste,,,,,,,Pas-de-Calais,Hauts-de-France
-Catherine Morin-Desailly,people,Sénat,,Groupe Union Centriste,,,,,,,Seine-Maritime,Normandie
 Catherine Procaccia,people,Sénat,,Groupe Les Républicains,,,,,,,Val-de-Marne,Ile-de-France
 Catherine Troendlé,people,Sénat,Vice-président du Sénat,Groupe Les Républicains,,,,,,,Haut-Rhin,Grand Est
-Cathy Apourceau-Poly,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Pas-de-Calais,Hauts-de-France
 Cédric Perrin,people,Sénat,,Groupe Les Républicains,,,,,,,Territoire de Belfort,Bourgogne-Franche-Comté
 Céline Boulay-Espéronnier,people,Sénat,,Groupe Les Républicains,,,,,,,Paris,Ile-de-France
-Céline Brulin,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Seine-Maritime,Normandie
 Chantal Deseyne,people,Sénat,,Groupe Les Républicains,,,,,,,Eure-et-Loir,Centre-Val de Loire
 Charles Guené,people,Sénat,,Groupe Les Républicains,,,,,,,Haute-Marne,Grand Est
 Charles Revet,people,Sénat,,Groupe Les Républicains,,,,,,,Seine-Maritime,Normandie
 Christian Cambon,people,Sénat,,Groupe Les Républicains,,,,,,,Val-de-Marne,Ile-de-France
-Christian Manable,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Somme,Hauts-de-France
 Christine Bonfanti-Dossat,people,Sénat,,Groupe Les Républicains,,,,,,,Lot-et-Garonne,Nouvelle-Aquitaine
-Christine Herzog,people,Sénat,,Non-inscrits,,,,,,,Moselle,Grand Est
 Christine Lanfranchi Dorgal,people,Sénat,,Groupe Les Républicains,,,,,,,Var,Provence-Alpes-Côte d'Azur
 Christine Lavarde,people,Sénat,,Groupe Les Républicains,,,,,,,Hauts-de-Seine,Ile-de-France
-Christine Prunaud,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Côtes-d'Armor,Bretagne
 Christophe Priou,people,Sénat,,Groupe Les Républicains,,,,,,,Loire-Atlantique,Pays de la Loire
-Claude Bérit-Débat,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Dordogne,Nouvelle-Aquitaine
-Claude Haut,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
-Claude Kern,people,Sénat,,Groupe Union Centriste,,,,,,,Bas-Rhin,Grand Est
-Claude Malhuret,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,Groupe Les Républicains,,"427, 441",,Allier,Auvergne-Rhône-Alpes
 Claude Nougein,people,Sénat,,Groupe Les Républicains,,,,,,,Corrèze,Nouvelle-Aquitaine
-Claude Raynal,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Haute-Garonne,Occitanie
-Claudine Kauffmann,people,Sénat,,Non-inscrits,,,Front national,,,,Var,Provence-Alpes-Côte d'Azur
-Claudine Lepage,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Français établis hors de France,Français établis hors de France
 Claudine Thomas,people,Sénat,,Groupe Les Républicains,,,,,,,Seine-et-Marne,Ile-de-France
 Colette Giudicelli,people,Sénat,,Groupe Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Colette Mélot,people,Sénat,,Groupe Les Républicains,,,,,,,Seine-et-Marne,Ile-de-France
-Corinne Féret,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Calvados,Normandie
 Corinne Imbert,people,Sénat,,Groupe Les Républicains,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
 Cyril Pellevat,people,Sénat,,Groupe Les Républicains,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
 Damien Regnard,people,Sénat,,Groupe Les Républicains,,,,,,,Français établis hors de France,Français établis hors de France
-Daniel Chasseing,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,Corrèze,Nouvelle-Aquitaine
-Daniel Dubois,people,Sénat,,Groupe Union Centriste,,,,,,,Somme,Hauts-de-France
 Daniel Gremillet,people,Sénat,,Groupe Les Républicains,,,,,,,Vosges,Grand Est
 Daniel Laurent,people,Sénat,,Groupe Les Républicains,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
-Dany Wattebled,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,Nord,Hauts-de-France
-Denise Saint-Pé,people,Sénat,,Groupe Union Centriste,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
 Didier Mandelli,people,Sénat,,Groupe Les Républicains,,,,,,,Vendée,Pays de la Loire
-Didier Marie,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Seine-Maritime,Normandie
-Didier Rambaud,people,Sénat,,Groupe La République en Marche,,,,,,,Isère,Auvergne-Rhône-Alpes
 Dominique de Legge,people,Sénat,,Groupe Les Républicains,,,,,,,Ille-et-Vilaine,Bretagne
 Dominique Estrosi Sassone,people,Sénat,,Groupe Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
-Dominique Théophile,people,Sénat,,Groupe La République en Marche,,,,,,,Guadeloupe,Guadeloupe
-Dominique Vérien,people,Sénat,,Groupe Union Centriste,,,,,,,Yonne,Bourgogne-Franche-Comté
 Édouard Courtial,people,Sénat,,Groupe Les Républicains,,,,,,,Oise,Hauts-de-France
-Éliane Assassi,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,341,,Seine-Saint-Denis,Ile-de-France
-Élisabeth Doineau,people,Sénat,,Groupe Union Centriste,,,,,,,Mayenne,Pays de la Loire
 Élisabeth Lamure,people,Sénat,,Groupe Les Républicains,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Emmanuel Capus,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,Maine-et-Loire,Pays de la Loire
-Éric Bocquet,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Nord,Hauts-de-France
-Éric Gold,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
-Éric Jeansannetas,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Creuse,Nouvelle-Aquitaine
-Éric Kerrouche,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Landes,Nouvelle-Aquitaine
-Évelyne Perrot,people,Sénat,,Groupe Union Centriste,,,,,,,Aube,Grand Est
 Évelyne Renaud-Garabedian,people,Sénat,,Groupe Les Républicains,,,,,,,Français établis hors de France,Français établis hors de France
-Fabien Gay,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Seine-Saint-Denis,Ile-de-France
 Fabienne Keller,people,Sénat,,Groupe Les Républicains,Polytechnique,,,,,,Bas-Rhin,Grand Est
 Florence Lassarade,people,Sénat,,Groupe Les Républicains,,,,,,,Gironde,Nouvelle-Aquitaine
-Franck Menonville,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Meuse,Grand Est
-Franck Montaugé,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Gers,Occitanie
 François Bonhomme,people,Sénat,,Groupe Les Républicains,,,,,,,Tarn-et-Garonne,Occitanie
 François Calvet,people,Sénat,,Groupe Les Républicains,,,,,,,Pyrénées-Orientales,Occitanie
 François Grosdidier,people,Sénat,,Groupe Les Républicains,,,,,,,Moselle,Grand Est
 François Pillet,people,Sénat,,Groupe Les Républicains,,,,,,,Cher,Centre-Val de Loire
 François-Noël Buffet,people,Sénat,,Groupe Les Républicains,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Françoise Cartron,people,Sénat,,Groupe La République en Marche,,,Groupe Socialiste et républicain,,,,Gironde,Nouvelle-Aquitaine
-Françoise Férat,people,Sénat,,Groupe Union Centriste,,,,,,,Marne,Grand Est
-Françoise Gatel,people,Sénat,,Groupe Union Centriste,,,,,,,Ille-et-Vilaine,Bretagne
-Françoise Laborde,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Haute-Garonne,Occitanie
-Frédéric Marchand,people,Sénat,,Groupe La République en Marche,,,,,,,Nord,Hauts-de-France
-Frédérique Espagnac,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
 Frédérique Gerbaud,people,Sénat,,Groupe Les Républicains,,,,,,,Indre,Centre-Val de Loire
 Frédérique Puissat,people,Sénat,,Groupe Les Républicains,,,,,,,Isère,Auvergne-Rhône-Alpes
-Georges Patient,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Guyane,Guyane
 Gérard Cornu,people,Sénat,,Groupe Les Républicains,,,,,,,Eure-et-Loir,Centre-Val de Loire
 Gérard Dériot,people,Sénat,,Groupe Les Républicains,,,,,,,Allier,Auvergne-Rhône-Alpes
 Gérard Larcher,people,Sénat,Président du Sénat,Groupe Les Républicains,,,,,"172, 263",,Yvelines,Ile-de-France
 Gérard Longuet,people,Sénat,,Groupe Les Républicains,,,,,312,,Meuse,Grand Est
-Gérard Poadja,people,Sénat,,Groupe Union Centriste,,,,,,,Nouvelle-Calédonie,Nouvelle-Calédonie
 Gilbert Bouchet,people,Sénat,,Groupe Les Républicains,,,,,,,Drôme,Auvergne-Rhône-Alpes
-Gilbert Roger,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Seine-Saint-Denis,Ile-de-France
-Gilbert-Luc Devinaz,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Gisèle Jourda,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Aude,Occitanie
-Guillaume Arnell,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Saint-Martin,Saint-Barthélemy et Saint-Martin
 Guillaume Chevrollier,people,Sénat,,Groupe Les Républicains,,,,,,,Mayenne,Pays de la Loire
-Guillaume Gontard,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Isère,Auvergne-Rhône-Alpes
 Guy-Dominique Kennel,people,Sénat,,Groupe Les Républicains,,,,,,,Bas-Rhin,Grand Est
-Hélène Conway-Mouret,people,Sénat,Vice-président du Sénat,Groupe Socialiste et républicain,,,,,340,,Français établis hors de France,Français établis hors de France
-Henri Cabanel,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Hérault,Occitanie
 Henri Leroy,people,Sénat,,Groupe Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
-Hervé Marseille,people,Sénat,,Groupe Union Centriste,,,,,,,Hauts-de-Seine,Ile-de-France
-Hervé Maurey,people,Sénat,,Groupe Union Centriste,,,,,,,Eure,Normandie
 Hugues Saury,people,Sénat,,Groupe Les Républicains,,,,,,,Loiret,Centre-Val de Loire
 Isabelle Raimond-Pavero,people,Sénat,,Groupe Les Républicains,,,,,,,Indre-et-Loire,Centre-Val de Loire
 Jackie Pierre,people,Sénat,,Groupe Les Républicains,,,,,,,Vosges,Grand Est
 Jacky Deromedi,people,Sénat,,Groupe Les Républicains,,,,,,,Français établis hors de France,Français établis hors de France
 Jacqueline Eustache-Brinio,people,Sénat,,Groupe Les Républicains,,,,,,,Val d'Oise,Ile-de-France
-Jacques Bigot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Bas-Rhin,Grand Est
 Jacques Genest,people,Sénat,,Groupe Les Républicains,,,,,,,Ardèche,Auvergne-Rhône-Alpes
 Jacques Grosperrin,people,Sénat,,Groupe Les Républicains,,,,,,,Doubs,Bourgogne-Franche-Comté
-Jacques Le Nay,people,Sénat,,Groupe Union Centriste,,,,,,,Morbihan,Bretagne
-Jacques-Bernard Magner,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
 Jean Bizet,people,Sénat,,Groupe Les Républicains,,,,,,,Manche,Normandie
-Jean Louis Masson,people,Sénat,,Non-inscrits,,,,,,,Moselle,Grand Est
 Jean Pierre Vogel,people,Sénat,,Groupe Les Républicains,,,,,,,Sarthe,Pays de la Loire
 Jean Sol,people,Sénat,,Groupe Les Républicains,,,,,,,Pyrénées-Orientales,Occitanie
 Jean-Claude Carle,people,Sénat,,Groupe Les Républicains,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
 Jean-Claude Lenoir,people,Sénat,,Groupe Les Républicains,,,,,,,Orne,Normandie
-Jean-Claude Luche,people,Sénat,,Groupe Union Centriste,,,,,,,Aveyron,Occitanie
-Jean-Claude Requier,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Lot,Occitanie
-Jean-Claude Tissot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Loire,Auvergne-Rhône-Alpes
 Jean-François Husson,people,Sénat,,Groupe Les Républicains,,,,,,,Meurthe-et-Moselle,Grand Est
-Jean-François Longeot,people,Sénat,,Groupe Union Centriste,,,,,,,Doubs,Bourgogne-Franche-Comté
 Jean-François Mayet,people,Sénat,,Groupe Les Républicains,,,,,,,Indre,Centre-Val de Loire
 Jean-François Rapin,people,Sénat,,Groupe Les Républicains,,,,,,,Pas-de-Calais,Hauts-de-France
-Jean-Jacques Lozach,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Creuse,Nouvelle-Aquitaine
 Jean-Jacques Panunzi,people,Sénat,,Groupe Les Républicains,,,,,,,Corse-du-Sud,Corse
-Jean-Louis Lagourgue,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,La Réunion,La Réunion
-Jean-Louis Tourenne,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Ille-et-Vilaine,Bretagne
-Jean-Luc Fichet,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Finistère,Bretagne
 Jean-Marc Boyer,people,Sénat,,Groupe Les Républicains,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
-Jean-Marc Gabouty,people,Sénat,Vice-président du Sénat,Groupe Union Centriste,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
-Jean-Marc Todeschini,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Moselle,Grand Est
-Jean-Marie Bockel,people,Sénat,,Groupe Union Centriste,,,Parti socialiste,,240,,Haut-Rhin,Grand Est
-Jean-Marie Janssens,people,Sénat,,Groupe Union Centriste,,,,,,,Loir-et-Cher,Centre-Val de Loire
-Jean-Marie Mizzon,people,Sénat,,Groupe Union Centriste,,,,,,,Moselle,Grand Est
 Jean-Marie Morisset,people,Sénat,,Groupe Les Républicains,,,,,,,Deux-Sèvres,Nouvelle-Aquitaine
-Jean-Marie Vanlerenberghe,people,Sénat,,Groupe Union Centriste,,,,,,,Pas-de-Calais,Hauts-de-France
-Jean-Michel Houllegatte,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Manche,Normandie
 Jean-Noël Cardoux,people,Sénat,,Groupe Les Républicains,,,,,,,Loiret,Centre-Val de Loire
-Jean-Noël Guérini,people,Sénat,,Non-inscrits,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Jean-Paul Emorine,people,Sénat,,Groupe Les Républicains,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
-Jean-Paul Prince,people,Sénat,,Groupe Union Centriste,,,,,,,Loir-et-Cher,Centre-Val de Loire
-Jean-Pierre Corbisez,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Pas-de-Calais,Hauts-de-France
-Jean-Pierre Decool,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,Nord,Hauts-de-France
 Jean-Pierre Grand,people,Sénat,,Groupe Les Républicains,,,,,,,Hérault,Occitanie
 Jean-Pierre Leleux,people,Sénat,,Groupe Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
-Jean-Pierre Moga,people,Sénat,,Groupe Union Centriste,,,,,,,Lot-et-Garonne,Nouvelle-Aquitaine
 Jean-Pierre Vial,people,Sénat,,Groupe Les Républicains,,,,,,,Savoie,Auvergne-Rhône-Alpes
 Jean-Raymond Hugonet,people,Sénat,,Groupe Les Républicains,,,,,,,Essonne,Ile-de-France
-Jean-Yves Leconte,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Français établis hors de France,Français établis hors de France
-Jean-Yves Roux,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Alpes-de-Haute-Provence,Provence-Alpes-Côte d'Azur
 Jérôme Bascher,people,Sénat,,Groupe Les Républicains,,,,,,,Oise,Hauts-de-France
-Jérôme Bignon,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,Les Républicains,,,,Somme,Hauts-de-France
-Jérôme Durain,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
-Jocelyne Guidez,people,Sénat,,Groupe Union Centriste,,,,,,,Essonne,Ile-de-France
-Joël Bigot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Maine-et-Loire,Pays de la Loire
-Joël Guerriau,people,Sénat,,Groupe Union Centriste,,,,,,,Loire-Atlantique,Pays de la Loire
-Joël Labbé,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Europe Écologie Les Verts,,,,Morbihan,Bretagne
 Joëlle Garriaud-Maylam,people,Sénat,,Groupe Les Républicains,,,,,,,Français établis hors de France,Français établis hors de France
 Jordi Ginesta,people,Sénat,,Groupe Les Républicains,,,,,,,Var,Provence-Alpes-Côte d'Azur
-Joseph Castelli,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Haute-Corse,Corse
-Julien Bargeton,people,Sénat,,Groupe La République en Marche,"ESSEC, ENA (promotion Averroès), Sciences Po Paris",,Parti socialiste,,,,Paris,Ile-de-France
 Ladislas Poniatowski,people,Sénat,,Groupe Les Républicains,,,,,,,Eure,Normandie
-Lana Tetuanui,people,Sénat,,Groupe Union Centriste,,,,,,,Polynésie française,Polynésie française
 Laure Darcos,people,Sénat,,Groupe Les Républicains,,,,,,,Essonne,Ile-de-France
-Laurence Harribey,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Gironde,Nouvelle-Aquitaine
-Laurence Rossignol,people,Sénat,,Groupe Socialiste et républicain,,,,,376,,Oise,Hauts-de-France
 Laurent Duplomb,people,Sénat,,Groupe Les Républicains,,,,,,,Haute-Loire,Auvergne-Rhône-Alpes
-Laurent Lafon,people,Sénat,,Groupe Union Centriste,,,,,,,Val-de-Marne,Ile-de-France
-Loïc Hervé,people,Sénat,,Groupe Union Centriste,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
 Louis-Jean de Nicolaÿ,people,Sénat,,Groupe Les Républicains,,,,,,,Sarthe,Pays de la Loire
-Marc Daunis,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Marc Laménie,people,Sénat,,Groupe Les Républicains,,,,,,,Ardennes,Grand Est
 Marc-Philippe Daubresse,people,Sénat,,Groupe Les Républicains,,,,,,,Nord,Hauts-de-France
 Marie Mercier,people,Sénat,,Groupe Les Républicains,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
 Marie-Christine Chauvin,people,Sénat,,Groupe Les Républicains,,,,,,,Jura,Bourgogne-Franche-Comté
-Marie-Françoise Pérol-Dumont,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
-Marie-Noëlle Lienemann,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Paris,Ile-de-France
-Marie-Pierre de la Gontrie,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Paris,Ile-de-France
-Marie-Pierre Monier,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Drôme,Auvergne-Rhône-Alpes
 Marie-Thérèse Bruguière,people,Sénat,,Groupe Les Républicains,,,,,,,Hérault,Occitanie
 Marta de Cidrac,people,Sénat,,Groupe Les Républicains,,,,,,,Yvelines,Ile-de-France
-Martial Bourquin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Doubs,Bourgogne-Franche-Comté
-Martin Lévrier,people,Sénat,,Groupe La République en Marche,,,,,,,Yvelines,Ile-de-France
 Martine Berthet,people,Sénat,,Groupe Les Républicains,,,,,,,Savoie,Auvergne-Rhône-Alpes
-Martine Filleul,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Nord,Hauts-de-France
-Maryse Carrère,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Hautes-Pyrénées,Occitanie
-Maryvonne Blondin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Finistère,Bretagne
 Mathieu Darnaud,people,Sénat,,Groupe Les Républicains,,,,,,,Ardèche,Auvergne-Rhône-Alpes
-Maurice Antiste,people,Sénat,,Groupe Socialiste et républicain,,,Mouvement populaire franciscain,,,,Martinique,Martinique
 Max Brisson,people,Sénat,,Groupe Les Républicains,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
-Michel Boutant,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Charente,Nouvelle-Aquitaine
-Michel Canévet,people,Sénat,,Groupe Union Centriste,,,,,,,Finistère,Bretagne
-Michel Dagbert,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Pas-de-Calais,Hauts-de-France
-Michel Dennemont,people,Sénat,,Groupe La République en Marche,,,,,,,La Réunion,La Réunion
 Michel Forissier,people,Sénat,,Groupe Les Républicains,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Michel Laugier,people,Sénat,,Groupe Union Centriste,,,,,,,Yvelines,Ile-de-France
 Michel Magras,people,Sénat,,Groupe Les Républicains,,,,,,,Saint-Barthélemy,Saint-Barthélemy et Saint-Martin
 Michel Raison,people,Sénat,,Groupe Les Républicains,,,,,,,Haute-Saône,Bourgogne-Franche-Comté
 Michel Savin,people,Sénat,,Groupe Les Républicains,,,,,,,Isère,Auvergne-Rhône-Alpes
 Michel Vaspart,people,Sénat,,Groupe Les Républicains,,,,,,,Côtes-d'Armor,Bretagne
-Michèle Vullien,people,Sénat,,Groupe Union Centriste,,,,,,,Rhône,Auvergne-Rhône-Alpes
-Michelle Gréaume,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Nord,Hauts-de-France
-Michelle Meunier,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Loire-Atlantique,Pays de la Loire
-Mireille Jouve,people,Sénat,,Non-inscrits,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
-Monique Lubin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Landes,Nouvelle-Aquitaine
 Muriel Jourda,people,Sénat,,Groupe Les Républicains,,,,,,,Morbihan,Bretagne
-Nadia Sollogoub,people,Sénat,,Groupe Union Centriste,,,,,,,Nièvre,Bourgogne-Franche-Comté
-Nadine Grelet-Certenais,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Sarthe,Pays de la Loire
-Nassimah Dindar,people,Sénat,,Groupe Union Centriste,,,,,,,La Réunion,La Réunion
-Nathalie Delattre,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Gironde,Nouvelle-Aquitaine
-Nelly Tocqueville,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Seine-Maritime,Normandie
-Nicole Bonnefoy,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Charente,Nouvelle-Aquitaine
 Nicole Duranton,people,Sénat,,Groupe Les Républicains,,,,,,,Eure,Normandie
-Noëlle Rauscent,people,Sénat,,Groupe La République en Marche,,,,,,,Yonne,Bourgogne-Franche-Comté
-Nuihau Laurey,people,Sénat,,Groupe Union Centriste,,,,,,,Polynésie française,Polynésie française
-Olivier Cadic,people,Sénat,,Groupe Union Centriste,,,,,,,Français établis hors de France,Français établis hors de France
-Olivier Cigolotti,people,Sénat,,Groupe Union Centriste,,,,,,,Haute-Loire,Auvergne-Rhône-Alpes
-Olivier Henno,people,Sénat,,Groupe Union Centriste,,,,,,,Nord,Hauts-de-France
-Olivier Jacquin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Meurthe-et-Moselle,Grand Est
-Olivier Léonhardt,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Essonne,Ile-de-France
 Olivier Paccaud,people,Sénat,,Groupe Les Républicains,,,,,,,Oise,Hauts-de-France
 Pascal Allizard,people,Sénat,,Groupe Les Républicains,,,Mouvement démocrate,,,,Calvados,Normandie
-Pascal Savoldelli,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Val-de-Marne,Ile-de-France
 Pascale Bories,people,Sénat,,Groupe Les Républicains,,,,,,,Gard,Occitanie
 Pascale Gruny,people,Sénat,,Groupe Les Républicains,,,,,,,Aisne,Hauts-de-France
-Patrice Joly,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Nièvre,Bourgogne-Franche-Comté
 Patricia Morhet-Richaud,people,Sénat,,Groupe Les Républicains,,,,,,,Hautes-Alpes,Provence-Alpes-Côte d'Azur
-Patricia Schillinger,people,Sénat,,Groupe La République en Marche,,,Groupe Socialiste et républicain,,,,Haut-Rhin,Grand Est
 Patrick Chaize,people,Sénat,,Groupe Les Républicains,,,,,,,Ain,Auvergne-Rhône-Alpes
-Philippe Adnot,people,Sénat,,Non-inscrits,,,Mouvement démocrate,,,,Aube,Grand Est
 Philippe Bas,people,Sénat,,Groupe Les Républicains,"ENA (promotion Louise Michel), Sciences Po Paris",,,,,,Manche,Normandie
-Philippe Bonnecarrère,people,Sénat,,Groupe Union Centriste,,,,,,,Tarn,Occitanie
 Philippe Dallier,people,Sénat,Vice-président du Sénat,Groupe Les Républicains,,,,,,,Seine-Saint-Denis,Ile-de-France
 Philippe Dominati,people,Sénat,,Groupe Les Républicains,,,,,,,Paris,Ile-de-France
-Philippe Madrelle,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Gironde,Nouvelle-Aquitaine
 Philippe Mouiller,people,Sénat,,Groupe Les Républicains,,,,,,,Deux-Sèvres,Nouvelle-Aquitaine
 Philippe Nachbar,people,Sénat,,Groupe Les Républicains,,,,,,,Meurthe-et-Moselle,Grand Est
 Philippe Paul,people,Sénat,,Groupe Les Républicains,,,,,,,Finistère,Bretagne
@@ -1297,56 +1169,182 @@ Philippe Pemezec,people,Sénat,,Groupe Les Républicains,,,,,,,Hauts-de-Seine,Il
 Pierre Charon,people,Sénat,,Groupe Les Républicains,,,,,,,Paris,Ile-de-France
 Pierre Cuypers,people,Sénat,,Groupe Les Républicains,,,,,,,Seine-et-Marne,Ile-de-France
 Pierre Frogier,people,Sénat,,Groupe Les Républicains,,,,,,,Nouvelle-Calédonie,Nouvelle-Calédonie
-Pierre Laurent,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,"267, 270, 292, 300",,Paris,Ile-de-France
-Pierre Louault,people,Sénat,,Groupe Union Centriste,,,,,,,Indre-et-Loire,Centre-Val de Loire
-Pierre Médevielle,people,Sénat,,Groupe Union Centriste,,,,,,,Haute-Garonne,Occitanie
-Pierre Ouzoulias,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Hauts-de-Seine,Ile-de-France
-Pierre-Yves Collombat,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,Var,Provence-Alpes-Côte d'Azur
-Rachel Mazuir,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Ain,Auvergne-Rhône-Alpes
-Rachid Temal,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Val-d'Oise,Ile-de-France
-Raymond Vall,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Gers,Occitanie
-Rémi Féraud,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Paris,Ile-de-France
 Rémy Pointereau,people,Sénat,Questeur du Sénat,Groupe Les Républicains,,,,,,,Cher,Centre-Val de Loire
 René Danesi,people,Sénat,,Groupe Les Républicains,,,,,,,Haut-Rhin,Grand Est
 René-Paul Savary,people,Sénat,,Groupe Les Républicains,,,,,,,Marne,Grand Est
-Richard Yung,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Français établis hors de France,Français établis hors de France
 Robert del Picchia,people,Sénat,,Groupe Les Républicains,,,,,,,Français établis hors de France,Français établis hors de France
 Robert Laufoaulu,people,Sénat,,Groupe Les Républicains,,,,,,,Wallis-et-Futuna,Wallis-et-Futuna
-Roland Courteau,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Aude,Occitanie
-Ronan Dantec,people,Sénat,,Non-inscrits,,,Europe Écologie Les Verts,,,,Loire-Atlantique,Pays de la Loire
 Ronan Le Gleut,people,Sénat,,Groupe Les Républicains,,,,,,,Français établis hors de France,Français établis hors de France
-Sabine Van Heghe,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Pas-de-Calais,Hauts-de-France
-Samia Ghali,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Sébastien Meurant,people,Sénat,,Groupe Les Républicains,,,,,,,Val-d'Oise,Ile-de-France
 Serge Babary,people,Sénat,,Groupe Les Républicains,,,Démocratie libérale,,,,Indre-et-Loire,Centre-Val de Loire
-Simon Sutour,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Gard,Occitanie
-Sonia de la Provôté,people,Sénat,,Groupe Union Centriste,,,,,,,Calvados,Normandie
-Sophie Joissains,people,Sénat,,Groupe Union Centriste,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Sophie Primas,people,Sénat,,Groupe Les Républicains,,,,,,,Yvelines,Ile-de-France
-Sophie Taillé-Polian,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Val-de-Marne,Ile-de-France
-Stéphane Artano,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Les Républicains,,,,Saint-Pierre-et-Miquelon,Saint-Pierre-et-Miquelon
 Stéphane Piednoir,people,Sénat,,Groupe Les Républicains,,,,,,,Maine-et-Loire,Pays de la Loire
-Stéphane Ravier,people,Sénat,,Non-inscrits,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
-Sylvie Goy-Chavent,people,Sénat,,Groupe Union Centriste,,,,,,,Ain,Auvergne-Rhône-Alpes
+Vivette Lopez,people,Sénat,,Groupe Les Républicains,,,,,,,Gard,Occitanie
+Viviane Malet,people,Sénat,,Groupe Les Républicains,,,,,,,La Réunion,La Réunion
+Yves Bouloux,people,Sénat,,Groupe Les Républicains,,,,,,,Vienne,Nouvelle-Aquitaine
+Jacques Mézard,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Parti radical de gauche,Grand Orient de France,435,,Cantal,Auvergne-Rhône-Alpes
+Alain Bertrand,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Parti socialiste,,,,Lozère,Occitanie
+Éric Gold,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
+Franck Menonville,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Meuse,Grand Est
+Françoise Laborde,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Haute-Garonne,Occitanie
+Guillaume Arnell,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Saint-Martin,Saint-Barthélemy et Saint-Martin
+Jean-Claude Requier,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Lot,Occitanie
+Jean-Pierre Corbisez,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Pas-de-Calais,Hauts-de-France
+Joël Labbé,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Europe Écologie Les Verts,,,,Morbihan,Bretagne
+Joseph Castelli,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Haute-Corse,Corse
+Maryse Carrère,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Hautes-Pyrénées,Occitanie
+Nathalie Delattre,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Gironde,Nouvelle-Aquitaine
+Olivier Léonhardt,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Essonne,Ile-de-France
+Raymond Vall,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Gers,Occitanie
+Stéphane Artano,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Les Républicains,,,,Saint-Pierre-et-Miquelon,Saint-Pierre-et-Miquelon
+Véronique Guillotin,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Meurthe-et-Moselle,Grand Est
+Yvon Collin,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Tarn-et-Garonne,Occitanie
+François Patriat,people,Sénat,,Groupe Socialiste et républicain,,,,Grand Orient de France,,,Côte-d'Or,Bourgogne-Franche-Comté
+Jean-Pierre Sueur,people,Sénat,,Groupe Socialiste et républicain,,,,Grand Orient de France,,,Loiret,Centre-Val de Loire
+Victorin Lurel,people,Sénat,,Groupe Socialiste et républicain,,,,Grand Orient de France,,Acacia des Tropiques,Guadeloupe,Guadeloupe
+Vincent Éblé,people,Sénat,,Groupe Socialiste et républicain,,,,Grand Orient de France,441,,Seine-et-Marne,Ile-de-France
+David Assouline,people,Sénat,Vice-président du Sénat,Groupe Socialiste et républicain,,,Mouvement Jeunes communistes de France,Judaïsme,36,,Paris,Ile-de-France
+Patrick Kanner,people,Sénat,,Groupe Socialiste et républicain,,,,Judaïsme,,,Nord,Hauts-de-France
+Alain Duran,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Ariège,Occitanie
+Alain Richard,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Val-d'Oise,Ile-de-France
+André Vallini,people,Sénat,,Groupe Socialiste et républicain,,,,,"64, 72, 73, 107, 164, 192, 230, 245, 278, 322, 422",,Isère,Auvergne-Rhône-Alpes
+Angèle Préville,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Lot,Occitanie
+Annie Guillemot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Rhône,Auvergne-Rhône-Alpes
+Antoine Karam,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Guyane,Guyane
+Bernard Jomier,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Paris,Ile-de-France
+Bernard Lalande,people,Sénat,Questeur du Sénat,Groupe Socialiste et républicain,,,,,,,Charente-Maritime,Nouvelle-Aquitaine
+Catherine Conconne,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Martinique,Martinique
+Christian Manable,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Somme,Hauts-de-France
+Claude Bérit-Débat,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Dordogne,Nouvelle-Aquitaine
+Claude Haut,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
+Claude Raynal,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Haute-Garonne,Occitanie
+Claudine Lepage,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Français établis hors de France,Français établis hors de France
+Corinne Féret,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Calvados,Normandie
+Didier Marie,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Seine-Maritime,Normandie
+Éric Jeansannetas,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Creuse,Nouvelle-Aquitaine
+Éric Kerrouche,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Landes,Nouvelle-Aquitaine
+Franck Montaugé,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Gers,Occitanie
+Frédérique Espagnac,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
+Georges Patient,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Guyane,Guyane
+Gilbert Roger,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Seine-Saint-Denis,Ile-de-France
+Gilbert-Luc Devinaz,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Rhône,Auvergne-Rhône-Alpes
+Gisèle Jourda,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Aude,Occitanie
+Hélène Conway-Mouret,people,Sénat,Vice-président du Sénat,Groupe Socialiste et républicain,,,,,340,,Français établis hors de France,Français établis hors de France
+Henri Cabanel,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Hérault,Occitanie
+Jacques Bigot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Bas-Rhin,Grand Est
+Jacques-Bernard Magner,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
+Jean-Claude Tissot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Loire,Auvergne-Rhône-Alpes
+Jean-Jacques Lozach,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Creuse,Nouvelle-Aquitaine
+Jean-Louis Tourenne,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Ille-et-Vilaine,Bretagne
+Jean-Luc Fichet,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Finistère,Bretagne
+Jean-Marc Todeschini,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Moselle,Grand Est
+Jean-Michel Houllegatte,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Manche,Normandie
+Jean-Yves Leconte,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Français établis hors de France,Français établis hors de France
+Jean-Yves Roux,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Alpes-de-Haute-Provence,Provence-Alpes-Côte d'Azur
+Jérôme Durain,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
+Joël Bigot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Maine-et-Loire,Pays de la Loire
+Laurence Harribey,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Gironde,Nouvelle-Aquitaine
+Laurence Rossignol,people,Sénat,,Groupe Socialiste et républicain,,,,,376,,Oise,Hauts-de-France
+Marc Daunis,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
+Marie-Françoise Pérol-Dumont,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
+Marie-Noëlle Lienemann,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Paris,Ile-de-France
+Marie-Pierre de la Gontrie,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Paris,Ile-de-France
+Marie-Pierre Monier,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Drôme,Auvergne-Rhône-Alpes
+Martial Bourquin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Doubs,Bourgogne-Franche-Comté
+Martine Filleul,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Nord,Hauts-de-France
+Maryvonne Blondin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Finistère,Bretagne
+Maurice Antiste,people,Sénat,,Groupe Socialiste et républicain,,,Mouvement populaire franciscain,,,,Martinique,Martinique
+Michel Boutant,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Charente,Nouvelle-Aquitaine
+Michel Dagbert,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Pas-de-Calais,Hauts-de-France
+Michelle Meunier,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Loire-Atlantique,Pays de la Loire
+Monique Lubin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Landes,Nouvelle-Aquitaine
+Nadine Grelet-Certenais,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Sarthe,Pays de la Loire
+Nelly Tocqueville,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Seine-Maritime,Normandie
+Nicole Bonnefoy,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Charente,Nouvelle-Aquitaine
+Olivier Jacquin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Meurthe-et-Moselle,Grand Est
+Patrice Joly,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Nièvre,Bourgogne-Franche-Comté
+Philippe Madrelle,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Gironde,Nouvelle-Aquitaine
+Rachel Mazuir,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Ain,Auvergne-Rhône-Alpes
+Rachid Temal,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Val-d'Oise,Ile-de-France
+Rémi Féraud,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Paris,Ile-de-France
+Richard Yung,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Français établis hors de France,Français établis hors de France
+Roland Courteau,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Aude,Occitanie
+Sabine Van Heghe,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Pas-de-Calais,Hauts-de-France
+Samia Ghali,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Simon Sutour,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Gard,Occitanie
+Sophie Taillé-Polian,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Val-de-Marne,Ile-de-France
 Sylvie Robert,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Ille-et-Vilaine,Bretagne
-Sylvie Vermeillet,people,Sénat,,Groupe Union Centriste,,,,,,,Jura,Bourgogne-Franche-Comté
 Thani Mohamed Soilihi,people,Sénat,Vice-président du Sénat,Groupe Socialiste et républicain,,,,,,,Mayotte,Mayotte
 Thierry Carcenac,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Tarn,Occitanie
-Valérie Létard,people,Sénat,Vice-président du Sénat,Groupe Union Centriste,,,,,,,Nord,Hauts-de-France
-Véronique Guillotin,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Meurthe-et-Moselle,Grand Est
 Victoire Jasmin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Guadeloupe,Guadeloupe
-Vincent Capo-Canellas,people,Sénat,Questeur du Sénat,Groupe Union Centriste,,,,,,,Seine-Saint-Denis,Ile-de-France
-Vincent Delahaye,people,Sénat,Vice-président du Sénat,Groupe Union Centriste,,,,,,,Essonne,Ile-de-France
-Vivette Lopez,people,Sénat,,Groupe Les Républicains,,,,,,,Gard,Occitanie
 Viviane Artigalas,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Hautes-Pyrénées,Occitanie
-Viviane Malet,people,Sénat,,Groupe Les Républicains,,,,,,,La Réunion,La Réunion
 Xavier Iacovelli,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Hauts-de-Seine,Ile-de-France
 Yannick Botrel,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Côtes-d'Armor,Bretagne
 Yannick Vaugrenard,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Loire-Atlantique,Pays de la Loire
-Yves Bouloux,people,Sénat,,Groupe Les Républicains,,,,,,,Vienne,Nouvelle-Aquitaine
 Yves Daudigny,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Aisne,Hauts-de-France
+Nathalie Goulet,people,Sénat,,Groupe Union Centriste,,,,Judaïsme,,,Orne,Normandie
+Alain Cazabonne,people,Sénat,,Groupe Union Centriste,,,,,,,Gironde,Nouvelle-Aquitaine
+Anne-Catherine Loisier,people,Sénat,,Groupe Union Centriste,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
+Annick Billon,people,Sénat,,Groupe Union Centriste,,,,,,,Vendée,Pays de la Loire
+Bernard Delcros,people,Sénat,,Groupe Union Centriste,,,,,,,Cantal,Auvergne-Rhône-Alpes
+Catherine Fournier,people,Sénat,,Groupe Union Centriste,,,,,,,Pas-de-Calais,Hauts-de-France
+Catherine Morin-Desailly,people,Sénat,,Groupe Union Centriste,,,,,,,Seine-Maritime,Normandie
+Claude Kern,people,Sénat,,Groupe Union Centriste,,,,,,,Bas-Rhin,Grand Est
+Daniel Dubois,people,Sénat,,Groupe Union Centriste,,,,,,,Somme,Hauts-de-France
+Denise Saint-Pé,people,Sénat,,Groupe Union Centriste,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
+Dominique Vérien,people,Sénat,,Groupe Union Centriste,,,,,,,Yonne,Bourgogne-Franche-Comté
+Élisabeth Doineau,people,Sénat,,Groupe Union Centriste,,,,,,,Mayenne,Pays de la Loire
+Évelyne Perrot,people,Sénat,,Groupe Union Centriste,,,,,,,Aube,Grand Est
+Françoise Férat,people,Sénat,,Groupe Union Centriste,,,,,,,Marne,Grand Est
+Françoise Gatel,people,Sénat,,Groupe Union Centriste,,,,,,,Ille-et-Vilaine,Bretagne
+Gérard Poadja,people,Sénat,,Groupe Union Centriste,,,,,,,Nouvelle-Calédonie,Nouvelle-Calédonie
+Hervé Marseille,people,Sénat,,Groupe Union Centriste,,,,,,,Hauts-de-Seine,Ile-de-France
+Hervé Maurey,people,Sénat,,Groupe Union Centriste,,,,,,,Eure,Normandie
+Jacques Le Nay,people,Sénat,,Groupe Union Centriste,,,,,,,Morbihan,Bretagne
+Jean-Claude Luche,people,Sénat,,Groupe Union Centriste,,,,,,,Aveyron,Occitanie
+Jean-François Longeot,people,Sénat,,Groupe Union Centriste,,,,,,,Doubs,Bourgogne-Franche-Comté
+Jean-Marc Gabouty,people,Sénat,Vice-président du Sénat,Groupe Union Centriste,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
+Jean-Marie Bockel,people,Sénat,,Groupe Union Centriste,,,Parti socialiste,,240,,Haut-Rhin,Grand Est
+Jean-Marie Janssens,people,Sénat,,Groupe Union Centriste,,,,,,,Loir-et-Cher,Centre-Val de Loire
+Jean-Marie Mizzon,people,Sénat,,Groupe Union Centriste,,,,,,,Moselle,Grand Est
+Jean-Marie Vanlerenberghe,people,Sénat,,Groupe Union Centriste,,,,,,,Pas-de-Calais,Hauts-de-France
+Jean-Paul Prince,people,Sénat,,Groupe Union Centriste,,,,,,,Loir-et-Cher,Centre-Val de Loire
+Jean-Pierre Moga,people,Sénat,,Groupe Union Centriste,,,,,,,Lot-et-Garonne,Nouvelle-Aquitaine
+Jocelyne Guidez,people,Sénat,,Groupe Union Centriste,,,,,,,Essonne,Ile-de-France
+Joël Guerriau,people,Sénat,,Groupe Union Centriste,,,,,,,Loire-Atlantique,Pays de la Loire
+Lana Tetuanui,people,Sénat,,Groupe Union Centriste,,,,,,,Polynésie française,Polynésie française
+Laurent Lafon,people,Sénat,,Groupe Union Centriste,,,,,,,Val-de-Marne,Ile-de-France
+Loïc Hervé,people,Sénat,,Groupe Union Centriste,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
+Michel Canévet,people,Sénat,,Groupe Union Centriste,,,,,,,Finistère,Bretagne
+Michel Laugier,people,Sénat,,Groupe Union Centriste,,,,,,,Yvelines,Ile-de-France
+Michèle Vullien,people,Sénat,,Groupe Union Centriste,,,,,,,Rhône,Auvergne-Rhône-Alpes
+Nadia Sollogoub,people,Sénat,,Groupe Union Centriste,,,,,,,Nièvre,Bourgogne-Franche-Comté
+Nassimah Dindar,people,Sénat,,Groupe Union Centriste,,,,,,,La Réunion,La Réunion
+Nuihau Laurey,people,Sénat,,Groupe Union Centriste,,,,,,,Polynésie française,Polynésie française
+Olivier Cadic,people,Sénat,,Groupe Union Centriste,,,,,,,Français établis hors de France,Français établis hors de France
+Olivier Cigolotti,people,Sénat,,Groupe Union Centriste,,,,,,,Haute-Loire,Auvergne-Rhône-Alpes
+Olivier Henno,people,Sénat,,Groupe Union Centriste,,,,,,,Nord,Hauts-de-France
+Philippe Bonnecarrère,people,Sénat,,Groupe Union Centriste,,,,,,,Tarn,Occitanie
+Pierre Louault,people,Sénat,,Groupe Union Centriste,,,,,,,Indre-et-Loire,Centre-Val de Loire
+Pierre Médevielle,people,Sénat,,Groupe Union Centriste,,,,,,,Haute-Garonne,Occitanie
+Sonia de la Provôté,people,Sénat,,Groupe Union Centriste,,,,,,,Calvados,Normandie
+Sophie Joissains,people,Sénat,,Groupe Union Centriste,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Sylvie Goy-Chavent,people,Sénat,,Groupe Union Centriste,,,,,,,Ain,Auvergne-Rhône-Alpes
+Sylvie Vermeillet,people,Sénat,,Groupe Union Centriste,,,,,,,Jura,Bourgogne-Franche-Comté
+Valérie Létard,people,Sénat,Vice-président du Sénat,Groupe Union Centriste,,,,,,,Nord,Hauts-de-France
+Vincent Capo-Canellas,people,Sénat,Questeur du Sénat,Groupe Union Centriste,,,,,,,Seine-Saint-Denis,Ile-de-France
+Vincent Delahaye,people,Sénat,Vice-président du Sénat,Groupe Union Centriste,,,,,,,Essonne,Ile-de-France
 Yves Détraigne,people,Sénat,,Groupe Union Centriste,,,,,,,Marne,Grand Est
-Yvon Collin,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Tarn-et-Garonne,Occitanie
+Robert Navarro,people,Sénat,,Non-inscrits,,,,Grand Orient de France,,,Hérault,Occitanie
+André Gattolin,people,Sénat,,Non-inscrits,,,Europe Écologie Les Verts,,,,Hauts-de-Seine,Ile-de-France
+Christine Herzog,people,Sénat,,Non-inscrits,,,,,,,Moselle,Grand Est
+Claudine Kauffmann,people,Sénat,,Non-inscrits,,,Front national,,,,Var,Provence-Alpes-Côte d'Azur
+Jean Louis Masson,people,Sénat,,Non-inscrits,,,,,,,Moselle,Grand Est
+Jean-Noël Guérini,people,Sénat,,Non-inscrits,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Mireille Jouve,people,Sénat,,Non-inscrits,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Philippe Adnot,people,Sénat,,Non-inscrits,,,Mouvement démocrate,,,,Aube,Grand Est
+Ronan Dantec,people,Sénat,,Non-inscrits,,,Europe Écologie Les Verts,,,,Loire-Atlantique,Pays de la Loire
+Stéphane Ravier,people,Sénat,,Non-inscrits,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 ATTAC,organization,,,,,,,,"159, 160, 161, 162",,,
 B'nai B'rith,organization,,,,,,,,,,,
 Beit Haverim,organization,,,,,,,,,,,
@@ -1357,7 +1355,7 @@ En temps réel,organization,,,,,,,,,,,
 European Union of Jewish Students,organization,,,,,,,,,,,
 Fédération nationale de la libre pensée,organization,,,,,,,,,,,
 Fondation Concorde,organization,,,,,,,,,,,
-Fondation France Israël,organization,,,,,,,,,,,
+Fondation France-Israël,organization,,,,,,,,,,,
 Fondation Jean-Jaurès,organization,,,,,,,,,,,
 France China Foundation,organization,,,,,,,,,,,
 Fraternelle parlementaire,organization,,,,,,,,,,,
@@ -1375,3 +1373,5 @@ SOS Racisme,organization,,,,,,,,,,,
 Terra Nova,organization,,,,,,,,,,,
 UNEF,organization,,,,,,,,,,,
 WWF,organization,,,,,,,,,,,
+European Coalition for Israel,organization,,,,,,,,,,,
+German Marshall Fund,organization,,,,,,,,,,,
