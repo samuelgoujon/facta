@@ -1,15 +1,18 @@
 source,target,type
 Adrien Morenas,Groupe d'amitié France-Israël,solid
 Adrien Taquet,Fondation Jean-Jaurès,solid
+Adrien Taquet,Fondation Jean-Jaurès,dotted
 Agnès Pannier-Runacher,France China Foundation,solid
 Agnès Thill,Groupe d'amitié France-Israël,solid
 Alain Druelles,MEDEF,solid
 Alain Houpert,Groupe d'amitié France-Israël,solid
 Alain Ramadier,Groupe d'amitié France-Israël,solid
 Alain Richard,Le Siècle,solid
+Alain Richard,French-American Foundation,solid
 Alexis Corbière,Fédération nationale de la libre pensée,solid
 Alexis Corbière,UNEF,dotted
 Aloïs Kirchner,Institut Montaigne,dotted
+Amélie de Montchalin,French-American Foundation,solid
 André Chassaigne,Groupe d'amitié France-Israël,solid
 André Reichardt,Groupe d'amitié France-Israël,solid
 Anissa Khedher,Groupe d'amitié France-Israël,solid
@@ -18,6 +21,7 @@ Anne-Solène Roudel,LICRA,dotted
 Antoine Foucher,MEDEF,dotted
 Aurore Bergé,Groupe d'amitié France-Israël,solid
 Belkhir Belhaddad,Groupe d'amitié France-Israël,solid
+Bénédicte Peyrol,Association France Fulbright,solid
 Bernard Deflesselles,Groupe d'amitié France-Israël,solid
 Bernard Lalande,Groupe d'amitié France-Israël,solid
 Bernard Rogel,Le Siècle,solid
@@ -36,6 +40,8 @@ Cécile Cukierman,UNEF,dotted
 Cédric O,Fondation Jean-Jaurès,dotted
 Cédric O,Terra Nova,dotted
 Cédric Roussel,Groupe d'amitié France-Israël,solid
+Cédric Villani,EuropaNova,solid
+Cédric Villani,French-American Foundation,solid
 Céline Boulay-Espéronnier,Groupe d'amitié France-Israël,solid
 Christian Jacob,Le Siècle,solid
 Christine Lavarde,Groupe d'amitié France-Israël,solid
@@ -59,6 +65,7 @@ Deborah De Lieme Abisror,European Union of Jewish Students,dotted
 Delphine Batho,Groupe d'amitié France-Israël,solid
 Delphine Batho,SOS Racisme,dotted
 Delphine O,Groupe d'amitié France-Israël,solid
+Delphine O,Fondation Jean-Jaurès,dotted
 Diane Simiu,WWF,dotted
 Didier Quentin,Groupe d'amitié France-Israël,solid
 Dino Cinieri,Groupe d'amitié France-Israël,solid
@@ -103,6 +110,7 @@ Geneviève Levy,Groupe d'amitié France-Israël,solid
 Gérard Larcher,Le Siècle,solid
 Gérard Longuet,Le Siècle,solid
 Gilbert Collard,Groupe d'amitié France-Israël,solid
+Guillaume Chiche,UNEF,dotted
 Guillaume Gouffier-Cha,Groupe d'amitié France-Israël,solid
 Guillaume Larrivé,Groupe d'amitié France-Israël,solid
 Guy Teissier,Groupe d'amitié France-Israël,solid
@@ -115,6 +123,7 @@ Jean-Baptiste Djebbari,Groupe d'amitié France-Israël,solid
 Jean-Claude Bouchet,Groupe d'amitié France-Israël,solid
 Jean-Claude Requier,Groupe d'amitié France-Israël,solid
 Jean-Félix Acquaviva,Groupe d'amitié France-Israël,solid
+Jean-François Cesarini,Terra Nova,solid
 Jean-François Eliaou,Groupe d'amitié France-Israël,solid
 Jean-Louis Bourlanges,Le Siècle,solid
 Jean-Luc Lagleize,Groupe d'amitié France-Israël,solid
@@ -141,6 +150,7 @@ Jonathan Nussbaumer,Institut Montaigne,dotted
 Julien Aubert,Groupe d'amitié France-Israël,solid
 Laurence Trastour-Isnart,Groupe d'amitié France-Israël,solid
 Laurent Lafon,Groupe d'amitié France-Israël,solid
+Laurent Saint-Martin,En Temps Réel,dotted
 Lionel Choukroun,Beit Haverim,solid
 Lionel Choukroun,CRIF,solid
 Loïc Hervé,Groupe d'amitié France-Israël,solid
@@ -149,6 +159,7 @@ M'jid El Guerrab,Groupe d'amitié France-Israël,solid
 Mansour Kamardine,Groupe d'amitié France-Israël,solid
 Marc Ferracci,Institut Montaigne,solid
 Marc Le Fur,Groupe d'amitié France-Israël,solid
+Marie Guévenoux,UNI,dotted
 Marie-Christine Verdier-Jouclas,Groupe d'amitié France-Israël,solid
 Marlène Schiappa,Fondation Jean-Jaurès,dotted
 Martin Guespereau,La Fabrique Écologique,solid
@@ -201,6 +212,7 @@ Rodrigue Kokouendo,Groupe d'amitié France-Israël,solid
 Roger Karoutchi,Groupe d'amitié France-Israël,solid
 Ronan Le Gleut,Groupe d'amitié France-Israël,solid
 Sabine Rubin,Groupe d'amitié France-Israël,solid
+Sabine Thillaye,MEDEF,solid
 Sébastien Chenu,Groupe d'amitié France-Israël,solid
 Séverine Gipson,Groupe d'amitié France-Israël,solid
 Sibeth Ndiayes,UNEF,dotted
@@ -221,4 +233,3 @@ Xavier Breton,Groupe d'amitié France-Israël,solid
 Xavier Iacovelli,Groupe d'amitié France-Israël,solid
 Yaël Braun-Pivet,Groupe d'amitié France-Israël,solid
 Yves-Marie Cann,Fondation Jean-Jaurès,solid
-Bénédicte Peyrol,Association France Fulbright,solid
