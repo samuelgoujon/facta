@@ -9,7 +9,7 @@ function renderChart(params) {
     marginBottom: 0,
     marginRight: 0,
     marginLeft: 0,
-    circleRadiusOrganizaion: 13,
+    circleRadiusOrganizaion: 20,
     circleRadiusPeople: 8,
     circleRadiusGroup: 8,
     iconSize: 20,
