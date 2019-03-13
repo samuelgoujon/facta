@@ -28,7 +28,7 @@ function openNav(d) {
          })
 
          d3.selectAll('.org').style('display', 'none');
-         
+
          var image_url = 'img/portraits/' + d.node + '.jpg';
          if (imageExists(image_url)) {
             portrait.src = image_url;
