@@ -14,7 +14,7 @@ Marie-George Buffet,people,Assemblée nationale,Affaires culturelles et éducati
 Moetai Brotherson,people,Assemblée nationale,Affaires étrangères,Gauche démocrate et républicaine,,,,,,,Polynésie Française,Polynésie française
 Pierre Dharréville,people,Assemblée nationale,Affaires sociales,Gauche démocrate et républicaine,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Sébastien Jumel,people,Assemblée nationale,Affaires économiques,Gauche démocrate et républicaine,,,,,,,Seine-Maritime,Normandie
-Stéphane Peu,people,Assemblée nationale,Finances,Gauche démocrate et républicaine,,,,,24,,Seine-Saint-Denis,Ile-de-France
+Stéphane Peu,people,Assemblée nationale,Finances,Gauche démocrate et républicaine,,,,Grand Orient de France,24,,Seine-Saint-Denis,Ile-de-France
 Jean-Luc Mélenchon,people,Assemblée nationale,Affaires étrangères,La France insoumise,,,,Grand Orient de France,295,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Adrien Quatennens,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,Nord,Hauts-de-France
 Alexis Corbière,people,Assemblée nationale,Défense,La France insoumise,,,,,429,,Seine-Saint-Denis,Ile-de-France
@@ -46,7 +46,7 @@ Dominique David,people,Assemblée nationale,Finances,La République en Marche,,,
 Élise Fajgeles,people,Assemblée nationale,Lois,La République en Marche,,,Parti socialiste,Judaïsme,,,Paris,Ile-de-France
 Yaël Braun-Pivet,people,Assemblée nationale,Lois,La République en Marche,,,Parti socialiste,Judaïsme,,,Yvelines,Ile-de-France
 Pierre-Alain Raphan,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,Accenture,,,,,Essonne,Ile-de-France
-Jean-Louis Touraine,people,Assemblée nationale,Affaires sociales,La République en Marche,,"Agence de la biomédecine, Conseil national du Sida",Parti socialiste,,,,Rhône,Auvergne-Rhône-Alpes
+Jean-Louis Touraine,people,Assemblée nationale,Affaires sociales,La République en Marche,,"Agence de la biomédecine, Conseil national du Sida",Parti socialiste,Grand Orient de France,,,Rhône,Auvergne-Rhône-Alpes
 Hervé Berville,people,Assemblée nationale,Affaires étrangères,La République en Marche,London School of Economics,Agence française de développement,,,,,Côtes-d'Armor,Bretagne
 Sylvain Maillard,people,Assemblée nationale,Affaires sociales,La République en Marche,,Alantys Technology,"Mouvement démocrate, Les Centristes, Union des démocrates et indépendants",,,,Paris,Ile-de-France
 Jean-Michel Mis,people,Assemblée nationale,Lois,La République en Marche,,"Allianz, Conseil national du numérique",Parti socialiste,,,,Loire,Auvergne-Rhône-Alpes
@@ -216,7 +216,7 @@ Florence Provendier,people,Assemblée nationale,Affaires culturelles et éducati
 Florent Boudié,people,Assemblée nationale,Lois,La République en Marche,,,Parti socialiste,,,,Gironde,Nouvelle-Aquitaine
 Francis Chouat,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Essonne,Ile-de-France
 François André,people,Assemblée nationale,Défense,La République en Marche,,,Parti socialiste,,,,Ille-et-Vilaine,Bretagne
-François Cormier-Bouligeon,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Parti socialiste,,,,Cher,Centre-Val de Loire
+François Cormier-Bouligeon,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Parti socialiste,Grand Orient de France,463,,Cher,Centre-Val de Loire
 Françoise Dumas,people,Assemblée nationale,Défense,La République en Marche,,,Parti socialiste,,,,Gard,Occitanie
 Frédéric Barbier,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,Parti socialiste,,,,Doubs,Bourgogne-Franche-Comté
 Frédéric Descrozaille,people,Assemblée nationale,Affaires étrangères,La République en Marche,Sciences Po Paris,,"Parti socialiste, Mouvement démocrate, Nouvelle Donne",,,,Val-de-Marne,Ile-de-France
@@ -366,7 +366,7 @@ Dino Cinieri,people,Assemblée nationale,Affaires économiques,Les Républicains
 Emmanuel Maquet,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,Somme,Hauts-de-France
 Emmanuelle Anthoine,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Drôme,Auvergne-Rhône-Alpes
 Éric Ciotti,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
-Éric Diard,people,Assemblée nationale,Lois,Les Républicains,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Éric Diard,people,Assemblée nationale,Lois,Les Républicains,,,,Grand Orient de France,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Éric Pauget,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Éric Straumann,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Haut-Rhin,Grand Est
 Éric Woerth,people,Assemblée nationale,Finances,Les Républicains,,,,,,,Oise,Hauts-de-France
@@ -543,7 +543,7 @@ Marie-Noëlle Battistel,people,Assemblée nationale,Affaires économiques,Social
 Marietta Karamanli,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,,Sarthe,Pays de la Loire
 Michèle Victory,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Ardèche,Auvergne-Rhône-Alpes
 Olivier Faure,people,Assemblée nationale,Défense,Socialistes et apparentés,,,,,,,Seine-et-Marne,Ile-de-France
-Régis Juanico,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Loire,Auvergne-Rhône-Alpes
+Régis Juanico,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,Membre de Génération.s,Loire,Auvergne-Rhône-Alpes
 Serge Letchimy,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,249,,Martinique,Martinique
 Sylvie Tolmont,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,,,Sarthe,Pays de la Loire
 Valérie Rabault,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,321,,Tarn-et-Garonne,Occitanie
@@ -639,6 +639,7 @@ Sébastien Lecornu,people,Gouvernement,"Ministre auprès de la ministre de la Co
 Olivier Bouchery,people,Gouvernement,"Conseiller spécial, politiques publiques territoriales, outre-mer",Cohésion des Territoires,Sciences Po Paris,"L'Oréal, EADS",Les Républicains,,,,,
 Jérôme Masclaux,people,Gouvernement,"Directeur adjoint du cabinet et conseiller ville, urbanisme et logement",Cohésion des Territoires,Polytechnique,Mairie de Paris,Parti socialiste,,,,,
 Koumaran Pajaniradja,people,Gouvernement,"Conseiller aménagement, construction, urbanisme et transition énergétique",Cohésion des Territoires,,Météo-France,,,,,,
+Bastien Mérot,people,Gouvernement,Conseiller collectivités et institutions locales,Cohésion des Territoires,,,,,,,,
 Rachel Chane-See-Chu,people,Gouvernement,Conseillère logement et politiques sociales du logement,Cohésion des Territoires,,SNCF,,,,,,
 Adrien Bayle,people,Gouvernement,Conseiller finances locales,Cohésion des Territoires,"Sciences Po Paris, ENA, HEC",,,,,,,
 Agnès Callou,people,Gouvernement,Conseillère presse et communication,Cohésion des Territoires,,,Mouvement démocrate,,,,,
@@ -730,7 +731,7 @@ Frédéric Jung,people,Gouvernement,Conseiller diplomatique,Intérieur,,Représe
 Arthur Empereur,people,Gouvernement,Conseiller en charge de la communication numérique,Intérieur,,,Parti socialiste,,,,,
 Clémence Lecœur,people,Gouvernement,"Conseillère auprès du ministre, en charge des relations avec le Parlement",Intérieur,,,Parti socialiste,,,,,
 Étienne Stoskopf,people,Gouvernement,Directeur adjoint du cabinet et directeur du cabinet,Intérieur,"Sciences Po Paris, ENA (promotion René Cassin)",,Parti socialiste,,,,,
-Grégoire Dulin,people,Gouvernement,Conseiller justice,Intérieur,,,,,,,,
+Marie-Céline Lawrysz,people,Gouvernement,Conseillère justice,Intérieur,,,,,,,,
 Isabelle Epaillard,people,Gouvernement,Chef adjointe de cabinet du ministre et chef de cabinet,Intérieur,,,,,,,,
 Magali Charbonneau,people,Gouvernement,Directrice adjointe du cabinet,Intérieur,"ENA, ESSEC",,Parti socialiste,,,,,
 Mathias Ott,people,Gouvernement,Chef de cabinet,Intérieur,,,Parti socialiste,,,,,
@@ -879,7 +880,7 @@ Jérôme Theillier,people,Gouvernement,Adjoint au chef de l’état-major partic
 Marie Fontanel,people,Gouvernement,Conseillère solidarités et santé,Présidence,"ENA (promotion Léopold Sédar Senghor), HEC",Musée du quai Branly,,,,,,
 Emmanuel Macron,people,Gouvernement,Président de la République,Présidence,ENA (promotion Léopold Sédar Senghor),Rothschild & Cie,Parti socialiste,,346,,,
 Soazig de La Moissonnière,people,Gouvernement,Photos,Présidence,,Tilder,Mouvement démocrate,,,,,
-Ahlem Gharbi,people,Gouvernement,Conseillère technique Afrique du Nord et Moyen-Orient,Présidence,Sciences Po Paris,Total,,,,"« elle voyage aux côtés du chercheur et spécialiste du monde arabe Gilles Kepel, sous la direction duquel elle a soutenu son DEA à Sciences-Po Paris entre 2000 et 2001, après une licence d’arabe à la Sorbonne » https://www.jeuneafrique.com/mag/529425/politique/qui-est-ahlem-gharbi-la-conseillere-specialiste-du-monde-arabe/",,
+Marie Philippe,people,Gouvernement,Conseillère technique Afrique du Nord et Moyen-Orient,Présidence,,Organisation des Nations unies,,,,Très peu de chose sur elle en ligne,,
 Thibaud Normand,people,Gouvernement,Conseiller technique énergie,Présidence,"Polytechnique, Corps des Mines","Total, Renault",,,,,,
 Audrey Bourolleau,people,Gouvernement,"Conseillère agriculture, pêche, forêt et développement rural",Présidence,,"Vin & Société, Dream Tank, Bic, France Boissons, Baron Philippe de Rothschild",,,,,,
 Julien Tassy,people,Gouvernement,Communication numérique,Présidence,,Warner Bros,,,,,,
@@ -927,7 +928,7 @@ Guillaume Snollaerts,people,Gouvernement,"Chef de cabinet, conseiller auprès du
 Marc Fesneau,people,Gouvernement,"Ministre auprès du Premier ministre, chargé des Relations avec le Parlement",Relations avec le Parlement,,,Mouvement démocrate,,,,,
 Thomas Godmez,people,Gouvernement,Conseiller parlementaire,Relations avec le Parlement,Sciences Po Paris,,Parti socialiste,,,,,
 Mickaël Benzaqui,people,Gouvernement,Conseiller,Santé,,Fédération Nationale des Etablissements d'Hospitalisation à Domicile,,Judaïsme,,,,
-Agnès Buzyn,people,Gouvernement,Ministre des solidarités et de la santé,Santé,,"Haute Autorité de santé, Institut de radioprotection et de sûreté nucléaire",,Judaïsme,,Grand Orient de France,,
+Agnès Buzyn,people,Gouvernement,Ministre des solidarités et de la santé,Santé,,"Haute Autorité de santé, Institut de radioprotection et de sûreté nucléaire",,Judaïsme,435,Grand Orient de France,,
 Isabelle Jourdan,people,Gouvernement,Conseillère chargée de la communication et des médias,Santé,,"Association Communication publique, UNEDIC",,,,,,
 Christelle Dernon,people,Gouvernement,Chef adjointe de cabinet et chef de cabinet,Santé,,Burson-Marsteller,,,,,,
 Laurent Habert,people,Gouvernement,Conseiller budgétaire et finances sociales,Santé,,Caisse autonome nationale de la sécurité sociale dans les mines,Les Républicains,,,,,
@@ -1347,6 +1348,7 @@ Mireille Jouve,people,Sénat,,Non-inscrits,,,,,,,Bouches-du-Rhône,Provence-Alpe
 Philippe Adnot,people,Sénat,,Non-inscrits,,,Mouvement démocrate,,,,Aube,Grand Est
 Ronan Dantec,people,Sénat,,Non-inscrits,,,Europe Écologie Les Verts,,,,Loire-Atlantique,Pays de la Loire
 Stéphane Ravier,people,Sénat,,Non-inscrits,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Aline Olié,people,,Conseillère au cabinet du secrétaire d'Etat auprès de la ministre des solidarités et de la santé,Santé,,,,,,,,
 Association France Fulbright,organization,,,,,,,,,,,
 ATTAC,organization,,,,,,,,"159, 160, 161, 162",,,
 B'nai B'rith,organization,,,,,,,,,,,

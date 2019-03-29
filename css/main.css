@@ -111,8 +111,9 @@ svg.tooltip-shadow-wrapper-svg {
 
 .toggle-button:hover {
     color: #000;
-    background-color: #fff;
     transition: all 0.3ms;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
 }
 
 .toggle-button:focus {
