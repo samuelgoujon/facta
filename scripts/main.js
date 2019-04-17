@@ -117,6 +117,7 @@ d3.queue()
     }
 
     d3.select('#viewToggler')
+        .style('opacity', 0)
         .on('click', toggleMode)
 
     d3.selectAll('.area-link')
@@ -138,7 +139,22 @@ d3.queue()
                     d3.select('#viewToggler').html("Cartographie");
                 }
             }
+            
+            if (!that.attr('area-toggled')) {
+                setTimeout(() => {
+                    $('#viewToggler').trigger('click')
+                    that.attr('area-toggled', true)
+                }, 100);
+            }
         })
 
     selectChart("Gouvernement")
+
+    setTimeout(() => {
+        d3.select('.area-link').attr('area-toggled', true)
+        $('#viewToggler').trigger('click')
+        d3.selectAll('.svg-chart-container').attr('opacity', 1)
+        d3.select('#viewToggler')
+        .style('opacity', 1)
+    }, 100);
 })

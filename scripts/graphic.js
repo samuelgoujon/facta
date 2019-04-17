@@ -162,6 +162,7 @@ function renderChart() {
 			.attr('height', attrs.svgHeight)
       .attr('font-family', attrs.defaultFont)
       .attr('xmlns', 'http://www.w3.org/2000/svg')
+      .attr('opacity', 0)
       .attr('xmlns:xlink', 'http://www.w3.org/1999/xlink')
         .call(zoom);
 
