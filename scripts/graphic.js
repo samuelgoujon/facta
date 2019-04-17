@@ -57,11 +57,10 @@ function renderChart() {
   ]
 
   var toggle = null;
+  let currentScale = 1;
 
 	//Main chart object
 	var main = function() {
-    let currentScale = 1;
-
 		//Drawing containers
 		var container = d3.select(attrs.container);
 
@@ -87,6 +86,8 @@ function renderChart() {
         clusters = new Array(m), // The largest node for each cluster.
         nodes_first, links_first = [],
         nodes_second, links_second;
+
+    let selectedNode;
 
     let zoom = d3.behavior.zoom()
       .scaleExtent([0.5, 10])
@@ -218,18 +219,18 @@ function renderChart() {
       } else {
         node
         .each(collide(.5))
-        .each(function(d, i) {
-          if (d.type === 'organization') {
-            if (organizations.length == 1) {
-              d.x = calc.chartWidth / 2;
-              d.y = calc.chartHeight / 2;
-            } else {
-              var angle = i * (Math.PI * 2) / organizations.length;
-              d.x = Math.cos(angle) * calc.chartHeight / 3 + calc.chartWidth / 2;
-              d.y = Math.sin(angle) * calc.chartHeight / 3 + calc.chartHeight / 2;
-            }
-          }
-        })
+        // .each(function(d, i) {
+        //   if (d.type === 'organization') {
+        //     if (organizations.length == 1) {
+        //       d.x = calc.chartWidth / 2;
+        //       d.y = calc.chartHeight / 2;
+        //     } else {
+        //       var angle = i * (Math.PI * 2) / organizations.length;
+        //       d.x = Math.cos(angle) * calc.chartHeight / 3 + calc.chartWidth / 2;
+        //       d.y = Math.sin(angle) * calc.chartHeight / 3 + calc.chartHeight / 2;
+        //     }
+        //   }
+        // })
       }
 
       node.attr("transform", function(d) {
@@ -278,6 +279,10 @@ function renderChart() {
     function addNodes () {
       var node = nodesGroup.html("").patternify({ tag: 'g', selector: 'node', data: getNodes() })
           .attr('data-group', d => d.group)
+          .attr('class', function (d) {
+            var cl = 'node node-' + d.type;
+            return cl;
+          })
 
       var nd = node.patternify({ tag: 'circle', selector: 'node-circle', data: d => [d] })
         .style("fill", function(d) {
@@ -293,12 +298,20 @@ function renderChart() {
         .attr("stroke", d => d.isImage ? null : '#666')
         .attr("r", d => d.radius / currentScale)
         .on('click', function(d) {
+          var el = d3.select(this)
           if (d.clicked) {
             d.clicked = false
-            attrs.closeNav(d)
+            el.attr("r", d => d.radius / currentScale).classed('selected', false)
+            attrs.closeNav(d);
+            deselectConnectedLinks(d);
+            selectedNode = null;
           } else {
             d.clicked = true
+            el.attr("r", d => (d.radius / currentScale) * 1.4).classed('selected', true);
             attrs.openNav(d)
+            selectConnectedLinks(d);
+            selectedNode = d;
+            updateStylesOnZoom(currentScale);
           }
         })
         .on('mouseover', function (d) {
@@ -351,8 +364,40 @@ function renderChart() {
       return node;
     }
 
+    function selectConnectedLinks (d) {
+      var links = getLinks();
+      var connectedLinks = [];
+
+      links.forEach(x => {
+        if (x.source == d || x.target == d) {
+          connectedLinks.push(x);
+        }
+      })
+
+      link.filter(x => {
+        return connectedLinks.indexOf(x) > -1;
+      })
+      .attr('stroke-width', 2 / currentScale);
+    }
+
+    function deselectConnectedLinks (d) {
+      var links = getLinks();
+      var connectedLinks = [];
+
+      links.forEach(x => {
+        if (x.source == d || x.target == d) {
+          connectedLinks.push(x);
+        }
+      })
+
+      link.filter(x => {
+        return connectedLinks.indexOf(x) > -1;
+      })
+      .attr('stroke-width', 2 / currentScale);
+    }
+
     function updateStylesOnZoom (scale) {
-      if (scale < 3) {
+      if (scale < 2) {
           texts.attr('display', 'none')
       }
       else {
@@ -362,10 +407,18 @@ function renderChart() {
       let fontSize = attrs.nodesFontSize / scale;
 
       texts
-          .attr('dy', d => d.isImage ? (d.radius * 2 + 15) / scale : (d.radius + 15) / scale)
+          .attr('dy', d => d.isImage ? (d.radius * 2 + 20) / scale : (d.radius + 20) / scale)
           .attr('font-size', fontSize + 'px')
 
-      link.attr('stroke-width', 1 / scale)
+      link.attr('stroke-width', d => {
+        if (selectedNode) {
+          if (d.source == selectedNode || d.target == selectedNode) {
+            return 2 / scale;
+          }
+        }
+        
+        return 1 / scale;
+      })
 
       node.each(function () {
         let self = d3.select(this);
@@ -481,6 +534,10 @@ function renderChart() {
       toggle(mode);
     }
     return main;
+  }
+
+  main.currentScale = function () {
+    return currentScale;
   }
 
 	//Exposed update functions

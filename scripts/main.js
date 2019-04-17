@@ -52,7 +52,7 @@ function openNav(d) {
     document.getElementById("sidenav").style.width = "450px";
 }
 
-function closeNav() {
+function closeNav(d) {
     document.getElementById("sidenav").style.width = "0";
 }
 
@@ -101,21 +101,23 @@ d3.queue()
         activeChart = chartObj ? chartObj.chart : null;
     }
 
-    d3.select('#viewToggler')
-        .on('click', function () {
-            let self = d3.select(this);
-            if (self.attr('data-mode') === 'first') {
-                self.attr('data-mode', 'second');
-                self.html("Cartographie");
-            } else {
-                self.attr('data-mode', 'first')
-                self.html("Réseaux");
-            }
+    function toggleMode () {
+        let self = d3.select(this);
+        if (self.attr('data-mode') === 'first') {
+            self.attr('data-mode', 'second');
+            self.html("Cartographie");
+        } else {
+            self.attr('data-mode', 'first')
+            self.html("Réseaux");
+        }
 
-            if (activeChart) {
-                activeChart.toggle(self.attr('data-mode'));
-            }
-        })
+        if (activeChart) {
+            activeChart.toggle(self.attr('data-mode'));
+        }
+    }
+
+    d3.select('#viewToggler')
+        .on('click', toggleMode)
 
     d3.selectAll('.area-link')
         .on('click', function () {
