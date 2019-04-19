@@ -163,10 +163,16 @@ ul.navbar-nav li a {
     max-height: 225px;
 }
 
-svg .nodes .node:hover circle, svg .nodes .node.selected circle {
+svg .nodes .node:hover circle {
     cursor: pointer;
     fill: white !important;
     stroke: currentColor; 
+}
+svg .nodes .node.selected circle {
+    cursor: pointer;
+    fill: white !important;
+    stroke: currentColor;
+    stroke-width: 2px; 
 }
 svg .nodes .node circle {
     fill: currentColor; 
