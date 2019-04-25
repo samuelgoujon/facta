@@ -87,7 +87,7 @@ function renderChart() {
         nodes_first, links_first = [],
         nodes_second, links_second;
 
-    let selectedNode;
+    let selectedNode; // current clicked node
 
     let zoom = d3.behavior.zoom()
       .scaleExtent([0.5, 10])
@@ -111,10 +111,9 @@ function renderChart() {
             });
 
         if (!clusters[i] || (d.radius > clusters[i].radius)) clusters[i] = d;
-          return d;
-        }).filter(x => x);
-
-    var organizations = attrs.data.nodes.filter(d => d.type == 'organization')
+        return d;
+      })
+      .filter(x => x);
 
     nodes_second = attrs.data.nodes.filter(x => {
       return (attrs.data.links.some(d => d.source === x.node || d.target === x.node));
@@ -171,7 +170,8 @@ function renderChart() {
 			.patternify({ tag: 'g', selector: 'chart' })
       .attr('transform', 'translate(' + calc.chartLeftMargin + ',' + calc.chartTopMargin + ')');
     
-    var backRect = chart.patternify({ tag: 'rect', selector: 'back-rect' })
+    // back rectange for mouse
+    chart.patternify({ tag: 'rect', selector: 'back-rect' })
       .attr('fill', 'transparent')
       .attr('width', attrs.svgWidth)
       .attr('height', attrs.svgHeight)
