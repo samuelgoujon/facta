@@ -162,3 +162,40 @@ ul.navbar-nav li a {
     max-width: 160px;
     max-height: 225px;
 }
+
+svg .nodes .node:hover circle {
+    cursor: pointer;
+    fill: white !important;
+    stroke: #000000; 
+}
+svg .nodes .node.selected circle {
+    cursor: pointer;
+    fill: white !important;
+    stroke: #000000;
+}
+svg .nodes .node circle {
+    fill: currentColor; 
+}
+svg .nodes .node text {
+    pointer-events: none !important;
+    text-anchor: middle;
+    fill: currentColor; 
+}
+/* svg .nodes .node.node-people {
+    color: #808080; 
+}
+svg .nodes .node.node-organization {
+    color: #303030; 
+} */
+svg .nodes .node.node-organization text {
+    font-weight: bold; 
+}
+.svg .connection {
+    pointer-events: none !important;
+    stroke: #000000;
+}
+
+svg .connection.connection-dotted {
+    stroke-dasharray: 5 3;
+    stroke: #000000; 
+}
