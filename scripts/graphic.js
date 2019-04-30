@@ -9,8 +9,8 @@ function renderChart() {
 		marginRight: 5,
 		marginLeft: 5,
     container: 'body',
-    radius_org: 24,
-    radius_people: 12,
+    radius_org: 16,
+    radius_people: 8,
     iconSize: 20,
     nodesFontSize: 12,
 		defaultTextFill: '#2C3E50',
@@ -169,7 +169,7 @@ function renderChart() {
 		var chart = svg
 			.patternify({ tag: 'g', selector: 'chart' })
       .attr('transform', 'translate(' + calc.chartLeftMargin + ',' + calc.chartTopMargin + ')');
-    
+
     var backRect = chart.patternify({ tag: 'rect', selector: 'back-rect' })
       .attr('fill', 'transparent')
       .attr('width', attrs.svgWidth)
@@ -280,7 +280,7 @@ function renderChart() {
     function addLinks () {
       return linksGroup.html("").patternify({ tag: 'line', selector: 'link', data: getLinks() })
         .attr("stroke-width", 1)
-        .attr("stroke", '#000')
+        .attr("stroke", '#666')
         .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
     }
 
@@ -303,7 +303,7 @@ function renderChart() {
           return color(d.cluster);
         })
         .attr("stroke-width", strokeWidth)
-        .attr("stroke", d => d.isImage ? null : '#000')
+        .attr("stroke", d => d.isImage ? null : '#666')
         .attr("r", d => d.radius / currentScale)
         .on('click', function(d) {
           var el = d3.select(this)
@@ -316,7 +316,7 @@ function renderChart() {
         .on('mouseover', function (d) {
           d3.select(this)
             .style('cursor', 'pointer')
-          
+
           if (d != selectedNode) {
             d3.select(this).attr('stroke-width', (strokeWidth + 1) / currentScale);
           }
@@ -381,13 +381,13 @@ function renderChart() {
       // reduce radius
       el.attr("r", x => x.radius / currentScale).classed('selected', false)
         .attr('stroke-width', strokeWidth / currentScale);
-      
+
       d3.select(el.node().parentElement)
         .select('text')
         .attr('dy', d => d.isImage ? (d.radius * 2 + 20) / currentScale : (d.radius + 20) / currentScale)
 
       deselectConnectedLinks(d);
-      
+
       selectedNode = null;
 
       attrs.closeNav(d);
@@ -412,7 +412,7 @@ function renderChart() {
       attrs.openNav(d);
 
       selectConnectedLinks(d);
-  
+
       selectedNode = d;
 
       resetOthersButSelected();
@@ -456,7 +456,7 @@ function renderChart() {
         if (d.source == selectedNode || d.target == selectedNode) {
           return 2 / scale;
         }
-        
+
         return 1 / scale;
       })
 
@@ -507,7 +507,7 @@ function renderChart() {
         if (d.source == selectedNode || d.target == selectedNode) {
           return 3 / scale;
         }
-        
+
         return 1 / scale;
       })
 
