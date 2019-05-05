@@ -15,6 +15,7 @@ function openNav(d) {
     if (d.type == "people") {
         ['position',
          'group',
+         'membership',
          'education',
          'reference',
          'political_party'].forEach(x => {
@@ -139,7 +140,7 @@ d3.queue()
                     d3.select('#viewToggler').html("Cartographie");
                 }
             }
-            
+
             if (!that.attr('area-toggled')) {
                 setTimeout(() => {
                     $('#viewToggler').trigger('click')
