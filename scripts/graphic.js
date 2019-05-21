@@ -9,7 +9,7 @@ function renderChart() {
 		marginRight: 5,
 		marginLeft: 5,
     container: 'body',
-    radius_org: 20,
+    radius_org: 16,
     radius_people: 8,
     iconSize: 20,
     nodesFontSize: 12,
@@ -72,7 +72,7 @@ function renderChart() {
 		calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
 		calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin;
 
-    var strokeWidth = 0.5;
+    var strokeWidth = 1;
     var clusterNames = attrs.data.nodes
       .filter(x => x.group.length)
       .map(x => x.group.trim())
@@ -87,6 +87,7 @@ function renderChart() {
         nodes_first, links_first = [],
         nodes_second, links_second;
 
+    let resize_ratio = 1.4;
     let selectedNode;
 
     let zoom = d3.behavior.zoom()
@@ -113,8 +114,6 @@ function renderChart() {
         if (!clusters[i] || (d.radius > clusters[i].radius)) clusters[i] = d;
           return d;
         }).filter(x => x);
-
-    var organizations = attrs.data.nodes.filter(d => d.type == 'organization')
 
     nodes_second = attrs.data.nodes.filter(x => {
       return (attrs.data.links.some(d => d.source === x.node || d.target === x.node));
@@ -170,7 +169,7 @@ function renderChart() {
 		var chart = svg
 			.patternify({ tag: 'g', selector: 'chart' })
       .attr('transform', 'translate(' + calc.chartLeftMargin + ',' + calc.chartTopMargin + ')');
-    
+
     var backRect = chart.patternify({ tag: 'rect', selector: 'back-rect' })
       .attr('fill', 'transparent')
       .attr('width', attrs.svgWidth)
@@ -322,7 +321,7 @@ function renderChart() {
         .on('mouseover', function (d) {
           d3.select(this)
             .style('cursor', 'pointer')
-          
+
           if (d != selectedNode) {
             d3.select(this).attr('stroke-width', (strokeWidth + 1) / currentScale);
           }
@@ -383,11 +382,17 @@ function renderChart() {
       }
 
       d.clicked = false
+
       // reduce radius
-      el.attr("r", x => x.radius / currentScale).classed('selected', false);
-      
+      el.attr("r", x => x.radius / currentScale).classed('selected', false)
+        .attr('stroke-width', strokeWidth / currentScale);
+
+      d3.select(el.node().parentElement)
+        .select('text')
+        .attr('dy', d => d.isImage ? (d.radius * 2 + 20) / currentScale : (d.radius + 20) / currentScale)
+
       deselectConnectedLinks(d);
-      
+
       selectedNode = null;
 
       attrs.closeNav(d);
@@ -398,22 +403,23 @@ function renderChart() {
         el = node.filter(x => x === d).select('circle');
       }
 
+      var newRadius = (d.radius / currentScale) * resize_ratio;
+
       // clear all other nodes clicked property in order
       getNodes().forEach(d => d.clicked = false);
 
-      d.clicked = true
+      d.clicked = true;
 
       // increase radius
-      el.attr("r", x => {
-        return (x.radius / currentScale) * (x.type == "organization" ? 1.4 : 2.1)
-      })
+      el.attr("r", newRadius)
       .classed('selected', true);
 
       attrs.openNav(d);
 
       selectConnectedLinks(d);
-  
+
       selectedNode = d;
+
       resetOthersButSelected();
     }
 
@@ -430,7 +436,7 @@ function renderChart() {
       link.filter(x => {
         return connectedLinks.indexOf(x) > -1;
       })
-      .attr('stroke-width', 2 / currentScale);
+      .attr('stroke-width', 3 / currentScale);
     }
 
     function deselectConnectedLinks (d) {
@@ -455,13 +461,14 @@ function renderChart() {
         if (d.source == selectedNode || d.target == selectedNode) {
           return 2 / scale;
         }
-        
+
         return 1 / scale;
       })
 
       node.each(function () {
         let self = d3.select(this);
         let circle = self.select('circle')
+        let text = self.select('text');
 
         circle.attr('stroke-width', d => {
           if (d == selectedNode) {
@@ -471,10 +478,17 @@ function renderChart() {
         });
         circle.attr('r', d => {
           if (d == selectedNode) {
-            return (d.radius / scale) * (d.type == "organization" ? 1.4 : 2.1)
+            return (d.radius / scale) * resize_ratio
           }
           return d.radius / scale;
         });
+        text
+          .attr('dy', d => {
+            if (d == selectedNode) {
+              return (d.isImage ? (d.radius * 2 + 15) / scale : (d.radius + 15) / scale) * resize_ratio;
+            }
+            return d.isImage ? (d.radius * 2 + 15) / scale : (d.radius + 15) / scale;
+          })
       })
     }
 
@@ -503,9 +517,9 @@ function renderChart() {
 
       link.attr('stroke-width', d => {
         if (d.source == selectedNode || d.target == selectedNode) {
-          return 2 / scale;
+          return 3 / scale;
         }
-        
+
         return 1 / scale;
       })
 
@@ -521,13 +535,13 @@ function renderChart() {
 
         circle.attr('stroke-width', d => {
           if (d == selectedNode) {
-            return (strokeWidth + 1) / scale;
+            return (strokeWidth + 2) / scale;
           }
           return strokeWidth / scale;
         });
         circle.attr('r', d => {
           if (d == selectedNode) {
-            return (d.radius / scale) * (d.type == "organization" ? 1.4 : 2.1)
+            return (d.radius / scale) * resize_ratio
           }
           return d.radius / scale;
         });

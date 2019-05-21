@@ -166,36 +166,36 @@ ul.navbar-nav li a {
 svg .nodes .node:hover circle {
     cursor: pointer;
     fill: white !important;
-    stroke: currentColor; 
+    stroke: #000000;
 }
 svg .nodes .node.selected circle {
     cursor: pointer;
     fill: white !important;
-    stroke: currentColor;
-    stroke-width: 2px; 
+    stroke: #000000;
 }
 svg .nodes .node circle {
-    fill: currentColor; 
+    fill: currentColor;
 }
 svg .nodes .node text {
     pointer-events: none !important;
     text-anchor: middle;
-    fill: currentColor; 
+    fill: currentColor;
 }
 svg .nodes .node.node-people {
-    color: #808080; 
+    color: #808080;
 }
 svg .nodes .node.node-organization {
-    color: #303030; 
+    color: #303030;
 }
 svg .nodes .node.node-organization text {
-    font-weight: bold; 
+    font-weight: bold;
 }
 .svg .connection {
     pointer-events: none !important;
-    stroke: #333333; 
+    stroke: #333333;
 }
 
 svg .connection.connection-dotted {
-    stroke-dasharray: 5 3; 
+    stroke-dasharray: 5 3;
+    stroke: #333333;
 }
