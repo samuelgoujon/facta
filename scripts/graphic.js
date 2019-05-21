@@ -310,6 +310,7 @@ function renderChart() {
         .attr("stroke-width", strokeWidth)
         .attr("stroke", d => d.isImage ? null : '#666')
         .attr("r", d => d.radius / currentScale)
+        .attr("cursor", 'pointer')
         .on('click', function(d) {
           var el = d3.select(this)
           if (d.clicked) {
@@ -337,6 +338,12 @@ function renderChart() {
           if (d.type === 'people') {
             text.attr('font-weight', 'bold')
           }
+
+          if (!d.clicked) {
+            d3.select(this)
+              .style('fill', '#fff')
+              .style('stroke', '#000')
+          }
         })
         .on('mouseout', function (d) {
           d3.select(this)
@@ -360,6 +367,20 @@ function renderChart() {
           if (d.type === 'people') {
             text.attr('font-weight', null)
           }
+
+          if (!d.clicked) {
+            d3.select(this)
+              .style('fill', () => {
+                if (d.isImage) {
+                  return '#fff';
+                }
+                if (d.type === 'organization') {
+                  return attrs.color_org;
+                }
+                return color(d.cluster);
+              })
+              .style('stroke', d.isImage ? null : '#666')
+          }
         })
 
       node.filter(x => x.isImage)
@@ -382,6 +403,17 @@ function renderChart() {
       if (!el) {
         el = node.filter(x => x === d).select('circle');
       }
+
+      el.style('fill', () => {
+        if (d.isImage) {
+          return '#fff';
+        }
+        if (d.type === 'organization') {
+          return attrs.color_org;
+        }
+        return color(d.cluster);
+      })
+      .style('stroke', d.isImage ? null : '#666')
 
       d.clicked = false
 
@@ -423,6 +455,9 @@ function renderChart() {
       selectedNode = d;
 
       resetOthersButSelected();
+
+      el.style('fill', '#fff')
+        .style('stroke', '#000')
     }
 
     function selectConnectedLinks (d) {
@@ -484,6 +519,16 @@ function renderChart() {
           }
           return d.radius / scale;
         });
+        circle.style('fill', (d) => {
+          if (d.isImage) {
+            return '#fff';
+          }
+          if (d.type === 'organization') {
+            return attrs.color_org;
+          }
+          return color(d.cluster);
+        })
+        .style('stroke', d => d.isImage ? null : '#666')
         text
           .attr('dy', d => {
             if (d == selectedNode) {

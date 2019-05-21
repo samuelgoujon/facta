@@ -163,7 +163,7 @@ ul.navbar-nav li a {
     max-height: 225px;
 }
 
-svg .nodes .node:hover circle {
+/* svg .nodes .node:hover circle {
     cursor: pointer;
     fill: white !important;
     stroke: #000000;
@@ -172,7 +172,7 @@ svg .nodes .node.selected circle {
     cursor: pointer;
     fill: white !important;
     stroke: #000000;
-}
+} */
 svg .nodes .node circle {
     fill: currentColor;
 }
@@ -194,7 +194,6 @@ svg .nodes .node.node-organization text {
     pointer-events: none !important;
     stroke: #333333;
 }
-
 svg .connection.connection-dotted {
     stroke-dasharray: 5 3;
     stroke: #333333;
