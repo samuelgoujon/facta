@@ -87,7 +87,7 @@ function renderChart() {
         nodes_first, links_first = [],
         nodes_second, links_second;
 
-    let resize_ratio = 1.4;
+    let resize_ratio = 1.8;
     let selectedNode;
 
     let zoom = d3.behavior.zoom()
@@ -332,9 +332,7 @@ function renderChart() {
 
           var text = parent.select('.node-text')
 
-          if (attrs.mode == 'first') {
-            text.attr('display', null)
-          }
+          text.attr('display', null)
 
           if (d.type === 'people') {
             text.attr('font-weight', 'bold')
@@ -352,6 +350,10 @@ function renderChart() {
           var text = parent.select('.node-text');
 
           if (attrs.mode == 'first' && currentScale < 2) {
+            text.attr('display', 'none');
+          }
+
+          if (attrs.mode == 'second' && currentScale < 0.8) {
             text.attr('display', 'none');
           }
 
