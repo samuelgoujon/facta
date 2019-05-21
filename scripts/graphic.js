@@ -269,13 +269,18 @@ function renderChart() {
     }
 
     function addTexts() {
-      return node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
+      var text = node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
         .attr('text-anchor', 'middle')
         .attr('display', attrs.mode == 'first' ? 'none' : null)
         .attr('font-weight', d => d.type === 'organization' ? 'bold' : null)
         .attr('font-size', attrs.nodesFontSize + 'px')
         .attr('dy', d => d.radius + 15)
         .text(d => d.node || d.group)
+
+      node.patternify({ tag: 'title', selector: 'node-title', data: d => [d] })
+        .text(d => d.node || d.group)
+
+      return text;
     }
 
     function addLinks () {
@@ -476,10 +481,17 @@ function renderChart() {
     function updateStylesOnZoom (scale) {
       if (attrs.mode == 'first') {
         if (scale < 2) {
-            texts.attr('display', 'none')
+          texts.attr('display', 'none')
         }
         else {
-            texts.attr('display', null)
+          texts.attr('display', null)
+        }
+      } else {
+        if (scale < 0.8) {
+          texts.attr('display', 'none')
+        }
+        else {
+          texts.attr('display', null)
         }
       }
 
