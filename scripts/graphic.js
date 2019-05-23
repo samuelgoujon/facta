@@ -437,7 +437,7 @@ function renderChart() {
         el = node.filter(x => x === d).select('circle');
       }
 
-      var newRadius = (d.radius / currentScale) * resize_ratio;
+      var newRadius = (d.radius * resize_ratio) / currentScale;
 
       // clear all other nodes clicked property in order
       getNodes().forEach(d => d.clicked = false);
@@ -532,7 +532,7 @@ function renderChart() {
         text
           .attr('dy', d => {
             if (d == selectedNode) {
-              return (d.isImage ? (d.radius * 2 + 15) / scale : (d.radius + 15) / scale) * resize_ratio;
+              return d.isImage ? (d.radius * 2 + 15) / scale : (d.radius * resize_ratio + 15) / scale;
             }
             return d.isImage ? (d.radius * 2 + 15) / scale : (d.radius + 15) / scale;
           })
