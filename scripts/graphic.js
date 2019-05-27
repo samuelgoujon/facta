@@ -318,6 +318,15 @@ function renderChart() {
           } else {
             selectNode(d, el);
           }
+          
+
+          if (attrs.mode == 'second') {
+            var dx = d.x < calc.chartWidth / 2 ? Math.random() * 80 : Math.random() * -80;
+            var dy = d.y < calc.chartHeight / 2 ? Math.random() * 80 : Math.random() * -80;
+            d.x += dx;
+            d.y += dy;
+            force.alpha(.1);
+          }
         })
         .on('mouseover', function (d) {
           d3.select(this)
@@ -473,7 +482,8 @@ function renderChart() {
       link.filter(x => {
         return connectedLinks.indexOf(x) > -1;
       })
-      .attr('stroke-width', 3 / currentScale);
+      .attr('stroke-width', 3 / currentScale)
+      .attr('stroke', '#000');
     }
 
     function deselectConnectedLinks (d) {
@@ -489,7 +499,8 @@ function renderChart() {
       link.filter(x => {
         return connectedLinks.indexOf(x) > -1;
       })
-      .attr('stroke-width', 1 / currentScale);
+      .attr('stroke-width', 1 / currentScale)
+      .attr('stroke', '#666');
     }
 
     function resetOthersButSelected () {
