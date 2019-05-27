@@ -556,7 +556,7 @@ function renderChart() {
 
         text
           .attr('dy', d => {
-            return d.isImage ? (d.radius * 2 + 15) / scale : (d.radius + 15) / scale;
+            return d.isImage ? (d.radius * 2 + 20) / scale : (d.radius + 20) / scale;
           })
       })
     }
