@@ -412,6 +412,7 @@ function renderChart() {
         el = node.filter(x => x === d);
       }
 
+      d.radius = d._radius;
       var _circle = el.select('circle');
       var _text = el.select('text');
 
@@ -456,14 +457,17 @@ function renderChart() {
 
       var newRadius = (d.radius * resize_ratio) / currentScale;
 
+      d._radius = d.radius;
+      d.radius = newRadius;
+
       // clear all other nodes clicked property in order
       getNodes().forEach(d => d.clicked = false);
 
       d.clicked = true;
 
       // increase radius
-      _circle.attr("r", newRadius)
-      .classed('selected', true);
+      _circle.attr("r", d.radius)
+        .classed('selected', true);
 
       attrs.openNav(d);
 
@@ -535,9 +539,6 @@ function renderChart() {
           return strokeWidth / scale;
         });
         circle.attr('r', d => {
-          if (d == selectedNode) {
-            return (d.radius / scale) * resize_ratio
-          }
           return d.radius / scale;
         });
         circle.style('fill', (d) => {
@@ -550,11 +551,9 @@ function renderChart() {
           return color(d.cluster);
         })
         .style('stroke', d => d.isImage ? null : '#666')
+
         text
           .attr('dy', d => {
-            if (d == selectedNode) {
-              return d.isImage ? (d.radius * 2 + 15) / scale : (d.radius * resize_ratio + 15) / scale;
-            }
             return d.isImage ? (d.radius * 2 + 15) / scale : (d.radius + 15) / scale;
           })
       })
@@ -608,9 +607,6 @@ function renderChart() {
           return strokeWidth / scale;
         });
         circle.attr('r', d => {
-          if (d == selectedNode) {
-            return (d.radius / scale) * resize_ratio
-          }
           return d.radius / scale;
         });
       })
