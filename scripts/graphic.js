@@ -312,17 +312,16 @@ function renderChart() {
         .attr("r", d => d.radius / currentScale)
         .attr("cursor", 'pointer')
         .on('click', function(d) {
-          var el = d3.select(this)
+          var el = d3.select(this.parentElement);
           if (d.clicked) {
             unselectNode(d, el);
           } else {
             selectNode(d, el);
           }
           
-
           if (attrs.mode == 'second') {
-            var dx = d.x < calc.chartWidth / 2 ? Math.random() * 80 : Math.random() * -80;
-            var dy = d.y < calc.chartHeight / 2 ? Math.random() * 80 : Math.random() * -80;
+            var dx = d.x < calc.chartWidth / 2 ? Math.random() * 10 : Math.random() * -10;
+            var dy = d.y < calc.chartHeight / 2 ? Math.random() * 10 : Math.random() * -10;
             d.x += dx;
             d.y += dy;
             force.alpha(.1);
@@ -373,11 +372,11 @@ function renderChart() {
             text.attr('display', 'none');
           }
 
-          if (d.type === 'people') {
-            text.attr('font-weight', null)
-          }
-
           if (!d.clicked) {
+            if (d.type === 'people') {
+              text.attr('font-weight', null)
+            }
+
             d3.select(this)
               .style('fill', () => {
                 if (d.isImage) {
@@ -410,10 +409,13 @@ function renderChart() {
 
     function unselectNode (d, el) {
       if (!el) {
-        el = node.filter(x => x === d).select('circle');
+        el = node.filter(x => x === d);
       }
 
-      el.style('fill', () => {
+      var _circle = el.select('circle');
+      var _text = el.select('text');
+
+      _circle.style('fill', () => {
         if (d.isImage) {
           return '#fff';
         }
@@ -427,12 +429,15 @@ function renderChart() {
       d.clicked = false
 
       // reduce radius
-      el.attr("r", x => x.radius / currentScale).classed('selected', false)
+      _circle.attr("r", x => x.radius / currentScale).classed('selected', false)
         .attr('stroke-width', strokeWidth / currentScale);
 
-      d3.select(el.node().parentElement)
-        .select('text')
+      _text
         .attr('dy', d => d.isImage ? (d.radius * 2 + 20) / currentScale : (d.radius + 20) / currentScale)
+
+      if (d.type === 'people') {
+        _text.attr('font-weight', null)
+      }
 
       deselectConnectedLinks(d);
 
@@ -443,8 +448,11 @@ function renderChart() {
 
     function selectNode (d, el) {
       if (!el) {
-        el = node.filter(x => x === d).select('circle');
+        el = node.filter(x => x === d);
       }
+
+      var _circle = el.select('circle');
+      var _text = el.select('text');
 
       var newRadius = (d.radius * resize_ratio) / currentScale;
 
@@ -454,7 +462,7 @@ function renderChart() {
       d.clicked = true;
 
       // increase radius
-      el.attr("r", newRadius)
+      _circle.attr("r", newRadius)
       .classed('selected', true);
 
       attrs.openNav(d);
@@ -465,8 +473,10 @@ function renderChart() {
 
       resetOthersButSelected();
 
-      el.style('fill', '#fff')
-        .style('stroke', '#000')
+      _circle.style('fill', '#fff')
+        .style('stroke', '#000');
+
+      _text.attr('font-weight', 'bold');
     }
 
     function selectConnectedLinks (d) {
