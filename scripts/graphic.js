@@ -413,6 +413,7 @@ function renderChart() {
       }
 
       d.radius = d._radius;
+
       var _circle = el.select('circle');
       var _text = el.select('text');
 
@@ -430,7 +431,8 @@ function renderChart() {
       d.clicked = false
 
       // reduce radius
-      _circle.attr("r", x => x.radius / currentScale).classed('selected', false)
+      _circle.attr("r", x => x.radius / currentScale)
+        .classed('selected', false)
         .attr('stroke-width', strokeWidth / currentScale);
 
       _text
@@ -455,7 +457,7 @@ function renderChart() {
       var _circle = el.select('circle');
       var _text = el.select('text');
 
-      var newRadius = (d.radius * resize_ratio) / currentScale;
+      var newRadius = (d.radius * resize_ratio);
 
       d._radius = d.radius;
       d.radius = newRadius;
@@ -466,7 +468,7 @@ function renderChart() {
       d.clicked = true;
 
       // increase radius
-      _circle.attr("r", d.radius)
+      _circle.attr("r", d.radius / currentScale)
         .classed('selected', true);
 
       attrs.openNav(d);
@@ -606,6 +608,7 @@ function renderChart() {
           }
           return strokeWidth / scale;
         });
+
         circle.attr('r', d => {
           return d.radius / scale;
         });
