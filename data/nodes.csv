@@ -1,4 +1,6 @@
 node,type,area,position,group,education,employer,political party,religion,reference,comments,membership,,
+Olivier Dussopt,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Action et des Comptes publics,Action comptes publics,,,Parti socialiste,,,Grand Orient de France (pas sûr pour le GODF),Intergroupe de la LICRA,,
+Gérald Darmanin,people,Gouvernement,Ministre de l'action et des comptes publics,Action comptes publics,,,Les Républicains,,420,Judaïsme,,,
 Alain Triolle,people,Gouvernement,"Directeur du cabinet, directeur adjoint du cabinet",Action comptes publics,ENA,,,,,,,,
 Alexandre Brugère,people,Gouvernement,Conseiller réforme de l'État et prospective,Action comptes publics,,Eurogroup Consulting,Les Républicains,,,,,,
 Caroline Krykwinski,people,Gouvernement,Directrice adjointe du cabinet,Action comptes publics,ENA,Cour des comptes,,,,,,,
@@ -6,54 +8,55 @@ Cécile Collin,people,Gouvernement,"Chef de cabinet, conseillère auprès du min
 Charlotte Locquet,people,Gouvernement,Conseillère technique chargée des affaires réservées et des déplacements,Action comptes publics,,,Les Républicains,,,,,,
 Christophe Guérin-Linxe,people,Gouvernement,"Chef de cabinet, conseiller en charge des relations avec le Parlement, de la communication et de la presse",Action comptes publics,,,Parti socialiste,,,,,,
 Florian Colas,people,Gouvernement,Conseiller,Action comptes publics,"Sciences Po Paris, ENA (promotion Marie Curie)","Wendel, Inspection Générale des Finances, Astrium, Lafarge, Lehman Brothers",,,,,,,
-Gérald Darmanin,people,Gouvernement,Ministre de l'action et des comptes publics,Action comptes publics,,,Les Républicains,,420,Judaïsme,,,
 Guillaume Rauffet,people,Gouvernement,Conseiller,Action comptes publics,ENA,,,,,,,,
 Jérôme Fournel,people,Gouvernement,Directeur du Cabinet,Action comptes publics,"ENA, HEC",FMI,Les Républicains,,,,,,
 Justine Coutard,people,Gouvernement,Directrice du cabinet,Action comptes publics,"Sciences Po Paris, ENA","Groupe ADP, Inspection des finances",,,,,,,
 Manon Perrière,people,Gouvernement,Conseillère juridique,Action comptes publics,"Sciences Po Paris, ENS, ENA",,,,,,,,
 Mathieu Lefevre,people,Gouvernement,Conseiller en charge des relations avec le Parlement,Action comptes publics,,,Les Républicains,,,,,,
-Olivier Dussopt,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Action et des Comptes publics,Action comptes publics,,,Parti socialiste,,,Grand Orient de France (pas sûr pour le GODF),Intergroupe de la LICRA,,
 Pauline Hodille,people,Gouvernement,Conseillère en charge des comptes sociaux,Action comptes publics,,,,,,,,,
-Pierre-Jean Le Mauff,people,Gouvernement,"Conseiller en charge de la communication, presse et opinion",Action comptes publics,,"Taddeo, Tilder, IFOP, RFF",,,,,,,
 Renan Megy,people,Gouvernement,Conseiller finances locales et fonction publique territoriale,Action comptes publics,,"Chambre régionale des comptes, Métropole Européenne de Lille, Grand Lyon, communauté urbaine",,,,,,,
+Jean-Yves Le Drian,people,Gouvernement,Ministre de l'Europe et des affaires étrangères,Affaires étrangères,,,Parti socialiste,,347,Grand Orient de France,,,
+Gaëtan Bruel,people,Gouvernement,"Conseiller diplomatie culturelle, influence et francophonie",Affaires étrangères,"ENS, EHESS","Centre des monuments nationaux, Grasset",Parti socialiste,,,Judaïsme,,,
+Margaux Bergeon-Dars,people,Gouvernement,"Conseillère Europe continentale, Nations unies et organisations internationales, affaires juridiques et consulaires",Affaires étrangères,"ENS, Sciences Po Paris",,,,,Parle l'hébreux... (c'est indiqué sur son profil LinkedIn),,,
+Luis Vassy,people,Gouvernement,Directeur adjoint de cabinet,Affaires étrangères,"ENA, Sciences Po Paris",,Parti socialiste,,415,,,,
+Jean-Baptiste Lemoyne,people,Gouvernement,Secrétaire d'État auprès du ministre de l'Europe et des Affaires étrangères,Affaires étrangères,ESSEC,IBM Global Services,Les Républicains,,458,,,,
 Anne Boillon,people,Gouvernement,Directrice de cabinet,Affaires étrangères,ENS,,Parti socialiste,,,,,,
 Arnaud Jayet,people,Gouvernement,Chef de cabinet,Affaires étrangères,,,Les Républicains,,,,,,
 Baptiste Prudhomme,people,Gouvernement,Conseiller politique et parlementaire,Affaires étrangères,,,Parti socialiste,,,,,,
 Charlotte Baratin,people,Gouvernement,"Conseillère questions financières, budgétaires, économiques, agricoles et outre-mer",Affaires étrangères,"ENA (promotion Jean de la Fontaine), ENS","TheFamily, La Banque Postale, Parlement européen",,,,,,,
 Constance Jacquin,people,Gouvernement,"Conseillère auprès du ministre en charge des Relations avec le Parlement et les Élus, du Développement et de la Solidarité internationale",Affaires étrangères,,,Les Républicains,,,,,,
 Fanny Demassieux,people,Gouvernement,Chef du cabinet,Affaires étrangères,,"UNEP, Agence Française de Développement",Parti socialiste,,,,,,
-Gaëtan Bruel,people,Gouvernement,"Conseiller diplomatie culturelle, influence et francophonie",Affaires étrangères,"ENS, EHESS","Centre des monuments nationaux, Grasset",Parti socialiste,,,Judaïsme,,,
-Jean-Baptiste Lemoyne,people,Gouvernement,Secrétaire d'État auprès du ministre de l'Europe et des Affaires étrangères,Affaires étrangères,ESSEC,IBM Global Services,Les Républicains,,458,,,,
 Jean-Claude Mallet,people,Gouvernement,Conseiller spécial du ministre,Affaires étrangères,ENA (promotion Léonard de Vinci),,Parti socialiste,,,,,,
-Jean-Yves Le Drian,people,Gouvernement,Ministre de l'Europe et des affaires étrangères,Affaires étrangères,,,Parti socialiste,,347,Grand Orient de France,,,
 Jérémie Robert,people,Gouvernement,"Conseiller Afrique, développement",Affaires étrangères,,,,,,,,,
-Luis Vassy,people,Gouvernement,Directeur adjoint de cabinet,Affaires étrangères,"ENA, Sciences Po Paris",,Parti socialiste,,415,,,,
-Margaux Bergeon-Dars,people,Gouvernement,"Conseillère Europe continentale, Nations unies et organisations internationales, affaires juridiques et consulaires",Affaires étrangères,"ENS, Sciences Po Paris",,,,,Parle l'hébreux... (c'est indiqué sur son profil LinkedIn),,,
 Myriam Pavageau,people,Gouvernement,"Conseillère affaires stratégiques, Asie",Affaires étrangères,Sciences Po Paris,,,,,,,,
 Nathalie Fortis,people,Gouvernement,Conseillère en charge de la communication et des relations avec la presse,Affaires étrangères,,,,,,,,,
 Nicolas Roche,people,Gouvernement,Directeur de cabinet du ministre,Affaires étrangères,,,,,,,,,
 Olivier Decottignies,people,Gouvernement,"Conseiller Afrique du Nord, Moyen-Orient",Affaires étrangères,"ENS, Sciences Po Paris, EHESS",,,,,,,,
 Véronique Le Goff,people,Gouvernement,Conseillère communication et presse,Affaires étrangères,,"Havas, Groupama",Parti socialiste,,,,,,
-Amélie de Montchalin,people,Gouvernement,"Secrétaire d'Etat auprès du ministre de l'Europe et des Affaires étrangères, chargée des Affaires européennes",Affaires européennes,"HEC, Harvard Kennedy School of Government","BNP Paribas, Axa",Les Républicains,,,Young Leader 2018,Intergroupe de la LICRA,Essonne,Ile-de-France
+Thomas Hartog,people,Gouvernement,Conseiller parlementaire,Affaires européennes,,Vae Solis Corporate,Parti socialiste,,,Judaïsme,,,
+Amélie de Montchalin,people,Gouvernement,"Secrétaire d'Etat auprès du ministre de l'Europe et des Affaires étrangères, chargée des Affaires européennes",Affaires européennes,"HEC, Harvard Kennedy School of Government","BNP Paribas, Axa",Les Républicains,,,Young Leaders 2018,Intergroupe de la LICRA,Essonne,Ile-de-France
 Antonin Ferri,people,Gouvernement,"Conseiller marché intérieur, développement durable et politiques sociales",Affaires européennes,"Mines ParisTech, MIT, ENS",Commission européenne,,,,,,,
 Boris Melmoux-Eude,people,Gouvernement,Directeur adjoint de cabinet,Affaires européennes,"ENA, Sciences Po Paris","Haute Autorité de transparence de la vie publique, Cour des comptes",,,,,,,
 Camille Angué,people,Gouvernement,"Cconseillère, chef de cabinet",Affaires européennes,HEC,,,,,,,,
 Christophe Parisot,people,Gouvernement,Directeur adjoint de cabinet et conseiller chargé des affaires européennes,Affaires européennes,,,,,,,,,
 Matthieu Ellerbach,people,Gouvernement,"Conseiller presse, communication et relations avec la société civile",Affaires européennes,Sciences Po Paris,Brunswick Group,Les Républicains,,,,,,
 Niels Gaubert,people,Gouvernement,"Conseiller spécial, communication et presse, en charge des relations avec le Parlement",Affaires européennes,Sciences Po Paris,"Havas, Cour des comptes",Les Républicains,,,,,,
-Thomas Hartog,people,Gouvernement,Conseiller parlementaire,Affaires européennes,,Vae Solis Corporate,Parti socialiste,,,Judaïsme,,,
 Vincent Guérend,people,Gouvernement,Directeur de cabinet,Affaires européennes,"ENA (promotion Marc Bloch), Sciences Po Paris",Commission européenne,,,,,,,
-Anne Bronner,people,Gouvernement,"Conseillère en charge de la qualité, de la sécurité et de la performance sanitaires de l'alimentation, du bien-être animal et de la lutte contre la maltraitance animale",Agriculture,,,,,,,,,
+Anne Bronner,people,Gouvernement,"Conseillère en charge de la qualité, de la performance et de la sécurité sanitaire de l'alimentation, du suivi du plan de sortie des produits phytosanitaires, du bien-être animal et de la lutte contre la maltraitance animale",Agriculture,,,,,,,,,
 Béatrice Frécenon,people,Gouvernement,"Directrice adjointe de cabinet, conseillère stratégie et politique, en charge des relations diplomatiques",Agriculture,,,Parti socialiste,,,,,,
 Bénédicte Bergeaud,people,Gouvernement,Conseillère en charge des relations avec le Parlement,Agriculture,,Anthenor Public Affairs,,,,,,,
-Benoît Bonaimé,people,Gouvernement,"Conseiller en charge de l'enseignement agricole, technique et supérieur, de la recherche, de l'innovation et des relations sociales",Agriculture,,,,,,,,,
+Benoît Bonaimé,people,Gouvernement,"Conseiller en charge des formations, de la transformation de l'action publique et des relations sociales, de l'enseignement agricole, technique et supérieur, de la recherche et de l'innovation et de l'égalité femmes-hommes",Agriculture,,,,,,,,,
 Didier Guillaume,people,Gouvernement,Ministre de l'agriculture et de l'alimentation,Agriculture,,,Parti socialiste,,,,,,
 Guillaume Macher,people,Gouvernement,"Chef de cabinet, conseiller spécial",Agriculture,,,Parti socialiste,,,,,,
 Isabelle Chmitelin,people,Gouvernement,Directrice de cabinet,Agriculture,,,,,,,,,
-Mathias Ginet,people,Gouvernement,"Conseiller politique agricole commune 2014-2020, filières végétales, climat et biodiversité",Agriculture,"Sciences Po Paris, ENS, ENA (promotion Jean Zay)","Air Liquide, OMC, Alternatives Economiques",,,,,,,
-Nathalie Barbe,people,Gouvernement,"Conseillère en charge des filières animales, de la forêt et de la performance économique des entreprises agricoles et agroalimentaires ",Agriculture,,,,,,,,,
+Mathias Ginet,people,Gouvernement,"Conseiller en charge des transitions agro-écologiques, de la politique agricole commune et des filières végétales",Agriculture,"Sciences Po Paris, ENS, ENA (promotion Jean Zay)","Air Liquide, OMC, Alternatives Economiques",,,,,,,
+Nathalie Barbe,people,Gouvernement,"Conseillère en charge des filières animales, du suivi des Etats Généraux de l'alimentation et des plans de filières, de la forêt et de la performance économique des entreprises agricoles et agroalimentaires",Agriculture,,,,,,,,,
 Olivier Alleman,people,Gouvernement,Conseiller presse et communication,Agriculture,,"France Télévision, Europe 1",,,,,,,
-Thomas Roche,people,Gouvernement,"Conseiller en charge de la pêche, de l'outre-mer et du financement de l'agriculture",Agriculture,,,,,,,,,
+Thomas Roche,people,Gouvernement,"Conseiller en charge de la pêche, de l'outre-mer, du budget et du financement de l'agriculture",Agriculture,,,,,,,,,
+Julien Denormandie,people,Gouvernement,"Ministre auprès de la ministre de la Cohésion des territoires et des Relations avec les collectivités territoriales, chargé de la Ville et du Logement",Cohésion des Territoires,,,Parti socialiste,,437,Homosexuel,,,
+Soraya Hamrioui,people,Gouvernement,"Conseillère budgétaire, finances",Cohésion des Territoires,,,Parti socialiste,,,Pas sûr pour la photo...,,,
+Sébastien Lecornu,people,Gouvernement,"Ministre auprès de la ministre de la Cohésion des territoires et des Relations avec les collectivités territoriales, chargé des Collectivités territoriales",Cohésion des Territoires,ENA,Gendarmerie Nationale,Les Républicains,,413,,,,
+Victor Schmidt,people,Gouvernement,Chef de cabinet,Cohésion des Territoires,,,Parti socialiste,,445,,,,
 Adrien Bayle,people,Gouvernement,Conseiller finances locales,Cohésion des Territoires,"Sciences Po Paris, ENA, HEC",,,,,,,,
 Agnès Callou,people,Gouvernement,Conseillère presse et communication,Cohésion des Territoires,,,Mouvement démocrate,,,,,,
 Anne-Caroline Berthet,people,Gouvernement,Chef de Cabinet,Cohésion des Territoires,,,Union des démocrates et indépendants,,,,,,
@@ -63,7 +66,6 @@ Guillaume Rivalland,people,Gouvernement,"Chef de cabinet, conseiller affaires r�
 Jacqueline Gourault,people,Gouvernement,Ministre de la Cohésion des territoires et des Relations avec les collectivités territoriales,Cohésion des Territoires,,,Mouvement démocrate,,,,,,
 Jérôme Masclaux,people,Gouvernement,"Directeur adjoint du cabinet et conseiller ville, urbanisme et logement",Cohésion des Territoires,Polytechnique,Mairie de Paris,Parti socialiste,,,,,,
 Julie Lavet,people,Gouvernement,Conseillère spéciale,Cohésion des Territoires,,,Parti socialiste,,,,,,
-Julien Denormandie,people,Gouvernement,"Ministre auprès de la ministre de la Cohésion des territoires et des Relations avec les collectivités territoriales, chargé de la Ville et du Logement",Cohésion des Territoires,,,Parti socialiste,,437,Homosexuel,,,
 Juliette Part,people,Gouvernement,Conseillère aménagement du territoire,Cohésion des Territoires,"Sciences Po Paris, ENA",,,,,,,,
 Koumaran Pajaniradja,people,Gouvernement,"Conseiller aménagement, construction, urbanisme et transition énergétique",Cohésion des Territoires,,Météo-France,,,,,,,
 Laetitia Cesari-Giordani,people,Gouvernement,Conseillère financière et budgétaire,Cohésion des Territoires,ENA,"Direction du Budget, Cour des comptes",,,,,,,
@@ -76,47 +78,44 @@ Philippe Court,people,Gouvernement,Directeur de cabinet,Cohésion des Territoire
 Rachel Chane-See-Chu,people,Gouvernement,Conseillère logement et politiques sociales du logement,Cohésion des Territoires,,SNCF,,,,,,,
 Renaud Duplay,people,Gouvernement,Directeur du cabinet,Cohésion des Territoires,ENS,"Direction du Budget, FMI, Eurazeo",,,,,,,
 Sébastien Bécoulet,people,Gouvernement,Conseiller politique de la ville et hébergement d'urgence,Cohésion des Territoires,ENA,,,,,,,,
-Sébastien Lecornu,people,Gouvernement,"Ministre auprès de la ministre de la Cohésion des territoires et des Relations avec les collectivités territoriales, chargé des Collectivités territoriales",Cohésion des Territoires,ENA,Gendarmerie Nationale,Les Républicains,,413,,,,
 Ségolène Redon,people,Gouvernement,Conseillère presse et communication,Cohésion des Territoires,,Havas,,,,,,,
-Soraya Hamrioui,people,Gouvernement,"Conseillère budgétaire, finances",Cohésion des Territoires,,,Parti socialiste,,,Pas sûr pour la photo...,,,
-Victor Schmidt,people,Gouvernement,Chef de cabinet,Cohésion des Territoires,,,Parti socialiste,,445,,,,
 Ziad Gebran,people,Gouvernement,Conseiller presse et communication,Cohésion des Territoires,,,,,,,,,
+Franck Riester,people,Gouvernement,Ministre de la culture,Culture,,"EY, Peugeot",Union des démocrates et indépendants,,458,Homosexuel,,,
 Déborah Münzer,people,Gouvernement,"Conseillère en charge de l’action territoriale, de l’éducation artistique et culturelle, de l’enseignement supérieur et de la recherche",Culture,ESSEC,"Mairie de Paris, BAC Films, Assouline Publishing",Les Républicains,,429,Judaïsme,,,
 Delphine Aboulker,people,Gouvernement,Conseillère en charge du patrimoine et de l'architecture,Culture,,,,,442,Judaïsme,,,
-Franck Riester,people,Gouvernement,Ministre de la culture,Culture,,"EY, Peugeot",Union des démocrates et indépendants,,458,Homosexuel,,,
-Leïla Derouich,people,Gouvernement,Conseillère en charge des médias et des industries culturelles,Culture,ENA (promotion Jean-Jacques Rousseau),CSA,,,,,,,
 Lucie Muniesa,people,Gouvernement,Directrice du cabinet,Culture,,"Radio France, Agence des participations de l'Etat",Parti socialiste,,458,,,,
+Leïla Derouich,people,Gouvernement,Conseillère en charge des médias et des industries culturelles,Culture,ENA (promotion Jean-Jacques Rousseau),CSA,,,,,,,
 Ludovic Guillot,people,Gouvernement,"Conseiller en charge de la communication, des relations avec la presse et des relations institutionnelles",Culture,,,Les Républicains,,,,,,
 Matthias Grolier,people,Gouvernement,"Conseiller en charge des affaires internationales, de la langue française et de la francophonie, du livre et de la lecture",Culture,HEC,"Gide Loyrette Nouel, Jones Day, Morgan, Lewis & Bockius",,,,,,,
 Quentin Bataillon,people,Gouvernement,Conseiller parlementaire,Culture,,,Les Républicains,,,,,,
 Simon Garcia,people,Gouvernement,"Conseiller en charge de la transformation du ministère, du budget et de la fiscalité",Culture,ENA,,,,,,,,
 Thomas Velter,people,Gouvernement,"Chef de cabinet, conseiller auprès du ministre",Culture,,Havas,Les Républicains,,,,,,
+Sarah Finkelstein,people,Gouvernement,Conseillère attractivité et consommation,Économie,"Sciences Po Paris, ENA (promotion Jean de la Fontaine), ESSEC",Direction générale du Trésor,Les Républicains,,,Judaïsme,,,
+Juliette Oury,people,Gouvernement,Conseillère affaires européennes et internationales,Économie,"Sciences Po Paris, ENA","Direction générale du Trésor, Commission européenne",,,,Judaïsme ?,,,
+Bruno Le Maire,people,Gouvernement,Ministre de l'économie et des finances,Économie,"Sciences Po Paris, ENA (promotion Valmy), ENS",,Les Républicains,,267,,,,
+Emmanuel Moulin,people,Gouvernement,Directeur du cabinet,Économie,"Sciences Po Paris, ENA (promotion Victor Schœlcher), ESSEC","Mediobanca, Banque mondiale, Citigroup, Groupe Eurotunnel, Club de Paris",Les Républicains,,"440, 442",,,,
 Agnès Pannier-Runacher,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Économie et des Finances,Économie,"Sciences Po Paris, ENA, HEC","Bourbon, Fonds Stratégique d'Investissement, Caisse des dépôts, Crédit Agricole",,,,,,,
 Aigline de Ginestous,people,Gouvernement,"Conseillère territoires et Parlement, chef de cabinet",Économie,,"Rothschild, Lehman Brothers, Société Générale, Airbus",,,,,,,
 Aloïs Kirchner,people,Gouvernement,Directeur du cabinet,Économie,"Polytechnique, Corps des mines","Inspection des finances, ESL & Network",,,,,,,
 Bertrand Sirven,people,Gouvernement,Directeur adjoint du cabinet,Économie,Sciences Po Paris,"Havas, Nestlé",Les Républicains,,,,,,
-Bruno Le Maire,people,Gouvernement,Ministre de l'économie et des finances,Économie,"Sciences Po Paris, ENA (promotion Valmy), ENS",,Les Républicains,,267,,,,
 Charles Sitzenstuhl,people,Gouvernement,Conseiller politique,Économie,Sciences Po Paris,,,,,,,,
 Dimitri Lucas,people,Gouvernement,Conseiller presse et communication,Économie,,,Les Républicains,,,,,,
 Emmanuel Monnet,people,Gouvernement,Conseiller financement de l'économie,Économie,"Sciences Po Paris, ENS, ENA","Direction générale du Trésor, Inspection générale des finances, Commission européenne",,,,,,,
-Emmanuel Moulin,people,Gouvernement,Directeur du cabinet,Économie,"Sciences Po Paris, ENA (promotion Victor Schœlcher), ESSEC","Mediobanca, Banque mondiale, Citigroup, Groupe Eurotunnel, Club de Paris",Les Républicains,,"440, 442",,,,
 Jennifer Pizzicara,people,Gouvernement,"Chef de cabinet, en charge des relations avec le Parlement",Économie,,,,,,,,,
-Juliette Oury,people,Gouvernement,Conseillère affaires européennes et internationales,Économie,"Sciences Po Paris, ENA","Direction générale du Trésor, Commission européenne",,,,Judaïsme ?,,,
 Magali Valente,people,Gouvernement,Conseillère fiscalité et chargée des relations avec le Parlement,Économie,,CSA,Les Républicains,,,,,,
 Malo Carton,people,Gouvernement,Conseiller entreprises et participations de l'État,Économie,"Polytechnique, Corps des Mines","Agence des Participations de l'Etat, Alstom",,,,,,,
-Sarah Finkelstein,people,Gouvernement,Conseillère attractivité et consommation,Économie,"Sciences Po Paris, ENA (promotion Jean de la Fontaine), ESSEC",Direction générale du Trésor,Les Républicains,,,Judaïsme,,,
 Sébastien Guérémy,people,Gouvernement,Conseiller industrie et innovation,Économie,"Polytechnique, Corps des Mines","Agence des Participations de l'Etat, SNCF, Air France",,,,,,,
 Thomas Revial,people,Gouvernement,Directeur adjoint du cabinet,Économie,"Polytechnique, ENA","Direction générale du Trésor, France Stratégie, Inspection des finances, Banque mondiale, Conseil de l'Union européenne",,,,,,,
 Yves-Marie Cann,people,Gouvernement,Conseiller presse et communication,Économie,,"ELABE, CSA, IFOP",,,,,,,
+Jean-Michel Blanquer,people,Gouvernement,Ministre de l'Éducation nationale et de la Jeunesse,Éducation nationale,Sciences Po Paris,ESSEC,Les Républicains,,365,Grande Loge de France https://blogs.lexpress.fr/lumiere-franc-macon/2017/11/26/blanquer-son-show-chez-les-freres-gldf,,,
+David Knecht,people,Gouvernement,Conseiller budgétaire et numérique,Éducation nationale,,,,,,Judaïsme ? Nom alsacien ?,,,
+Gabriel Attal,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Éducation nationale et de la Jeunesse,Éducation nationale,Sciences Po Paris,Académie de France à Rome - Villa Médicis,Parti socialiste,,458,"Judaïsme, Homosexuel, pacsé avec Stéphane Sejourné",,,
 Anna-Livia Susini-Collomb,people,Gouvernement,"Conseillère jeunesse, en charge des relations internationales",Éducation nationale,,,,,,,,,
 Antoine Evennou,people,Gouvernement,"Chef de cabinet, conseiller vie associative",Éducation nationale,,"Groupe Macif, MGEN, FCPE, UNL, Association Française pour les Nations Unies",,,,,,,
 Christophe Kerrero,people,Gouvernement,Directeur du cabinet,Éducation nationale,,,Les Républicains,,,,,,
 Christophe Pacohil,people,Gouvernement,Chef de Cabinet,Éducation nationale,,ESSEC,Les Républicains,,,,,,
-David Knecht,people,Gouvernement,Conseiller budgétaire et numérique,Éducation nationale,,,,,,Judaïsme ? Nom alsacien ?,,,
 Fanny Anor,people,Gouvernement,Directrice du cabinet et conseillère spéciale,Éducation nationale,ENS,,,,,,,,
-Gabriel Attal,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Éducation nationale et de la Jeunesse,Éducation nationale,Sciences Po Paris,Académie de France à Rome - Villa Médicis,Parti socialiste,,458,"Judaïsme, Homosexuel, pacsé avec Stéphane Sejourné",,,
 Isabelle Bourhis,people,Gouvernement,"Conseillère sociale, partenariats et vie scolaire",Éducation nationale,,SNPDEN-UNSA,,,,,,,
-Jean-Michel Blanquer,people,Gouvernement,Ministre de l'Éducation nationale et de la Jeunesse,Éducation nationale,Sciences Po Paris,ESSEC,Les Républicains,,365,Grande Loge de France https://blogs.lexpress.fr/lumiere-franc-macon/2017/11/26/blanquer-son-show-chez-les-freres-gldf,,,
 Louis Jublin,people,Gouvernement,"Conseiller communication, en charge des relations avec le Parlement",Éducation nationale,,"Albera Conseil, Havas",Les Républicains,,,,,,
 Marie Dutertre,people,Gouvernement,Conseillère parlementaire,Éducation nationale,Sciences Po Paris,"Groupe Casino, APCO Worldwide",Parti socialiste,,,,,,
 Matthieu Lahaye,people,Gouvernement,"Conseiller discours, mémoire, culture, langues régionales",Éducation nationale,,,,,,,,,
@@ -124,55 +123,58 @@ Perrine Dufoix,people,Gouvernement,Conseillère presse et communication,Éducati
 Raphaël Muller,people,Gouvernement,Directeur adjoint du cabinet,Éducation nationale,"Sciences Po Paris, ENS",ESSEC,Les Républicains,,,,,,
 Thierry Ledroit,people,Gouvernement,Conseiller territoires et politiques interministérielles,Éducation nationale,,,,,,,,,
 Vincent Stanek,people,Gouvernement,Conseiller affaires pédagogiques,Éducation nationale,ENS,,,,,,,,
-Amandine Pasquier,people,Gouvernement,Conseillère en charge des droits des femmes,Égalité Femmes Hommes,,"État-Major des Armées, Suez",Les Républicains,,,Pas sûr pour Les Républicains,,,
-Anne Rubinstein,people,Gouvernement,Directrice de cabinet,Égalité Femmes Hommes,,La Poste,Parti socialiste,,,Judaïsme,,,
-Harmonie Sala,people,Gouvernement,Chef de cabinet,Égalité Femmes Hommes,,Vogel & Vogel,Mouvement démocrate,,,,,,
 Marlène Schiappa,people,Gouvernement,"Secrétaire d'État auprès du Premier ministre, chargée de l'Égalité entre les femmes et les hommes et de la Lutte contre les discriminations",Égalité Femmes Hommes,,"Yahoo!, Havas, Bondy Blog, Lagardère",Parti socialiste,,435,Judaïsme,,,
+Anne Rubinstein,people,Gouvernement,Directrice de cabinet,Égalité Femmes Hommes,,La Poste,Parti socialiste,,,Judaïsme,,,
+Amandine Pasquier,people,Gouvernement,Conseillère en charge des droits des femmes,Égalité Femmes Hommes,,"État-Major des Armées, Suez",Les Républicains,,,Pas sûr pour Les Républicains,,,
+Harmonie Sala,people,Gouvernement,Chef de cabinet,Égalité Femmes Hommes,,Vogel & Vogel,Mouvement démocrate,,,,,,
 Mathieu Pontécaille,people,Gouvernement,"Conseiller spécial, chargé de la stratégie communication et de la presse",Égalité Femmes Hommes,,,Parti socialiste,,,,,,
 Stéphanie Lozano,people,Gouvernement,Chef de cabinet,Égalité Femmes Hommes,,,Parti socialiste,,,,,,
 Thomas Brisson,people,Gouvernement,Directeur adjoint du cabinet,Égalité Femmes Hommes,,IFRI,Parti socialiste,,,,,,
+Isabelle Richard-Cremieux,people,Gouvernement,Conseillère Santé,Enseignement supérieur,,,,,,"Judaïsme ? Son nom complet est Isabelle Richard-Cremieux, donc mariée à un juif ?",,,
+Yedidia Levy-Zauberman,people,Gouvernement,Conseiller spécial en charge des affaires politiques et diplomatiques,Enseignement supérieur,Sciences Po Paris,"Mairie de Paris, Natixis, Deloitte, Dahlia Partners",Parti socialiste,,445,"Judaïsme, Eclaireuses et Eclaireurs israélites de France",,,
 Anne-Sophie Barthez,people,Gouvernement,Conseillère formations,Enseignement supérieur,,,,,,,,,
 David Cavaillolès,people,Gouvernement,"Conseiller budgétaire, industrie et spatial",Enseignement supérieur,"Polytechnique, Corps des Mines","Inspection générale des finances, Autorité de contrôle prudentiel et de résolution, AXA",,,,,,,
 Frédérique Vidal,people,Gouvernement,"Ministre de l'enseignement supérieur, de la recherche et de l'innovation",Enseignement supérieur,,,,,,,,,
 Graig Monetti,people,Gouvernement,"Chef de cabinet, conseiller jeunesse et vie étudiante",Enseignement supérieur,,Acadomia,,,,,,,
-Isabelle Richard-Cremieux,people,Gouvernement,Conseillère Santé,Enseignement supérieur,,,,,,"Judaïsme ? Son nom complet est Isabelle Richard-Cremieux, donc mariée à un juif ?",,,
 Jean-Philippe Bourgoin,people,Gouvernement,Conseiller recherche,Enseignement supérieur,ENS,CEA,,,,,,,
 Lloyd Cerqueira,people,Gouvernement,"Conseiller parlemenatire, collectivités territoriales et immobilier",Enseignement supérieur,Sciences Po Paris,,Union des démocrates et indépendants,,,,,,
 Marie Francolin,people,Gouvernement,Conseillère en charge de la communication et de la presse,Enseignement supérieur,Sciences Po Paris,"Commission européenne, OCDE, Mairie de Paris",Parti socialiste,,,,,,
 Nicolas Castoldi,people,Gouvernement,Directeur de cabinet,Enseignement supérieur,"Sciences Po Paris, ENS",CNRS,Les Républicains,,,,,,
 Pauline Pannier,people,Gouvernement,Directrice adjointe,Enseignement supérieur,ENA,Conseil d’État,,,,,,,
-Yedidia Levy-Zauberman,people,Gouvernement,Conseiller spécial en charge des affaires politiques et diplomatiques,Enseignement supérieur,Sciences Po Paris,"Mairie de Paris, Natixis, Deloitte, Dahlia Partners",Parti socialiste,,445,"Judaïsme, Eclaireuses et Eclaireurs israélites de France",,,
+Stéphane Peu,people,Assemblée nationale,Finances,Gauche démocrate et républicaine,,,,,24,Grand Orient de France,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Seine-Saint-Denis,Ile-de-France
+Fabien Roussel,people,Assemblée nationale,Finances,Gauche démocrate et républicaine,,,,,31,,,Nord,Hauts-de-France
+Huguette Bello,people,Assemblée nationale,Lois,Gauche démocrate et républicaine,,,,,192,,,Réunion,Réunion
+Marie-George Buffet,people,Assemblée nationale,Affaires culturelles et éducation,Gauche démocrate et républicaine,,,,,"29, 32, 33, 35, 44, 51, 56, 60, 63, 65, 70, 71, 72, 73, 74, 76, 81, 86, 93, 94, 97, 101, 103, 107, 119, 133, 139",,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Seine-Saint-Denis,Ile-de-France
 Alain Bruneel,people,Assemblée nationale,Affaires économiques,Gauche démocrate et républicaine,,,,,,,,Nord,Hauts-de-France
 André Chassaigne,people,Assemblée nationale,Défense,Gauche démocrate et républicaine,,,,,,,Groupe d'amitié France-Israël,Puy-de-Dôme,Auvergne-Rhône-Alpes
 Elsa Faucillon,people,Assemblée nationale,Affaires culturelles et éducation,Gauche démocrate et républicaine,,,,,,,Groupe d'amitié France-Israël,Hauts-de-Seine,Ile-de-France
-Fabien Roussel,people,Assemblée nationale,Finances,Gauche démocrate et républicaine,,,,,31,,,Nord,Hauts-de-France
 Gabriel Serville,people,Assemblée nationale,Développement durable,Gauche démocrate et républicaine,,,,,,,,Guyane,Guyane
 Hubert Wulfranc,people,Assemblée nationale,Développement durable,Gauche démocrate et républicaine,,,,,,,,Seine-Maritime,Normandie
-Huguette Bello,people,Assemblée nationale,Lois,Gauche démocrate et républicaine,,,,,192,,,Réunion,Réunion
 Jean-Paul Dufrègne,people,Assemblée nationale,Lois,Gauche démocrate et républicaine,,,,,,,,Allier,Auvergne-Rhône-Alpes
 Jean-Paul Lecoq,people,Assemblée nationale,Affaires étrangères,Gauche démocrate et républicaine,,,,,,,"Groupe d'amitié France-Israël, Groupe d'études : conditions d'accueil des migrants, Groupe d'études : discriminations et lgbtqi-phobies dans le monde",Seine-Maritime,Normandie
 Jean-Philippe Nilor,people,Assemblée nationale,Affaires sociales,Gauche démocrate et républicaine,,,,,,,,Martinique,Martinique
 Manuéla Kéclard-Mondésir,people,Assemblée nationale,Défense,Gauche démocrate et républicaine,,,,,,,,Martinique,Martinique
-Marie-George Buffet,people,Assemblée nationale,Affaires culturelles et éducation,Gauche démocrate et républicaine,,,,,"29, 32, 33, 35, 44, 51, 56, 60, 63, 65, 70, 71, 72, 73, 74, 76, 81, 86, 93, 94, 97, 101, 103, 107, 119, 133, 139",,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Seine-Saint-Denis,Ile-de-France
 Moetai Brotherson,people,Assemblée nationale,Affaires étrangères,Gauche démocrate et républicaine,,,,,,,,Polynésie Française,Polynésie française
 Pierre Dharréville,people,Assemblée nationale,Affaires sociales,Gauche démocrate et républicaine,,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Sébastien Jumel,people,Assemblée nationale,Affaires économiques,Gauche démocrate et républicaine,,,,,,,,Seine-Maritime,Normandie
-Stéphane Peu,people,Assemblée nationale,Finances,Gauche démocrate et républicaine,,,,,24,Grand Orient de France,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Seine-Saint-Denis,Ile-de-France
-Cathy Apourceau-Poly,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Pas-de-Calais,Hauts-de-France
+Esther Benbassa,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,CNRS,,,"123, 222, 240, 275, 292, 307",Judaïsme,Groupe d'amitié France-Israël,Paris,Ile-de-France
 Cécile Cukierman,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,Judaïsme,,Loire,Auvergne-Rhône-Alpes
+Laurence Cohen,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,Judaïsme,,Val-de-Marne,Ile-de-France
+Éliane Assassi,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,341,,,Seine-Saint-Denis,Ile-de-France
+Pierre Laurent,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,"267, 270, 292, 300",,,Paris,Ile-de-France
+Cathy Apourceau-Poly,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Pas-de-Calais,Hauts-de-France
 Céline Brulin,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Seine-Maritime,Normandie
 Christine Prunaud,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Côtes-d'Armor,Bretagne
-Éliane Assassi,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,341,,,Seine-Saint-Denis,Ile-de-France
 Éric Bocquet,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Nord,Hauts-de-France
-Esther Benbassa,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,CNRS,,,"123, 222, 240, 275, 292, 307",Judaïsme,Groupe d'amitié France-Israël,Paris,Ile-de-France
 Fabien Gay,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Seine-Saint-Denis,Ile-de-France
 Guillaume Gontard,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Isère,Auvergne-Rhône-Alpes
-Laurence Cohen,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,Judaïsme,,Val-de-Marne,Ile-de-France
 Michelle Gréaume,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Nord,Hauts-de-France
 Pascal Savoldelli,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Val-de-Marne,Ile-de-France
-Pierre Laurent,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,"267, 270, 292, 300",,,Paris,Ile-de-France
 Pierre Ouzoulias,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Hauts-de-Seine,Ile-de-France
 Pierre-Yves Collombat,people,Sénat,,"Groupe Communiste, républicain, citoyen et écologiste ",,,,,,,,Var,Provence-Alpes-Côte d'Azur
+Patricia Schillinger,people,Sénat,,Groupe La République en Marche,,,Parti socialiste,,,Association La Gauche forte,Groupe d'amitié France-Israël,Haut-Rhin,Grand Est
+François Patriat,people,Sénat,,Groupe La République en Marche,,Conseil économique et social,Groupe Socialiste et républicain,,,Grand Orient de France,Groupe d'amitié France-Israël,Côte-d'Or,Bourgogne-Franche-Comté
+Michel Amiel,people,Sénat,,Groupe La République en Marche,,,"Groupe Rassemblement Démocratique et Social européen, Non-inscrits, Parti socialiste",,,Judaïsme,Groupe d'amitié France-Israël,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Abdallah Hassani,people,Sénat,,Groupe La République en Marche,,,,,,,,Mayotte,Mayotte
 Antoine Karam,people,Sénat,,Groupe La République en Marche,,,Parti socialiste guyanais,,,,,Guyane,Guyane
 Arnaud de Belenet,people,Sénat,,Groupe La République en Marche,,,Les Républicains,,,,,Seine-et-Marne,Ile-de-France
@@ -181,16 +183,13 @@ Bernard Cazeau,people,Sénat,,Groupe La République en Marche,,,Groupe Socialist
 Claude Haut,people,Sénat,,Groupe La République en Marche,,,Parti socialiste,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
 Didier Rambaud,people,Sénat,,Groupe La République en Marche,,,Parti socialiste,,,,,Isère,Auvergne-Rhône-Alpes
 Dominique Théophile,people,Sénat,,Groupe La République en Marche,,,,,,,,Guadeloupe,Guadeloupe
-François Patriat,people,Sénat,,Groupe La République en Marche,,Conseil économique et social,Groupe Socialiste et républicain,,,Grand Orient de France,Groupe d'amitié France-Israël,Côte-d'Or,Bourgogne-Franche-Comté
 Françoise Cartron,people,Sénat,,Groupe La République en Marche,,,Groupe Socialiste et républicain,,,,,Gironde,Nouvelle-Aquitaine
 Frédéric Marchand,people,Sénat,,Groupe La République en Marche,,,Parti socialiste,,,,,Nord,Hauts-de-France
 Georges Patient,people,Sénat,,Groupe La République en Marche,,,Groupe Socialiste et républicain,,,,,Guyane,Guyane
 Julien Bargeton,people,Sénat,,Groupe La République en Marche,"ESSEC, ENA (promotion Averroès), Sciences Po Paris","Cour des Comptes, Mairie de Paris",Parti socialiste,,,,,Paris,Ile-de-France
 Martin Lévrier,people,Sénat,,Groupe La République en Marche,,,Divers droite,,,,,Yvelines,Ile-de-France
-Michel Amiel,people,Sénat,,Groupe La République en Marche,,,"Groupe Rassemblement Démocratique et Social européen, Non-inscrits, Parti socialiste",,,Judaïsme,Groupe d'amitié France-Israël,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Michel Dennemont,people,Sénat,,Groupe La République en Marche,,,"Les Républicains, Mouvement démocrate",,,,,La Réunion,La Réunion
 Noëlle Rauscent,people,Sénat,,Groupe La République en Marche,,,,,,,,Yonne,Bourgogne-Franche-Comté
-Patricia Schillinger,people,Sénat,,Groupe La République en Marche,,,Parti socialiste,,,Association La Gauche forte,Groupe d'amitié France-Israël,Haut-Rhin,Grand Est
 Thani Mohamed Soilihi,people,Sénat,Vice-président du Sénat,Groupe La République en Marche,,,Divers gauche,,,,,Mayotte,Mayotte
 Claude Malhuret,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,Groupe Les Républicains,,"427, 441",,,Allier,Auvergne-Rhône-Alpes
 Daniel Chasseing,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,,Corrèze,Nouvelle-Aquitaine
@@ -199,11 +198,16 @@ Emmanuel Capus,people,Sénat,,Groupe Les Indépendants - République et Territoi
 Jean-Louis Lagourgue,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,,La Réunion,La Réunion
 Jean-Pierre Decool,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,,,,,,Nord,Hauts-de-France
 Jérôme Bignon,people,Sénat,,Groupe Les Indépendants - République et Territoires,,,Les Républicains,,,,,Somme,Hauts-de-France
+Christophe-André Frassa,people,Sénat,,Groupe Les Républicains,Sciences Po Paris,,,,,Grand Orient de France,Groupe d'amitié France-Israël,Français établis hors de France,Français établis hors de France
+Roger Karoutchi,people,Sénat,,Groupe Les Républicains,,,,,237,Judaïsme,Groupe d'amitié France-Israël,Hauts-de-Seine,Ile-de-France
+Gérard Larcher,people,Sénat,Président du Sénat,Groupe Les Républicains,,,,,263,,,Yvelines,Ile-de-France
+Gérard Longuet,people,Sénat,,Groupe Les Républicains,,,,,312,,,Meuse,Grand Est
+Alain Dufaut,people,Sénat,,Groupe Les Républicains,,,,,444,,,Vaucluse,Provence-Alpes-Côte d'Azur
+Alain Houpert,people,Sénat,,Groupe Les Républicains,,,,,444,,Groupe d'amitié France-Israël,Côte-d'Or,Bourgogne-Franche-Comté
+Bruno Retailleau,people,Sénat,,Groupe Les Républicains,,,,,"430, 431, 440",,,Vendée,Pays de la Loire
 Agnès Canayer,people,Sénat,,Groupe Les Républicains,,,,,,,,Seine-Maritime,Normandie
 Alain Chatillon,people,Sénat,,Groupe Les Républicains,,,,,,,,Haute-Garonne,Occitanie
-Alain Dufaut,people,Sénat,,Groupe Les Républicains,,,,,444,,,Vaucluse,Provence-Alpes-Côte d'Azur
 Alain Fouché,people,Sénat,,Groupe Les Républicains,,,,,,,,Vienne,Nouvelle-Aquitaine
-Alain Houpert,people,Sénat,,Groupe Les Républicains,,,,,444,,Groupe d'amitié France-Israël,Côte-d'Or,Bourgogne-Franche-Comté
 Alain Joyandet,people,Sénat,,Groupe Les Républicains,,,,,,,,Haute-Saône,Bourgogne-Franche-Comté
 Alain Marc,people,Sénat,,Groupe Les Républicains,,,,,,,,Aveyron,Occitanie
 Alain Milon,people,Sénat,,Groupe Les Républicains,,,,,,,,Vaucluse,Provence-Alpes-Côte d'Azur
@@ -221,7 +225,6 @@ Bernard Fournier,people,Sénat,,Groupe Les Républicains,,,,,,,,Loire,Auvergne-R
 Brigitte Lherbier,people,Sénat,,Groupe Les Républicains,,,,,,,,Nord,Hauts-de-France
 Brigitte Micouleau,people,Sénat,,Groupe Les Républicains,,,,,,,Groupe d'amitié France-Israël,Haute-Garonne,Occitanie
 Bruno Gilles,people,Sénat,,Groupe Les Républicains,,,,,,,Groupe d'amitié France-Israël,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
-Bruno Retailleau,people,Sénat,,Groupe Les Républicains,,,,,"430, 431, 440",,,Vendée,Pays de la Loire
 Bruno Sido,people,Sénat,,Groupe Les Républicains,,,,,,,,Haute-Marne,Grand Est
 Catherine Deroche,people,Sénat,,Groupe Les Républicains,,,,,,,Groupe d'amitié France-Israël,Maine-et-Loire,Pays de la Loire
 Catherine Di Folco,people,Sénat,,Groupe Les Républicains,,,,,,,,Rhône,Auvergne-Rhône-Alpes
@@ -238,7 +241,6 @@ Christine Bonfanti-Dossat,people,Sénat,,Groupe Les Républicains,,,,,,,,Lot-et-
 Christine Lanfranchi Dorgal,people,Sénat,,Groupe Les Républicains,,,,,,,,Var,Provence-Alpes-Côte d'Azur
 Christine Lavarde,people,Sénat,,Groupe Les Républicains,,,,,,,Groupe d'amitié France-Israël,Hauts-de-Seine,Ile-de-France
 Christophe Priou,people,Sénat,,Groupe Les Républicains,,,,,,,,Loire-Atlantique,Pays de la Loire
-Christophe-André Frassa,people,Sénat,,Groupe Les Républicains,Sciences Po Paris,,,,,Grand Orient de France,Groupe d'amitié France-Israël,Français établis hors de France,Français établis hors de France
 Claude Nougein,people,Sénat,,Groupe Les Républicains,,,,,,,,Corrèze,Nouvelle-Aquitaine
 Claudine Thomas,people,Sénat,,Groupe Les Républicains,,,,,,,,Seine-et-Marne,Ile-de-France
 Colette Giudicelli,people,Sénat,,Groupe Les Républicains,,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
@@ -265,8 +267,6 @@ Frédérique Gerbaud,people,Sénat,,Groupe Les Républicains,,,,,,,,Indre,Centre
 Frédérique Puissat,people,Sénat,,Groupe Les Républicains,,,,,,,,Isère,Auvergne-Rhône-Alpes
 Gérard Cornu,people,Sénat,,Groupe Les Républicains,,,,,,,,Eure-et-Loir,Centre-Val de Loire
 Gérard Dériot,people,Sénat,,Groupe Les Républicains,,,,,,,,Allier,Auvergne-Rhône-Alpes
-Gérard Larcher,people,Sénat,Président du Sénat,Groupe Les Républicains,,,,,263,,,Yvelines,Ile-de-France
-Gérard Longuet,people,Sénat,,Groupe Les Républicains,,,,,312,,,Meuse,Grand Est
 Gilbert Bouchet,people,Sénat,,Groupe Les Républicains,,,,,,,,Drôme,Auvergne-Rhône-Alpes
 Guillaume Chevrollier,people,Sénat,,Groupe Les Républicains,,,,,,,,Mayenne,Pays de la Loire
 Guy-Dominique Kennel,people,Sénat,,Groupe Les Républicains,,,,,,,,Bas-Rhin,Grand Est
@@ -339,7 +339,6 @@ René Danesi,people,Sénat,,Groupe Les Républicains,,,,,,,,Haut-Rhin,Grand Est
 René-Paul Savary,people,Sénat,,Groupe Les Républicains,,,,,,,,Marne,Grand Est
 Robert del Picchia,people,Sénat,,Groupe Les Républicains,,,,,,,,Français établis hors de France,Français établis hors de France
 Robert Laufoaulu,people,Sénat,,Groupe Les Républicains,,,,,,,,Wallis-et-Futuna,Wallis-et-Futuna
-Roger Karoutchi,people,Sénat,,Groupe Les Républicains,,,,,237,Judaïsme,Groupe d'amitié France-Israël,Hauts-de-Seine,Ile-de-France
 Ronan Le Gleut,people,Sénat,,Groupe Les Républicains,,,,,,,Groupe d'amitié France-Israël,Français établis hors de France,Français établis hors de France
 Sébastien Meurant,people,Sénat,,Groupe Les Républicains,,,,,,,,Val-d'Oise,Ile-de-France
 Serge Babary,people,Sénat,,Groupe Les Républicains,,,Démocratie libérale,,,,,Indre-et-Loire,Centre-Val de Loire
@@ -348,12 +347,12 @@ Stéphane Piednoir,people,Sénat,,Groupe Les Républicains,,,,,,,,Maine-et-Loire
 Vivette Lopez,people,Sénat,,Groupe Les Républicains,,,,,,,,Gard,Occitanie
 Viviane Malet,people,Sénat,,Groupe Les Républicains,,,,,,,,La Réunion,La Réunion
 Yves Bouloux,people,Sénat,,Groupe Les Républicains,,,,,,,,Vienne,Nouvelle-Aquitaine
+Jacques Mézard,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Parti radical de gauche,,435,Grand Orient de France,,Cantal,Auvergne-Rhône-Alpes
 Alain Bertrand,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Parti socialiste,,,,,Lozère,Occitanie
 Éric Gold,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
 Franck Menonville,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,,Meuse,Grand Est
 Françoise Laborde,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,,Haute-Garonne,Occitanie
 Guillaume Arnell,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,,Saint-Martin,Saint-Barthélemy et Saint-Martin
-Jacques Mézard,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Parti radical de gauche,,435,Grand Orient de France,,Cantal,Auvergne-Rhône-Alpes
 Jean-Claude Requier,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,Groupe d'amitié France-Israël,Lot,Occitanie
 Jean-Pierre Corbisez,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,,Pas-de-Calais,Hauts-de-France
 Joël Labbé,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Europe Écologie Les Verts,,,,,Morbihan,Bretagne
@@ -365,9 +364,16 @@ Raymond Vall,people,Sénat,,Groupe Rassemblement Démocratique et Social europé
 Stéphane Artano,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,Les Républicains,,,,,Saint-Pierre-et-Miquelon,Saint-Pierre-et-Miquelon
 Véronique Guillotin,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,,Meurthe-et-Moselle,Grand Est
 Yvon Collin,people,Sénat,,Groupe Rassemblement Démocratique et Social européen,,,,,,,,Tarn-et-Garonne,Occitanie
-Alain Duran,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Ariège,Occitanie
+Vincent Éblé,people,Sénat,,Groupe Socialiste et républicain,,,,,441,Grand Orient de France,,Seine-et-Marne,Ile-de-France
+Jean-Pierre Sueur,people,Sénat,,Groupe Socialiste et républicain,,,,,,Grand Orient de France,Groupe d'amitié France-Israël,Loiret,Centre-Val de Loire
+Victorin Lurel,people,Sénat,,Groupe Socialiste et républicain,,,,,,Grand Orient de France (Acacia des Tropiques),,Guadeloupe,Guadeloupe
+David Assouline,people,Sénat,Vice-président du Sénat,Groupe Socialiste et républicain,,,Mouvement Jeunes communistes de France,,36,Judaïsme,Groupe d'amitié France-Israël,Paris,Ile-de-France
+Patrick Kanner,people,Sénat,,Groupe Socialiste et républicain,,,,,,Judaïsme,Groupe d'amitié France-Israël,Nord,Hauts-de-France
 Alain Richard,people,Sénat,,Groupe Socialiste et républicain,"Sciences Po Paris, ENA (promotion Thomas More)","Conseil d'État, Haute Cour de justice",Parti socialiste,,,Young Leaders 1981,,Val-d'Oise,Ile-de-France
+Hélène Conway-Mouret,people,Sénat,Vice-président du Sénat,Groupe Socialiste et républicain,,,,,340,,,Français établis hors de France,Français établis hors de France
+Laurence Rossignol,people,Sénat,,Groupe Socialiste et républicain,,,,,376,,,Oise,Hauts-de-France
 André Vallini,people,Sénat,,Groupe Socialiste et républicain,,,,,"64, 72, 73, 107, 164, 192, 230, 245, 278, 322, 422",,,Isère,Auvergne-Rhône-Alpes
+Alain Duran,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Ariège,Occitanie
 Angèle Préville,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Lot,Occitanie
 Annie Guillemot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Bernard Jomier,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Paris,Ile-de-France
@@ -378,7 +384,6 @@ Claude Bérit-Débat,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Dor
 Claude Raynal,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Groupe d'amitié France-Israël,Haute-Garonne,Occitanie
 Claudine Lepage,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Français établis hors de France,Français établis hors de France
 Corinne Féret,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Calvados,Normandie
-David Assouline,people,Sénat,Vice-président du Sénat,Groupe Socialiste et républicain,,,Mouvement Jeunes communistes de France,,36,Judaïsme,Groupe d'amitié France-Israël,Paris,Ile-de-France
 Didier Marie,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Seine-Maritime,Normandie
 Éric Jeansannetas,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Creuse,Nouvelle-Aquitaine
 Éric Kerrouche,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Landes,Nouvelle-Aquitaine
@@ -387,7 +392,6 @@ Frédérique Espagnac,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Gro
 Gilbert Roger,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Seine-Saint-Denis,Ile-de-France
 Gilbert-Luc Devinaz,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Gisèle Jourda,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Aude,Occitanie
-Hélène Conway-Mouret,people,Sénat,Vice-président du Sénat,Groupe Socialiste et républicain,,,,,340,,,Français établis hors de France,Français établis hors de France
 Henri Cabanel,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Hérault,Occitanie
 Jacques Bigot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Bas-Rhin,Grand Est
 Jacques-Bernard Magner,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Puy-de-Dôme,Auvergne-Rhône-Alpes
@@ -397,13 +401,11 @@ Jean-Louis Tourenne,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Ille
 Jean-Luc Fichet,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Finistère,Bretagne
 Jean-Marc Todeschini,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Moselle,Grand Est
 Jean-Michel Houllegatte,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Manche,Normandie
-Jean-Pierre Sueur,people,Sénat,,Groupe Socialiste et républicain,,,,,,Grand Orient de France,Groupe d'amitié France-Israël,Loiret,Centre-Val de Loire
 Jean-Yves Leconte,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Groupe d'amitié France-Israël,Français établis hors de France,Français établis hors de France
 Jean-Yves Roux,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Alpes-de-Haute-Provence,Provence-Alpes-Côte d'Azur
 Jérôme Durain,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
 Joël Bigot,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Maine-et-Loire,Pays de la Loire
 Laurence Harribey,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Gironde,Nouvelle-Aquitaine
-Laurence Rossignol,people,Sénat,,Groupe Socialiste et républicain,,,,,376,,,Oise,Hauts-de-France
 Marc Daunis,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Marie-Françoise Pérol-Dumont,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
 Marie-Noëlle Lienemann,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Paris,Ile-de-France
@@ -422,7 +424,6 @@ Nelly Tocqueville,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Seine-
 Nicole Bonnefoy,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Charente,Nouvelle-Aquitaine
 Olivier Jacquin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Meurthe-et-Moselle,Grand Est
 Patrice Joly,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Nièvre,Bourgogne-Franche-Comté
-Patrick Kanner,people,Sénat,,Groupe Socialiste et républicain,,,,,,Judaïsme,Groupe d'amitié France-Israël,Nord,Hauts-de-France
 Philippe Madrelle,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Gironde,Nouvelle-Aquitaine
 Rachel Mazuir,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Ain,Auvergne-Rhône-Alpes
 Rachid Temal,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Groupe d'amitié France-Israël,Val-d'Oise,Ile-de-France
@@ -436,13 +437,13 @@ Sophie Taillé-Polian,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Va
 Sylvie Robert,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Ille-et-Vilaine,Bretagne
 Thierry Carcenac,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Tarn,Occitanie
 Victoire Jasmin,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Guadeloupe,Guadeloupe
-Victorin Lurel,people,Sénat,,Groupe Socialiste et républicain,,,,,,Grand Orient de France (Acacia des Tropiques),,Guadeloupe,Guadeloupe
-Vincent Éblé,people,Sénat,,Groupe Socialiste et républicain,,,,,441,Grand Orient de France,,Seine-et-Marne,Ile-de-France
 Viviane Artigalas,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Hautes-Pyrénées,Occitanie
 Xavier Iacovelli,people,Sénat,,Groupe Socialiste et républicain,,,,,,,Groupe d'amitié France-Israël,Hauts-de-Seine,Ile-de-France
 Yannick Botrel,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Côtes-d'Armor,Bretagne
 Yannick Vaugrenard,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Loire-Atlantique,Pays de la Loire
 Yves Daudigny,people,Sénat,,Groupe Socialiste et républicain,,,,,,,,Aisne,Hauts-de-France
+Nathalie Goulet,people,Sénat,,Groupe Union Centriste,,,,,,Judaïsme,Groupe d'amitié France-Israël,Orne,Normandie
+Jean-Marie Bockel,people,Sénat,,Groupe Union Centriste,,,Parti socialiste,,240,,Groupe d'amitié France-Israël,Haut-Rhin,Grand Est
 Alain Cazabonne,people,Sénat,,Groupe Union Centriste,,,,,,,,Gironde,Nouvelle-Aquitaine
 Anne-Catherine Loisier,people,Sénat,,Groupe Union Centriste,,,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
 Annick Billon,people,Sénat,,Groupe Union Centriste,,,,,,,,Vendée,Pays de la Loire
@@ -464,7 +465,6 @@ Jacques Le Nay,people,Sénat,,Groupe Union Centriste,,,,,,,,Morbihan,Bretagne
 Jean-Claude Luche,people,Sénat,,Groupe Union Centriste,,,,,,,,Aveyron,Occitanie
 Jean-François Longeot,people,Sénat,,Groupe Union Centriste,,,,,,,,Doubs,Bourgogne-Franche-Comté
 Jean-Marc Gabouty,people,Sénat,Vice-président du Sénat,Groupe Union Centriste,,,,,,,,Haute-Vienne,Nouvelle-Aquitaine
-Jean-Marie Bockel,people,Sénat,,Groupe Union Centriste,,,Parti socialiste,,240,,Groupe d'amitié France-Israël,Haut-Rhin,Grand Est
 Jean-Marie Janssens,people,Sénat,,Groupe Union Centriste,,,,,,,,Loir-et-Cher,Centre-Val de Loire
 Jean-Marie Mizzon,people,Sénat,,Groupe Union Centriste,,,,,,,,Moselle,Grand Est
 Jean-Marie Vanlerenberghe,people,Sénat,,Groupe Union Centriste,,,,,,,,Pas-de-Calais,Hauts-de-France
@@ -480,7 +480,6 @@ Michel Laugier,people,Sénat,,Groupe Union Centriste,,,,,,,,Yvelines,Ile-de-Fran
 Michèle Vullien,people,Sénat,,Groupe Union Centriste,,,,,,,,Rhône,Auvergne-Rhône-Alpes
 Nadia Sollogoub,people,Sénat,,Groupe Union Centriste,,,,,,,,Nièvre,Bourgogne-Franche-Comté
 Nassimah Dindar,people,Sénat,,Groupe Union Centriste,,,,,,,,La Réunion,La Réunion
-Nathalie Goulet,people,Sénat,,Groupe Union Centriste,,,,,,Judaïsme,Groupe d'amitié France-Israël,Orne,Normandie
 Nuihau Laurey,people,Sénat,,Groupe Union Centriste,,,,,,,,Polynésie française,Polynésie française
 Olivier Cadic,people,Sénat,,Groupe Union Centriste,,,,,,,Groupe d'amitié France-Israël,Français établis hors de France,Français établis hors de France
 Olivier Cigolotti,people,Sénat,,Groupe Union Centriste,,,,,,,,Haute-Loire,Auvergne-Rhône-Alpes
@@ -502,20 +501,20 @@ Florence Gelot,people,Gouvernement,"Conseillère emploi, ressources",Handicapés
 Léo Le Bourhis,people,Gouvernement,Conseiller communication,Handicapés,,Pôle emploi,,,,,,,
 Patrice Fondin,people,Gouvernement,"Conseiller éducation, formation et enseignement supérieur",Handicapés,,,,,,,,,
 Sophie Cluzel,people,Gouvernement,"Secrétaire d'État auprès du Premier ministre, chargée des Personnes handicapées",Handicapés,,,,,,,,,
-Arthur Empereur,people,Gouvernement,Conseiller en charge de la communication numérique,Intérieur,,,Parti socialiste,,,,,,
 Christophe Castaner,people,Gouvernement,Ministre de l’Intérieur,Intérieur,,BNP Paribas,Parti socialiste,,,Grand Orient de France,,,
+Simon Fetet,people,Gouvernement,"Conseiller budget, administration territoriale de l'État",Intérieur,"Sciences Po Paris, ENA (promotion Aristide Briand)","Cour des comptes, Crédit mutuel",,,,Judaïsme ?,,,
+Stéphane Bouillon,people,Gouvernement,Directeur du cabinet,Intérieur,"Sciences Po Paris, ENA (promotion Louise Michel)",,"Parti socialiste, Les Républicains",,428,,,,
+Laurent Nuñez,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Intérieur,Intérieur,ENA (promotion Cyrano de Bergerac),"Direction générale de la Sécurité intérieure, Direction générale des collectivités locales",,,458,,,,
+Arthur Empereur,people,Gouvernement,Conseiller en charge de la communication numérique,Intérieur,,,Parti socialiste,,,,,,
 Clémence Lecœur,people,Gouvernement,"Conseillère auprès du ministre, en charge des relations avec le Parlement",Intérieur,,,Parti socialiste,,,,,,
 Étienne Stoskopf,people,Gouvernement,Directeur adjoint du cabinet et directeur du cabinet,Intérieur,"Sciences Po Paris, ENA (promotion René Cassin)",,Parti socialiste,,,,,,
 Frédéric Jung,people,Gouvernement,Conseiller diplomatique,Intérieur,,Représentation Permanente de la France auprès de l'Union Européenne,,,,,,,
 Isabelle Epaillard,people,Gouvernement,Chef adjointe de cabinet du ministre et chef de cabinet,Intérieur,,,,,,,,,
-Laurent Nuñez,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Intérieur,Intérieur,ENA (promotion Cyrano de Bergerac),"Direction générale de la Sécurité intérieure, Direction générale des collectivités locales",,,458,,,,
 Magali Charbonneau,people,Gouvernement,Directrice adjointe du cabinet,Intérieur,"ENA, ESSEC",,Parti socialiste,,,,,,
 Marie-Céline Lawrysz,people,Gouvernement,Conseillère justice,Intérieur,,,,,,,,,
 Mathias Ott,people,Gouvernement,Chef de cabinet,Intérieur,,,Parti socialiste,,,,,,
 Mélusine Binder,people,Gouvernement,Conseillère en charge des relations avec la presse,Intérieur,,,Parti socialiste,,,,,,
 Olivier Gerstlé,people,Gouvernement,"Conseiller en charge de la communication, responsable du pôle communication",Intérieur,,,Parti socialiste,,,,,,
-Simon Fetet,people,Gouvernement,"Conseiller budget, administration territoriale de l'État",Intérieur,"Sciences Po Paris, ENA (promotion Aristide Briand)","Cour des comptes, Crédit mutuel",,,,Judaïsme ?,,,
-Stéphane Bouillon,people,Gouvernement,Directeur du cabinet,Intérieur,"Sciences Po Paris, ENA (promotion Louise Michel)",,"Parti socialiste, Les Républicains",,428,,,,
 Albin Heuman,people,Gouvernement,Conseiller dialogue social et modernisation,Justice,,,,,,,,,
 Aurélia Schaff,people,Gouvernement,Conseillère chargée de l'Europe et des relations internationales,Justice,ENM,,Parti socialiste,,,,,,
 Emmanuelle Bochenek-Puren,people,Gouvernement,Conseillère chargée de la coordination des politiques de la justice,Justice,ENM,,,,,,,,
@@ -527,23 +526,55 @@ Marie-Charlotte Dreux,people,Gouvernement,Conseiller chargé de la prospective e
 Mathieu Hérondart,people,Gouvernement,Directeur du cabinet,Justice,"ENA, HEC",,Les Républicains,,,,,,
 Nicole Belloubet,people,Gouvernement,"Garde des sceaux, ministre de la justice",Justice,,,Parti socialiste,,,,,,
 Sylvain Laval,people,Gouvernement,Chef de cabinet,Justice,,,Parti socialiste,,,,,,
-Adrien Quatennens,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,,Nord,Hauts-de-France
+Jean-Luc Mélenchon,people,Assemblée nationale,Affaires étrangères,La France insoumise,,,,,295,Grand Orient de France,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Clémentine Autain,people,Assemblée nationale,Affaires étrangères,La France insoumise,,,,,226,,Groupe d'amitié France-Israël,Seine-Saint-Denis,Ile-de-France
 Alexis Corbière,people,Assemblée nationale,Défense,La France insoumise,,,,,429,,,Seine-Saint-Denis,Ile-de-France
+Adrien Quatennens,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,,Nord,Hauts-de-France
 Bastien Lachaud,people,Assemblée nationale,Défense,La France insoumise,,,,,,,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Seine-Saint-Denis,Ile-de-France
 Bénédicte Taurine,people,Assemblée nationale,Affaires économiques,La France insoumise,,,,,,,Groupe d'études : conditions d'accueil des migrants,Ariège,Occitanie
 Caroline Fiat,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,,Meurthe-et-Moselle,Grand Est
-Clémentine Autain,people,Assemblée nationale,Affaires étrangères,La France insoumise,,,,,226,,Groupe d'amitié France-Israël,Seine-Saint-Denis,Ile-de-France
 Danièle Obono,people,Assemblée nationale,Lois,La France insoumise,,,,,,,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Paris,Ile-de-France
 Éric Coquerel,people,Assemblée nationale,Finances,La France insoumise,,,,,,,Groupe d'études : conditions d'accueil des migrants,Seine-Saint-Denis,Ile-de-France
 François Ruffin,people,Assemblée nationale,Affaires économiques,La France insoumise,,,,,,,,Somme,Hauts-de-France
 Jean-Hugues Ratenon,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,,Réunion,Réunion
-Jean-Luc Mélenchon,people,Assemblée nationale,Affaires étrangères,La France insoumise,,,,,295,Grand Orient de France,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Loïc Prud'homme,people,Assemblée nationale,Développement durable,La France insoumise,,,,,,,,Gironde,Nouvelle-Aquitaine
 Mathilde Panot,people,Assemblée nationale,Développement durable,La France insoumise,,,,,,,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Val-de-Marne,Ile-de-France
 Michel Larive,people,Assemblée nationale,Affaires culturelles et éducation,La France insoumise,,,,,,,Intergroupe de la LICRA,Ariège,Occitanie
 Muriel Ressiguier,people,Assemblée nationale,Affaires culturelles et éducation,La France insoumise,,,,,,,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'études : conditions d'accueil des migrants",Hérault,Occitanie
 Sabine Rubin,people,Assemblée nationale,Finances,La France insoumise,,,,,,,Groupe d'amitié France-Israël,Seine-Saint-Denis,Ile-de-France
 Ugo Bernalicis,people,Assemblée nationale,Lois,La France insoumise,,,,,,,,Nord,Hauts-de-France
+Typhanie Degois,people,Assemblée nationale,Défense,La République en Marche,,,,,,Déléguée de la Fondation Brigitte Bardot,,Savoie,Auvergne-Rhône-Alpes
+Cécile Rilhac,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Mouvement des progressistes,,,FCPE,,Val-d'Oise,Ile-de-France
+Stéphane Travert,people,Assemblée nationale,Défense,La République en Marche,,,Parti socialiste,,437,Grand Orient de France,,Manche,Normandie
+François Cormier-Bouligeon,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Parti socialiste,,463,Grand Orient de France,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",Cher,Centre-Val de Loire
+Jean-Louis Touraine,people,Assemblée nationale,Affaires sociales,La République en Marche,,"Agence de la biomédecine, Conseil national du Sida",Parti socialiste,,,Grand Orient de France,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Intergroupe de la LICRA",Rhône,Auvergne-Rhône-Alpes
+Romain Grau,people,Assemblée nationale,Finances,La République en Marche,"ENA (promotion Léopold Sédar Senghor), Sciences Po Paris",EAS Industries,"Parti socialiste, Union des démocrates et indépendants, Les Républicains",,,Grand Orient de France,,Pyrénées-Orientales,Occitanie
+Brigitte Bourguignon,people,Assemblée nationale,Affaires sociales,La République en Marche,,,Parti socialiste,,,Grand Orient de France (pas sûr pour le GODF),Intergroupe de la LICRA,Pas-de-Calais,Hauts-de-France
+Richard Ferrand,people,Assemblée nationale,Défense,La République en Marche,,,,,,Grand Orient de France (pas sûr pour le GODF),,Finistère,Bretagne
+Thierry Solère,people,Assemblée nationale,Défense,La République en Marche,,"Deloitte, Aliapur, Chimirec",Les Républicains,,441,Grande Loge nationale française,"Groupe d'amitié France-Israël, Intergroupe de la LICRA",Hauts-de-Seine,Ile-de-France
+Pacôme Rupin,people,Assemblée nationale,Lois,La République en Marche,,Groupe SOS,Parti socialiste,,,Homosexuel,,Paris,Ile-de-France
+Raphaël Gérard,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,Homosexuel,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Charente-Maritime,Nouvelle-Aquitaine
+Mounir Mahjoubi,people,Assemblée nationale,Affaires étrangères,La République en Marche,Sciences Po Paris,Conseil National du Numerique,Parti socialiste,,,Homosexuel pacsé avec un juif,,Paris,Ile-de-France
+Bérangère Abba,people,Assemblée nationale,Développement durable,La République en Marche,,,Divers droite,,,Judaïsme,,Haute-Marne,Grand Est
+Bruno Studer,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,Judaïsme,Intergroupe de la LICRA,Bas-Rhin,Grand Est
+Dominique David,people,Assemblée nationale,Finances,La République en Marche,,,,,,Judaïsme,,Gironde,Nouvelle-Aquitaine
+Élise Fajgeles,people,Assemblée nationale,Lois,La République en Marche,,,Parti socialiste,,,Judaïsme,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",Paris,Ile-de-France
+Guillaume Chiche,people,Assemblée nationale,Affaires sociales,La République en Marche,,"LMDE, Conseil régional d’Ile-de-France, Sogaris",Parti socialiste,,,Judaïsme,,Deux-Sèvres,Nouvelle-Aquitaine
+Yaël Braun-Pivet,people,Assemblée nationale,Lois,La République en Marche,,,Parti socialiste,,,Judaïsme,Groupe d'amitié France-Israël,Yvelines,Ile-de-France
+Christophe Arend,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,Judaïsme https://www.geneanet.org/nom-de-famille/AREND,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Moselle,Grand Est
+Natalia Pouzyreff,people,Assemblée nationale,Défense,La République en Marche,,"Thales, EADS, Eurocopter",,,,Membre de l'association Femmes Débat et Société et de Women's Forum for the Economy & Society,Groupe d'études : conditions d'accueil des migrants,Yvelines,Ile-de-France
+Nicole Dubré-Chirat,people,Assemblée nationale,Lois,La République en Marche,,,,,,Membre de l'Observatoire de la laïcité,,Maine-et-Loire,Pays de la Loire
+Sandrine Le Feur,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,Membre de la Confédération paysanne,,Finistère,Bretagne
+Aude Bono-Vandorme,people,Assemblée nationale,Défense,La République en Marche,,,,,,Membre de la Délégation française à l'Assemblée parlementaire de l'Organisation pour la sécurité et la coopération en Europe (OSCE),,Aisne,Hauts-de-France
+Véronique Riotton,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,Membre de la délégation française de l'Union interparlementaire (UIP),Groupe d'études : conditions d'accueil des migrants,Haute-Savoie,Auvergne-Rhône-Alpes
+Sabine Thillaye,people,Assemblée nationale,Défense,La République en Marche,,,,,,Membre du conseil d'administration du Mouvement européen France,Intergroupe de la LICRA,Indre-et-Loire,Centre-Val de Loire
+Jean-Philippe Ardouin,people,Assemblée nationale,Défense,La République en Marche,,,,,,Membre du Rotary International,,Charente-Maritime,Nouvelle-Aquitaine
+Jean François Mbaye,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,"Mondial Assistance, ONIAM",Groupe d'études : conditions d'accueil des migrants,Val-de-Marne,Ile-de-France
+Amélia Lakrafi,people,Assemblée nationale,Affaires étrangères,La République en Marche,,"BNP Paribas, Fondation Lagardère, Azguard CSI, La Francilienne internationale, Doctorium, Cercle Eugène Delacroix, BizInnov Group, Banque union financière de France",,,,Nom complet : Amal Amélia Lakrafi,,Français établis hors de France,Français établis hors de France
+Ludovic Mendes,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,Parti socialiste,,,Nom complet : Ludovic Mendes Da Silva,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'études : conditions d'accueil des migrants",Moselle,Grand Est
+Yolaine de Courson,people,Assemblée nationale,Développement durable,La République en Marche,,,Parti socialiste,,,Nom complet : Yolaine de Courson de la Villeneuve,,Côte-d'Or,Bourgogne-Franche-Comté
+Philippe Folliot,people,Assemblée nationale,Défense,La République en Marche,,,"Nouveau Centre, Union des démocrates et indépendants",,,Président de la délégation française à l’Assemblée parlementaire de l’OTAN,Groupe d'amitié France-Israël,Tarn,Occitanie
+Coralie Dubost,people,Assemblée nationale,Lois,La République en Marche,,,,,,Young Leaders de la France China Foudation,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Intergroupe de la LICRA",Hérault,Occitanie
 Adrien Morenas,people,Assemblée nationale,Développement durable,La République en Marche,,Marine nationale,,,,,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",Vaucluse,Provence-Alpes-Côte d'Azur
 Agnès Thill,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Parti socialiste,,,,Groupe d'amitié France-Israël,Oise,Hauts-de-France
 Aina Kuric,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Groupe d'études : conditions d'accueil des migrants,Marne,Grand Est
@@ -555,7 +586,6 @@ Alexandra Valetta-Ardisson,people,Assemblée nationale,Défense,La République e
 Alexandre Freschi,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,,Lot-et-Garonne,Nouvelle-Aquitaine
 Alexandre Holroyd,people,Assemblée nationale,Finances,La République en Marche,Sciences Po Paris,,,,,,,Français établis hors de France,Français établis hors de France
 Alice Thourot,people,Assemblée nationale,Lois,La République en Marche,,,,,,,,Drôme,Auvergne-Rhône-Alpes
-Amélia Lakrafi,people,Assemblée nationale,Affaires étrangères,La République en Marche,,"BNP Paribas, Fondation Lagardère, Azguard CSI, La Francilienne internationale, Doctorium, Cercle Eugène Delacroix, BizInnov Group, Banque union financière de France",,,,Nom complet : Amal Amélia Lakrafi,,Français établis hors de France,Français établis hors de France
 Anissa Khedher,people,Assemblée nationale,Défense,La République en Marche,,Membre de l'Assemblée parlementaire de l'OTAN,,,,,"Groupe d'amitié France-Israël, Intergroupe de la LICRA",Rhône,Auvergne-Rhône-Alpes
 Annaïg Le Meur,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,,Finistère,Bretagne
 Anne Blanc,people,Assemblée nationale,Affaires économiques,La République en Marche,,,Parti radical de gauche,,,,,Aveyron,Occitanie
@@ -569,7 +599,6 @@ Annie Chapelier,people,Assemblée nationale,Affaires étrangères,La République
 Annie Vidal,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,"Groupe d'études : antisémitisme, Groupe d'études : conditions d'accueil des migrants",Seine-Maritime,Normandie
 Anthony Cellier,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Groupe d'études : conditions d'accueil des migrants,Gard,Occitanie
 Aude Amadou,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,,Loire-Atlantique,Pays de la Loire
-Aude Bono-Vandorme,people,Assemblée nationale,Défense,La République en Marche,,,,,,Membre de la Délégation française à l'Assemblée parlementaire de l'Organisation pour la sécurité et la coopération en Europe (OSCE),,Aisne,Hauts-de-France
 Audrey Dufeu Schubert,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,,Loire-Atlantique,Pays de la Loire
 Aurélien Taché,people,Assemblée nationale,Affaires sociales,La République en Marche,,Groupe SOS,Parti socialiste,,,,Groupe d'études : conditions d'accueil des migrants,Val-d'Oise,Ile-de-France
 Aurore Bergé,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,Sciences Po Paris,"Publics, Hopscotch",Les Républicains,,,,Groupe d'amitié France-Israël,Yvelines,Ile-de-France
@@ -582,16 +611,13 @@ Bénédicte Peyrol,people,Assemblée nationale,Finances,La République en Marche
 Benjamin Dirx,people,Assemblée nationale,Finances,La République en Marche,,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
 Benoît Potterie,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,,Pas-de-Calais,Hauts-de-France
 Benoit Simian,people,Assemblée nationale,Finances,La République en Marche,,SNCF,Parti socialiste,,,,,Gironde,Nouvelle-Aquitaine
-Bérangère Abba,people,Assemblée nationale,Développement durable,La République en Marche,,,Divers droite,,,Judaïsme,,Haute-Marne,Grand Est
 Bérangère Couillard,people,Assemblée nationale,Développement durable,La République en Marche,,IKKS,,,,,,Gironde,Nouvelle-Aquitaine
 Bertrand Bouyx,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Groupe d'études : conditions d'accueil des migrants,Calvados,Normandie
 Bertrand Sorre,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Manche,Normandie
 Blandine Brocard,people,Assemblée nationale,Affaires sociales,La République en Marche,,,Mouvement démocrate,,,,,Rhône,Auvergne-Rhône-Alpes
-Brigitte Bourguignon,people,Assemblée nationale,Affaires sociales,La République en Marche,,,Parti socialiste,,,Grand Orient de France (pas sûr pour le GODF),Intergroupe de la LICRA,Pas-de-Calais,Hauts-de-France
 Brigitte Liso,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Intergroupe de la LICRA,Nord,Hauts-de-France
 Bruno Bonnell,people,Assemblée nationale,Affaires économiques,La République en Marche,,"Infogrames, Atari, Thomson, Robopolis, Robolution Capital, Pathé, Danone",,,,,Intergroupe de la LICRA,Rhône,Auvergne-Rhône-Alpes
 Bruno Questel,people,Assemblée nationale,Lois,La République en Marche,,,"Parti radical de gauche, Parti socialiste",,,,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",Eure,Normandie
-Bruno Studer,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,Judaïsme,Intergroupe de la LICRA,Bas-Rhin,Grand Est
 Buon Tan,people,Assemblée nationale,Affaires étrangères,La République en Marche,,Haut conseil des Asiatiques de France,,,,,,Paris,Ile-de-France
 Carole Bureau-Bonnard,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Groupe d'amitié France-Israël,Oise,Hauts-de-France
 Carole Grandjean,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,,Meurthe-et-Moselle,Grand Est
@@ -602,7 +628,6 @@ Catherine Kamowski,people,Assemblée nationale,Lois,La République en Marche,,,,
 Catherine Osson,people,Assemblée nationale,Finances,La République en Marche,,,Parti socialiste,,,,Intergroupe de la LICRA,Nord,Hauts-de-France
 Cathy Racon-Bouzon,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,"Pernod-Ricard, Kaporal",,,,,"Groupe d'études : antisémitisme, Intergroupe de la LICRA",Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Cécile Muschotti,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,"Parti communiste français, Parti socialiste",,,,,Var,Provence-Alpes-Côte d'Azur
-Cécile Rilhac,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Mouvement des progressistes,,,FCPE,,Val-d'Oise,Ile-de-France
 Cédric Roussel,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,"Monte Paschi Banque, Quantum Partner",,,,,Groupe d'amitié France-Israël,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Cédric Villani,people,Assemblée nationale,Lois,La République en Marche,ENS,"Institut de France, Boston Consulting Group, Academia Europaea",,,,,,Essonne,Ile-de-France
 Célia de Lavergne,people,Assemblée nationale,Affaires économiques,La République en Marche,Polytechnique,,,,,,,Drôme,Auvergne-Rhône-Alpes
@@ -611,7 +636,6 @@ Cendra Motin,people,Assemblée nationale,Finances,La République en Marche,,,,,,
 Charlotte Lecocq,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Groupe d'études : conditions d'accueil des migrants,Nord,Hauts-de-France
 Christine Cloarec,people,Assemblée nationale,Affaires sociales,La République en Marche,,,"Union des démocrates et indépendants, Alliance centriste",,,,,Ille-et-Vilaine,Bretagne
 Christine Hennion,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,,Hauts-de-Seine,Ile-de-France
-Christophe Arend,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,Judaïsme https://www.geneanet.org/nom-de-famille/AREND,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Moselle,Grand Est
 Christophe Blanchet,people,Assemblée nationale,Défense,La République en Marche,,,Mouvement démocrate,,,,Groupe d'études : conditions d'accueil des migrants,Calvados,Normandie
 Christophe Di Pompeo,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,Parti socialiste,,,,,Nord,Hauts-de-France
 Christophe Euzet,people,Assemblée nationale,Lois,La République en Marche,,,,,,,,Hérault,Occitanie
@@ -619,7 +643,6 @@ Christophe Jerretie,people,Assemblée nationale,Finances,La République en March
 Christophe Lejeune,people,Assemblée nationale,Défense,La République en Marche,,,,,,,,Haute-Saône,Bourgogne-Franche-Comté
 Claire O'Petit,people,Assemblée nationale,Affaires économiques,La République en Marche,,,"Parti socialiste, Mouvement démocrate",,,,,Eure,Normandie
 Claire Pitollat,people,Assemblée nationale,Affaires sociales,La République en Marche,,EDF,,,,,"Groupe d'études : antisémitisme, Groupe d'études : conditions d'accueil des migrants",Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
-Coralie Dubost,people,Assemblée nationale,Lois,La République en Marche,,,,,,Young Leaders de la France China Foudation,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Intergroupe de la LICRA",Hérault,Occitanie
 Corinne Vignon,people,Assemblée nationale,Affaires sociales,La République en Marche,,,Divers droite,,,,,Haute-Garonne,Occitanie
 Damien Adam,people,Assemblée nationale,Affaires économiques,La République en Marche,,"Crédit agricole, Bouygues Telecom",,,,,Intergroupe de la LICRA,Seine-Maritime,Normandie
 Damien Pichereau,people,Assemblée nationale,Développement durable,La République en Marche,,,Les Républicains,,,,,Sarthe,Pays de la Loire
@@ -636,9 +659,7 @@ Didier Martin,people,Assemblée nationale,Affaires économiques,La République e
 Didier Paris,people,Assemblée nationale,Lois,La République en Marche,,Saur,,,,,,Côte-d'Or,Bourgogne-Franche-Comté
 Dimitri Houbron,people,Assemblée nationale,Lois,La République en Marche,,,Les Républicains,,,,Intergroupe de la LICRA,Nord,Hauts-de-France
 Dominique Da Silva,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Intergroupe de la LICRA,Val-d'Oise,Ile-de-France
-Dominique David,people,Assemblée nationale,Finances,La République en Marche,,,,,,Judaïsme,,Gironde,Nouvelle-Aquitaine
 Élisabeth Toutut-Picard,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,,Haute-Garonne,Occitanie
-Élise Fajgeles,people,Assemblée nationale,Lois,La République en Marche,,,Parti socialiste,,,Judaïsme,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",Paris,Ile-de-France
 Émilie Cariou,people,Assemblée nationale,Finances,La République en Marche,,"Autorité des marchés financiers, Centre national du cinéma et de l'image animée",Parti socialiste ,,,,,Meuse,Grand Est
 Émilie Chalas,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Intergroupe de la LICRA,Isère,Auvergne-Rhône-Alpes
 Émilie Guerel,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Var,Provence-Alpes-Côte d'Azur
@@ -660,7 +681,6 @@ Florent Boudié,people,Assemblée nationale,Lois,La République en Marche,,,Part
 Florian Bachelier,people,Assemblée nationale,Défense,La République en Marche,,Avoxa,Parti socialiste,,,,Intergroupe de la LICRA,Ille-et-Vilaine,Bretagne
 Francis Chouat,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Groupe d'études : antisémitisme,Essonne,Ile-de-France
 François André,people,Assemblée nationale,Défense,La République en Marche,,,Parti socialiste,,,,,Ille-et-Vilaine,Bretagne
-François Cormier-Bouligeon,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Parti socialiste,,463,Grand Orient de France,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",Cher,Centre-Val de Loire
 François Jolivet,people,Assemblée nationale,Finances,La République en Marche,,ICF Habitat,Les Républicains,,,,,Indre,Centre-Val de Loire
 Françoise Dumas,people,Assemblée nationale,Défense,La République en Marche,,,Parti socialiste,,,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme, Intergroupe de la LICRA",Gard,Occitanie
 Frédéric Barbier,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,Parti socialiste,,,,Intergroupe de la LICRA,Doubs,Bourgogne-Franche-Comté
@@ -671,7 +691,6 @@ Gaël Le Bohec,people,Assemblée nationale,Affaires culturelles et éducation,La
 Gilles Le Gendre,people,Assemblée nationale,Lois,La République en Marche,Sciences Po Paris,"Europe 1, L'Usine Nouvelle, Le Nouvel Économiste, L'Expansion, L'Événement du jeudi, Challenges, Fnac",,,,,,Paris,Ile-de-France
 Graziella Melchior,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,,Finistère,Bretagne
 Grégory Besson-Moreau,people,Assemblée nationale,Affaires économiques,La République en Marche,,Energie IP,,,,,,Aube,Grand Est
-Guillaume Chiche,people,Assemblée nationale,Affaires sociales,La République en Marche,,"LMDE, Conseil régional d’Ile-de-France, Sogaris",Parti socialiste,,,Judaïsme,,Deux-Sèvres,Nouvelle-Aquitaine
 Guillaume Gouffier-Cha,people,Assemblée nationale,Lois,La République en Marche,,,Parti socialiste,,,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme, Groupe d'études : conditions d'accueil des migrants, Intergroupe de la LICRA",Val-de-Marne,Ile-de-France
 Guillaume Kasbarian,people,Assemblée nationale,Affaires économiques,La République en Marche,ESSEC,Deloitte,,,,,,Eure-et-Loir,Centre-Val de Loire
 Guillaume Vuilletet,people,Assemblée nationale,Lois,La République en Marche,,,"Parti écologiste, Europe Écologie Les Verts, Mouvement républicain et citoyen",,,,Groupe d'études : antisémitisme,Val-d'Oise,Ile-de-France
@@ -689,7 +708,6 @@ Jacques Krabal,people,Assemblée nationale,Développement durable,La République
 Jacques Maire,people,Assemblée nationale,Affaires étrangères,La République en Marche,"Sciences Po Paris, ENA (promotion Jean Monnet)","Axa, Conseil d'État",Parti socialiste,,,,Groupe d'études : conditions d'accueil des migrants,Hauts-de-Seine,Ile-de-France
 Jacques Marilossian,people,Assemblée nationale,Défense,La République en Marche,"Centrale Paris, Sciences Po Paris","IBM, Oracle, Institut des hautes études de Défense nationale",Parti socialiste,,,,,Hauts-de-Seine,Ile-de-France
 Jacques Savatier,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Intergroupe de la LICRA,Vienne,Nouvelle-Aquitaine
-Jean François Mbaye,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,"Mondial Assistance, ONIAM",Groupe d'études : conditions d'accueil des migrants,Val-de-Marne,Ile-de-France
 Jean Terlier,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Intergroupe de la LICRA,Tarn,Occitanie
 Jean-Baptiste Djebbari,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Groupe d'amitié France-Israël,Haute-Vienne,Nouvelle-Aquitaine
 Jean-Baptiste Moreau,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,,Creuse,Nouvelle-Aquitaine
@@ -701,14 +719,12 @@ Jean-François Cesarini,people,Assemblée nationale,Développement durable,La R�
 Jean-François Eliaou,people,Assemblée nationale,Lois,La République en Marche,,,,,,,"Groupe d'amitié France-Israël, Intergroupe de la LICRA",Hérault,Occitanie
 Jean-François Portarrieu,people,Assemblée nationale,Affaires étrangères,La République en Marche,,La Dépêche du Midi,Parti socialiste,,,,Intergroupe de la LICRA,Haute-Garonne,Occitanie
 Jean-Jacques Bridey,people,Assemblée nationale,Défense,La République en Marche,,,Parti socialiste,,,,,Val-de-Marne,Ile-de-France
-Jean-Louis Touraine,people,Assemblée nationale,Affaires sociales,La République en Marche,,"Agence de la biomédecine, Conseil national du Sida",Parti socialiste,,,Grand Orient de France,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Intergroupe de la LICRA",Rhône,Auvergne-Rhône-Alpes
 Jean-Luc Fugit,people,Assemblée nationale,Développement durable,La République en Marche,,,Parti socialiste,,,,,Rhône,Auvergne-Rhône-Alpes
 Jean-Marc Zulesi,people,Assemblée nationale,Développement durable,La République en Marche,,Assystem,Parti socialiste,,,,Intergroupe de la LICRA,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Jean-Marie Fiévet,people,Assemblée nationale,Défense,La République en Marche,,,,,,,,Deux-Sèvres,Nouvelle-Aquitaine
 Jean-Michel Fauvergue,people,Assemblée nationale,Lois,La République en Marche,,RAID,,,,,,Seine-et-Marne,Ile-de-France
 Jean-Michel Jacques,people,Assemblée nationale,Défense,La République en Marche,,"Marine nationale, Organisation pour la sécurité et la coopération en Europe, Institut des hautes études de Défense nationale",,,,,,Morbihan,Bretagne
 Jean-Michel Mis,people,Assemblée nationale,Lois,La République en Marche,,"Allianz, Conseil national du numérique",Parti socialiste,,,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme, Intergroupe de la LICRA",Loire,Auvergne-Rhône-Alpes
-Jean-Philippe Ardouin,people,Assemblée nationale,Défense,La République en Marche,,,,,,Membre du Rotary International,,Charente-Maritime,Nouvelle-Aquitaine
 Jean-Pierre Pont,people,Assemblée nationale,Lois,La République en Marche,,,"Les Centristes, Union des démocrates et indépendants",,,,,Pas-de-Calais,Hauts-de-France
 Jean-René Cazeneuve,people,Assemblée nationale,Finances,La République en Marche,,Bouygues Telecom,,,,,,Gers,Occitanie
 Jennifer de Temmerman,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,,Nord,Hauts-de-France
@@ -728,7 +744,6 @@ Liliana Tanguy,people,Assemblée nationale,Affaires étrangères,La République 
 Lionel Causse,people,Assemblée nationale,Développement durable,La République en Marche,,,Parti socialiste,,,,,Landes,Nouvelle-Aquitaine
 Loïc Dombreval,people,Assemblée nationale,Développement durable,La République en Marche,,"Capgemini, Publicis",,,,,Intergroupe de la LICRA,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Loïc Kervran,people,Assemblée nationale,Défense,La République en Marche,"Sciences Po Paris, London School of Economics","Mazar, HSBC",,,,,,Cher,Centre-Val de Loire
-Ludovic Mendes,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,Parti socialiste,,,Nom complet : Ludovic Mendes Da Silva,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'études : conditions d'accueil des migrants",Moselle,Grand Est
 Marc Delatte,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,,Aisne,Hauts-de-France
 Marie Guévenoux,people,Assemblée nationale,Lois,La République en Marche,,,"Démocratie libérale, Les Républicains",,,,Intergroupe de la LICRA,Essonne,Ile-de-France
 Marie Lebec,people,Assemblée nationale,Affaires économiques,La République en Marche,,Euralia,"Les Centristes, Parti socialiste",,,,,Yvelines,Ile-de-France
@@ -751,14 +766,11 @@ Monica Michel,people,Assemblée nationale,Affaires étrangères,La République e
 Monique Iborra,people,Assemblée nationale,Affaires sociales,La République en Marche,,,Parti socialiste,,,,"Groupe d'amitié France-Israël, Intergroupe de la LICRA",Haute-Garonne,Occitanie
 Monique Limon,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,,Isère,Auvergne-Rhône-Alpes
 Mounir Belhamiti,people,Assemblée nationale,Défense,La République en Marche,,,,,,,,Loire-Atlantique,Pays de la Loire
-Mounir Mahjoubi,people,Assemblée nationale,Affaires étrangères,La République en Marche,Sciences Po Paris,Conseil National du Numerique,Parti socialiste,,,Homosexuel pacsé avec un juif,,Paris,Ile-de-France
 Mustapha Laabid,people,Assemblée nationale,Affaires sociales,La République en Marche,,Fondation Agir contre l'exclusion,,,,,,Ille-et-Vilaine,Bretagne
 Nadia Hai,people,Assemblée nationale,Finances,La République en Marche,,"HSBC, Barclays",,,,,,Yvelines,Ile-de-France
 Naïma Moutchou,people,Assemblée nationale,Lois,La République en Marche,,,,,,,Intergroupe de la LICRA,Val-d'Oise,Ile-de-France
-Natalia Pouzyreff,people,Assemblée nationale,Défense,La République en Marche,,"Thales, EADS, Eurocopter",,,,Membre de l'association Femmes Débat et Société et de Women's Forum for the Economy & Society,Groupe d'études : conditions d'accueil des migrants,Yvelines,Ile-de-France
 Nathalie Sarles,people,Assemblée nationale,Développement durable,La République en Marche,,,Mouvement démocrate,,,,"Groupe d'études : conditions d'accueil des migrants, Intergroupe de la LICRA",Loire,Auvergne-Rhône-Alpes
 Nicolas Démoulin,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,,Hérault,Occitanie
-Nicole Dubré-Chirat,people,Assemblée nationale,Lois,La République en Marche,,,,,,Membre de l'Observatoire de la laïcité,,Maine-et-Loire,Pays de la Loire
 Nicole Le Peih,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Groupe d'amitié France-Israël,Morbihan,Bretagne
 Nicole Trisse,people,Assemblée nationale,Défense,La République en Marche,,,,,,,,Moselle,Grand Est
 Olga Givernet,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,Mouvement démocrate,,,,,Ain,Auvergne-Rhône-Alpes
@@ -767,7 +779,6 @@ Olivier Damaisin,people,Assemblée nationale,Finances,La République en Marche,,
 Olivier Gaillard,people,Assemblée nationale,Finances,La République en Marche,,,,,,,Intergroupe de la LICRA,Gard,Occitanie
 Olivier Serva,people,Assemblée nationale,Finances,La République en Marche,,,"Guadeloupe unie, solidaire et responsable",,,,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Guadeloupe,Guadeloupe
 Olivier Véran,people,Assemblée nationale,Affaires sociales,La République en Marche,,,Parti socialiste,,,,Intergroupe de la LICRA,Isère,Auvergne-Rhône-Alpes
-Pacôme Rupin,people,Assemblée nationale,Lois,La République en Marche,,Groupe SOS,Parti socialiste,,,Homosexuel,,Paris,Ile-de-France
 Pascal Bois,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,"Groupe d'amitié France-Israël, Groupe d'études : discriminations et lgbtqi-phobies dans le monde",Oise,Hauts-de-France
 Pascal Lavergne,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,,,,,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Gironde,Nouvelle-Aquitaine
 Pascale Boyer,people,Assemblée nationale,Développement durable,La République en Marche,,,Parti socialiste,,,,"Groupe d'études : conditions d'accueil des migrants, Groupe d'études : discriminations et lgbtqi-phobies dans le monde",Hautes-Alpes,Provence-Alpes-Côte d'Azur
@@ -780,7 +791,6 @@ Paula Forteza,people,Assemblée nationale,Lois,La République en Marche,Sciences
 Perrine Goulet,people,Assemblée nationale,Finances,La République en Marche,,EDF,,,,,Groupe d'amitié France-Israël,Nièvre,Bourgogne-Franche-Comté
 Philippe Chalumeau,people,Assemblée nationale,Défense,La République en Marche,,,Parti socialiste,,,,Intergroupe de la LICRA,Indre-et-Loire,Centre-Val de Loire
 Philippe Chassaing,people,Assemblée nationale,Finances,La République en Marche,,MGEN,,,,,,Dordogne,Nouvelle-Aquitaine
-Philippe Folliot,people,Assemblée nationale,Défense,La République en Marche,,,"Nouveau Centre, Union des démocrates et indépendants",,,Président de la délégation française à l’Assemblée parlementaire de l’OTAN,Groupe d'amitié France-Israël,Tarn,Occitanie
 Philippe Huppé,people,Assemblée nationale,Affaires économiques,La République en Marche,,,"Parti radical, Mouvement radical, social et libéral",,,,Intergroupe de la LICRA,Hérault,Occitanie
 Pierre Cabaré,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,Cap21,,,,Intergroupe de la LICRA,Haute-Garonne,Occitanie
 Pierre Henriet,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,,Vendée,Pays de la Loire
@@ -789,20 +799,15 @@ Pierre-Alain Raphan,people,Assemblée nationale,Affaires culturelles et éducati
 Pieyre-Alexandre Anglade,people,Assemblée nationale,Défense,La République en Marche,,,Mouvement démocrate,,,,Groupe d'amitié France-Israël,Français établis hors de France,Français établis hors de France
 Ramlati Ali,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Parti socialiste,,,,,Mayotte,Mayotte
 Raphaël Gauvain,people,Assemblée nationale,Lois,La République en Marche,,"Boken Avocats, Norton Rose Fulbright",,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
-Raphaël Gérard,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,Homosexuel,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Charente-Maritime,Nouvelle-Aquitaine
 Rémy Rebeyrotte,people,Assemblée nationale,Lois,La République en Marche,Sciences Po Paris,,"Parti socialiste, Divers gauche, Le Rassemblement citoyen - Cap21",,,,,Saône-et-Loire,Bourgogne-Franche-Comté
-Richard Ferrand,people,Assemblée nationale,Défense,La République en Marche,,,,,,Grand Orient de France (pas sûr pour le GODF),,Finistère,Bretagne
 Richard Lioger,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,Groupe d'études : antisémitisme,Moselle,Grand Est
 Rodrigue Kokouendo,people,Assemblée nationale,Affaires étrangères,La République en Marche,,"Natixis, Crédit Agricole Asset Management, Crédit Agricole, BNP Paribas",Parti socialiste,,,,Groupe d'amitié France-Israël,Seine-et-Marne,Ile-de-France
 Roland Lescure,people,Assemblée nationale,Affaires économiques,La République en Marche,"Polytechnique, London School of Economics","INSEE, Natixis, Groupama, Caisse des dépôts et placements du Québec",Parti socialiste,,,,Groupe d'études : conditions d'accueil des migrants,Français établis hors de France,Français établis hors de France
-Romain Grau,people,Assemblée nationale,Finances,La République en Marche,"ENA (promotion Léopold Sédar Senghor), Sciences Po Paris",EAS Industries,"Parti socialiste, Union des démocrates et indépendants, Les Républicains",,,Grand Orient de France,,Pyrénées-Orientales,Occitanie
-Sabine Thillaye,people,Assemblée nationale,Défense,La République en Marche,,,,,,Membre du conseil d'administration du Mouvement européen France,Intergroupe de la LICRA,Indre-et-Loire,Centre-Val de Loire
 Sacha Houlié,people,Assemblée nationale,Lois,La République en Marche,,,Parti socialiste,,,,,Vienne,Nouvelle-Aquitaine
 Saïd Ahamada,people,Assemblée nationale,Finances,La République en Marche,,"Caisse des Dépôts et Consignations, Energies Alternatives",Mouvement démocrate,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Samantha Cazebonne,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,Non-inscrits,,,,,Français établis hors de France,Français établis hors de France
 Sandra Marsaud,people,Assemblée nationale,Développement durable,La République en Marche,,Caisse primaire d'assurance maladie,,,,,Intergroupe de la LICRA,Charente,Nouvelle-Aquitaine
 Sandrine Josso,people,Assemblée nationale,Développement durable,La République en Marche,,,"Alliance centriste, Mouvement démocrate",,,,,Loire-Atlantique,Pays de la Loire
-Sandrine Le Feur,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,Membre de la Confédération paysanne,,Finistère,Bretagne
 Sandrine Mörch,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,"TF1, France Télévisions, Arte",,,,,"Groupe d'études : conditions d'accueil des migrants, Intergroupe de la LICRA",Haute-Garonne,Occitanie
 Sébastien Cazenove,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,,Pyrénées-Orientales,Occitanie
 Sereine Mauborgne,people,Assemblée nationale,Défense,La République en Marche,,,Divers gauche,,,,,Var,Provence-Alpes-Côte d'Azur
@@ -818,7 +823,6 @@ Stéphane Buchou,people,Assemblée nationale,Développement durable,La Républiq
 Stéphane Claireaux,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Cap sur l'avenir,,,,,Saint-Pierre-et-Miquelon,Saint-Pierre-et-Miquelon
 Stéphane Mazars,people,Assemblée nationale,Lois,La République en Marche,,,Parti radical de gauche,,,,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'amitié France-Israël, Intergroupe de la LICRA",Aveyron,Occitanie
 Stéphane Testé,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Parti socialiste,,,,,Seine-Saint-Denis,Ile-de-France
-Stéphane Travert,people,Assemblée nationale,Défense,La République en Marche,,,Parti socialiste,,437,Grand Orient de France,,Manche,Normandie
 Stéphane Trompille,people,Assemblée nationale,Défense,La République en Marche,,,Parti socialiste,,,,"Groupe d'études : conditions d'accueil des migrants, Intergroupe de la LICRA",Ain,Auvergne-Rhône-Alpes
 Stéphanie Atger,people,Assemblée nationale,Finances,La République en Marche,,Axa,Parti socialiste,,,,,,
 Stéphanie Do,people,Assemblée nationale,Affaires économiques,La République en Marche,,"Capgemini, Sopra Group, Mazars",,,,,Groupe d'études : conditions d'accueil des migrants,Seine-et-Marne,Ile-de-France
@@ -827,29 +831,28 @@ Stéphanie Rist,people,Assemblée nationale,Affaires sociales,La République en 
 Sylvain Maillard,people,Assemblée nationale,Affaires sociales,La République en Marche,,Alantys Technology,"Mouvement démocrate, Les Centristes, Union des démocrates et indépendants",,,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",Paris,Ile-de-France
 Sylvie Charrière,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,Intergroupe de la LICRA,Seine-Saint-Denis,Ile-de-France
 Thierry Michels,people,Assemblée nationale,Affaires sociales,La République en Marche,,"Eli Lilly and Company, EY",,,,,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Bas-Rhin,Grand Est
-Thierry Solère,people,Assemblée nationale,Défense,La République en Marche,,"Deloitte, Aliapur, Chimirec",Les Républicains,,441,Grande Loge nationale française,"Groupe d'amitié France-Israël, Intergroupe de la LICRA",Hauts-de-Seine,Ile-de-France
 Thomas Gassilloud,people,Assemblée nationale,Défense,La République en Marche,,,,,,,Intergroupe de la LICRA,Rhône,Auvergne-Rhône-Alpes
 Thomas Mesnier,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Intergroupe de la LICRA,Charente,Nouvelle-Aquitaine
 Thomas Rudigoz,people,Assemblée nationale,Lois,La République en Marche,,"Le Progrès, Radio chrétienne francophone",Mouvement démocrate,,,,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'études : conditions d'accueil des migrants",Rhône,Auvergne-Rhône-Alpes
-Typhanie Degois,people,Assemblée nationale,Défense,La République en Marche,,,,,,Déléguée de la Fondation Brigitte Bardot,,Savoie,Auvergne-Rhône-Alpes
 Valéria Faure-Muntian,people,Assemblée nationale,Affaires économiques,La République en Marche,,"Société Générale, EDF, SMABTP, Groupama",,,,,Intergroupe de la LICRA,Loire,Auvergne-Rhône-Alpes
 Valérie Gomez-Bassac,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,,,,,,Var,Provence-Alpes-Côte d'Azur
 Valérie Oppelt,people,Assemblée nationale,Affaires économiques,La République en Marche,,,,,,,,Loire-Atlantique,Pays de la Loire
 Valérie Petit,people,Assemblée nationale,Finances,La République en Marche,,,,,,,,Nord,Hauts-de-France
 Valérie Thomas,people,Assemblée nationale,Affaires étrangères,La République en Marche,,,Parti socialiste,,,,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'études : conditions d'accueil des migrants",Puy-de-Dôme,Auvergne-Rhône-Alpes
 Véronique Hammerer,people,Assemblée nationale,Affaires économiques,La République en Marche,,"TDK, Alcatel-Lucent",,,,,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Gironde,Nouvelle-Aquitaine
-Véronique Riotton,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,Membre de la délégation française de l'Union interparlementaire (UIP),Groupe d'études : conditions d'accueil des migrants,Haute-Savoie,Auvergne-Rhône-Alpes
 Vincent Thiébaut,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Intergroupe de la LICRA,Bas-Rhin,Grand Est
 Xavier Batut,people,Assemblée nationale,Défense,La République en Marche,,PSA,,,,,,Seine-Maritime,Normandie
 Xavier Paluszkiewicz,people,Assemblée nationale,Finances,La République en Marche,,"Fortis, Banque générale du Luxembourg, BNP Paribas",,,,,,Meurthe-et-Moselle,Grand Est
 Xavier Roseren,people,Assemblée nationale,Finances,La République en Marche,,,Union des démocrates et indépendants,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
-Yaël Braun-Pivet,people,Assemblée nationale,Lois,La République en Marche,,,Parti socialiste,,,Judaïsme,Groupe d'amitié France-Israël,Yvelines,Ile-de-France
 Yannick Haury,people,Assemblée nationale,Développement durable,La République en Marche,,,Mouvement démocrate,,,,,Loire-Atlantique,Pays de la Loire
 Yannick Kerlogot,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,Europe Écologie Les Verts,,,,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Côtes-d'Armor,Bretagne
-Yolaine de Courson,people,Assemblée nationale,Développement durable,La République en Marche,,,Parti socialiste,,,Nom complet : Yolaine de Courson de la Villeneuve,,Côte-d'Or,Bourgogne-Franche-Comté
 Yves Blein,people,Assemblée nationale,Affaires économiques,La République en Marche,,Fondation Léo Lagrange,Parti socialiste,,,,,Rhône,Auvergne-Rhône-Alpes
 Yves Daniel,people,Assemblée nationale,Affaires économiques,La République en Marche,,,Parti socialiste,,,,Intergroupe de la LICRA,Loire-Atlantique,Pays de la Loire
 Zivka Park,people,Assemblée nationale,Développement durable,La République en Marche,Sciences Po Paris,"AXA Private Equity, Valtao, Iorga, BNP Paris",,,,,Intergroupe de la LICRA,Val-d'Oise,Ile-de-France
+Éric Diard,people,Assemblée nationale,Lois,Les Républicains,,,,,,Grand Orient de France,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Geneviève Levy,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,Judaïsme,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme, Intergroupe de la LICRA",Var,Provence-Alpes-Côte d'Azur
+Olivier Dassault,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,Judaïsme,,Oise,Hauts-de-France
+Christian Jacob,people,Assemblée nationale,Développement durable,Les Républicains,,,,,136,,,Seine-et-Marne,Ile-de-France
 Alain Ramadier,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,Groupe d'amitié France-Israël,Seine-Saint-Denis,Ile-de-France
 Annie Genevard,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,Groupe d'études : antisémitisme,Doubs,Bourgogne-Franche-Comté
 Antoine Savignat,people,Assemblée nationale,Défense,Les Républicains,,,,,,,,Val-d'Oise,Ile-de-France
@@ -862,7 +865,6 @@ Bernard Perrut,people,Assemblée nationale,Affaires sociales,Les Républicains,,
 Bernard Reynès,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Brigitte Kuster,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",Paris,Ile-de-France
 Charles de la Verpillière,people,Assemblée nationale,Défense,Les Républicains,,,,,,,,Ain,Auvergne-Rhône-Alpes
-Christian Jacob,people,Assemblée nationale,Développement durable,Les Républicains,,,,,136,,,Seine-et-Marne,Ile-de-France
 Claire Guion-Firmin,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,,Saint-Barthélemy et Saint-Martin,Saint-Barthélemy et Saint-Martin
 Claude de Ganay,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Groupe d'amitié France-Israël,Loiret,Centre-Val de Loire
 Claude Goasguen,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme, Groupe d'études : conditions d'accueil des migrants",Paris,Ile-de-France
@@ -876,7 +878,6 @@ Dino Cinieri,people,Assemblée nationale,Affaires économiques,Les Républicains
 Emmanuel Maquet,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,,Somme,Hauts-de-France
 Emmanuelle Anthoine,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,,Drôme,Auvergne-Rhône-Alpes
 Éric Ciotti,people,Assemblée nationale,Lois,Les Républicains,,,,,,,"Groupe d'amitié France-Israël, Groupe d'études : conditions d'accueil des migrants",Alpes-Maritimes,Provence-Alpes-Côte d'Azur
-Éric Diard,people,Assemblée nationale,Lois,Les Républicains,,,,,,Grand Orient de France,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Éric Pauget,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,Groupe d'amitié France-Israël,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
 Éric Straumann,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,"Groupe d'études : conditions d'accueil des migrants, Intergroupe de la LICRA",Haut-Rhin,Grand Est
 Éric Woerth,people,Assemblée nationale,Finances,Les Républicains,,,,,,,,Oise,Hauts-de-France
@@ -886,7 +887,6 @@ Franck Marlin,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Inter
 François Cornut-Gentille,people,Assemblée nationale,Finances,Les Républicains,,,,,,,,Haute-Marne,Grand Est
 Frédéric Reiss,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,,Bas-Rhin,Grand Est
 Frédérique Meunier,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,,Corrèze,Nouvelle-Aquitaine
-Geneviève Levy,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,Judaïsme,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme, Intergroupe de la LICRA",Var,Provence-Alpes-Côte d'Azur
 Gérard Cherpion,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,,Vosges,Grand Est
 Gérard Menuel,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,,Aube,Grand Est
 Gilles Carrez,people,Assemblée nationale,Finances,Les Républicains,,,,,,,,Val-de-Marne,Ile-de-France
@@ -930,7 +930,6 @@ Michèle Tabarot,people,Assemblée nationale,Affaires étrangères,Les Républic
 Nadia Ramassamy,people,Assemblée nationale,Affaires sociales,Les Républicains,,,,,,,,Réunion,Réunion
 Nathalie Bassire,people,Assemblée nationale,Développement durable,Les Républicains,,,,,,,,Réunion,Réunion
 Nicolas Forissier,people,Assemblée nationale,Finances,Les Républicains,,,,,,,,Indre,Centre-Val de Loire
-Olivier Dassault,people,Assemblée nationale,Affaires étrangères,Les Républicains,,,,,,Judaïsme,,Oise,Hauts-de-France
 Olivier Marleix,people,Assemblée nationale,Lois,Les Républicains,,,,,,,,Eure-et-Loir,Centre-Val de Loire
 Patrice Verchère,people,Assemblée nationale,Défense,Les Républicains,,,,,,,Groupe d'amitié France-Israël,Rhône,Auvergne-Rhône-Alpes
 Patrick Hetzel,people,Assemblée nationale,Finances,Les Républicains,,,,,,,,Bas-Rhin,Grand Est
@@ -954,10 +953,10 @@ Vincent Descoeur,people,Assemblée nationale,Développement durable,Les Républi
 Vincent Rolland,people,Assemblée nationale,Affaires économiques,Les Républicains,,,,,,,,Savoie,Auvergne-Rhône-Alpes
 Virginie Duby-Muller,people,Assemblée nationale,Affaires culturelles et éducation,Les Républicains,,,,,,,,Haute-Savoie,Auvergne-Rhône-Alpes
 Xavier Breton,people,Assemblée nationale,Lois,Les Républicains,,,,,,,"Groupe d'amitié France-Israël, Groupe d'études : discriminations et lgbtqi-phobies dans le monde",Ain,Auvergne-Rhône-Alpes
+François-Michel Lambert,people,Assemblée nationale,Développement durable,Libertés et Territoires,,Pernod-Ricard,"Génération écologie, Europe Écologie Les Verts, Front démocrate, La République en marche",,,Nom complet : François-Michel Lambert-Lelievre,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Bertrand Pancher,people,Assemblée nationale,Développement durable,Libertés et Territoires,,,,,,,,Meuse,Grand Est
 Charles de Courson,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,,Marne,Grand Est
 François Pupponi,people,Assemblée nationale,Finances,Libertés et Territoires,,,,,,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",Val-d'Oise,Ile-de-France
-François-Michel Lambert,people,Assemblée nationale,Développement durable,Libertés et Territoires,,Pernod-Ricard,"Génération écologie, Europe Écologie Les Verts, Front démocrate, La République en marche",,,Nom complet : François-Michel Lambert-Lelievre,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Jean-Félix Acquaviva,people,Assemblée nationale,Lois,Libertés et Territoires,,,,,,,Groupe d'amitié France-Israël,Haute-Corse,Corse
 Jean-Michel Clément,people,Assemblée nationale,Affaires étrangères,Libertés et Territoires,,,"Parti socialiste, La République en marche",,,,,Vienne,Nouvelle-Aquitaine
 Jeanine Dubié,people,Assemblée nationale,Affaires sociales,Libertés et Territoires,,,,,,,Groupe d'études : conditions d'accueil des migrants,Hautes-Pyrénées,Occitanie
@@ -988,6 +987,8 @@ Nathalie Cantan,people,Gouvernement,Conseillère Europe et Afrique,Ministère de
 Pierre Vandier,people,Gouvernement,Chef du cabinet militaire,Ministère des armées,,Marine Nationale,,,,,,,
 Thibaut de Vanssay de Blavous,people,Gouvernement,Conseiller social,Ministère des armées,Sciences Po Paris,,,,,,,,
 Xavier Chatel de Brancion,people,Gouvernement,Conseiller diplomatique,Ministère des armées,ENA (promotion Léopold Sédar Senghor),,,,,,,,
+Sylvain Waserman,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,Judaïsme,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Intergroupe de la LICRA",Bas-Rhin,Grand Est
+Florence Lasserre-David,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,Judaïsme ? Mariée à un juif,Groupe d'amitié France-Israël,Pyrénées-Atlantiques,Nouvelle-Aquitaine
 Aude Luquet,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,,Seine-et-Marne,Ile-de-France
 Brahim Hammouche,people,Assemblée nationale,Affaires sociales,Mouvement démocrate,,,,,,,Groupe d'amitié France-Israël,Moselle,Grand Est
 Bruno Duvergé,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,,,Pas-de-Calais,Hauts-de-France
@@ -998,7 +999,6 @@ Cyrille Isaac-Sibille,people,Assemblée nationale,Affaires sociales,Mouvement d�
 Élodie Jacquier-Laforge,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,,Isère,Auvergne-Rhône-Alpes
 Erwan Balanant,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,,Finistère,Bretagne
 Fabien Lainé,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,Groupe d'amitié France-Israël,Landes,Nouvelle-Aquitaine
-Florence Lasserre-David,people,Assemblée nationale,Développement durable,Mouvement démocrate,,,,,,Judaïsme ? Mariée à un juif,Groupe d'amitié France-Israël,Pyrénées-Atlantiques,Nouvelle-Aquitaine
 Frédéric Petit,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,,,Français établis hors de France,Français établis hors de France
 Géraldine Bannier,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,,Mayenne,Pays de la Loire
 Isabelle Florennes,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,Intergroupe de la LICRA,Hauts-de-Seine,Ile-de-France
@@ -1032,59 +1032,74 @@ Richard Ramos,people,Assemblée nationale,Affaires économiques,Mouvement démoc
 Sarah El Haïry,people,Assemblée nationale,Finances,Mouvement démocrate,,,,,,,Intergroupe de la LICRA,Loire-Atlantique,Pays de la Loire
 Sophie Mette,people,Assemblée nationale,Affaires culturelles et éducation,Mouvement démocrate,,,,,,,,Gironde,Nouvelle-Aquitaine
 Stéphane Baudu,people,Assemblée nationale,Défense,Mouvement démocrate,,,,,,,,Loir-et-Cher,Centre-Val de Loire
-Sylvain Waserman,people,Assemblée nationale,Affaires étrangères,Mouvement démocrate,,,,,,Judaïsme,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Intergroupe de la LICRA",Bas-Rhin,Grand Est
 Vincent Bru,people,Assemblée nationale,Lois,Mouvement démocrate,,,,,,,,Pyrénées-Atlantiques,Nouvelle-Aquitaine
+Robert Navarro,people,Sénat,,Non-inscrits,,SNCF,Parti socialiste,,,Grand Orient de France,,Hérault,Occitanie
+Gilbert Collard,people,Assemblée nationale,Défense,Non-inscrits,,,,,,Grande Loge nationale française,Groupe d'amitié France-Israël,Gard,Occitanie
+Louis Aliot,people,Assemblée nationale,Défense,Non-inscrits,,,,,,Judaïsme,,Pyrénées-Orientales,Occitanie
+Nicolas Dupont-Aignan,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,,,204,,,Essonne,Ile-de-France
+Delphine Batho,people,Assemblée nationale,Affaires économiques,Non-inscrits,,,,,339,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme, Intergroupe de la LICRA",Deux-Sèvres,Nouvelle-Aquitaine
 André Gattolin,people,Sénat,,Non-inscrits,,"CSA, Ipsos, Libération, The Gallup Organization, Actuel",Europe Écologie Les Verts,,,,,Hauts-de-Seine,Ile-de-France
 Bruno Bilde,people,Assemblée nationale,Affaires culturelles et éducation,Non-inscrits,,,,,,,,Pas-de-Calais,Hauts-de-France
 Christine Herzog,people,Sénat,,Non-inscrits,,,,,,,,Moselle,Grand Est
 Claudine Kauffmann,people,Sénat,,Non-inscrits,,,Front national,,,,Groupe d'amitié France-Israël,Var,Provence-Alpes-Côte d'Azur
-Delphine Batho,people,Assemblée nationale,Affaires économiques,Non-inscrits,,,,,339,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme, Intergroupe de la LICRA",Deux-Sèvres,Nouvelle-Aquitaine
 Emmanuelle Ménard,people,Assemblée nationale,Lois,Non-inscrits,,,,,,,"Groupe d'études : antisémitisme, Groupe d'études : conditions d'accueil des migrants",Hérault,Occitanie
-Gilbert Collard,people,Assemblée nationale,Défense,Non-inscrits,,,,,,Grande Loge nationale française,Groupe d'amitié France-Israël,Gard,Occitanie
 Jean Lassalle,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,,,,,Groupe d'amitié France-Israël,Pyrénées-Atlantiques,Nouvelle-Aquitaine
 Jean Louis Masson,people,Sénat,,Non-inscrits,,,,,,,,Moselle,Grand Est
 Jean-Noël Guérini,people,Sénat,,Non-inscrits,,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 José Evrard,people,Assemblée nationale,Affaires économiques,Non-inscrits,,,,,,,,Pas-de-Calais,Hauts-de-France
-Louis Aliot,people,Assemblée nationale,Défense,Non-inscrits,,,,,,Judaïsme,,Pyrénées-Orientales,Occitanie
 Ludovic Pajot,people,Assemblée nationale,Affaires économiques,Non-inscrits,,,,,,,,Pas-de-Calais,Hauts-de-France
 Marie-France Lorho,people,Assemblée nationale,Lois,Non-inscrits,,,,,,,"Groupe d'études : antisémitisme, Groupe d'études : discriminations et lgbtqi-phobies dans le monde",Vaucluse,Provence-Alpes-Côte d'Azur
 Marine Le Pen,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,,,,,,Pas-de-Calais,Hauts-de-France
 Matthieu Orphelin,people,Assemblée nationale,Développement durable,Non-inscrits,,"Agence de l'environnement et de la maîtrise de l'énergie, Fondation Nicolas Hulot",La République en Marche,,,,Intergroupe de la LICRA,Maine-et-Loire,Pays de la Loire
 Mireille Jouve,people,Sénat,,Non-inscrits,,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
-Nicolas Dupont-Aignan,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,,,204,,,Essonne,Ile-de-France
 Philippe Adnot,people,Sénat,,Non-inscrits,,,Mouvement démocrate,,,,,Aube,Grand Est
-Robert Navarro,people,Sénat,,Non-inscrits,,SNCF,Parti socialiste,,,Grand Orient de France,,Hérault,Occitanie
 Ronan Dantec,people,Sénat,,Non-inscrits,,,Europe Écologie Les Verts,,,,,Loire-Atlantique,Pays de la Loire
 Sébastien Chenu,people,Assemblée nationale,Affaires sociales,Non-inscrits,,,,,,,Groupe d'amitié France-Israël,Nord,Hauts-de-France
 Sébastien Nadot,people,Assemblée nationale,Affaires étrangères,Non-inscrits,,,La République en Marche,,,,"Groupe d'études : conditions d'accueil des migrants, Groupe d'études : discriminations et lgbtqi-phobies dans le monde, Intergroupe de la LICRA",Haute-Garonne,Occitanie
 Stéphane Ravier,people,Sénat,,Non-inscrits,,,,,,,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+Cédric O,people,Gouvernement,"Secrétaire d'État auprès du ministre de l’Économie et des Finances et du ministre de l’Action et des Comptes publics, chargé du Numérique",Numérique,HEC,Safran,Parti socialiste,,,Frère de Delphine O,,,
 Antoine Boscher,people,Gouvernement,Conseiller communication et presse,Numérique,,,,,,,,,
 Antoine Darodes,people,Gouvernement,Directeur de cabinet,Numérique,,"Autorité de régulation des communications électroniques et des postes, Autorité de la concurrence",,,,,,,
 Carole Vachet,people,Gouvernement,Conseillère régulations et transformations numériques,Numérique,ENA,Direction générale du Trésor,,,,,,,
-Cédric O,people,Gouvernement,"Secrétaire d'État auprès du ministre de l’Économie et des Finances et du ministre de l’Action et des Comptes publics, chargé du Numérique",Numérique,HEC,Safran,Parti socialiste,,,Frère de Delphine O,,,
 Florian Humez,people,Gouvernement,"Chef de cabinet, Chargé des relations avec la Presse et des Élus",Numérique,,"RCI Bank and Services, Crédit Coopératif, Caisse d'Epargne",Parti socialiste,,,,,,
 Nicolas Gaudemet,people,Gouvernement,Directeur de cabinet,Numérique,"Polytechnique, Stanford","Fnac, Orange",,,,,,,
 Nicolas Vignolles,people,Gouvernement,"Chef de cabinet, conseiller parlementaire",Numérique,,"France Digitale, Make.org, Euro RSCG",Parti socialiste,,,,,,
 Philippe Englebert,people,Gouvernement,Conseiller entreprises et écosystèmes,Numérique,,"Direction générale du Trésor, Inspection des finances, Goldman Sachs",,,,,,,
 Yolaine Proult,people,Gouvernement,Conseillère innovation publique et inclusion numérique,Numérique,Sciences Po Paris,"BETC, Pepsi",,,,,,,
-Afif Lazrak,people,Gouvernement,"Conseiller en charge des affaires régaliennes, de l'action publique et de la culture",Outre-Mer,,,,,,,,,
+Raphaëlle Séguin,people,Gouvernement,"Conseillère chargée du budget, de l'investissement public, du logement, du développement territorial et des infrastructures maritimes",Outre-Mer,,,,,,Aucune information en ligne,,,
 Annick Girardin,people,Gouvernement,Ministre des outre-mer,Outre-Mer,,,"Parti radical de gauche, Cap sur l'avenir",,377,,Intergroupe de la LICRA,,
+Afif Lazrak,people,Gouvernement,"Conseiller en charge des affaires régaliennes, de l'action publique et de la culture",Outre-Mer,,,,,,,,,
 Brice Blondel,people,Gouvernement,Directeur adjoint de cabinet,Outre-Mer,ENA,Cour des comptes,,,,,,,
 Eric Cayol,people,Gouvernement,"Chef de cabinet, chargé de l'éducation",Outre-Mer,,,,,,,,,
 Fabrice Thibier,people,Gouvernement,"Conseiller chargé de l'économie, des entreprises, de l'agriculture et des affaires européennes",Outre-Mer,,EY,,,,,,,
 Gaëlle Nerbard,people,Gouvernement,"Conseillère chargée des affaires sociales, de la santé, de l'emploi, de la jeunesse et des sports",Outre-Mer,,,,,,,,,
-Raphaëlle Séguin,people,Gouvernement,"Conseillère chargée du budget, de l'investissement public, du logement, du développement territorial et des infrastructures maritimes",Outre-Mer,,,,,,Aucune information en ligne,,,
 Sandra Reviriego,people,Gouvernement,"Conseillère parlementaire, en charge des relations avec les élus, des associations, de la jeunesse et du sport",Outre-Mer,,Conseil Régional Ile de France,Parti socialiste,,,,,,
 Thomas Degos,people,Gouvernement,Directeur de cabinet,Outre-Mer,ENA,,Les Républicains,,,,,,
+Lionel Choukroun,people,Gouvernement,"Chef de cabinet, conseiller politique et affaires réservées",Porte-parole du gouvernement,,"Alstom, France Télévisions",,,,"Judaïsme, Homosexuel",,,
+Marianne Zalc-Müller,people,Gouvernement,Conseillère spéciale,Porte-parole du gouvernement,Sciences Po Paris,,Parti socialiste,,444,,,,
 Clara Koenig,people,Gouvernement,Conseillère,Porte-parole du gouvernement,"Sciences Po Paris, HEC",,,,,,,,
 Constantin De Salvatore,people,Gouvernement,Conseiller,Porte-parole du gouvernement,,,Parti socialiste,,,,,,
 Laurence Tison-Vuillaume,people,Gouvernement,Directrice de cabinet,Porte-parole du gouvernement,"HEC, ENA",,,,,,,,
-Lionel Choukroun,people,Gouvernement,"Chef de cabinet, conseiller politique et affaires réservées",Porte-parole du gouvernement,,"Alstom, France Télévisions",,,,"Judaïsme, Homosexuel",,,
-Marianne Zalc-Müller,people,Gouvernement,Conseillère spéciale,Porte-parole du gouvernement,Sciences Po Paris,,Parti socialiste,,444,,,,
 Nicolas Escoulan,people,Gouvernement,Directeur de cabinet ,Porte-parole du gouvernement,,"TF1, Canal+, Europe 1",,,,,,,
 Quitterie Lemasson,people,Gouvernement,Conseillère presse et porte-parolat,Porte-parole du gouvernement,,Mairie de Paris,,,,,,,
 Siane de Camas,people,Gouvernement,Conseillère communication digitale et porte-parolat,Porte-parole du gouvernement,Sciences Po Paris,,,,,,,,
 Sibeth Ndiaye,people,Gouvernement,"Secrétaire d'État auprès du Premier ministre, porte-parole du Gouvernement",Porte-parole du gouvernement,,LMDE,Parti socialiste,,,,,,
+Charles-Henri Weymuller,people,Gouvernement,Conseiller technique macro-économie [et politiques commerciales],Premier Ministre,"Polytechnique, Mines ParisTech, Harvard","FMI, PSA, Morgan Stanley, FED",,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
+Jennifer Moreau,people,Gouvernement,Conseillère technique politiques de développement et climat,Premier Ministre,Sciences Po Paris,"OCDE, Commission européenne",,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
+Jimmy Brun,people,Gouvernement,Conseiller technique transports,Premier Ministre,Polytechnique,Commission européenne,,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
+Jonathan Nussbaumer,people,Gouvernement,"Conseiller technique industrie, commerce et artisanat",Premier Ministre,"Polytechnique, Mines ParisTech",L'Oréal,,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
+Laurent Martel,people,Gouvernement,"Conseiller fiscalité, prélèvements obligatoires et participations publiques",Premier Ministre,"Sciences Po Paris, ENA",,Parti socialiste,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
+Marguerite Cazeneuve,people,Gouvernement,Conseillère technique protection sociale et comptes sociaux,Premier Ministre,HEC,McKinsey & Company,Parti socialiste,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
+Tristan Barrès,people,Gouvernement,Conseiller technique logement,Premier Ministre,,,Parti socialiste,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
+Grégory-Hugues Frély,people,Gouvernement,Conseiller technique sécurité intérieure,Premier Ministre,,,,,,Aucune information en ligne,,,
+Mohamed Hamrouni,people,Gouvernement,Chef adjoint de cabinet,Premier Ministre,,"TF1, Gemalto",Les Républicains,,,Islam,,,
+Constance Bensussan,people,Gouvernement,"Conseillère technique inclusion, égalité femmes hommes et citoyenneté",Premier Ministre,"Sciences Po Paris, ENA, Lomonosov","LCL, DILCRA",,,,Judaïsme,,,
+Eve Zuckerman,people,Gouvernement,Conseillère technique communication digitale,Premier Ministre,,"Food & Water Watch, Organizing for Action, 270 Strategies, Democrats Abroad, Le Figaro",Les Républicains,,,Judaïsme,,,
+Maïa Wirgin,people,Gouvernement,"Conseillère culture, communication, régulation numérique (chef de pôle)",Premier Ministre,ENA (promotion Simone Veil),"Radio France, Public Sénat, Cour des comptes, Mairie de Paris",,,,Judaïsme,,,
+Nathanaël Mason-Schuler,people,Gouvernement,Conseiller technique financement de l'économie et investissements,Premier Ministre,"Sciences Po Paris, ENA (promotion Jean-Jacques Rousseau), Harvard",Institut de l'Entreprise,,,,Judaïsme ?,,,
+Daniel Zielinski,people,Gouvernement,Conseiller technique jeunesse et sports,Premier Ministre,,,Parti socialiste,,,Judaïsme ? Nom souvent porté par des juifs askhénazes,,,
+Francois-Antoine Mariani,people,Gouvernement,Conseiller technique politiques contractuelles territoriales,Premier Ministre,,,Les Républicains,,,Pas sûr pour Les Républicains,,,
+Emmanuel Lenain,people,Gouvernement,Conseiller diplomatique (chef de pôle),Premier Ministre,"ENA, ESSEC, Sciences Po Paris",,,,,Young Leaders 2010,,,
 Adrien Caillerez,people,Gouvernement,Conseiller technique parlementaire,Premier Ministre,,,Les Républicains,,,,,,
 Alexandra Ruiz,people,Gouvernement,Conseillère affaires réservées,Premier Ministre,,,,,,,,,
 Anne Clerc,people,Gouvernement,Chef de cabinet,Premier Ministre,,,"Mouvement démocrate, Les Républicains",,,,,,
@@ -1094,46 +1109,31 @@ Benoît Planchard,people,Gouvernement,Conseiller technique parlementaire,Premier
 Benoît Ribadeau-Dumas,people,Gouvernement,Directeur de cabinet,Premier Ministre,"Polytechnique, ENA (promotion Marc Bloch)","Zodiac Aerospace, CGG, Thales",Les Républicains,,,,,,
 Célia Cauquil-Tellechea,people,Gouvernement,Conseillère technique parlementaire,Premier Ministre,,,Parti socialiste,,,,,,
 Charles Hufnagel,people,Gouvernement,Conseiller communication,Premier Ministre,Sciences Po Paris,"Orano, Saint-Gobain",Les Républicains,,,,,,
-Charles-Henri Weymuller,people,Gouvernement,Conseiller technique macro-économie [et politiques commerciales],Premier Ministre,"Polytechnique, Mines ParisTech, Harvard","FMI, PSA, Morgan Stanley, FED",,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
 Charlotte Caubel,people,Gouvernement,Conseillère justice (chef de pôle),Premier Ministre,"ENM, Sciences Po Paris",Tracfin,,,,,,,
 Charlotte Mailly,people,Gouvernement,"Chef de cabinet adjointe, chef du secrétariat particulier",Premier Ministre,,Hubert Védrine Conseil,Les Républicains,,,,,,
-Constance Bensussan,people,Gouvernement,"Conseillère technique inclusion, égalité femmes hommes et citoyenneté",Premier Ministre,"Sciences Po Paris, ENA, Lomonosov","LCL, DILCRA",,,,Judaïsme,,,
 Cyrille Reboul,people,Gouvernement,"Conseiller technique entreprises, attractivité et export",Premier Ministre,HEC,"Webedia, Procter & Gamble",,,,,,,
 Damien Cazé,people,Gouvernement,"Conseiller écologie, transports, énergie, logement et agriculture (chef de pôle)",Premier Ministre,"ENA, ESSEC, Sciences Po Paris",,,,,,,,
-Daniel Zielinski,people,Gouvernement,Conseiller technique jeunesse et sports,Premier Ministre,,,Parti socialiste,,,Judaïsme ? Nom souvent porté par des juifs askhénazes,,,
 Delphine Besson,people,Gouvernement,Conseillère technique parlementaire,Premier Ministre,,,Les Républicains,,,,,,
 Édouard Philippe,people,Gouvernement,Premier Ministre,Premier Ministre,"Sciences Po Paris, ENA (promotion Marc Bloch)",Orano,Les Républicains,,,,,,
 Édouard Solier,people,Gouvernement,"Conseiller technique, discours",Premier Ministre,"HEC, Sciences Po Paris",,Les Républicains,,,,,,
-Emmanuel Lenain,people,Gouvernement,Conseiller diplomatique (chef de pôle),Premier Ministre,"ENA, ESSEC, Sciences Po Paris",,,,,Young leaders 2010,,,
 Eric Jalon,people,Gouvernement,Conseiller affaires intérieures (chef de pôle) ,Premier Ministre,"ENA (promotion Valmy), ENS",,Les Républicains,,,,,,
 Etienne Ranaivoson,people,Gouvernement,Conseiller technique affaires européennes,Premier Ministre,,,,,,,,,
-Eve Zuckerman,people,Gouvernement,Conseillère technique communication digitale,Premier Ministre,,"Food & Water Watch, Organizing for Action, 270 Strategies, Democrats Abroad, Le Figaro",Les Républicains,,,Judaïsme,,,
 Fanny Le Luel,people,Gouvernement,Conseillère parlementaire (chef de pôle),Premier Ministre,,,Union des démocrates et indépendants,,,,,,
 Florence Hermite,people,Gouvernement,Conseillère technique justice,Premier Ministre,"Sciences Po Paris, LSE",,,,,,,,
 Florence Rognard,people,Gouvernement,Conseillère technique parlementaire,Premier Ministre,,,Parti socialiste,,,,,,
 Francis Decoux,people,Gouvernement,Conseiller technique relations avec les élus,Premier Ministre,,,"Démocratie Libérale, Les Républicains",,,,,,
 Franck Morel,people,Gouvernement,"Conseiller relations sociales, travail, emploi, formation professionnelle",Premier Ministre,"ENA, HEC",,Les Républicains,,,,,,
 Franck Von Lennep,people,Gouvernement,"Conseiller santé, protection sociale, politiques sociales (chef de pôle)",Premier Ministre,,,,,,,,,
-Francois-Antoine Mariani,people,Gouvernement,Conseiller technique politiques contractuelles territoriales,Premier Ministre,,,Les Républicains,,,Pas sûr pour Les Républicains,,,
 Géraldine Dolléans,people,Gouvernement,Conseillère technique discours,Premier Ministre,ENS,,,,,,,,
 Gilles Boyer,people,Gouvernement,Conseiller auprès du Premier ministre,Premier Ministre,,"Groupe Casino, M6",Les Républicains,,,,,,
-Grégory-Hugues Frély,people,Gouvernement,Conseiller technique sécurité intérieure,Premier Ministre,,,,,,Aucune information en ligne,,,
 Guillaume Couillard,people,Gouvernement,Conseiller technique santé,Premier Ministre,Polytechnique,"Hospices Civils de Lyon, Sécurité sociale, Direction générale de la modernisation de l'Etat",,,,,,,
 Jean-Baptiste Minato,people,Gouvernement,Conseiller technique budget,Premier Ministre,Polytechnique,BNP Paribas,,,,,,,
-Jennifer Moreau,people,Gouvernement,Conseillère technique politiques de développement et climat,Premier Ministre,Sciences Po Paris,"OCDE, Commission européenne",,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
-Jimmy Brun,people,Gouvernement,Conseiller technique transports,Premier Ministre,Polytechnique,Commission européenne,,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
-Jonathan Nussbaumer,people,Gouvernement,"Conseiller technique industrie, commerce et artisanat",Premier Ministre,"Polytechnique, Mines ParisTech",L'Oréal,,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
 Julie Creuseveau,people,Gouvernement,Conseillère technique presse,Premier Ministre,,,Les Républicains,,,,,,
 Julien Turenne,people,Gouvernement,Conseiller technique agriculture,Premier Ministre,,,,,,,,,
-Laurent Martel,people,Gouvernement,"Conseiller fiscalité, prélèvements obligatoires et participations publiques",Premier Ministre,"Sciences Po Paris, ENA",,Parti socialiste,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
-Maïa Wirgin,people,Gouvernement,"Conseillère culture, communication, régulation numérique (chef de pôle)",Premier Ministre,ENA (promotion Simone Veil),"Radio France, Public Sénat, Cour des comptes, Mairie de Paris",,,,Judaïsme,,,
-Marguerite Cazeneuve,people,Gouvernement,Conseillère technique protection sociale et comptes sociaux,Premier Ministre,HEC,McKinsey & Company,Parti socialiste,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
 Marianne Lucidi,people,Gouvernement,"Conseillère technique fonction publique, réforme de l'État",Premier Ministre,"Sciences Po Paris, ENS, ENA",,,,,,,,
 Marie Reynier,people,Gouvernement,"Conseillère éducation, enseignement supérieur, jeunesse et sports (chef de pôle)",Premier Ministre,,Arts et Métiers ParisTech,,,,,,,
 Mélanie Villiers,people,Gouvernement,Conseillère technique collectivités territoriales et aménagement du territoire,Premier Ministre,ENA,Commission européenne,,,,,,,
-Mohamed Hamrouni,people,Gouvernement,Chef adjoint de cabinet,Premier Ministre,,"TF1, Gemalto",Les Républicains,,,Islam,,,
 Mohammed Adnène Trojette,people,Gouvernement,Conseiller technique numérique,Premier Ministre,"ENA, Sciences Po Paris, Ecole centrale de Paris","Cour des comptes, Commission européenne",,,,,,,
-Nathanaël Mason-Schuler,people,Gouvernement,Conseiller technique financement de l'économie et investissements,Premier Ministre,"Sciences Po Paris, ENA (promotion Jean-Jacques Rousseau), Harvard",Institut de l'Entreprise,,,,Judaïsme ?,,,
 Nolwenn Chouffot,people,Gouvernement,Chargée de mission auprès des conseillers pour les affaires intérieures,Premier Ministre,,,,,,,,,
 Olivier Courson,people,Gouvernement,"Conseiller culture, communication, régulation numérique (chef de pôle)",Premier Ministre,ENA,Canal+,Parti socialiste,,,,,,
 Pascal Confavreux,people,Gouvernement,Conseiller technique diplomatie économique,Premier Ministre,"Sciences Po Paris, ENS, ENA",Groupe ADP,,,,,,,
@@ -1143,14 +1143,19 @@ Stephen Marchisio,people,Gouvernement,Conseiller technique affaires stratégique
 Sylvie Corréard,people,Gouvernement,Conseillère technique culture et communication,Premier Ministre,,"DIRE, Fémis",Parti socialiste,,,,,,
 Thomas Fatome,people,Gouvernement,Directeur adjoint de cabinet,Premier Ministre,"ENA (promotion Averroès), HEC",Sécurité Sociale,Les Républicains,,,,,,
 Thomas Lombes,people,Gouvernement,Conseiller technique recherche innovation,Premier Ministre,"ENS, Polytechnique, Corps des mines","Orano, Oxford University",,,,,,,
-Tristan Barrès,people,Gouvernement,Conseiller technique logement,Premier Ministre,,,Parti socialiste,,,À la fois au cabinet de la Présidence et du Premier-Ministre,,,
 Victor Pace,people,Gouvernement,Conseiller technique presse,Premier Ministre,LSE,"Brunswick Group, AXA",,,,,,,
 Xavier Brunetière,people,Gouvernement,Conseiller outre-mer (adjoint au chef de pôle),Premier Ministre,"Sciences Po Paris, ENA",,Les Républicains,,,,,,
 Xavier Chinaud,people,Gouvernement,Conseiller relations politiques et relations avec les élus (chef de pôle),Premier Ministre,,ESL & Network,"Démocratie Libérale, Les Républicains",,,,,,
 Zélia Césarion,people,Gouvernement,Conseillère presse,Premier Ministre,,,Les Républicains,,,,,,
-Alexandre Adam,people,Gouvernement,Conseiller technique Europe,Présidence,,,,,,Judaïsme ? Il est strasbourgeois,,,
+Marie Philippe,people,Gouvernement,Conseillère technique Afrique du Nord et Moyen-Orient,Présidence,,Organisation des Nations unies,,,,Aucune information en ligne,,,
+Stéphane Sejourné,people,Gouvernement,Conseiller Politique,Présidence,,"L'Alliance 7, Mairie de Paris",Parti socialiste,,,Homosexuel pacsé avec Gabriel Attal,,,
 Alexis Kohler,people,Gouvernement,Secrétaire général de la Présidence,Présidence,"Sciences Po Paris, ENA (promotion Averroès), ESSEC",,Parti socialiste,,442,Judaïsme,,,
 Alexis Zajdenweber,people,Gouvernement,"Conseiller économie, finances, industrie",Présidence,"Sciences Po Paris, ENA","Direction générale du Trésor, Agence des participations de l’État",Parti socialiste,,,Judaïsme,,,
+David Amiel,people,Gouvernement,Conseiller,Présidence,ENS,,Parti socialiste,,,Judaïsme,,,
+Soria Blatmann,people,Gouvernement,"Conseillère technique droits humains, francophonie, rayonnement culturel, société civile",Présidence,ENS,"Mairie de Paris, AIDES, Reporters sans frontières RSF",Parti socialiste,,,Judaïsme ?,,,
+Alexandre Adam,people,Gouvernement,Conseiller technique Europe,Présidence,,,,,,Judaïsme ? Il est strasbourgeois,,,
+Jean Salomon,people,Gouvernement,Administration et Conservation des Résidences Présidentielles,Présidence,,Brigade de sapeurs-pompiers de Paris,,,,Judaïsme ? Le nom de famille Salomon est apparemment fréquent en Haute-Bretagne...,,,
+Emmanuel Macron,people,Gouvernement,Président de la République,Présidence,ENA (promotion Léopold Sédar Senghor),Rothschild & Cie,Parti socialiste,,346,,,,
 Alice Rufo,people,Gouvernement,"Conseillère Asie, Russie, Caucase, Turquie, Balkans, Réfugiés",Présidence,"ENS, ENA",,,,,,,,
 Amaury Desrivières,people,Gouvernement,Aide de camp,Présidence,,,,,,,,,
 Anne de Bayser,people,Gouvernement,Secrétaire générale adjointe,Présidence,ENA,,Parti socialiste,,,,,,
@@ -1166,12 +1171,10 @@ Bruno Roger-Petit,people,Gouvernement,"Conseiller, porte-parole",Présidence,Sci
 Claudia Ferrazzi,people,Gouvernement,Conseillère culture et communication,Présidence,ENA,"Académie de France à Rome - Villa Médicis, Musée du Louvre, Boston Consulting Group, Capgemini",,,,,,,
 Clément Beaune,people,Gouvernement,Conseiller Europe et G20,Présidence,"Sciences Po Paris, ENA",Groupe ADP,Parti socialiste,,,,,,
 Cyril Mourin,people,Gouvernement,"Conseiller sport, JO 2024, engagement associatif",Présidence,,,Parti socialiste,,,,,,
-David Amiel,people,Gouvernement,Conseiller,Présidence,ENS,,Parti socialiste,,,Judaïsme,,,
 Diane Simiu,people,Gouvernement,Conseillère technique écologie,Présidence,"Polytechnique, Berkeley","ICF, PricewaterhouseCoopers",,,,,,,
 Didier Calizzano,people,Gouvernement,Télécommunications et Informatique,Présidence,,Direction générale des douanes,,,,,,,
 Elizabeth Dobelle,people,Gouvernement,Protocole,Présidence,,,,,,,,,
 Emmanuel Bonne,people,Gouvernement,"Conseiller diplomatique, sherpa G20",Présidence,,,Parti socialiste,,,,,,
-Emmanuel Macron,people,Gouvernement,Président de la République,Présidence,ENA (promotion Léopold Sédar Senghor),Rothschild & Cie,Parti socialiste,,346,,,,
 Emmanuel Miquel,people,Gouvernement,"Conseiller entreprise, attractivité et export",Présidence,"HEC, Sciences Po Paris","BC Partners,  Paribas, JPMorgan Chase",,,,,,,
 Éric Bio-Farina,people,Gouvernement,Directeur de la sécurité,Présidence,,,,,,,,,
 Étienne de Gonneville,people,Gouvernement,Conseiller affaires stratégiques,Présidence,,,,,,,,,
@@ -1183,7 +1186,6 @@ François-Xavier Lauch,people,Gouvernement,Chef de cabinet,Présidence,,,,,,,,,
 Geoffroy Lechevalier,people,Gouvernement,Correspondance Présidentielle (par intérim),Présidence,,,,,,,,,
 Ismaël Emelien,people,Gouvernement,Conseiller spécial,Présidence,,Havas,Parti socialiste,,,,,,
 Jacques Fayard,people,Gouvernement,Adjoint au chef de l’état-major particulier,Présidence,,"État-Major des Armées, Marine Nationale",,,,,,,
-Jean Salomon,people,Gouvernement,Administration et Conservation des Résidences Présidentielles,Présidence,,Brigade de sapeurs-pompiers de Paris,,,,Judaïsme ? Le nom de famille Salomon est apparemment fréquent en Haute-Bretagne...,,,
 Jean-Christophe Perrochon,people,Gouvernement,Médecin-chef de la présidence de la République,Présidence,,,,,,,,,
 Jean-Marc Berthon,people,Gouvernement,"Conseiller pour les politiques de développement, le climat, la francophonie, les droits de l'Hoet la société civile",Présidence,Sciences Po Paris,,,,,,,,
 Jérôme Léonnet,people,Gouvernement,Coordonnateur adjoint du renseignement et de la lutte contre le terrorisme,Présidence,,,,,,,,,
@@ -1192,7 +1194,6 @@ Julien Tassy,people,Gouvernement,Communication numérique,Présidence,,Warner Br
 Laurent Hottiaux,people,Gouvernement,"Conseiller intérieur, sécurité",Présidence,"ENA (Averroès), ESSEC",Commission européenne,Les Républicains,,,,,,
 Marie Audouard,people,Gouvernement,"Conseillère technique Afrique, relations bilatérales",Présidence,"ENA, Sciences Po Paris",,,,,,,,
 Marie Fontanel,people,Gouvernement,Conseillère solidarités et santé,Présidence,"ENA (promotion Léopold Sédar Senghor), HEC",Musée du quai Branly,,,,,,,
-Marie Philippe,people,Gouvernement,Conseillère technique Afrique du Nord et Moyen-Orient,Présidence,,Organisation des Nations unies,,,,Aucune information en ligne,,,
 Nicolas Jegou,people,Gouvernement,Conseiller technique Europe,Présidence,Polytechnique,"Commission européenne, Direction générale du Trésor, INSEE, Agence Française de Développement",,,,,,,
 Patricia Jannin,people,Gouvernement,Ressources Humaines et Finances,Présidence,,,,,,,,,
 Patrick Strzoda,people,Gouvernement,Directeur de cabinet,Présidence,ENA (promotion Léonard de Vinci),,Parti socialiste,,,,,,
@@ -1207,10 +1208,8 @@ Rodrigue Furcy,people,Gouvernement,Chef de cabinet adjoint,Présidence,ENA,Mairi
 Rose-Marie Minault,people,Gouvernement,Décorations,Présidence,,,,,,,,,
 Soazig de La Moissonnière,people,Gouvernement,Photos,Présidence,,Tilder,Mouvement démocrate,,,,,,
 Sonya Djemni-Wagner,people,Gouvernement,Conseillère Justice,Présidence,,,Parti socialiste,,,,,,
-Soria Blatmann,people,Gouvernement,"Conseillère technique droits humains, francophonie, rayonnement culturel, société civile",Présidence,ENS,"Mairie de Paris, AIDES, Reporters sans frontières RSF",Parti socialiste,,,Judaïsme ?,,,
 Stanislas Cazelles,people,Gouvernement,Conseiller outre-mer,Présidence,"ENA (promotion Léopold Sédar Senghor), Sciences Po Paris",,Les Républicains,,,,,,
 Stanislas Verpoort,people,Gouvernement,Intendance,Présidence,,Marine Nationale,,,,,,,
-Stéphane Sejourné,people,Gouvernement,Conseiller Politique,Présidence,,"L'Alliance 7, Mairie de Paris",Parti socialiste,,,Homosexuel pacsé avec Gabriel Attal,,,
 Thibaud Normand,people,Gouvernement,Conseiller technique énergie,Présidence,"Polytechnique, Corps des Mines","Total, Renault",,,,,,,
 Thierry Coulhon,people,Gouvernement,"Conseiller enseignement supérieur, recherche et innovation",Présidence,,,Les Républicains,,,,,,
 Valéry Putz,people,Gouvernement,Adjoint au chef de l’état-major particulier,Présidence,,,,,,,,,
@@ -1226,6 +1225,7 @@ Marc Fesneau,people,Gouvernement,"Ministre auprès du Premier ministre, chargé 
 Marie Dousset,people,Gouvernement,Conseillère parlementaire,Relations avec le Parlement,,France Télévisions,Union des démocrates et indépendants,,,,,,
 Thomas Godmez,people,Gouvernement,Conseiller parlementaire,Relations avec le Parlement,Sciences Po Paris,,Parti socialiste,,,,,,
 Adrien Taquet,people,Gouvernement,Secrétaire d'État auprès de la ministre des Solidarités et de la Santé,Santé,Sciences Po Paris,Havas,,,,"Fils de Yvonne Lowenbach, critique théâtrale",Intergroupe de la LICRA,Hauts-de-Seine,Ile-de-France
+Mickaël Benzaqui,people,Gouvernement,Conseiller,Santé,,Fédération Nationale des Etablissements d'Hospitalisation à Domicile,,,,Judaïsme,,,
 Agnès Buzyn,people,Gouvernement,Ministre des solidarités et de la santé,Santé,,"Haute Autorité de santé, Institut de radioprotection et de sûreté nucléaire",,,435,"Judaïsme, Grand Orient de France",,,
 Aline Olié,people,Gouvernement,Conseillère au cabinet du secrétaire d'Etat auprès de la ministre des solidarités et de la santé,Santé,,,,,,,,,
 Aude Muscatelli,people,Gouvernement,"Directrice adjointe de cabinet, solidarités",Santé,"ENS, ENA",Direction générale de la cohésion sociale,,,,,,,
@@ -1243,22 +1243,24 @@ Margaux Bonneau,people,Gouvernement,Conseillère parlementaire,Santé,Sciences P
 Marie Argouarc'h,people,Gouvernement,Chef de cabinet ,Santé,ENA,Commission européenne,,,,,,,
 Marie Daudé,people,Gouvernement,Directrice du cabinet et directrice adjointe du cabinet,Santé,"ENA, Sciences Po Paris","Inspection Generale des Affaires Sociales, Cour des comptes",,,,,,,
 Maxime Boidin,people,Gouvernement,Conseiller,Santé,,,,,,,,,
-Mickaël Benzaqui,people,Gouvernement,Conseiller,Santé,,Fédération Nationale des Etablissements d'Hospitalisation à Domicile,,,,Judaïsme,,,
 Raymond Le Moign,people,Gouvernement,Directeur du cabinet,Santé,,Haute Autorité de santé,Parti socialiste,,,,,,
 Valérie Mazeau-Woynar,people,Gouvernement,Conseillère,Santé,,"INSERM, Institut national du cancer",,,,,,,
 Yann Bubien,people,Gouvernement,"Directeur adjoint de cabinet, santé",Santé,,,Les Républicains,,,,,,
+David Habib,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,Judaïsme,"Groupe d'amitié France-Israël, Intergroupe de la LICRA",Pyrénées-Atlantiques,Nouvelle-Aquitaine
+Régis Juanico,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,Membre de Génération.s,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Intergroupe de la LICRA",Loire,Auvergne-Rhône-Alpes
+Serge Letchimy,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,249,,,Martinique,Martinique
+Valérie Rabault,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,321,,,Tarn-et-Garonne,Occitanie
+Guillaume Garot,people,Assemblée nationale,Développement durable,Socialistes et apparentés,,,,,340,,,Mayenne,Pays de la Loire
 Alain David,people,Assemblée nationale,Affaires étrangères,Socialistes et apparentés,,,,,,,,Gironde,Nouvelle-Aquitaine
 Boris Vallaud,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,ENA (promotion Léopold Sédar Senghor),,,,,,,Landes,Nouvelle-Aquitaine
 Cécile Untermaier,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,,,Saône-et-Loire,Bourgogne-Franche-Comté
 Christian Hutin,people,Assemblée nationale,Affaires étrangères,Socialistes et apparentés,,,,,,,,Nord,Hauts-de-France
 Christine Pires Beaune,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,,,Groupe d'études : conditions d'accueil des migrants,Puy-de-Dôme,Auvergne-Rhône-Alpes
 Christophe Bouillon,people,Assemblée nationale,Développement durable,Socialistes et apparentés,,,,,,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme, Groupe d'études : conditions d'accueil des migrants, Groupe d'études : discriminations et lgbtqi-phobies dans le monde",Seine-Maritime,Normandie
-David Habib,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,Judaïsme,"Groupe d'amitié France-Israël, Intergroupe de la LICRA",Pyrénées-Atlantiques,Nouvelle-Aquitaine
 Dominique Potier,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,,,Groupe d'amitié France-Israël,Meurthe-et-Moselle,Grand Est
 Ericka Bareigts,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,,,,,,,Intergroupe de la LICRA,Réunion,Réunion
 George Pau-Langevin,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Intergroupe de la LICRA,Paris,Ile-de-France
 Gisèle Biémouret,people,Assemblée nationale,Affaires sociales,Socialistes et apparentés,,,,,,,Intergroupe de la LICRA,Gers,Occitanie
-Guillaume Garot,people,Assemblée nationale,Développement durable,Socialistes et apparentés,,,,,340,,,Mayenne,Pays de la Loire
 Hélène Vainqueur-Christophe,people,Assemblée nationale,Développement durable,Socialistes et apparentés,,,,,,,,Guadeloupe,Guadeloupe
 Hervé Saulignac,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,,Intergroupe de la LICRA,Ardèche,Auvergne-Rhône-Alpes
 Jean-Louis Bricout,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,,,,Aisne,Hauts-de-France
@@ -1272,33 +1274,29 @@ Marie-Noëlle Battistel,people,Assemblée nationale,Affaires économiques,Social
 Marietta Karamanli,people,Assemblée nationale,Lois,Socialistes et apparentés,,,,,,,,Sarthe,Pays de la Loire
 Michèle Victory,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,Ardèche,Auvergne-Rhône-Alpes
 Olivier Faure,people,Assemblée nationale,Défense,Socialistes et apparentés,,,,,,,,Seine-et-Marne,Ile-de-France
-Régis Juanico,people,Assemblée nationale,Affaires culturelles et éducation,Socialistes et apparentés,,,,,,Membre de Génération.s,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Intergroupe de la LICRA",Loire,Auvergne-Rhône-Alpes
-Serge Letchimy,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,249,,,Martinique,Martinique
 Sylvie Tolmont,people,Assemblée nationale,Affaires économiques,Socialistes et apparentés,,,,,,,,Sarthe,Pays de la Loire
-Valérie Rabault,people,Assemblée nationale,Finances,Socialistes et apparentés,,,,,321,,,Tarn-et-Garonne,Occitanie
 Alice Chocheyras,people,Gouvernement,"Conseillère en charge des discours, des relations diplomatiques et des affaires européennes",Sports,,"Mairie de Paris, Mairie de Rouen",Parti socialiste,,,,,,
 Catherine Lallement,people,Gouvernement,"Conseillère auprès de la ministre, chargée de la communication et des relations avec la presse",Sports,,,,,,,,,
 Jean-Philippe Rey,people,Gouvernement,Conseiller budgétaire,Sports,,,,,,,,,
 Karim Herida,people,Gouvernement,Directeur adjoint du cabinet,Sports,,Mairie de Paris,Parti socialiste,,,,,,
-Laurence Lefèvre,people,Gouvernement,Directrice du cabinet,Sports,ENA,"Mairie de Paris, Conseil régional de Picardie, FASILD",Parti socialiste,,,,,,
 Laurent Cellier,people,Gouvernement,Conseiller stratégies et transformations,Sports,,"Fédération Française d'Equitation, Conseil régional d'Auvergne",,,,,,,
 Margaux Pech,people,Gouvernement,"Conseillère parlementaire, chef adjointe de cabinet",Sports,,"Swatch, Coca-Cola",,,,,,,
 Rodolphe Legendre,people,Gouvernement,Conseiller développement et innovation,Sports,,,,,,,,,
 Roxana Maracineanu,people,Gouvernement,Ministre des sports,Sports,,,Parti socialiste,,,,,,
 Sébastien Moreau,people,Gouvernement,Chef de cabinet,Sports,,,Parti socialiste,,,,,,
 Skander Karaa,people,Gouvernement,Conseiller spécial,Sports,,Comité National Olympique et Sportif Français,Parti socialiste,,,,,,
+Deborah De Lieme Abisror,people,Gouvernement,"Chef de cabinet, chargée des relations avec le Parlement",Transition écologique et solidaire,,ADDL Consulting,,,,Judaïsme,,,
+Jack Azoulay,people,Gouvernement,Directeur du cabinet,Transition écologique et solidaire,"ENA, Sciences Po Paris","Chantiers de l'Atlantique, Naval Group, KNDS, Agence des Participations de l'Etat, Peugeot, La Poste, Docapost, MediaPost, Commission européenne",,,,Judaïsme,,,
+Léo Cohen,people,Gouvernement,"Conseiller spécial, chargé des affaires politiques, du Parlement et de la société civile",Transition écologique et solidaire,,,"Parti socialiste, Europe Écologie Les Verts ",,,Judaïsme,,,
+Emmanuelle Wargon,people,Gouvernement,"Secrétaire d’État auprès du ministre d’État, ministre de la Transition écologique et solidaire",Transition écologique et solidaire,"ENA (promotion Marc Bloch), HEC, Sciences Po Paris","Cour des comptes, Danone, Agence Nationale de Sécurité du Médicament et des Produits de Santé",Parti socialiste,,458,"Judaïsme, Eclaireuses et Eclaireurs israélites de France",,,
+Léo Finkel,people,Gouvernement,Conseiller presse et communication,Transition écologique et solidaire,,Havas,Parti socialiste,,,"Judaïsme, Pas sûr pour socialiste",,,
 Baptiste Perrissin-Fabert,people,Gouvernement,Conseiller économie et finances vertes et économie circulaire,Transition écologique et solidaire,,"France Stratégie, CIRED, Banque Mondiale, CEDD",,,,,,,
 Benoît Jourjon,people,Gouvernement,Conseiller santé-environnement et risques,Transition écologique et solidaire,Polytechnique,Total,,,,,,,
 Brune Poirson,people,Gouvernement,"Secrétaire d'État auprès du ministre d'État, ministre de la Transition écologique et solidaire",Transition écologique et solidaire,"Harvard Kennedy School of Government, LSE","AFP, People for Global Transformation, Veolia, Agence Française de Développement, Nesta",,,,,Intergroupe de la LICRA,,
-Deborah De Lieme Abisror,people,Gouvernement,"Chef de cabinet, chargée des relations avec le Parlement",Transition écologique et solidaire,,ADDL Consulting,,,,Judaïsme,,,
 Dominique Gombert,people,Gouvernement,Directeur du cabinet,Transition écologique et solidaire,Corps des Mines,ANSES,,,,,,,
-Emmanuelle Wargon,people,Gouvernement,"Secrétaire d’État auprès du ministre d’État, ministre de la Transition écologique et solidaire",Transition écologique et solidaire,"ENA (promotion Marc Bloch), HEC, Sciences Po Paris","Cour des comptes, Danone, Agence Nationale de Sécurité du Médicament et des Produits de Santé",Parti socialiste,,458,"Judaïsme, Eclaireuses et Eclaireurs israélites de France",,,
 François de Rugy,people,Gouvernement,"Ministre d'État, ministre de la Transition écologique et solidaire",Transition écologique et solidaire,Sciences Po Paris,,"Parti socialiste, Europe Écologie-Les Verts",,,,,,
 Guillem Canneva,people,Gouvernement,Conseiller,Transition écologique et solidaire,Polytechnique,,,,,,,,
-Jack Azoulay,people,Gouvernement,Directeur du cabinet,Transition écologique et solidaire,"ENA, Sciences Po Paris","Chantiers de l'Atlantique, Naval Group, KNDS, Agence des Participations de l'Etat, Peugeot, La Poste, Docapost, MediaPost, Commission européenne",,,,Judaïsme,,,
 Jonas Bayard,people,Gouvernement,Conseiller presse,Transition écologique et solidaire,,Vae Solis Corporate,Les Républicains,,,,,,
-Léo Cohen,people,Gouvernement,"Conseiller spécial, chargé des affaires politiques, du Parlement et de la société civile",Transition écologique et solidaire,,,"Parti socialiste, Europe Écologie Les Verts ",,,Judaïsme,,,
-Léo Finkel,people,Gouvernement,Conseiller presse et communication,Transition écologique et solidaire,,Havas,Parti socialiste,,,"Judaïsme, Pas sûr pour socialiste",,,
 Maëlle Charreau,people,Gouvernement,Chef de cabinet,Transition écologique et solidaire,Sciences Po Paris,"Boston Consulting Group, Danone, EY, Sanofi",,,,,,,
 Nathalie Lhayani,people,Gouvernement,Conseillère Europe,Transition écologique et solidaire,,"Commission européenne, Caisse des Dépôts, EurActiv.fr",Parti socialiste,,,,,,
 Nicole Klein,people,Gouvernement,Directrice du cabinet,Transition écologique et solidaire,ENA (promotion Fernand Braudel),Banque Mondiale,Parti socialiste,,,,,,
@@ -1309,15 +1307,16 @@ Thibault Leclerc,people,Gouvernement,Chef de cabinet,Transition écologique et s
 Thomas Lesueur,people,Gouvernement,Directeur adjoint du cabinet,Transition écologique et solidaire,,,,,,,,,
 Thomas Rossignol,people,Gouvernement,Conseiller diplomatique,Transition écologique et solidaire,"HEC, Sciences Po Paris","UNDP, Les Restos du Cœur, Marine Nationale",Parti socialiste,,,,,,
 Xavier Ploquin,people,Gouvernement,"Conseiller énergie, industrie, innovation",Transition écologique et solidaire,Polytechnique,"Direction générale du Trésor, Total, BNP Paribas",,,,,,,
+Elisabeth Borne,people,Gouvernement,"Ministre auprès du ministre d'État, ministre de la Transition écologique et solidaire, chargée des Transports",Transports,Polytechnique,"SNCF, EIFFAGE, Mairie de Paris, RATP",Parti socialiste,,428,,,,
 Aymeric Chassaing,people,Gouvernement,Conseiller communication et médias,Transports,,,,,,,,,
 Aymeric Lang,people,Gouvernement,Chef de cabinet,Transports,,,,,,,,,
 Benjamin Maurice,people,Gouvernement,Conseiller social,Transports,,,,,,,,,
-Elisabeth Borne,people,Gouvernement,"Ministre auprès du ministre d'État, ministre de la Transition écologique et solidaire, chargée des Transports",Transports,Polytechnique,"SNCF, EIFFAGE, Mairie de Paris, RATP",Parti socialiste,,428,,,,
 Grégoire Koenig,people,Gouvernement,Conseiller en charge des relations avec le Parlement et les élus,Transports,,,,,,,,,
 Jonathan Gindt,people,Gouvernement,Conseiller diplomatique,Transports,,,Parti socialiste,,,,,,
 Julien Dehornoy,people,Gouvernement,Directeur adjoint du cabinet,Transports,Polytechnique,"Banque mondiale, SNCF",,,,,,,
 Marc Papinutti,people,Gouvernement,Directeur de cabinet,Transports,,,,,,,,,
 Yoann La Corte,people,Gouvernement,"Conseiller en charge de l'aérien, du budget et du transport maritime",Transports,,,,,,,,,
+Muriel Pénicaud,people,Gouvernement,Ministre du travail,Travail,,"Business France, Danone, Dassault Systèmes",Parti socialiste,,368,,,,
 Alain Druelles,people,Gouvernement,Conseiller à la formation professionnelle et à l'apprentissage,Travail,,,,,,,,,
 Anne-Solène Roudel,people,Gouvernement,Conseillère presse,Travail,,Pôle emploi,Parti socialiste,,,,,,
 Antoine Foucher,people,Gouvernement,Directeur du cabinet,Travail,Sciences Po Paris,,Les Républicains,,,,,,
@@ -1325,17 +1324,17 @@ Claire Scotton,people,Gouvernement,Directeur du cabinet adjointe,Travail,"ENA, S
 Fanny Forest-Baccialone,people,Gouvernement,Conseillère parlementaire et relations avec les territoires,Travail,,,Parti socialiste,,,,,,
 Guillaume Cravero,people,Gouvernement,Conseiller diplomatique,Travail,LSE,"BusinessEurope, Lemoci, CFDT, Business France, French-American Chamber of Commerce, Le Point",,,,,,,
 Marc Ferracci,people,Gouvernement,Conseiller spécial auprès de la ministre,Travail,"HEC, Sciences Po Paris",,,,,,,,
-Muriel Pénicaud,people,Gouvernement,Ministre du travail,Travail,,"Business France, Danone, Dassault Systèmes",Parti socialiste,,368,,,,
 Patrice Ivon,people,Gouvernement,Conseiller en charge des mutations économiques et de la santé au travail,Travail,,BPI group,Parti socialiste,,,,,,
 Stéphanie Rismont-Wargnier,people,Gouvernement,Conseillère presse et communication,Travail,,"Kronenbourg, Danone",Parti socialiste,,,,,,
 Xavier Geoffroy,people,Gouvernement,Chef de Cabinet,Travail,,"Française des jeux, Conseil Régional Ile de France",Parti socialiste,,,,,,
+Meyer Habib,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,Judaïsme,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'études : antisémitisme, Intergroupe de la LICRA, Groupe d'amitié France-Israël",Français établis hors de France,Français établis hors de France
+Frédérique Dumas,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,"PolyGram, Orange Studio","Mouvement démocrate, Les Centristes, La République en Marche",,,Nom complet : Frédérique Dumas-Zajdela,Groupe d'études : antisémitisme,Hauts-de-Seine,Ile-de-France
 Agnès Firmin Le Bodo,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,Groupe d'études : antisémitisme,Seine-Maritime,Normandie
 André Villiers,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,,Yonne,Bourgogne-Franche-Comté
 Antoine Herth,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,,Bas-Rhin,Grand Est
 Béatrice Descamps,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,,,,,,,Nord,Hauts-de-France
 Christophe Naegelen,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,,,Vosges,Grand Est
 Francis Vercamer,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,,Nord,Hauts-de-France
-Frédérique Dumas,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,"PolyGram, Orange Studio","Mouvement démocrate, Les Centristes, La République en Marche",,,Nom complet : Frédérique Dumas-Zajdela,Groupe d'études : antisémitisme,Hauts-de-Seine,Ile-de-France
 Guy Bricout,people,Assemblée nationale,Développement durable,"UDI, Agir et Indépendants",,,,,,,,Nord,Hauts-de-France
 Jean-Christophe Lagarde,people,Assemblée nationale,Défense,"UDI, Agir et Indépendants",,,,,,,,Seine-Saint-Denis,Ile-de-France
 Jean-Luc Warsmann,people,Assemblée nationale,Lois,"UDI, Agir et Indépendants",,,,,,,,Ardennes,Grand Est
@@ -1343,7 +1342,6 @@ Joachim Son-Forget,people,Assemblée nationale,Affaires étrangères,"UDI, Agir 
 Laure de La Raudière,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,,Eure-et-Loir,Centre-Val de Loire
 Lise Magnier,people,Assemblée nationale,Finances,"UDI, Agir et Indépendants",,,,,,,Intergroupe de la LICRA,Marne,Grand Est
 Maina Sage,people,Assemblée nationale,Lois,"UDI, Agir et Indépendants",,,,,,,,Polynésie Française,Polynésie française
-Meyer Habib,people,Assemblée nationale,Affaires étrangères,"UDI, Agir et Indépendants",,,,,,Judaïsme,"Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France, Groupe d'études : antisémitisme, Intergroupe de la LICRA, Groupe d'amitié France-Israël",Français établis hors de France,Français établis hors de France
 Michel Zumkeller,people,Assemblée nationale,Affaires culturelles et éducation,"UDI, Agir et Indépendants",,,,,,,,Territoire de Belfort,Bourgogne-Franche-Comté
 Nicole Sanquer,people,Assemblée nationale,Affaires sociales,"UDI, Agir et Indépendants",,,,,,,,Polynésie Française,Polynésie française
 Olivier Becht,people,Assemblée nationale,Défense,"UDI, Agir et Indépendants",ENA (promotion Léopold Sédar Senghor),,,,,,,Haut-Rhin,Grand Est
@@ -1358,15 +1356,19 @@ Sophie Auconie,people,Assemblée nationale,Développement durable,"UDI, Agir et 
 Stéphane Demilly,people,Assemblée nationale,Développement durable,"UDI, Agir et Indépendants",,,,,,,Groupe d'amitié France-Israël,Somme,Hauts-de-France
 Thierry Benoit,people,Assemblée nationale,Affaires économiques,"UDI, Agir et Indépendants",,,,,,,,Ille-et-Vilaine,Bretagne
 Vincent Ledoux,people,Assemblée nationale,Finances,"UDI, Agir et Indépendants",,,,,,,Intergroupe de la LICRA,Nord,Hauts-de-France
-Association française des entreprises privées,organization,,,,,,,,,,,,
 ATTAC,organization,,,,,,,,162,,,,
+LICRA,organization,,,,,,,,168,,,,
+CRIF,organization,,,,,,,,"168, 251, 273, 291, 311, 331, 332, 354, 373, 412, 430, 449",,,,
+French-American Foundation,organization,,,,,,,,"271, 272",,,,
+Groupe Bilderberg,organization,,,,,,,,"52, 277, 318, 358",,,,
+Le Siècle,organization,,,,,,,,"77, 78, 79, 112, 113, 114, 115, 116, 118, 120, 153, 154, 155, 156, 157, 158, 249, 250, 252, 328, 344, 345, 365, 384, 385, 386, 391, 427, 431",,,,
+Association française des entreprises privées,organization,,,,,,,,,,,,
 B'nai B'rith,organization,,,,,,,,,,,,
 Beit Haverim,organization,,,,,,,,,,,,
 Carnegie Foundation,organization,,,,,,,,,,,,
 Commission Franco-Américaine Fulbright,organization,,,,,,,,,,,,
 Confrontations Europe,organization,,,,,,,,,,,,
 Conseil Franco-Britannique,organization,,,,,,,,,,,,
-CRIF,organization,,,,,,,,"168, 251, 273, 291, 311, 331, 332, 354, 373, 412, 430, 449",,,,
 En temps réel,organization,,,,,,,,,,,,
 European Coalition for Israel,organization,,,,,,,,,,,,
 European Council on Foreign Relations,organization,,,,,,,,,,,,
@@ -1377,20 +1379,18 @@ Fondation France-Israël,organization,,,,,,,,,,,,
 Fondation Jean-Jaurès,organization,,,,,,,,,,,,
 France China Foundation,organization,,,,,,,,,,,,
 Fraternelle parlementaire,organization,,,,,,,,,,,,
-French-American Foundation,organization,,,,,,,,"271, 272",,,,
 German Marshall Fund,organization,,,,,,,,,,,,
 Grand Orient de France,organization,,,,,,,,,,,,
-Groupe Bilderberg,organization,,,,,,,,"52, 277, 318, 358",,,,
 Institut Montaigne,organization,,,,,,,,,,,,
 IRIS,organization,,,,,,,,,,,,
 La Fabrique Écologique,organization,,,,,,,,,,,,
 Laboratoire de l'égalité,organization,,,,,,,,,,,,
-Le Siècle,organization,,,,,,,,"77, 78, 79, 112, 113, 114, 115, 116, 118, 120, 153, 154, 155, 156, 157, 158, 249, 250, 252, 328, 344, 345, 365, 384, 385, 386, 391, 427, 431",,,,
 Les Gracques,organization,,,,,,,,,,,,
-LICRA,organization,,,,,,,,168,,,,
 MEDEF,organization,,,,,,,,,,,,
 SOS Racisme,organization,,,,,,,,,,,,
 Terra Nova,organization,,,,,,,,,,,,
 UNEF,organization,,,,,,,,,,,,
 UNI,organization,,,,,,,,,,,,
 WWF,organization,,,,,,,,,,,,
+Grand Orient de France,organization,,,,,,,,,,,,
+Grande Loge nationale française,organization,,,,,,,,,,,,
