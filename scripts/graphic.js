@@ -232,7 +232,7 @@ function renderChart() {
 
         force
           .gravity(0.05)
-          .charge(-150)
+          .charge(-200)
           .linkDistance(function (d) {
               return Math.max(100, 2 * linksCount[d.target.node])
           })
