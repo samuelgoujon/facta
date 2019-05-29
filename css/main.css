@@ -31,15 +31,15 @@ svg.tooltip-shadow-wrapper-svg {
 }
 
 .sidenav {
-    height: 100%;
-    width: 0;
     position: fixed;
+    height: 100%;
+    width: 400px;
     z-index: 1;
     top: 0;
-    right: 0;
+    right: -400px;
     background-color: rgba(0,0,0,0.9);
     overflow-x: hidden;
-    transition: 0.3s;
+    transition: right 0.3s;
     padding-top: 100px;
 }
 
@@ -50,7 +50,6 @@ svg.tooltip-shadow-wrapper-svg {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #fff;
     display: block;
-    transition: 0.3s;
 }
 
 .sidenav .subtitle {

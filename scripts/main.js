@@ -1,12 +1,18 @@
-function imageExists(image_url){
-
+function imageExists(image_url, callback, reject){
     var http = new XMLHttpRequest();
 
-    http.open('HEAD', image_url, false);
+    http.onreadystatechange = function () {
+        if (this.readyState == 4) {
+            if (this.status == 200) {
+                callback();
+            } else if (reject) {
+                reject();
+            }
+        }
+    }
+
+    http.open('HEAD', image_url, true);
     http.send();
-
-    return http.status != 404;
-
 }
 
 function openNav(d) {
@@ -31,12 +37,13 @@ function openNav(d) {
          d3.selectAll('.org').style('display', 'none');
 
          var image_url = 'img/portraits/' + d.node + '.jpg';
-         if (imageExists(image_url)) {
+
+         imageExists(image_url, function () {
             portrait.src = image_url;
             portrait.classList.remove('d-none');
-         } else {
+         }, function () {
             portrait.classList.add('d-none');
-         }
+         });
     }
     else {
         portrait.classList.add('d-none');
@@ -50,11 +57,11 @@ function openNav(d) {
 
         d3.selectAll('.people').style('display', 'none')
     }
-    document.getElementById("sidenav").style.width = "450px";
+    document.getElementById("sidenav").style.right = "0px";
 }
 
 function closeNav(d) {
-    document.getElementById("sidenav").style.width = "0";
+    document.getElementById("sidenav").style.right = "-400px";
 }
 
 d3.queue()
@@ -86,8 +93,8 @@ d3.queue()
             .openNav(openNav)
             .closeNav(closeNav)
             .data({
-                nodes: _nodes,
-                links: _links
+                nodes: JSON.parse(JSON.stringify(_nodes)),
+                links: JSON.parse(JSON.stringify(_links))
             })
             .render();
 

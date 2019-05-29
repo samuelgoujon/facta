@@ -10,7 +10,7 @@ function renderChart() {
 		marginLeft: 5,
     container: 'body',
     radius_org: 16,
-    radius_people: 8,
+    radius_people: 10,
     iconSize: 20,
     nodesFontSize: 12,
     defaultFont: 'Helvetica',
@@ -66,6 +66,9 @@ function renderChart() {
   var textNodePadding = 17;
   var linkColor = '#666';
   var nodeStroke = '#666';
+  var textColorPeople = '#666';
+  var textColorSelected = '#000';
+  var textColorOrg = '#000';
   var linkColorSelected = '#000';
   var nodeColorSelected = '#fff';
   var nodeStrokeSelected = '#000';
@@ -289,6 +292,7 @@ function renderChart() {
         .attr('display', attrs.mode == 'first' ? 'none' : null)
         .attr('font-weight', d => d.type === 'organization' ? 'bold' : null)
         .attr('font-size', attrs.nodesFontSize + 'px')
+        .attr('fill', d => d.type === 'people' ? textColorPeople : textColorOrg)
         .attr('dy', d => (d.radius + textNodePadding) / currentScale)
         .text(d => d.node || d.group)
 
@@ -355,13 +359,11 @@ function renderChart() {
           }
           
           // make pulse effect. Change node's coordinates a little bit and reheat the force.
-          if (attrs.mode == 'second') {
-            var dx = d.x < calc.chartWidth / 2 ? Math.random() * 10 : Math.random() * -10;
-            var dy = d.y < calc.chartHeight / 2 ? Math.random() * 10 : Math.random() * -10;
-            d.x += dx;
-            d.y += dy;
-            force.alpha(.1);
-          }
+          var dx = d.x < calc.chartWidth / 2 ? Math.random() * 10 : Math.random() * -10;
+          var dy = d.y < calc.chartHeight / 2 ? Math.random() * 10 : Math.random() * -10;
+          d.x += dx;
+          d.y += dy;
+          force.alpha(.1);
         })
         .on('mouseover', function (d) {
           var that = d3.select(this);
@@ -380,7 +382,8 @@ function renderChart() {
 
           // show text and make it bold
           text.attr('display', null)
-            .attr('font-weight', 'bold');
+            .attr('font-weight', 'bold')
+            .attr('fill', textColorSelected);
         })
         .on('mouseout', function (d) {
           var that = d3.select(this);
@@ -391,18 +394,23 @@ function renderChart() {
             that.attr('stroke-width', strokeWidth / currentScale);
           }
 
-          if (attrs.mode == 'first' && currentScale < hideTextsOnScaleView1) {
-            text.attr('display', 'none');
-          }
+          var hideTextsOnScale = attrs.mode == 'first' ? hideTextsOnScaleView1 : hideTextsOnScaleView2;
 
-          if (attrs.mode == 'second' && currentScale < hideTextsOnScaleView2) {
-            text.attr('display', 'none');
+          if (currentScale < hideTextsOnScale) {
+            text.attr('display', () => {
+              if (d == selectedNode) {
+                return null;
+              }
+              return 'none';
+            });
           }
 
           if (!d.clicked) {
             if (d.type === 'people') {
               text.attr('font-weight', null)
             }
+
+            text.attr('fill', d.type == 'people' ? textColorPeople : textColorOrg);
 
             that
               .attr('fill', () => {
@@ -470,6 +478,14 @@ function renderChart() {
 
       if (d.type === 'people') {
         text.attr('font-weight', null)
+      }
+
+      var hideTextsOnScale = attrs.mode == 'first' ? hideTextsOnScaleView1 : hideTextsOnScaleView2;
+      if (currentScale < hideTextsOnScale) {
+        texts.attr('display', 'none')
+      }
+      else {
+        texts.attr('display', null)
       }
 
       deselectConnectedLinks(d);
@@ -579,26 +595,49 @@ function renderChart() {
             return d.isImage ? (d.radius * 2 + textNodePadding) / currentScale : (d.radius + textNodePadding) / currentScale;
           })
       })
+
+      var hideTextsOnScale = attrs.mode == 'first' ? hideTextsOnScaleView1 : hideTextsOnScaleView2;
+      if (currentScale < hideTextsOnScale) {
+        texts.attr('display', d => {
+          if (d == selectedNode) {
+            return null;
+          }
+          return 'none';
+        })
+      }
+      else {
+        texts.attr('display', null)
+      }
+
+      texts.attr('fill', d => {
+        if (d == selectedNode) {
+          return textColorSelected;
+        }
+        return d.type == 'people' ? textColorPeople : textColorOrg;
+      })
+      .attr('font-weight', d => {
+        if (d == selectedNode || d.type == 'organization') {
+          return 'bold'
+        }
+        return null;
+      });
     }
 
     function updateStylesOnZoom (scale) {
-      if (attrs.mode == 'first') {
-        if (scale < hideTextsOnScaleView1) {
-          texts.attr('display', 'none')
-        }
-        else {
-          texts.attr('display', null)
-        }
-      } else {
-        if (scale < hideTextsOnScaleView2) {
-          texts.attr('display', 'none')
-        }
-        else {
-          texts.attr('display', null)
-        }
-      }
+      var hideTextsOnScale = attrs.mode == 'first' ? hideTextsOnScaleView1 : hideTextsOnScaleView2;
+      var fontSize = attrs.nodesFontSize / scale;
 
-      let fontSize = attrs.nodesFontSize / scale;
+      if (scale < hideTextsOnScale) {
+        texts.attr('display', d => {
+          if (d == selectedNode) {
+            return null;
+          }
+          return 'none';
+        })
+      }
+      else {
+        texts.attr('display', null)
+      }
 
       texts
         .attr('dy', d => d.isImage ? (d.radius * 2 + textNodePadding) / scale : (d.radius + textNodePadding) / scale)
