@@ -13,7 +13,6 @@ function renderChart() {
     radius_people: 8,
     iconSize: 20,
     nodesFontSize: 12,
-		defaultTextFill: '#2C3E50',
     defaultFont: 'Helvetica',
     color_org: '#cccccc',
     colors:  [
@@ -32,7 +31,7 @@ function renderChart() {
       "#2D3986"
     ],
     data: null,
-    mode: 'first',
+    mode: 'first', // first -> clustered view, second -> force view
     openNav: d => d,
     closeNav: d => d
   };
@@ -56,8 +55,22 @@ function renderChart() {
     }
   ]
 
+  // constants
   var toggle = null;
-  let currentScale = 1;
+  var currentScale = 1;
+  var strokeWidth = 1;
+  var strokeWidthSelected = 2;
+  var padding = 1.5 + strokeWidth; // separation between same-color nodes
+  var clusterPadding = 20; // separation between different-color nodes
+  var resize_ratio = 1.8; // multiply node radius on select
+  var textNodePadding = 17;
+  var linkColor = '#666';
+  var nodeStroke = '#666';
+  var linkColorSelected = '#000';
+  var nodeColorSelected = '#fff';
+  var nodeStrokeSelected = '#000';
+  var hideTextsOnScaleView1 = 2;
+  var hideTextsOnScaleView2 = 0.8;
 
 	//Main chart object
 	var main = function() {
@@ -72,53 +85,52 @@ function renderChart() {
 		calc.chartWidth = attrs.svgWidth - attrs.marginRight - calc.chartLeftMargin;
 		calc.chartHeight = attrs.svgHeight - attrs.marginBottom - calc.chartTopMargin;
 
-    var strokeWidth = 1;
     var clusterNames = attrs.data.nodes
       .filter(x => x.group.length)
       .map(x => x.group.trim())
       .filter((d, i, arr) => arr.indexOf(d) === i);
 
-    var padding = 1.5 + strokeWidth, // separation between same-color nodes
-        clusterPadding = 20, // separation between different-color nodes
-        maxRadius = attrs.radius_org,
+    var maxRadius = attrs.radius_org,
         m = clusterNames.length,
         color = d3.scale.ordinal().range(attrs.colors).domain(d3.range(m)),
         clusters = new Array(m), // The largest node for each cluster.
         nodes_first, links_first = [],
-        nodes_second, links_second;
-
-    let resize_ratio = 1.8;
-    let selectedNode;
+        nodes_second, links_second, selectedNode;
 
     let zoom = d3.behavior.zoom()
       .scaleExtent([0.5, 10])
       .on("zoom", zoomed)
 
     attrs.data.nodes.forEach(d => {
-      var religion = religions.filter(x => x.name == d.religion);
-      d.tag = religion.length ? 'image' : 'circle';
-      d.isImage = religion.length ? true : false;
-      d.imagePath = religion.length ? 'img/' + religion[0].filename : null;
+      var religion = religions.filter(x => x.name == d.religion)[0];
+      d.tag = religion ? 'image' : 'circle';
+      d.isImage = religion ? true : false;
+      d.imagePath = religion ? 'img/' + religion.filename : null;
       d.radius = d.type === 'organization' ? attrs.radius_org : attrs.radius_people;
     });
 
+    // get nodes for first view. ONLY PEOPLE
     nodes_first = attrs.data.nodes
+      .filter(d => d.type == 'people')
       .map(function(x) {
-        if (!x.group.trim().length) return;
         var i = clusterNames.indexOf(x.group);
         var d = Object.assign(x, {
-              cluster: i,
-              radius: attrs.radius_people,
-            });
+          cluster: i,
+          radius: attrs.radius_people,
+        });
 
-        if (!clusters[i] || (d.radius > clusters[i].radius)) clusters[i] = d;
-          return d;
-        }).filter(x => x);
-
+        if (!clusters[i] || (d.radius > clusters[i].radius)) {
+          clusters[i] = d;
+        }
+        return d;
+      })
+    
+    // get nodes for the second view. NODES that are connected to something
     nodes_second = attrs.data.nodes.filter(x => {
       return (attrs.data.links.some(d => d.source === x.node || d.target === x.node));
     });
 
+    // get links for the second view
     links_second = attrs.data.links.map(x => {
       var source = attrs.data.nodes.filter(d => d.node === x.source)[0];
       var target = attrs.data.nodes.filter(d => d.node === x.target)[0];
@@ -129,40 +141,40 @@ function renderChart() {
         type: x.type
       }
     }).filter(x => x.source != null && x.target != null)
+    // end of data calculations
 
-    if (attrs.mode == 'first') {
-      // Use the pack layout to initialize node positions.
-      d3.layout.pack()
-        .sort(null)
-        .size([calc.chartWidth, calc.chartHeight])
-        .children(function(d) { return d.values; })
-        .value(function(d) { return d.radius * d.radius; })
-        .nodes({values: d3.nest().key(function(d) { return d.cluster; }).entries(nodes_first)});
-    }
+    // Use the pack layout to initialize node positions.
+    d3.layout.pack()
+      .sort(null)
+      .size([calc.chartWidth, calc.chartHeight])
+      .children(function(d) { return d.values; })
+      .value(function(d) { return d.radius * d.radius; })
+      .nodes({
+        values: d3.nest().key(d => d.cluster).entries(nodes_first)
+      });
 
     var force = d3.layout.force()
       .nodes(getNodes())
       .links(getLinks())
       .size([calc.chartWidth, calc.chartHeight])
-      .on("tick", tick);
-
-    if (attrs.mode == 'first') {
-      force
-        .gravity(.02)
-        .charge(0)
-    }
+      .gravity(.02)
+      .charge(0)
+      .on("tick", tick)
 
     force.start();
 
+    //////////////////////////////////////////////////////////////
+    ///////////////////////// DRAWING ////////////////////////////
+    //////////////////////////////////////////////////////////////
 		//Add svg
 		var svg = container
-			.patternify({ tag: 'svg', selector: 'svg-chart-container' })
+      .patternify({ tag: 'svg', selector: 'svg-chart-container' })
+      .attr('xmlns:xlink', 'http://www.w3.org/1999/xlink')
+      .attr('xmlns', 'http://www.w3.org/2000/svg')
 			.attr('width', attrs.svgWidth)
 			.attr('height', attrs.svgHeight)
       .attr('font-family', attrs.defaultFont)
-      .attr('xmlns', 'http://www.w3.org/2000/svg')
       .attr('opacity', 0)
-      .attr('xmlns:xlink', 'http://www.w3.org/1999/xlink')
         .call(zoom);
 
 		//Add container g element
@@ -268,37 +280,59 @@ function renderChart() {
     }
 
     function addTexts() {
-      var text = node.patternify({ tag: 'text', selector: 'node-text', data: d => [d] })
+      var text = node.patternify({ 
+          tag: 'text', 
+          selector: 'node-text', 
+          data: d => [d] 
+        })
         .attr('text-anchor', 'middle')
         .attr('display', attrs.mode == 'first' ? 'none' : null)
         .attr('font-weight', d => d.type === 'organization' ? 'bold' : null)
         .attr('font-size', attrs.nodesFontSize + 'px')
-        .attr('dy', d => d.radius + 15)
+        .attr('dy', d => (d.radius + textNodePadding) / currentScale)
         .text(d => d.node || d.group)
 
-      node.patternify({ tag: 'title', selector: 'node-title', data: d => [d] })
+      node.patternify({ 
+          tag: 'title', 
+          selector: 'node-title', 
+          data: d => [d] 
+        })
         .text(d => d.node || d.group)
 
       return text;
     }
 
     function addLinks () {
-      return linksGroup.html("").patternify({ tag: 'line', selector: 'link', data: getLinks() })
-        .attr("stroke-width", 1)
-        .attr("stroke", '#666')
-        .attr("stroke-dasharray", d => d.type == 'dotted' ? 2 : 0);
+      return linksGroup.html("")
+        .patternify({ 
+          tag: 'line', 
+          selector: 'link', 
+          data: getLinks() 
+        })
+        .attr("stroke-width", strokeWidth)
+        .attr("stroke", linkColor)
+        .attr("stroke-dasharray", d => d.type == 'dotted' ? 3 : 0);
     }
 
     function addNodes () {
-      var node = nodesGroup.html("").patternify({ tag: 'g', selector: 'node', data: getNodes() })
-          .attr('data-group', d => d.group)
-          .attr('class', function (d) {
-            var cl = 'node node-' + d.type;
-            return cl;
-          })
+      var node = nodesGroup.html("")
+        .patternify({ 
+          tag: 'g', 
+          selector: 'node', 
+          data: getNodes() 
+        })
+        .attr('data-group', d => d.group)
+        .attr('class', function (d) {
+          var cl = 'node node-' + d.type;
+          return cl;
+        })
 
-      var nd = node.patternify({ tag: 'circle', selector: 'node-circle', data: d => [d] })
-        .style("fill", function(d) {
+      var nd = node.patternify({
+          tag: 'circle', 
+          selector: 'node-circle', 
+          data: d => [d] 
+        })
+        .attr("fill", function(d) {
           if (d.isImage) {
             return '#fff';
           }
@@ -307,11 +341,12 @@ function renderChart() {
           }
           return color(d.cluster);
         })
-        .attr("stroke-width", strokeWidth)
-        .attr("stroke", d => d.isImage ? null : '#666')
-        .attr("r", d => d.radius / currentScale)
         .attr("cursor", 'pointer')
+        .attr("stroke-width", strokeWidth)
+        .attr("stroke", d => d.isImage ? null : nodeStroke)
+        .attr("r", d => d.radius / currentScale)
         .on('click', function(d) {
+          // select parent
           var el = d3.select(this.parentElement);
           if (d.clicked) {
             unselectNode(d, el);
@@ -319,6 +354,7 @@ function renderChart() {
             selectNode(d, el);
           }
           
+          // make pulse effect. Change node's coordinates a little bit and reheat the force.
           if (attrs.mode == 'second') {
             var dx = d.x < calc.chartWidth / 2 ? Math.random() * 10 : Math.random() * -10;
             var dy = d.y < calc.chartHeight / 2 ? Math.random() * 10 : Math.random() * -10;
@@ -328,47 +364,38 @@ function renderChart() {
           }
         })
         .on('mouseover', function (d) {
-          d3.select(this)
-            .style('cursor', 'pointer')
-
-          if (d != selectedNode) {
-            d3.select(this).attr('stroke-width', (strokeWidth + 1) / currentScale);
-          }
-
-          var parent = d3.select(this.parentElement).each(function() {
-            this.parentNode.appendChild(this);
-          });
-
-          var text = parent.select('.node-text')
-
-          text.attr('display', null)
-
-          if (d.type === 'people') {
-            text.attr('font-weight', 'bold')
-          }
-
-          if (!d.clicked) {
-            d3.select(this)
-              .style('fill', '#fff')
-              .style('stroke', '#000')
-          }
-        })
-        .on('mouseout', function (d) {
-          d3.select(this)
-            .style('cursor', null)
-
-          if (d !== selectedNode) {
-            d3.select(this).attr('stroke-width', strokeWidth / currentScale);
-          }
-
+          var that = d3.select(this);
           var parent = d3.select(this.parentElement);
           var text = parent.select('.node-text');
 
-          if (attrs.mode == 'first' && currentScale < 2) {
+          // move current node to the end
+          parent.each(function() {
+            this.parentNode.appendChild(this);
+          });
+
+          // increase stroke width
+          that.attr('stroke-width', strokeWidthSelected / currentScale)
+            .attr('fill', nodeColorSelected)
+            .attr('stroke', nodeStrokeSelected);
+
+          // show text and make it bold
+          text.attr('display', null)
+            .attr('font-weight', 'bold');
+        })
+        .on('mouseout', function (d) {
+          var that = d3.select(this);
+          var parent = d3.select(this.parentElement);
+          var text = parent.select('.node-text');
+
+          if (d !== selectedNode) {
+            that.attr('stroke-width', strokeWidth / currentScale);
+          }
+
+          if (attrs.mode == 'first' && currentScale < hideTextsOnScaleView1) {
             text.attr('display', 'none');
           }
 
-          if (attrs.mode == 'second' && currentScale < 0.8) {
+          if (attrs.mode == 'second' && currentScale < hideTextsOnScaleView2) {
             text.attr('display', 'none');
           }
 
@@ -377,8 +404,8 @@ function renderChart() {
               text.attr('font-weight', null)
             }
 
-            d3.select(this)
-              .style('fill', () => {
+            that
+              .attr('fill', () => {
                 if (d.isImage) {
                   return '#fff';
                 }
@@ -387,7 +414,7 @@ function renderChart() {
                 }
                 return color(d.cluster);
               })
-              .style('stroke', d.isImage ? null : '#666')
+              .attr('stroke', d.isImage ? null : nodeStroke)
           }
         })
 
@@ -395,12 +422,11 @@ function renderChart() {
         .each(function () {
           let that = d3.select(this);
 
-          that.append('image')
+          that.append('image').classed('node-icon', true)
             .attr('xlink:href', d => d.imagePath)
             .attr('width', d => d.radius * 2)
             .attr('height', d => d.radius * 2)
             .attr('transform', d => `translate(${-d.radius}, ${-d.radius})`)
-            .classed('node-icon', true)
             .attr('pointer-events', 'none')
         })
 
@@ -412,12 +438,14 @@ function renderChart() {
         el = node.filter(x => x === d);
       }
 
-      d.radius = d._radius;
+      var circle = el.select('.node-circle');
+      var text = el.select('.node-text');
 
-      var _circle = el.select('circle');
-      var _text = el.select('text');
+      d.radius = d.type === 'organization' ? attrs.radius_org : attrs.radius_people;
+      d.clicked = false;
+      selectedNode = null;
 
-      _circle.style('fill', () => {
+      circle.attr('fill', () => {
         if (d.isImage) {
           return '#fff';
         }
@@ -426,26 +454,25 @@ function renderChart() {
         }
         return color(d.cluster);
       })
-      .style('stroke', d.isImage ? null : '#666')
-
-      d.clicked = false
+      .attr('stroke', d.isImage ? null : nodeStroke)
 
       // reduce radius
-      _circle.attr("r", x => x.radius / currentScale)
-        .classed('selected', false)
+      circle.attr("r", x => x.radius / currentScale)
         .attr('stroke-width', strokeWidth / currentScale);
 
-      _text
-        .attr('dy', d => d.isImage ? (d.radius * 2 + 20) / currentScale : (d.radius + 20) / currentScale)
+      text
+        .attr('dy', d => {
+          if (d.isImage) {
+            return (d.radius * 2 + textNodePadding) / currentScale;
+          }
+          return (d.radius + textNodePadding) / currentScale;
+        })
 
       if (d.type === 'people') {
-        _text.attr('font-weight', null)
+        text.attr('font-weight', null)
       }
 
       deselectConnectedLinks(d);
-
-      selectedNode = null;
-
       attrs.closeNav(d);
     }
 
@@ -454,35 +481,30 @@ function renderChart() {
         el = node.filter(x => x === d);
       }
 
-      var _circle = el.select('circle');
-      var _text = el.select('text');
+      var circle = el.select('.node-circle');
+      var text = el.select('.node-text');
 
-      var newRadius = (d.radius * resize_ratio);
-
-      d._radius = d.radius;
-      d.radius = newRadius;
+      d.radius = (d.radius * resize_ratio);
 
       // clear all other nodes clicked property in order
       getNodes().forEach(d => d.clicked = false);
 
       d.clicked = true;
-
-      // increase radius
-      _circle.attr("r", d.radius / currentScale)
-        .classed('selected', true);
-
-      attrs.openNav(d);
-
-      selectConnectedLinks(d);
-
       selectedNode = d;
 
+      // increase radius
+      circle.attr("r", d.radius / currentScale)
+        .attr('fill', nodeColorSelected)
+        .attr('stroke', nodeStrokeSelected);
+
+      text.attr('font-weight', 'bold')
+        .attr('dy', d => {
+          return d.isImage ? (d.radius * 2 + textNodePadding) / currentScale : (d.radius + textNodePadding) / currentScale;
+        });
+
       resetOthersButSelected();
-
-      _circle.style('fill', '#fff')
-        .style('stroke', '#000');
-
-      _text.attr('font-weight', 'bold');
+      selectConnectedLinks(d);
+      attrs.openNav(d);
     }
 
     function selectConnectedLinks (d) {
@@ -498,8 +520,8 @@ function renderChart() {
       link.filter(x => {
         return connectedLinks.indexOf(x) > -1;
       })
-      .attr('stroke-width', 3 / currentScale)
-      .attr('stroke', '#000');
+      .attr('stroke-width', strokeWidthSelected / currentScale)
+      .attr('stroke', linkColorSelected);
     }
 
     function deselectConnectedLinks (d) {
@@ -515,62 +537,60 @@ function renderChart() {
       link.filter(x => {
         return connectedLinks.indexOf(x) > -1;
       })
-      .attr('stroke-width', 1 / currentScale)
-      .attr('stroke', '#666');
+      .attr('stroke-width', strokeWidth / currentScale)
+      .attr('stroke', linkColor);
     }
 
     function resetOthersButSelected () {
-      var scale = currentScale;
-      link.attr('stroke-width', d => {
-        if (d.source == selectedNode || d.target == selectedNode) {
-          return 2 / scale;
-        }
+      link.filter(d => d.source != selectedNode && d.target != selectedNode)
+        .attr('stroke-width',  strokeWidth / currentScale);
 
-        return 1 / scale;
-      })
+      node.filter(d => d != selectedNode)
+      .each(function () {
+        // reset radius
+        getNodes().filter(d => d != selectedNode)
+          .forEach(d => {
+            d.radius = d.type === 'organization' ? attrs.radius_org : attrs.radius_people;
+          })
 
-      node.each(function () {
         let self = d3.select(this);
-        let circle = self.select('circle')
-        let text = self.select('text');
+        let circle = self.select('.node-circle')
+        let text = self.select('.node-text');
 
         circle.attr('stroke-width', d => {
-          if (d == selectedNode) {
-            return (strokeWidth + 1) / scale;
-          }
-          return strokeWidth / scale;
-        });
-        circle.attr('r', d => {
-          return d.radius / scale;
-        });
-        circle.style('fill', (d) => {
-          if (d.isImage) {
-            return '#fff';
-          }
-          if (d.type === 'organization') {
-            return attrs.color_org;
-          }
-          return color(d.cluster);
-        })
-        .style('stroke', d => d.isImage ? null : '#666')
+            return strokeWidth / currentScale;
+          })
+          .attr('r', d => {
+            return d.radius / currentScale;
+          })
+          .attr('fill', (d) => {
+            if (d.isImage) {
+              return '#fff';
+            }
+            if (d.type === 'organization') {
+              return attrs.color_org;
+            }
+            return color(d.cluster);
+          })
+          .attr('stroke', d => d.isImage ? null : nodeStroke)
 
         text
           .attr('dy', d => {
-            return d.isImage ? (d.radius * 2 + 20) / scale : (d.radius + 20) / scale;
+            return d.isImage ? (d.radius * 2 + textNodePadding) / currentScale : (d.radius + textNodePadding) / currentScale;
           })
       })
     }
 
     function updateStylesOnZoom (scale) {
       if (attrs.mode == 'first') {
-        if (scale < 2) {
+        if (scale < hideTextsOnScaleView1) {
           texts.attr('display', 'none')
         }
         else {
           texts.attr('display', null)
         }
       } else {
-        if (scale < 0.8) {
+        if (scale < hideTextsOnScaleView2) {
           texts.attr('display', 'none')
         }
         else {
@@ -581,30 +601,32 @@ function renderChart() {
       let fontSize = attrs.nodesFontSize / scale;
 
       texts
-          .attr('dy', d => d.isImage ? (d.radius * 2 + 20) / scale : (d.radius + 20) / scale)
-          .attr('font-size', fontSize + 'px')
+        .attr('dy', d => d.isImage ? (d.radius * 2 + textNodePadding) / scale : (d.radius + textNodePadding) / scale)
+        .attr('font-size', fontSize + 'px')
 
       link.attr('stroke-width', d => {
         if (d.source == selectedNode || d.target == selectedNode) {
-          return 3 / scale;
+          return strokeWidthSelected / scale;
         }
 
-        return 1 / scale;
+        return strokeWidth / scale;
       })
 
-      node.each(function () {
+      node.each(function (d) {
         let self = d3.select(this);
         let circle = self.select('circle')
 
-        self
-          .select('image')
-          .attr('width', d => d.radius * 2 / scale)
-          .attr('height', d => d.radius * 2 / scale)
-          .attr('transform', d => `translate(${-d.radius / scale}, ${-d.radius / scale})`)
+        if (d.isImage) {
+          self
+            .select('image')
+            .attr('width', d => d.radius * 2 / scale)
+            .attr('height', d => d.radius * 2 / scale)
+            .attr('transform', d => `translate(${-d.radius / scale}, ${-d.radius / scale})`)
+        }
 
         circle.attr('stroke-width', d => {
           if (d == selectedNode) {
-            return (strokeWidth + 2) / scale;
+            return strokeWidthSelected / scale;
           }
           return strokeWidth / scale;
         });
