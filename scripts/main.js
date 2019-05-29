@@ -1,3 +1,28 @@
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+
+if (isMobile.any()) {
+    document.body.classList.add('mobile');
+}
+
 function imageExists(image_url, callback, reject){
     var http = new XMLHttpRequest();
 
@@ -61,7 +86,11 @@ function openNav(d) {
 }
 
 function closeNav(d) {
-    document.getElementById("sidenav").style.right = "-400px";
+    if (isMobile.any()) {
+        document.getElementById("sidenav").style.right = "-100%";
+    } else {
+        document.getElementById("sidenav").style.right = "-400px";
+    }
 }
 
 d3.queue()
