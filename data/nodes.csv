@@ -15,6 +15,7 @@ Manon Perrière,people,Gouvernement,Conseillère juridique,Action comptes public
 Mathieu Lefevre,people,Gouvernement,Conseiller en charge des relations avec le Parlement,Action comptes publics,,,Les Républicains,,,,,,
 Pauline Hodille,people,Gouvernement,Conseillère en charge des comptes sociaux,Action comptes publics,,,,,,,,,
 Renan Megy,people,Gouvernement,Conseiller finances locales et fonction publique territoriale,Action comptes publics,,"Chambre régionale des comptes, Métropole Européenne de Lille, Grand Lyon, communauté urbaine",,,,,,,
+Matthieu Ellerbach,people,Gouvernement,"Conseiller en charge de la communication, de la presse et de l'opinion",Action comptes publics,Sciences Po Paris,Brunswick Group,Les Républicains,,,,,,
 Jean-Yves Le Drian,people,Gouvernement,Ministre de l'Europe et des affaires étrangères,Affaires étrangères,,,Parti socialiste,,347,Grand Orient de France,,,
 Gaëtan Bruel,people,Gouvernement,"Conseiller diplomatie culturelle, influence et francophonie",Affaires étrangères,"ENS, EHESS","Centre des monuments nationaux, Grasset",Parti socialiste,,,Judaïsme,,,
 Margaux Bergeon-Dars,people,Gouvernement,"Conseillère Europe continentale, Nations unies et organisations internationales, affaires juridiques et consulaires",Affaires étrangères,"ENS, Sciences Po Paris",,,,,Parle l'hébreux... (c'est indiqué sur son profil LinkedIn),,,
@@ -39,7 +40,6 @@ Antonin Ferri,people,Gouvernement,"Conseiller marché intérieur, développement
 Boris Melmoux-Eude,people,Gouvernement,Directeur adjoint de cabinet,Affaires européennes,"ENA, Sciences Po Paris","Haute Autorité de transparence de la vie publique, Cour des comptes",,,,,,,
 Camille Angué,people,Gouvernement,"Cconseillère, chef de cabinet",Affaires européennes,HEC,,,,,,,,
 Christophe Parisot,people,Gouvernement,Directeur adjoint de cabinet et conseiller chargé des affaires européennes,Affaires européennes,,,,,,,,,
-Matthieu Ellerbach,people,Gouvernement,"Conseiller presse, communication et relations avec la société civile",Affaires européennes,Sciences Po Paris,Brunswick Group,Les Républicains,,,,,,
 Niels Gaubert,people,Gouvernement,"Conseiller spécial, communication et presse, en charge des relations avec le Parlement",Affaires européennes,Sciences Po Paris,"Havas, Cour des comptes",Les Républicains,,,,,,
 Vincent Guérend,people,Gouvernement,Directeur de cabinet,Affaires européennes,"ENA (promotion Marc Bloch), Sciences Po Paris",Commission européenne,,,,,,,
 Anne Bronner,people,Gouvernement,"Conseillère en charge de la qualité, de la performance et de la sécurité sanitaire de l'alimentation, du suivi du plan de sortie des produits phytosanitaires, du bien-être animal et de la lutte contre la maltraitance animale",Agriculture,,,,,,,,,
@@ -71,7 +71,7 @@ Koumaran Pajaniradja,people,Gouvernement,"Conseiller aménagement, construction,
 Laetitia Cesari-Giordani,people,Gouvernement,Conseillère financière et budgétaire,Cohésion des Territoires,ENA,"Direction du Budget, Cour des comptes",,,,,,,
 Léa Roussarie,people,Gouvernement,Conseillère parlementaire et relations avec les élus,Cohésion des Territoires,,"Comfluence, Boury Tallon & Associés, BNP Paribas",Union des démocrates et indépendants,,,,,,
 Marc Chappuis,people,Gouvernement,Directeur adjoint du cabinet,Cohésion des Territoires,Sciences Po Paris,,,,,,,,
-Martin Guespereau,people,Gouvernement,Directeur adjoint du cabinet,Cohésion des Territoires,"Polytechnique, MIT",,Les Républicains,,,,,,
+Martin Guespereau,people,Gouvernement,Directeur adjoint du cabinet,Cohésion des Territoires,"Polytechnique, MIT",,Les Républicains,,,La Fabrique Écologique,,,
 Olivier Bouchery,people,Gouvernement,"Conseiller spécial, politiques publiques territoriales, outre-mer",Cohésion des Territoires,Sciences Po Paris,"L'Oréal, EADS",Les Républicains,,,,,,
 Pauline Malet,people,Gouvernement,Conseillère collectivités et institutions locales,Cohésion des Territoires,,,Parti socialiste,,,,,,
 Philippe Court,people,Gouvernement,Directeur de cabinet,Cohésion des Territoires,Polytechnique,,Les Républicains,,,,,,
@@ -528,7 +528,7 @@ Nicole Belloubet,people,Gouvernement,"Garde des sceaux, ministre de la justice",
 Sylvain Laval,people,Gouvernement,Chef de cabinet,Justice,,,Parti socialiste,,,,,,
 Jean-Luc Mélenchon,people,Assemblée nationale,Affaires étrangères,La France insoumise,,,,,295,Grand Orient de France,,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Clémentine Autain,people,Assemblée nationale,Affaires étrangères,La France insoumise,,,,,226,,Groupe d'amitié France-Israël,Seine-Saint-Denis,Ile-de-France
-Alexis Corbière,people,Assemblée nationale,Défense,La France insoumise,,,,,429,,,Seine-Saint-Denis,Ile-de-France
+Alexis Corbière,people,Assemblée nationale,Défense,La France insoumise,,,,,429,Fédération nationale de la libre pensée,,Seine-Saint-Denis,Ile-de-France
 Adrien Quatennens,people,Assemblée nationale,Affaires sociales,La France insoumise,,,,,,,,Nord,Hauts-de-France
 Bastien Lachaud,people,Assemblée nationale,Défense,La France insoumise,,,,,,,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Seine-Saint-Denis,Ile-de-France
 Bénédicte Taurine,people,Assemblée nationale,Affaires économiques,La France insoumise,,,,,,,Groupe d'études : conditions d'accueil des migrants,Ariège,Occitanie
@@ -629,7 +629,7 @@ Catherine Osson,people,Assemblée nationale,Finances,La République en Marche,,,
 Cathy Racon-Bouzon,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,"Pernod-Ricard, Kaporal",,,,,"Groupe d'études : antisémitisme, Intergroupe de la LICRA",Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
 Cécile Muschotti,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,,"Parti communiste français, Parti socialiste",,,,,Var,Provence-Alpes-Côte d'Azur
 Cédric Roussel,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,"Monte Paschi Banque, Quantum Partner",,,,,Groupe d'amitié France-Israël,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
-Cédric Villani,people,Assemblée nationale,Lois,La République en Marche,ENS,"Institut de France, Boston Consulting Group, Academia Europaea",,,,,,Essonne,Ile-de-France
+Cédric Villani,people,Assemblée nationale,Lois,La République en Marche,ENS,"Institut de France, Boston Consulting Group, Academia Europaea",,,,EuropaNova,,Essonne,Ile-de-France
 Célia de Lavergne,people,Assemblée nationale,Affaires économiques,La République en Marche,Polytechnique,,,,,,,Drôme,Auvergne-Rhône-Alpes
 Céline Calvez,people,Assemblée nationale,Affaires culturelles et éducation,La République en Marche,,"TBWA, ISCOM, Consultants sans frontières",Parti socialiste,,,,Intergroupe de la LICRA,Hauts-de-Seine,Ile-de-France
 Cendra Motin,people,Assemblée nationale,Finances,La République en Marche,,,,,,,,Isère,Auvergne-Rhône-Alpes
@@ -737,7 +737,7 @@ Laurence Gayte,people,Assemblée nationale,Développement durable,La République
 Laurence Maillart-Méhaignerie,people,Assemblée nationale,Développement durable,La République en Marche,,,,,,,Groupe d'études : conditions d'accueil des migrants,Ille-et-Vilaine,Bretagne
 Laurence Vanceunebrock-Mialon,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,Allier,Auvergne-Rhône-Alpes
 Laurent Pietraszewski,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,,Nord,Hauts-de-France
-Laurent Saint-Martin,people,Assemblée nationale,Finances,La République en Marche,,"Oséo, Bpifrance, Euronext",,,,,,Val-de-Marne,Ile-de-France
+Laurent Saint-Martin,people,Assemblée nationale,Finances,La République en Marche,,"Oséo, Bpifrance, Euronext",,,,En temps réel,,Val-de-Marne,Ile-de-France
 Laurianne Rossi,people,Assemblée nationale,Développement durable,La République en Marche,,SNCF,Parti socialiste,,,,Intergroupe de la LICRA,Hauts-de-Seine,Ile-de-France
 Lénaïck Adam,people,Assemblée nationale,Affaires étrangères,La République en Marche,Sciences Po Paris,,Parti socialiste guyanais,,,,,Guyane,Guyane
 Liliana Tanguy,people,Assemblée nationale,Affaires étrangères,La République en Marche,Sciences Po Paris,Orange,Divers gauche,,,,,Finistère,Bretagne
@@ -1160,7 +1160,7 @@ Alice Rufo,people,Gouvernement,"Conseillère Asie, Russie, Caucase, Turquie, Bal
 Amaury Desrivières,people,Gouvernement,Aide de camp,Présidence,,,,,,,,,
 Anne de Bayser,people,Gouvernement,Secrétaire générale adjointe,Présidence,ENA,,Parti socialiste,,,,,,
 Anne Plaignaud,people,Gouvernement,Affaires sociales,Présidence,,,,,,,,,
-Anne-Claire Mialot,people,Gouvernement,"Conseillère cohésion des territoires, logement",Présidence,Sciences Po Paris,Cour des comptes,Parti socialiste,,,,,,
+Anne-Claire Mialot,people,Gouvernement,"Conseillère cohésion des territoires, logement",Présidence,Sciences Po Paris,Cour des comptes,Parti socialiste,,,Laboratoire de l'égalité,,,
 Antoine Pellion,people,Gouvernement,"Conseiller énergie, environnement, transports",Présidence,"Mines ParisTech, Corps des Mines, MIT","Enedis, Orano, Total",Parti socialiste,,,,,,
 Arnaud Jolens,people,Gouvernement,Image et évènements,Présidence,,Eurydice,,,,,,,
 Audrey Bourolleau,people,Gouvernement,"Conseillère agriculture, pêche, forêt et développement rural",Présidence,,"Vin & Société, Dream Tank, Bic, France Boissons, Baron Philippe de Rothschild",,,,,,,
@@ -1288,7 +1288,7 @@ Skander Karaa,people,Gouvernement,Conseiller spécial,Sports,,Comité National O
 Deborah De Lieme Abisror,people,Gouvernement,"Chef de cabinet, chargée des relations avec le Parlement",Transition écologique et solidaire,,ADDL Consulting,,,,Judaïsme,,,
 Jack Azoulay,people,Gouvernement,Directeur du cabinet,Transition écologique et solidaire,"ENA, Sciences Po Paris","Chantiers de l'Atlantique, Naval Group, KNDS, Agence des Participations de l'Etat, Peugeot, La Poste, Docapost, MediaPost, Commission européenne",,,,Judaïsme,,,
 Léo Cohen,people,Gouvernement,"Conseiller spécial, chargé des affaires politiques, du Parlement et de la société civile",Transition écologique et solidaire,,,"Parti socialiste, Europe Écologie Les Verts ",,,Judaïsme,,,
-Emmanuelle Wargon,people,Gouvernement,"Secrétaire d’État auprès du ministre d’État, ministre de la Transition écologique et solidaire",Transition écologique et solidaire,"ENA (promotion Marc Bloch), HEC, Sciences Po Paris","Cour des comptes, Danone, Agence Nationale de Sécurité du Médicament et des Produits de Santé",Parti socialiste,,458,"Judaïsme, Eclaireuses et Eclaireurs israélites de France",,,
+Emmanuelle Wargon,people,Gouvernement,"Secrétaire d’État auprès du ministre d’État, ministre de la Transition écologique et solidaire",Transition écologique et solidaire,"ENA (promotion Marc Bloch), HEC, Sciences Po Paris","Cour des comptes, Danone, Agence Nationale de Sécurité du Médicament et des Produits de Santé",Parti socialiste,,458,"Judaïsme, Eclaireuses et Eclaireurs israélites de France, En temps réel",,,
 Léo Finkel,people,Gouvernement,Conseiller presse et communication,Transition écologique et solidaire,,Havas,Parti socialiste,,,"Judaïsme, Pas sûr pour socialiste",,,
 Baptiste Perrissin-Fabert,people,Gouvernement,Conseiller économie et finances vertes et économie circulaire,Transition écologique et solidaire,,"France Stratégie, CIRED, Banque Mondiale, CEDD",,,,,,,
 Benoît Jourjon,people,Gouvernement,Conseiller santé-environnement et risques,Transition écologique et solidaire,Polytechnique,Total,,,,,,,
@@ -1298,7 +1298,7 @@ François de Rugy,people,Gouvernement,"Ministre d'État, ministre de la Transiti
 Guillem Canneva,people,Gouvernement,Conseiller,Transition écologique et solidaire,Polytechnique,,,,,,,,
 Jonas Bayard,people,Gouvernement,Conseiller presse,Transition écologique et solidaire,,Vae Solis Corporate,Les Républicains,,,,,,
 Maëlle Charreau,people,Gouvernement,Chef de cabinet,Transition écologique et solidaire,Sciences Po Paris,"Boston Consulting Group, Danone, EY, Sanofi",,,,,,,
-Nathalie Lhayani,people,Gouvernement,Conseillère Europe,Transition écologique et solidaire,,"Commission européenne, Caisse des Dépôts, EurActiv.fr",Parti socialiste,,,,,,
+Nathalie Lhayani,people,Gouvernement,Conseillère Europe,Transition écologique et solidaire,,"Commission européenne, Caisse des Dépôts, EurActiv.fr",Parti socialiste,,,Confrontations Europe,,,
 Nicole Klein,people,Gouvernement,Directrice du cabinet,Transition écologique et solidaire,ENA (promotion Fernand Braudel),Banque Mondiale,Parti socialiste,,,,,,
 Olivier Alexanian,people,Gouvernement,Conseiller presse et communication,Transition écologique et solidaire,Sciences Po Paris,,,,,,,,
 Pierre Manenti,people,Gouvernement,"Conseiller parlementaire, collectivités territoriales et contrats de transition écologique",Transition écologique et solidaire,,"CliMates, UNFCCC, France Stratégie, Commission européenne",Les Républicains,,,,,,
@@ -1362,14 +1362,11 @@ B'nai B'rith,organization,,,,,,,,,,,,
 Beit Haverim,organization,,,,,,,,,,,,
 Carnegie Foundation,organization,,,,,,,,,,,,
 Commission Franco-Américaine Fulbright,organization,,,,,,,,,,,,
-Confrontations Europe,organization,,,,,,,,,,,,
 Conseil Franco-Britannique,organization,,,,,,,,,,,,
 CRIF,organization,,,,,,,,"168, 251, 273, 291, 311, 331, 332, 354, 373, 412, 430, 449",,,,
-En temps réel,organization,,,,,,,,,,,,
 European Coalition for Israel,organization,,,,,,,,,,,,
 European Council on Foreign Relations,organization,,,,,,,,,,,,
 European Union of Jewish Students,organization,,,,,,,,,,,,
-Fédération nationale de la libre pensée,organization,,,,,,,,,,,,
 Fondation Concorde,organization,,,,,,,,,,,,
 Fondation France-Israël,organization,,,,,,,,,,,,
 Fondation Jean-Jaurès,organization,,,,,,,,,,,,
@@ -1382,8 +1379,6 @@ Grande Loge nationale française,organization,,,,,,,,,,,,
 Groupe Bilderberg,organization,,,,,,,,"52, 277, 318, 358",,,,
 Institut Montaigne,organization,,,,,,,,,,,,
 IRIS,organization,,,,,,,,,,,,
-La Fabrique Écologique,organization,,,,,,,,,,,,
-Laboratoire de l'égalité,organization,,,,,,,,,,,,
 Le Siècle,organization,,,,,,,,"77, 78, 79, 112, 113, 114, 115, 116, 118, 120, 153, 154, 155, 156, 157, 158, 249, 250, 252, 328, 344, 345, 365, 384, 385, 386, 391, 427, 431",,,,
 Les Gracques,organization,,,,,,,,,,,,
 LICRA,organization,,,,,,,,168,,,,
@@ -1393,3 +1388,4 @@ Terra Nova,organization,,,,,,,,,,,,
 UNEF,organization,,,,,,,,,,,,
 UNI,organization,,,,,,,,,,,,
 WWF,organization,,,,,,,,,,,,
+En Temps réel,organization,,,,,,,,,,,,
