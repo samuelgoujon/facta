@@ -363,7 +363,9 @@ function renderChart() {
           var dy = d.y < calc.chartHeight / 2 ? Math.random() * 10 : Math.random() * -10;
           d.x += dx;
           d.y += dy;
-          force.alpha(.1);
+
+          if (attrs.mode !== 'first')
+            force.alpha(.1);
         })
         .on('mouseover', function (d) {
           var that = d3.select(this);
