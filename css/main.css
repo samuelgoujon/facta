@@ -136,6 +136,10 @@ ul.navbar-nav li a {
     line-height: 0;
 }
 
+.navbar-brand > img {
+  max-height: 30px;
+}
+
 .nav-link {
     font-family: 'Oswald', sans-serif;
 }
