@@ -10,14 +10,13 @@ Alexandre Brugère,people,Gouvernement,Conseiller en charge de la réforme de l'
 Louis d'Humières,people,Gouvernement,Conseiller en charge du budget de l'État,Action comptes publics,"HEC, École de guerre",Rothschild (stagiaire),,,,,,,,
 Clément Méric,people,Gouvernement,Conseiller technique en charge des déplacements et de la presse,Action comptes publics,,,,,,,,,,
 Pauline Hodille,people,Gouvernement,Conseillère en charge des comptes sociaux,Action comptes publics,ENA,,,,,,,,,
-Elise Valetoux,people,Gouvernement,Conseillère en charge des relations avec le Parlement et de la fiscalité,Action comptes publics,,Assemblée nationale,,,,,,,,
+Élise Valetoux,people,Gouvernement,Conseillère en charge des relations avec le Parlement et de la fiscalité,Action comptes publics,,Assemblée nationale,,,,,,,,
 Manon Perrière,people,Gouvernement,Conseillère juridique,Action comptes publics,"ENS, Sciences Po Paris, ENA",,,,,,,,,
 Elsa Michonneau,people,Gouvernement,"Conseillère parlementaire, en charge des relations avec les élus et les territoires",Action comptes publics,,"Assemblée nationale  (collaboratrice parlementaire de Bruno Studer et de Olivier Dussopt), Métropole de Lyon, Ministère de la Ville, de la Jeunesse et des Sports, Assemblée nationale (collaboratrice parlementaire de Thierry Braillard, puis de Gilda Hobert)",Parti radical de gauche,,,,,,,
 Lisa Thomas-Darbois,people,Gouvernement,Conseillère technique,Action comptes publics,,"PwC, Acadomia, LCL",,,,,,,,
 Alain Triolle,people,Gouvernement,"Directeur de cabinet, en charge du suivi de la réforme des retraites",Action comptes publics,ENA (promotion Antoine de Saint-Exupéry),,,,,,,,,
 Jérôme Fournel,people,Gouvernement,Directeur du Cabinet,Action comptes publics,"ENA, HEC",FMI,Les Républicains,,,,,,,
 Marine Darnault,people,Gouvernement,"Directrice adjointe de cabinet, en charge de la fonction publique",Action comptes publics,"ENA, ESSEC, Sciences Po Paris","Musée de l'Armée, Réunion des Musées Nationaux, Direction générale de la cohésion sociale",,,,,,,,
-Aurélia Lecourtier-Gegout,people,Gouvernement,Directrice du cabinet,Action comptes publics,ENA (promotion Léopold Sédar Senghor),,,,,,,,,
 Justine Coutard,people,Gouvernement,Directrice du cabinet,Action comptes publics,"Sciences Po Paris, ENA","Groupe ADP, Inspection des finances",,,,,,,,
 Gérald Darmanin,people,Gouvernement,Ministre de l'action et des comptes publics,Action comptes publics,IEP Lille,,Les Républicains,,420,Judaïsme,,,,
 Olivier Dussopt,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Action et des Comptes publics,Action comptes publics,IEP Grenoble,,Parti socialiste,,,Grand Orient de France (pas sûr pour le GODF),Intergroupe de la LICRA,,,
@@ -42,13 +41,14 @@ Luis Vassy,people,Gouvernement,Directeur de cabinet,Affaires étrangères,"ENS, 
 Nicolas Roche,people,Gouvernement,Directeur de cabinet du ministre,Affaires étrangères,"Ecole des Chartes, Sciences Po Paris, ENA",,,,,,,,,
 Jean-Yves Le Drian,people,Gouvernement,Ministre de l'Europe et des affaires étrangères,Affaires étrangères,,,Parti socialiste,,347,Grand Orient de France,,,,
 Jean-Baptiste Lemoyne,people,Gouvernement,Secrétaire d'État auprès du ministre de l'Europe et des Affaires étrangères,Affaires étrangères,"St Cyr, ESSEC, IEP Strasbourg",IBM Global Services,Les Républicains,,458,,,,,
-Camille Angué,people,Gouvernement,"Cconseillère, chef de cabinet",Affaires européennes,HEC,,,,,,,,,
+Camille Angué,people,Gouvernement,"Chef de cabinet, conseillère en charge des relations avec le Royaume-Uni, les entreprises et la société civile",Affaires européennes,HEC,,,,,,,,,
 Antonin Ferri,people,Gouvernement,"Conseiller marché intérieur, développement durable et politiques sociales",Affaires européennes,"Mines ParisTech, MIT, ENS",Commission européenne,,,,,,,,
 Thomas Hartog,people,Gouvernement,Conseiller parlementaire,Affaires européennes,,Vae Solis Corporate,Parti socialiste,,,Judaïsme,,,,
 Niels Gaubert,people,Gouvernement,"Conseiller spécial, communication et presse, en charge des relations avec le Parlement",Affaires européennes,Sciences Po Paris,"Havas, Cour des comptes",Les Républicains,,,,,,,
-Boris Melmoux-Eude,people,Gouvernement,Directeur adjoint de cabinet,Affaires européennes,"Sciences Po Paris, ENA","Haute Autorité de transparence de la vie publique, Cour des comptes",,,,,,,,
+Boris Melmoux-Eude,people,Gouvernement,Directeur de cabinet,Affaires européennes,"Sciences Po Paris, ENA","Haute Autorité de transparence de la vie publique, Cour des comptes",,,,,,,,
+Justine Dalphin,people,Gouvernement,Conseillère politiques territoriales et en charge du suivi de l'exécution des réformes,Affaires européennes,"Département de l’Essonne, Commune de Mantes-la-Jolie",,,,,,,,,
+Michele Ferrari,people,Gouvernement,Conseiller diplomatique,Affaires européennes,,,,,,,,,,
 Christophe Parisot,people,Gouvernement,Directeur adjoint de cabinet et conseiller chargé des affaires européennes,Affaires européennes,,,,,,,,,,
-Vincent Guérend,people,Gouvernement,Directeur de cabinet,Affaires européennes,"Sciences Po Paris, ENA (promotion Marc Bloch)",Commission européenne,,,,,,,,
 Amélie de Montchalin,people,Gouvernement,"Secrétaire d'Etat auprès du ministre de l'Europe et des Affaires étrangères, chargée des Affaires européennes",Affaires européennes,"HEC, Harvard Kennedy School of Government","BNP Paribas, Axa",Les Républicains,,,Young Leaders 2018,Intergroupe de la LICRA,,Essonne,Ile-de-France
 Guillaume Macher,people,Gouvernement,"Chef de cabinet, conseiller spécial",Agriculture,Master IPAG,,Parti socialiste,,,,,,,
 Thomas Roche,people,Gouvernement,"Conseiller en charge de la pêche, de l'outre-mer, du budget et du financement de l'agriculture",Agriculture,,,,,,,,,,
@@ -137,6 +137,7 @@ Gabriel Attal,people,Gouvernement,Secrétaire d’État auprès du ministre de l
 Harmonie Sala,people,Gouvernement,Chef de cabinet,Égalité Femmes Hommes,Docteur en droit,Vogel & Vogel,Mouvement démocrate,,,,,,,
 Stéphanie Lozano,people,Gouvernement,Chef de cabinet,Égalité Femmes Hommes,,,Parti socialiste,,,,,,,
 Mathieu Pontécaille,people,Gouvernement,"Conseiller spécial, chargé de la stratégie communication et de la presse",Égalité Femmes Hommes,,,Parti socialiste,,,,,,,
+Alexandre Dimeck-Ghione,people,Gouvernement,Conseiller chargé du suivi de l'exécution des réformes,Égalité Femmes Hommes,,Allianz,,,,A fait du bénévolat au centre LGBT du Mans,,,,
 Caroline Duchêne,people,Gouvernement,Conseillère en charge de la lutte contre les discriminations et réseaux sociaux,Égalité Femmes Hommes,,"Ville de Paris, Kantar Media",Europe Écologie Les Verts,,,,,,,
 Amandine Pasquier,people,Gouvernement,Conseillère en charge des droits des femmes,Égalité Femmes Hommes,,"État-Major des Armées, Suez",Les Républicains,,,Pas sûr pour ex-Les Républicains,,,,
 Thomas Brisson,people,Gouvernement,Directeur adjoint du cabinet,Égalité Femmes Hommes,,IFRI,Parti socialiste,,,,,,,
@@ -531,9 +532,9 @@ Simon Fetet,people,Gouvernement,Directeur adjoint du cabinet,Intérieur,"Science
 Stéphane Bouillon,people,Gouvernement,Directeur du cabinet,Intérieur,"Sciences Po Paris, ENA (promotion Louise Michel)",,"Parti socialiste, Les Républicains",,428,,,,,
 Christophe Castaner,people,Gouvernement,Ministre de l’Intérieur,Intérieur,,BNP Paribas,Parti socialiste,,,Grand Orient de France,,,,
 Laurent Nuñez,people,Gouvernement,Secrétaire d’État auprès du ministre de l’Intérieur,Intérieur,ENA (promotion Cyrano de Bergerac),"Direction générale de la Sécurité intérieure, Direction générale des collectivités locales",,,458,,,,,
-Sylvain Laval,people,Gouvernement,Chef de cabinet,Justice,IEP Bordeaux,,Parti socialiste,,,,,,,
 Marie-Charlotte Dreux,people,Gouvernement,Conseiller chargé de la prospective et de l’attractivité du droit,Justice,,,,,,,,,,
 Frédéric Fourtoy,people,Gouvernement,Conseiller chargée de l'Europe et des relations internationales,Justice,,,,,,,,,,
+Nicolas Dufaud,people,Gouvernement,Chef de cabinet,Justice,,,,,,,,,,
 Jérôme Simon,people,Gouvernement,Conseiller politique pénale,Justice,"ENM, Sciences Po Paris",,,,,,,,,
 Thierry Donard,people,Gouvernement,Conseiller politique pénitentiaire,Justice,,,,,,,,,,
 Karen Saranga,people,Gouvernement,Conseillère chargée de la communication et de la presse,Justice,,"France Télévisions, L'Express",,,,,,,,
@@ -699,7 +700,7 @@ Jean-Louis Touraine,people,Assemblée nationale,Affaires sociales,La République
 Julien Borowczyk,people,Assemblée nationale,Affaires sociales,La République en Marche,,,Mouvement démocrate,,,,,387,Loire,Auvergne-Rhône-Alpes
 Laëtitia Romeiro Dias,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Groupe d'études : discriminations et lgbtqi-phobies dans le monde,364,Essonne,Ile-de-France
 Laurence Vanceunebrock-Mialon,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,"Homosexuelle, mère de deux enfants nées de PMA en Belgique",Groupe d'études : discriminations et lgbtqi-phobies dans le monde,292,Allier,Auvergne-Rhône-Alpes
-Laurent Pietraszewski,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,,371,Nord,Hauts-de-France
+Florence Morlighem,people,Assemblée nationale,Affaires sociales,La République en Marche,,"Descampiaux-Dudicourt, Chambre de Commerce et d' Industrie de Valenciennes",,,,,,371,Nord,Hauts-de-France
 Marc Delatte,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,,565,Aisne,Hauts-de-France
 Marie Tamarelle-Verhaeghe,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,,224,Eure,Normandie
 Martine Wonner,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,"Groupe d'études : conditions d'accueil des migrants, Groupe d'études : discriminations et lgbtqi-phobies dans le monde",488,Bas-Rhin,Grand Est
@@ -709,7 +710,7 @@ Monique Iborra,people,Assemblée nationale,Affaires sociales,La République en M
 Mustapha Laabid,people,Assemblée nationale,Affaires sociales,La République en Marche,,Fondation Agir contre l'exclusion,,,,,,557,Ille-et-Vilaine,Bretagne
 Olivier Véran,people,Assemblée nationale,Affaires sociales,La République en Marche,,,Parti socialiste,,,,Intergroupe de la LICRA,540,Isère,Auvergne-Rhône-Alpes
 Stéphanie Rist,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,,607,Loiret,Centre-Val de Loire
-Sylvain Maillard,people,Assemblée nationale,Affaires sociales,La République en Marche,,Alantys Technology,"Mouvement démocrate, Les Centristes, Union des démocrates et indépendants",,,,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",330,Paris,Ile-de-France
+Sylvain Maillard,people,Assemblée nationale,Affaires sociales,La République en Marche,,Alantys Technology,"Mouvement démocrate, Les Centristes, Union des démocrates et indépendants",,,Proche du Crif,"Groupe d'amitié France-Israël, Groupe d'études : antisémitisme",330,Paris,Ile-de-France
 Thierry Michels,people,Assemblée nationale,Affaires sociales,La République en Marche,,"Eli Lilly and Company, EY",,,,,Commission d'enquête sur la lutte contre les groupuscules d'extrême droite en France,445,Bas-Rhin,Grand Est
 Thomas Mesnier,people,Assemblée nationale,Affaires sociales,La République en Marche,,,,,,,Intergroupe de la LICRA,353,Charente,Nouvelle-Aquitaine
 Alexandra Valetta-Ardisson,people,Assemblée nationale,Défense,La République en Marche,,,Les Républicains,,,,"Groupe d'études : conditions d'accueil des migrants, Groupe d'études : discriminations et lgbtqi-phobies dans le monde",451,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
@@ -1243,8 +1244,9 @@ Anna Martins,people,Gouvernement,Conseillère en charge de la communication et d
 Marine Imbault,people,Gouvernement,Conseillère parlementaire,Relations avec le Parlement,,,Les Républicains,,,Ancienne assistante parlementaire du sénateur Cyril Pellevat,,,,
 Pauline Caillat,people,Gouvernement,Conseillère spéciale,Relations avec le Parlement,Sciences Po Paris,"Elan Edelman, Patricia Goldman International",Mouvement démocrate,,,,,,,
 Thomas Godmez,people,Gouvernement,Directeur adjoint de cabinet,Relations avec le Parlement,Sciences Po Paris,,Parti socialiste,,,,,,,
-Elise Adevah-Poeuf,people,Gouvernement,Directeur de cabinet,Relations avec le Parlement,Sciences Po Paris,,,,,,,,,
+Élise Adevah-Poeuf,people,Gouvernement,Directeur de cabinet,Relations avec le Parlement,Sciences Po Paris,,,,,,,,,
 Marc Fesneau,people,Gouvernement,"Ministre auprès du Premier ministre, chargé des Relations avec le Parlement",Relations avec le Parlement,,,Mouvement démocrate,,,,,,,
+Laurent Pietraszewski,people,Gouvernement,"Secrétaire d'Etat auprès de la ministre de la Santé et des Solidarités, chargé des Retraites",Santé,,,,,,,,,,
 Christelle Dernon,people,Gouvernement,Chef adjointe de cabinet et chef de cabinet,Santé,,Burson-Marsteller,,,,,,,,
 Marie Argouarc'h,people,Gouvernement,Chef de cabinet ,Santé,ENA,Commission européenne,,,,,,,,
 Grégory Emery,people,Gouvernement,Conseiller,Santé,,Haute Autorité de Santé,,,,,,,,
@@ -1261,8 +1263,9 @@ Laetitia Buffet,people,Gouvernement,Conseillère,Santé,"ENA, ESSEC, Sciences Po
 Valérie Mazeau-Woynar,people,Gouvernement,Conseillère,Santé,,"INSERM, Institut national du cancer",,,,,,,,
 Aline Olié Hernandez,people,Gouvernement,Conseillère au cabinet du secrétaire d'Etat auprès de la ministre des solidarités et de la santé,Santé,ENM,,,,,,,,,
 Carine Delrieu,people,Gouvernement,Conseillère chargée de la communication et des médias ,Santé,,"INSERM, Association Communication publique, Institut national du cancer, Havas, DDB Paris",,,,,,,,
+Claire Bonnetier,people,Gouvernement,Chef de cabinet,Santé,,"Conseil économique social et environnemental, Médiateur de la République",,,,,,,,
 Margaux Bonneau,people,Gouvernement,Conseillère parlementaire,Santé,Sciences Po Paris,SNCF,Union des démocrates et indépendants,,,,,,,
-Jean-Luc Izard,people,Gouvernement,Directeur adjoint de cabinet,Santé,Sciences Po Bordeaux,"Haut commissaire à la réforme des retraites, Centre de liaisons européennes et internationales de sécurité sociale, Union Retraite, CRPCEN",,,,,,,,
+Jean-Luc Izard,people,Gouvernement,Directeur de cabinet,Santé,Sciences Po Bordeaux,"Haut commissaire à la réforme des retraites, Centre de liaisons européennes et internationales de sécurité sociale, Union Retraite, CRPCEN",,,,,,,,
 Thomas Deroche,people,Gouvernement,"Directeur adjoint de cabinet, chargé de la santé",Santé,"Sciences Po Paris, EHESP",Ministère des solidarités et de la santé,Parti socialiste,,,,,,,
 Raymond Le Moign,people,Gouvernement,Directeur du cabinet,Santé,,Haute Autorité de santé,Parti socialiste,,,,,,,
 Aude Muscatelli,people,Gouvernement,"Directrice adjointe de cabinet, solidarités",Santé,"ENS, ENA",Direction générale de la cohésion sociale,,,,,,,,
@@ -1308,6 +1311,7 @@ Skander Karaa,people,Gouvernement,"Conseiller en charge des affaires parlementai
 Sébastien Moreau,people,Gouvernement,Conseiller spécial,Sports,,,Parti socialiste,,,,,,,
 Catherine Lallement,people,Gouvernement,"Conseillère auprès de la ministre en charge de la communication, du sport féminin et de la relation aux athlètes",Sports,,,,,,,,,,
 Alice Chocheyras,people,Gouvernement,"Conseillère diplomatique, en charge des affaires européennes et internationales",Sports,IEP Grenoble,"Mairie de Paris, Mairie de Rouen",Parti socialiste,,,Fille de Luc Chocheyras (énarque),,,,
+Gaëlle Oger,people,Gouvernement,Conseillère chargée du suivi de l'exécution des réformes,Sports,,,,,,,,,,
 Laurent Cellier,people,Gouvernement,Directeur adjoint du cabinet,Sports,,"Fédération Française d'Equitation, Conseil régional d'Auvergne",,,,,,,,
 Karim Herida,people,Gouvernement,Directeur du cabinet,Sports,,Mairie de Paris,Parti socialiste,,,,,,,
 Roxana Maracineanu,people,Gouvernement,Ministre des sports,Sports,,,Parti socialiste,,,,,,,
