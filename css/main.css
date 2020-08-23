@@ -169,11 +169,11 @@ ul.navbar-nav li a {
 /*Gab Font*/
 @font-face {
   font-family: 'gab-font';
-  src:  url('http://faitsetdocuments.com/fonts/gab-font.eot?88f047');
-  src:  url('http://faitsetdocuments.com/fonts/gab-font.eot?88f047#iefix') format('embedded-opentype'),
-    url('http://faitsetdocuments.com/fonts/gab-font.ttf?88f047') format('truetype'),
-    url('http://faitsetdocuments.com/fonts/gab-font.woff?88f047') format('woff'),
-    url('http://faitsetdocuments.com/fonts/gab-font.svg?88f047#gab-font') format('svg');
+  src:  url('https://faitsetdocuments.com/fonts/gab-font.eot?88f047');
+  src:  url('https://faitsetdocuments.com/fonts/gab-font.eot?88f047#iefix') format('embedded-opentype'),
+    url('https://faitsetdocuments.com/fonts/gab-font.ttf?88f047') format('truetype'),
+    url('https://faitsetdocuments.com/fonts/gab-font.woff?88f047') format('woff'),
+    url('https://faitsetdocuments.com/fonts/gab-font.svg?88f047#gab-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
