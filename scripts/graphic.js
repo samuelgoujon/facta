@@ -105,7 +105,7 @@ function renderChart() {
       .on("zoom", zoomed)
 
     attrs.data.nodes.forEach(d => {
-      var religion = .filter(x => x.name == d.religion)[0];
+      var religion = religions.filter(x => x.name == d.religion)[0];
       d.tag = religion ? 'image' : 'circle';
       d.isImage = religion ? true : false;
       d.imagePath = religion ? 'img/' + religion.filename : null;
