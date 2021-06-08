@@ -91,6 +91,18 @@ svg.tooltip-shadow-wrapper-svg {
     .sidenav a {font-size: 18px;}
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        padding: .5rem 0rem;
+    }
+    .navbar-brand {
+        padding-left: 1rem;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 1rem;
+    }
+}
+
 .toggle-button-container {
     position: absolute;
     left: 32px;
@@ -154,6 +166,7 @@ ul.navbar-nav li a {
     font-size: 1rem;
     padding: .65rem .4rem;
     border: none;
+    margin-right: 1rem;
 }
 
 .portrait {
